@@ -1,0 +1,891 @@
+{
+  "id": "ela",
+  "name": "English Language Arts",
+  "color": "#F59E0B",
+  "icon": "book",
+  "grades": {
+    "1": {
+      "topics": [
+        {
+          "id": "ela.1.phonics",
+          "name": "Phonics and decoding",
+          "skills": [
+            { "id": "ela.1.phonics.letter-sounds", "name": "Letter sounds", "description": "Match a letter to the sound it makes, e.g. pick the picture that starts with the sound of 'm' (moon).", "itemTypes": ["choice", "match"] },
+            { "id": "ela.1.phonics.short-vowels", "name": "Short vowels", "description": "Identify the short vowel sound in a spoken CVC word, e.g. 'cat' has the short 'a' sound.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.1.phonics.cvc-words", "name": "Build and read CVC words", "description": "Blend three letter tiles into a word that matches a picture, e.g. d-o-g for a dog.", "itemTypes": ["build", "text", "choice"] },
+            { "id": "ela.1.phonics.rhymes", "name": "Rhyming words", "description": "Pick the word that rhymes with a target word, e.g. 'hat' rhymes with 'cat' not 'cup'.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.1.sight-words",
+          "name": "Sight words",
+          "skills": [
+            { "id": "ela.1.sight-words.read", "name": "Read high-frequency words", "description": "Hear a high-frequency word such as 'the', 'said' or 'was' and tap it among three similar-looking words.", "itemTypes": ["choice"] },
+            { "id": "ela.1.sight-words.complete-sentence", "name": "Complete a sentence", "description": "Choose the sight word that completes a simple sentence, e.g. 'I ___ a dog.' (have).", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "ela.1.vocabulary",
+          "name": "Vocabulary",
+          "skills": [
+            { "id": "ela.1.vocabulary.categories", "name": "Word categories", "description": "Sort words into groups such as animals, food and clothes, e.g. 'apple' goes in food.", "itemTypes": ["sort", "choice"] },
+            { "id": "ela.1.vocabulary.opposites", "name": "Opposites", "description": "Match a word to its opposite, e.g. 'hot' with 'cold'.", "itemTypes": ["match", "choice"] },
+            { "id": "ela.1.vocabulary.position-words", "name": "Position and describing words", "description": "Choose the word that describes a picture, e.g. the cat is 'under' the table or the ball is 'big'.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.1.comprehension",
+          "name": "Reading comprehension",
+          "skills": [
+            { "id": "ela.1.comprehension.who-what-where", "name": "Who, what, where", "description": "After a two-sentence story, answer a who/what/where question, e.g. 'Where did Sam go?' (the park).", "itemTypes": ["choice"] },
+            { "id": "ela.1.comprehension.retell-order", "name": "Retell in order", "description": "Put three story pictures or sentences in the order they happened.", "itemTypes": ["sequence"] },
+            { "id": "ela.1.comprehension.characters-setting", "name": "Characters and setting", "description": "Pick the character or the setting of a short story, e.g. the story happens 'at the beach'.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.1.writing",
+          "name": "Writing basics",
+          "skills": [
+            { "id": "ela.1.writing.build-sentence", "name": "Build a sentence", "description": "Arrange word tiles into a complete sentence, e.g. 'The dog runs fast.'", "itemTypes": ["build", "sequence"] },
+            { "id": "ela.1.writing.capital-period", "name": "Capital letter and end mark", "description": "Choose the correctly written sentence that starts with a capital and ends with a period or question mark.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.1.conventions",
+          "name": "Grammar basics",
+          "skills": [
+            { "id": "ela.1.conventions.nouns-verbs", "name": "Naming words and action words", "description": "Sort words into nouns (things) and verbs (actions), e.g. 'jump' is an action word.", "itemTypes": ["sort", "choice"] },
+            { "id": "ela.1.conventions.plurals", "name": "Singular and plural", "description": "Choose the plural for a picture of more than one thing, e.g. one cat, two 'cats'.", "itemTypes": ["choice", "text"] },
+            { "id": "ela.1.conventions.pronouns", "name": "Simple pronouns", "description": "Replace a name with the right pronoun, e.g. 'Anna is happy' becomes 'She is happy'.", "itemTypes": ["choice"] }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "topics": [
+        {
+          "id": "ela.2.phonics",
+          "name": "Phonics and word patterns",
+          "skills": [
+            { "id": "ela.2.phonics.short-long-vowels", "name": "Short and long vowels", "description": "Decide whether a word has a short or long vowel sound and spell the silent-e pattern, e.g. 'cap' vs 'cape'.", "itemTypes": ["choice", "sort", "text"] },
+            { "id": "ela.2.phonics.blends-digraphs", "name": "Blends and digraphs", "description": "Complete a word with the right blend or digraph, e.g. '__ip' with 'sh' for a picture of a ship.", "itemTypes": ["choice", "text", "build"] },
+            { "id": "ela.2.phonics.vowel-teams", "name": "Vowel teams", "description": "Choose the vowel team that spells a word, e.g. 'r_n' with 'ai' for rain, not 'ae'.", "itemTypes": ["choice", "text"] },
+            { "id": "ela.2.phonics.r-controlled", "name": "R-controlled vowels", "description": "Sort words by their r-controlled sound (ar, or, er/ir/ur), e.g. 'bird' and 'fern' share a sound.", "itemTypes": ["sort", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.2.spelling",
+          "name": "Spelling",
+          "skills": [
+            { "id": "ela.2.spelling.sight-words", "name": "Spell sight words", "description": "Hear a high-frequency word such as 'because' or 'friend' and spell it with letter tiles.", "itemTypes": ["text", "build", "choice"] },
+            { "id": "ela.2.spelling.irregular-plurals", "name": "Irregular plurals", "description": "Give the plural of an irregular noun, e.g. 'child' becomes 'children'.", "itemTypes": ["text", "choice"] },
+            { "id": "ela.2.spelling.inflected-endings", "name": "Endings -ed, -ing, -s", "description": "Add the ending correctly, doubling or dropping letters when needed, e.g. 'hop' + ing = 'hopping'.", "itemTypes": ["text", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.2.vocabulary",
+          "name": "Vocabulary",
+          "skills": [
+            { "id": "ela.2.vocabulary.compound-words", "name": "Compound words", "description": "Join two small words to make a compound word that matches a clue, e.g. 'sun' + 'flower'.", "itemTypes": ["build", "match", "choice"] },
+            { "id": "ela.2.vocabulary.synonyms-antonyms", "name": "Synonyms and antonyms", "description": "Pick a word that means the same as or the opposite of a target, e.g. 'tiny' is a synonym of 'small'.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.2.vocabulary.context-clues", "name": "Context clues", "description": "Use the rest of a sentence to pick the meaning of an unknown word, e.g. 'The gigantic dog was bigger than the car' means very big.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.2.literature",
+          "name": "Reading stories",
+          "skills": [
+            { "id": "ela.2.literature.story-structure", "name": "Beginning, middle, end", "description": "Order the events of a short story or label which part is the beginning, middle or end.", "itemTypes": ["sequence", "sort"] },
+            { "id": "ela.2.literature.character-response", "name": "How characters respond", "description": "Explain how a character feels or acts after an event, e.g. Mia felt 'proud' after finishing the race.", "itemTypes": ["choice"] },
+            { "id": "ela.2.literature.lesson-moral", "name": "Lesson of a fable", "description": "Choose the lesson a fable or folktale teaches, e.g. 'Slow and steady wins the race'.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.2.informational",
+          "name": "Reading for information",
+          "skills": [
+            { "id": "ela.2.informational.main-topic", "name": "Main topic", "description": "Pick the main topic of a short paragraph, e.g. a paragraph about how bees make honey.", "itemTypes": ["choice"] },
+            { "id": "ela.2.informational.text-features", "name": "Text features", "description": "Identify what a caption, heading, glossary or bold word is for, e.g. use the glossary to find a word's meaning.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.2.informational.fact-detail", "name": "Find a detail", "description": "Locate the detail in a passage that answers a question, e.g. 'How many legs does a spider have?'", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "ela.2.writing",
+          "name": "Writing",
+          "skills": [
+            { "id": "ela.2.writing.opinion-reason", "name": "Opinion with a reason", "description": "Match an opinion to a reason that supports it, e.g. 'Dogs are the best pets because they are loyal'.", "itemTypes": ["match", "choice", "build"] },
+            { "id": "ela.2.writing.sequence-words", "name": "Order words in narratives", "description": "Choose the right order word (first, next, then, finally) to join the steps of a story.", "itemTypes": ["choice", "sequence"] },
+            { "id": "ela.2.writing.expand-sentence", "name": "Expand a sentence", "description": "Add a describing word or detail to make a sentence more interesting, e.g. 'The dog ran' to 'The brown dog ran quickly'.", "itemTypes": ["build", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.2.grammar",
+          "name": "Grammar and punctuation",
+          "skills": [
+            { "id": "ela.2.grammar.adjectives-adverbs", "name": "Adjectives and adverbs", "description": "Choose whether an adjective or adverb fits, e.g. 'She sings ___' needs 'beautifully'.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.2.grammar.past-tense", "name": "Past tense verbs", "description": "Give the past tense of regular and common irregular verbs, e.g. 'run' becomes 'ran'.", "itemTypes": ["text", "choice"] },
+            { "id": "ela.2.grammar.apostrophes", "name": "Contractions and possessives", "description": "Form a contraction or possessive with an apostrophe, e.g. 'do not' is 'don't' and the dog's bone.", "itemTypes": ["text", "choice"] },
+            { "id": "ela.2.grammar.capitalization", "name": "Capitalize names and dates", "description": "Pick the sentence with correct capitals for names, holidays and places, e.g. 'We visited Paris in July'.", "itemTypes": ["choice"] }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "topics": [
+        {
+          "id": "ela.3.fluency",
+          "name": "Decoding multisyllable words",
+          "skills": [
+            { "id": "ela.3.fluency.multisyllable", "name": "Read multisyllable words", "description": "Hear a longer word such as 'remember' and pick its correct written form among near-misspellings.", "itemTypes": ["choice"] },
+            { "id": "ela.3.fluency.irregular-words", "name": "Irregularly spelled words", "description": "Read and spell irregular words like 'enough', 'though' and 'island'.", "itemTypes": ["choice", "text"] }
+          ]
+        },
+        {
+          "id": "ela.3.spelling",
+          "name": "Spelling",
+          "skills": [
+            { "id": "ela.3.spelling.syllables", "name": "Syllables", "description": "Split a word into syllables or count them, e.g. 'bas-ket-ball' has three syllables.", "itemTypes": ["build", "numeric", "choice"] },
+            { "id": "ela.3.spelling.homophones", "name": "Homophones", "description": "Choose the correct homophone for a sentence, e.g. 'their', 'there' or 'they're'.", "itemTypes": ["choice"] },
+            { "id": "ela.3.spelling.suffix-rules", "name": "Suffix spelling rules", "description": "Add a suffix with the right change, e.g. 'happy' + ness = 'happiness' (y to i).", "itemTypes": ["text", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.3.vocabulary",
+          "name": "Vocabulary",
+          "skills": [
+            { "id": "ela.3.vocabulary.prefixes-suffixes", "name": "Prefixes and suffixes", "description": "Build or decode a word from a prefix or suffix and a base, e.g. 'un' + 'happy' means not happy.", "itemTypes": ["build", "choice", "match"] },
+            { "id": "ela.3.vocabulary.context-clues", "name": "Context clues", "description": "Use sentence clues to choose the meaning of an unfamiliar word in a short passage.", "itemTypes": ["choice"] },
+            { "id": "ela.3.vocabulary.shades-of-meaning", "name": "Shades of meaning", "description": "Order related words by intensity, e.g. 'warm', 'hot', 'scorching'.", "itemTypes": ["sequence", "choice"] },
+            { "id": "ela.3.vocabulary.literal-nonliteral", "name": "Literal and nonliteral", "description": "Decide what a nonliteral phrase means, e.g. 'It's raining cats and dogs' means raining hard.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.3.literature",
+          "name": "Literature",
+          "skills": [
+            { "id": "ela.3.literature.central-message", "name": "Central message", "description": "Pick the central message or lesson of a short fable, myth or story and the detail that shows it.", "itemTypes": ["choice"] },
+            { "id": "ela.3.literature.character-motivation", "name": "Character traits and motivation", "description": "Choose a trait or motive for a character from their actions, e.g. sharing lunch shows 'generous'.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.3.literature.point-of-view", "name": "Narrator's point of view", "description": "Tell whether a passage is told by a character ('I') or a narrator, and how it differs from your own view.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.3.informational",
+          "name": "Informational text",
+          "skills": [
+            { "id": "ela.3.informational.main-idea-details", "name": "Main idea and details", "description": "Choose the main idea of a paragraph and sort sentences into main idea versus supporting detail.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.3.informational.cause-effect", "name": "Cause and effect", "description": "Match a cause to its effect in a passage, e.g. 'It rained' leads to 'the game was cancelled'.", "itemTypes": ["match", "choice"] },
+            { "id": "ela.3.informational.sequence-steps", "name": "Steps in a process", "description": "Order the steps of a how-to text, e.g. the stages of a butterfly's life cycle.", "itemTypes": ["sequence"] }
+          ]
+        },
+        {
+          "id": "ela.3.writing",
+          "name": "Writing",
+          "skills": [
+            { "id": "ela.3.writing.paragraph-structure", "name": "Topic sentence and details", "description": "Pick the topic sentence for a paragraph or arrange sentences so the topic sentence comes first.", "itemTypes": ["choice", "sequence"] },
+            { "id": "ela.3.writing.linking-words", "name": "Linking words", "description": "Choose a linking word that connects ideas, e.g. 'also', 'because', 'but', 'therefore'.", "itemTypes": ["choice"] },
+            { "id": "ela.3.writing.dialogue", "name": "Dialogue in narratives", "description": "Pick the correctly punctuated line of dialogue, e.g. \"Let's go,\" said Max.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "ela.3.grammar",
+          "name": "Grammar and punctuation",
+          "skills": [
+            { "id": "ela.3.grammar.verb-tenses", "name": "Verb tenses", "description": "Choose the past, present or future form of a verb to fit a sentence, e.g. 'Tomorrow I will walk'.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.3.grammar.subject-verb", "name": "Subject-verb agreement", "description": "Pick the verb that agrees with the subject, e.g. 'The dogs ___' takes 'bark' not 'barks'.", "itemTypes": ["choice"] },
+            { "id": "ela.3.grammar.comparatives", "name": "Comparative and superlative", "description": "Form comparisons correctly, e.g. 'big', 'bigger', 'biggest' and 'more careful'.", "itemTypes": ["text", "choice"] },
+            { "id": "ela.3.grammar.commas-quotes", "name": "Commas and quotation marks", "description": "Place commas in addresses and dates and quotation marks around speech, e.g. 'Austin, Texas'.", "itemTypes": ["choice", "build"] }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "topics": [
+        {
+          "id": "ela.4.comprehension",
+          "name": "Comprehension strategies",
+          "skills": [
+            { "id": "ela.4.comprehension.inference", "name": "Make inferences", "description": "Use clues in a passage to infer something not stated, e.g. wet umbrellas by the door mean it rained.", "itemTypes": ["choice"] },
+            { "id": "ela.4.comprehension.summarize", "name": "Summarize", "description": "Choose the best one-sentence summary of a passage, avoiding minor details.", "itemTypes": ["choice"] },
+            { "id": "ela.4.comprehension.theme", "name": "Determine theme", "description": "Identify the theme of a story or poem from details, e.g. perseverance pays off.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.4.text-structure",
+          "name": "Text structure",
+          "skills": [
+            { "id": "ela.4.text-structure.identify", "name": "Identify structure", "description": "Classify a paragraph as chronology, comparison, cause/effect or problem/solution.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.4.text-structure.signal-words", "name": "Signal words", "description": "Match signal words to structures, e.g. 'however' signals comparison and 'as a result' signals effect.", "itemTypes": ["match", "sort"] },
+            { "id": "ela.4.text-structure.firsthand-secondhand", "name": "Firsthand and secondhand accounts", "description": "Decide whether an account is firsthand (eyewitness) or secondhand (reporter) from its wording.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.4.literature",
+          "name": "Literature",
+          "skills": [
+            { "id": "ela.4.literature.poetry-drama-prose", "name": "Poetry, drama and prose", "description": "Identify structural elements such as verse, stanza, cast of characters and stage directions.", "itemTypes": ["choice", "sort", "match"] },
+            { "id": "ela.4.literature.character-detail", "name": "Describe characters and settings", "description": "Pick the specific detail (thought, word or action) that supports a description of a character.", "itemTypes": ["choice"] },
+            { "id": "ela.4.literature.compare-stories", "name": "Compare stories", "description": "Compare the themes or patterns of events in two short stories, e.g. two quests for a lost object.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "ela.4.vocabulary",
+          "name": "Vocabulary",
+          "skills": [
+            { "id": "ela.4.vocabulary.greek-latin-roots", "name": "Greek and Latin roots", "description": "Use a root to find meaning, e.g. 'tele' (far) + 'graph' (write) suggests writing from afar.", "itemTypes": ["match", "choice", "build"] },
+            { "id": "ela.4.vocabulary.context-clues", "name": "Context clues", "description": "Choose the meaning of a word from definition, example or restatement clues in a passage.", "itemTypes": ["choice"] },
+            { "id": "ela.4.vocabulary.idioms-adages", "name": "Idioms, adages and proverbs", "description": "Pick the meaning of a common idiom or proverb, e.g. 'the early bird catches the worm'.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.4.vocabulary.similes-metaphors", "name": "Similes and metaphors", "description": "Tell a simile from a metaphor and explain what is compared, e.g. 'as busy as a bee'.", "itemTypes": ["sort", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.4.grammar",
+          "name": "Grammar",
+          "skills": [
+            { "id": "ela.4.grammar.relative-pronouns", "name": "Relative pronouns and adverbs", "description": "Choose who, whose, which, that, where or when to complete a sentence.", "itemTypes": ["choice"] },
+            { "id": "ela.4.grammar.progressive-tense", "name": "Progressive tenses", "description": "Form 'was walking', 'is walking' or 'will be walking' to fit the time of a sentence.", "itemTypes": ["choice", "text"] },
+            { "id": "ela.4.grammar.modal-auxiliaries", "name": "Modal auxiliaries", "description": "Pick can, may, must or should to convey ability, permission or obligation.", "itemTypes": ["choice"] },
+            { "id": "ela.4.grammar.fragments-run-ons", "name": "Fragments and run-ons", "description": "Classify a sentence as complete, fragment or run-on and choose the fix.", "itemTypes": ["sort", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.4.punctuation",
+          "name": "Punctuation and usage",
+          "skills": [
+            { "id": "ela.4.punctuation.commas-quotations", "name": "Commas and quotations", "description": "Punctuate direct speech and compound sentences, e.g. 'I ran, but I missed the bus.'", "itemTypes": ["choice", "build"] },
+            { "id": "ela.4.punctuation.confusable-words", "name": "Frequently confused words", "description": "Choose between to/too/two, your/you're, its/it's in context.", "itemTypes": ["choice"] },
+            { "id": "ela.4.punctuation.order-of-adjectives", "name": "Order of adjectives", "description": "Arrange adjectives in conventional order, e.g. 'a small red bag' not 'a red small bag'.", "itemTypes": ["sequence", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.4.writing",
+          "name": "Writing genres",
+          "skills": [
+            { "id": "ela.4.writing.opinion-reasons", "name": "Opinion with grouped reasons", "description": "Sort reasons and facts under the opinion they support and pick the strongest reason.", "itemTypes": ["sort", "choice"] },
+            { "id": "ela.4.writing.informative-organize", "name": "Organize an informative text", "description": "Group related facts under headings and order paragraphs logically.", "itemTypes": ["sort", "sequence"] },
+            { "id": "ela.4.writing.narrative-details", "name": "Narrative details", "description": "Choose sensory details and dialogue that develop a scene, e.g. 'the crunch of frosty grass'.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "ela.4.research",
+          "name": "Research basics",
+          "skills": [
+            { "id": "ela.4.research.choose-sources", "name": "Choose a source", "description": "Pick which source (encyclopedia, atlas, interview, website) best answers a research question.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.4.research.notes-categories", "name": "Take and sort notes", "description": "Sort note cards into the categories of a research topic, e.g. habitat, diet, predators.", "itemTypes": ["sort"] }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "topics": [
+        {
+          "id": "ela.5.comprehension",
+          "name": "Comprehension and evidence",
+          "skills": [
+            { "id": "ela.5.comprehension.quote-evidence", "name": "Quote evidence", "description": "Select the quotation from a passage that best supports an inference or answer.", "itemTypes": ["choice"] },
+            { "id": "ela.5.comprehension.compare-themes", "name": "Compare themes and topics", "description": "Compare how two stories in the same genre treat a theme, e.g. two tales about courage.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.5.comprehension.narrator-influence", "name": "Narrator's influence", "description": "Describe how the narrator's point of view shapes the events described, e.g. a biased first-person narrator.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.5.text-structure",
+          "name": "Text structure and accounts",
+          "skills": [
+            { "id": "ela.5.text-structure.compare-structures", "name": "Compare structures", "description": "Compare the structure of two texts on the same topic, e.g. chronological versus problem/solution.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.5.text-structure.multiple-accounts", "name": "Multiple accounts", "description": "Note similarities and differences in how two accounts of the same event present the facts.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.5.text-structure.relationships", "name": "Relationships between ideas", "description": "Explain how two people, events or ideas in a text are related using specific details.", "itemTypes": ["match", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.5.figurative",
+          "name": "Figurative language",
+          "skills": [
+            { "id": "ela.5.figurative.metaphor-simile", "name": "Interpret metaphors and similes", "description": "Explain what a metaphor or simile means in context, e.g. 'the classroom was a zoo' means noisy and chaotic.", "itemTypes": ["choice"] },
+            { "id": "ela.5.figurative.idioms-proverbs", "name": "Idioms and proverbs", "description": "Match idioms and proverbs to their meanings and use them in sentences.", "itemTypes": ["match", "choice"] },
+            { "id": "ela.5.figurative.personification", "name": "Personification and hyperbole", "description": "Identify personification or hyperbole and what it suggests, e.g. 'the wind whispered'.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.5.vocabulary",
+          "name": "Vocabulary",
+          "skills": [
+            { "id": "ela.5.vocabulary.roots-affixes", "name": "Roots and affixes", "description": "Decode words with Greek and Latin parts, e.g. 'photosynthesis' from 'photo' (light) and 'syn' (together).", "itemTypes": ["match", "choice", "build"] },
+            { "id": "ela.5.vocabulary.multiple-meaning", "name": "Multiple-meaning words", "description": "Choose the meaning of a word with several senses from context, e.g. 'bark' of a tree or a dog.", "itemTypes": ["choice"] },
+            { "id": "ela.5.vocabulary.context-clues", "name": "Advanced context clues", "description": "Use comparison, contrast and cause/effect clues in a sentence to determine a word's meaning.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.5.grammar",
+          "name": "Grammar",
+          "skills": [
+            { "id": "ela.5.grammar.conjunctions-prepositions", "name": "Conjunctions, prepositions, interjections", "description": "Identify or supply the correct conjunction, preposition or interjection in a sentence.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.5.grammar.perfect-tense", "name": "Perfect tenses", "description": "Form 'had walked', 'has walked' or 'will have walked' to fit a sentence.", "itemTypes": ["choice", "text"] },
+            { "id": "ela.5.grammar.tense-shifts", "name": "Inappropriate tense shifts", "description": "Spot and correct a sentence that shifts tense, e.g. 'She ran home and eats dinner'.", "itemTypes": ["choice"] },
+            { "id": "ela.5.grammar.correlative-conjunctions", "name": "Correlative conjunctions", "description": "Use pairs such as either/or and neither/nor correctly in a sentence.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "ela.5.punctuation",
+          "name": "Punctuation",
+          "skills": [
+            { "id": "ela.5.punctuation.commas-series-intro", "name": "Commas in series and introductions", "description": "Place commas in a list and after introductory words, e.g. 'Yes, I like apples, pears, and plums.'", "itemTypes": ["choice", "build"] },
+            { "id": "ela.5.punctuation.titles", "name": "Titles of works", "description": "Choose underlining/italics or quotation marks for a title, e.g. a book versus a poem.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.5.punctuation.direct-address", "name": "Commas for direct address and tag questions", "description": "Punctuate 'Thank you, Sam' and 'It's cold, isn't it?' correctly.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.5.writing",
+          "name": "Writing genres",
+          "skills": [
+            { "id": "ela.5.writing.opinion-structure", "name": "Opinion essay structure", "description": "Order the parts of an opinion essay: introduction with claim, reasons with evidence, conclusion.", "itemTypes": ["sequence", "sort"] },
+            { "id": "ela.5.writing.informative-evidence", "name": "Facts, definitions and quotations", "description": "Choose the fact, definition or quotation that develops an informative paragraph's point.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.5.writing.narrative-pacing", "name": "Narrative pacing and transitions", "description": "Choose transitions and sentence lengths that manage pace, e.g. short sentences for action.", "itemTypes": ["choice", "sequence"] }
+          ]
+        },
+        {
+          "id": "ela.5.research",
+          "name": "Research",
+          "skills": [
+            { "id": "ela.5.research.paraphrase", "name": "Paraphrase versus copy", "description": "Pick the paraphrase that restates a source accurately in new words without copying.", "itemTypes": ["choice"] },
+            { "id": "ela.5.research.source-list", "name": "List sources", "description": "Match a source type to the information needed to cite it, e.g. a website needs the URL and date accessed.", "itemTypes": ["match", "choice"] },
+            { "id": "ela.5.research.relevant-info", "name": "Relevant information", "description": "Decide whether a fact is relevant to a research question, e.g. a shark's diet for a report on its habitat.", "itemTypes": ["sort", "choice"] }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "topics": [
+        {
+          "id": "ela.6.comprehension",
+          "name": "Comprehension and analysis",
+          "skills": [
+            { "id": "ela.6.comprehension.cite-inference", "name": "Cite evidence for inferences", "description": "Choose the textual evidence that best supports an inference about a character or idea.", "itemTypes": ["choice"] },
+            { "id": "ela.6.comprehension.theme-summary", "name": "Theme and objective summary", "description": "Pick the theme and the summary free of personal opinion for a passage.", "itemTypes": ["choice"] },
+            { "id": "ela.6.comprehension.plot-development", "name": "Plot and character development", "description": "Order plot events and explain how a character changes as the plot moves toward resolution.", "itemTypes": ["sequence", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.6.text-structure",
+          "name": "Structure and purpose",
+          "skills": [
+            { "id": "ela.6.text-structure.sentence-role", "name": "Role of a sentence or chapter", "description": "Explain how a sentence, stanza or chapter fits into the whole, e.g. it introduces the conflict.", "itemTypes": ["choice"] },
+            { "id": "ela.6.text-structure.author-purpose", "name": "Author's point of view and purpose", "description": "Determine an author's purpose or viewpoint and how it is conveyed, e.g. to persuade readers to recycle.", "itemTypes": ["choice"] },
+            { "id": "ela.6.text-structure.trace-argument", "name": "Trace an argument", "description": "Separate claims supported by evidence from unsupported ones in a short argument.", "itemTypes": ["sort", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.6.word-meaning",
+          "name": "Word meaning and tone",
+          "skills": [
+            { "id": "ela.6.word-meaning.connotation", "name": "Connotation and denotation", "description": "Choose the word with the intended connotation, e.g. 'thrifty' versus 'stingy'.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.6.word-meaning.figurative-meaning", "name": "Figurative meaning in context", "description": "Interpret a metaphor, personification or hyperbole as used in a passage.", "itemTypes": ["choice"] },
+            { "id": "ela.6.word-meaning.word-choice-tone", "name": "Word choice and tone", "description": "Identify the tone created by an author's word choice, e.g. 'gloomy' and 'dreary' make a somber tone.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.6.vocabulary",
+          "name": "Vocabulary",
+          "skills": [
+            { "id": "ela.6.vocabulary.greek-latin-roots", "name": "Greek and Latin roots", "description": "Use roots such as 'aud', 'bene', 'chron' to decode unfamiliar academic words.", "itemTypes": ["match", "choice", "build"] },
+            { "id": "ela.6.vocabulary.affixes", "name": "Affixes and parts of speech", "description": "Predict how an affix changes meaning or part of speech, e.g. '-ify' turns 'solid' into a verb.", "itemTypes": ["choice", "build"] },
+            { "id": "ela.6.vocabulary.reference-materials", "name": "Reference materials", "description": "Read a dictionary entry to pick pronunciation, part of speech or the sense that fits a sentence.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.6.grammar",
+          "name": "Grammar",
+          "skills": [
+            { "id": "ela.6.grammar.parts-of-speech", "name": "Parts of speech", "description": "Tap the word in a sentence that is the noun, verb, adjective, adverb, pronoun, preposition or conjunction asked for.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.6.grammar.subject-verb-agreement", "name": "Subject-verb agreement", "description": "Choose the verb that agrees with a tricky subject, e.g. 'Each of the players ___' takes 'is'.", "itemTypes": ["choice"] },
+            { "id": "ela.6.grammar.pronoun-antecedent", "name": "Pronoun-antecedent agreement", "description": "Fix a pronoun that does not match its antecedent in number or has a vague reference.", "itemTypes": ["choice", "text"] },
+            { "id": "ela.6.grammar.pronoun-case", "name": "Pronoun case", "description": "Choose subjective, objective or possessive case, e.g. 'between you and me' not 'you and I'.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.6.punctuation",
+          "name": "Punctuation",
+          "skills": [
+            { "id": "ela.6.punctuation.nonrestrictive", "name": "Commas, parentheses and dashes", "description": "Set off a nonrestrictive element with commas, parentheses or dashes, e.g. 'My cat, a tabby, sleeps all day.'", "itemTypes": ["choice", "build"] },
+            { "id": "ela.6.punctuation.spelling-check", "name": "Spell academic words", "description": "Spell commonly misspelled words correctly, e.g. 'necessary', 'separate', 'definitely'.", "itemTypes": ["text", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.6.writing",
+          "name": "Writing genres",
+          "skills": [
+            { "id": "ela.6.writing.argument-claim", "name": "Claim and relevant evidence", "description": "Match a claim to the evidence that supports it and discard irrelevant evidence.", "itemTypes": ["match", "sort"] },
+            { "id": "ela.6.writing.informative-development", "name": "Develop with facts and examples", "description": "Choose the fact, definition, detail or quotation that best develops a topic sentence.", "itemTypes": ["choice"] },
+            { "id": "ela.6.writing.narrative-technique", "name": "Narrative techniques", "description": "Identify dialogue, pacing and description in a passage and pick a transition that signals a time shift.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.6.research",
+          "name": "Research",
+          "skills": [
+            { "id": "ela.6.research.credibility", "name": "Assess credibility", "description": "Rate a source's credibility from its author, date and publisher, e.g. a museum site versus an anonymous blog.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.6.research.cite-basics", "name": "Basic citation", "description": "Order the parts of a simple bibliographic citation: author, title, publisher, year.", "itemTypes": ["sequence", "choice"] }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "topics": [
+        {
+          "id": "ela.7.comprehension",
+          "name": "Comprehension and analysis",
+          "skills": [
+            { "id": "ela.7.comprehension.evidence-pieces", "name": "Several pieces of evidence", "description": "Select two or more pieces of evidence that together support an analysis of a passage.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.7.comprehension.theme-development", "name": "Theme development", "description": "Trace how a theme develops across a passage by ordering key moments.", "itemTypes": ["sequence", "choice"] },
+            { "id": "ela.7.comprehension.element-interaction", "name": "Interaction of story elements", "description": "Explain how setting shapes characters or plot, e.g. a storm forcing a decision.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.7.text-structure",
+          "name": "Form and structure",
+          "skills": [
+            { "id": "ela.7.text-structure.poetic-form", "name": "Poetic form", "description": "Identify a sonnet, haiku or free verse and how rhyme scheme or meter contributes to meaning.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.7.text-structure.drama-structure", "name": "Drama structure", "description": "Explain how a scene, soliloquy or stage direction contributes to meaning in a play excerpt.", "itemTypes": ["choice"] },
+            { "id": "ela.7.text-structure.contrasting-viewpoints", "name": "Contrasting points of view", "description": "Describe how an author develops and contrasts the viewpoints of two characters or narrators.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.7.argument",
+          "name": "Argument analysis",
+          "skills": [
+            { "id": "ela.7.argument.trace-evaluate", "name": "Trace and evaluate an argument", "description": "Identify the claim, reasons and evidence in a short argument and judge whether the reasoning is sound.", "itemTypes": ["sort", "choice"] },
+            { "id": "ela.7.argument.evidence-sufficiency", "name": "Sufficient and relevant evidence", "description": "Decide whether given evidence is relevant and sufficient for a claim, e.g. one anecdote is not enough.", "itemTypes": ["choice"] },
+            { "id": "ela.7.argument.author-emphasis", "name": "Authors' differing emphasis", "description": "Compare how two authors writing about the same topic emphasize different evidence or facts.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "ela.7.vocabulary",
+          "name": "Vocabulary and figurative language",
+          "skills": [
+            { "id": "ela.7.vocabulary.roots-context", "name": "Roots and context", "description": "Combine a Latin or Greek root with context clues to define a word, e.g. 'benevolent' in a sentence about kindness.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.7.vocabulary.allusion", "name": "Allusions", "description": "Recognize a literary, biblical or mythological allusion and its meaning, e.g. 'an Achilles heel'.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.7.vocabulary.analogies", "name": "Analogies", "description": "Complete a word analogy, e.g. 'glove is to hand as sock is to ___'.", "itemTypes": ["choice", "text"] },
+            { "id": "ela.7.vocabulary.precise-language", "name": "Precise and concise language", "description": "Replace wordy or vague phrasing with a precise word, e.g. 'walked slowly and tiredly' becomes 'trudged'.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.7.grammar",
+          "name": "Grammar",
+          "skills": [
+            { "id": "ela.7.grammar.clauses-sentence-types", "name": "Clauses and sentence types", "description": "Classify a sentence as simple, compound, complex or compound-complex and identify its independent and dependent clauses.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.7.grammar.phrases", "name": "Phrases", "description": "Identify prepositional, appositive and participial phrases and their function in a sentence.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.7.grammar.misplaced-modifiers", "name": "Misplaced and dangling modifiers", "description": "Spot a misplaced modifier and choose the corrected sentence, e.g. 'Running late, the bus was missed'.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.7.punctuation",
+          "name": "Punctuation",
+          "skills": [
+            { "id": "ela.7.punctuation.commas-semicolons", "name": "Commas and semicolons", "description": "Choose where a comma, a semicolon or no punctuation belongs when joining clauses, e.g. 'It rained; we stayed in.'", "itemTypes": ["choice", "build"] },
+            { "id": "ela.7.punctuation.coordinate-adjectives", "name": "Commas with coordinate adjectives", "description": "Decide whether two adjectives need a comma, e.g. 'a small, old house' but 'a bright red car'.", "itemTypes": ["choice"] },
+            { "id": "ela.7.punctuation.colons-quotations", "name": "Colons and quoted material", "description": "Introduce a list or quotation with a colon and punctuate quotations inside sentences correctly.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "ela.7.writing",
+          "name": "Writing genres",
+          "skills": [
+            { "id": "ela.7.writing.counterclaim", "name": "Acknowledge counterclaims", "description": "Pick the sentence that fairly acknowledges an opposing claim before rebutting it.", "itemTypes": ["choice", "sequence"] },
+            { "id": "ela.7.writing.informative-transitions", "name": "Transitions and cohesion", "description": "Choose transitions that clarify relationships between ideas, e.g. 'in contrast', 'consequently'.", "itemTypes": ["choice"] },
+            { "id": "ela.7.writing.narrative-point-of-view", "name": "Establish point of view", "description": "Identify first-, second- or third-person narration and keep it consistent across a passage.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.7.research",
+          "name": "Research",
+          "skills": [
+            { "id": "ela.7.research.search-terms", "name": "Effective search terms", "description": "Choose the search query most likely to find relevant, specific results for a research question.", "itemTypes": ["choice"] },
+            { "id": "ela.7.research.plagiarism", "name": "Paraphrase and avoid plagiarism", "description": "Decide whether a passage is properly paraphrased, quoted or plagiarized.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.7.research.focused-question", "name": "Focused research question", "description": "Pick the research question that is neither too broad nor too narrow, e.g. about one cause of coral bleaching.", "itemTypes": ["choice"] }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "topics": [
+        {
+          "id": "ela.8.comprehension",
+          "name": "Comprehension and analysis",
+          "skills": [
+            { "id": "ela.8.comprehension.strongest-evidence", "name": "Strongest evidence", "description": "Choose the single strongest piece of evidence for an analysis among several relevant ones.", "itemTypes": ["choice"] },
+            { "id": "ela.8.comprehension.dialogue-incidents", "name": "Dialogue and incidents", "description": "Explain how a line of dialogue or an incident reveals character or provokes a decision.", "itemTypes": ["choice"] },
+            { "id": "ela.8.comprehension.dramatic-irony", "name": "Dramatic irony and suspense", "description": "Identify how a difference between audience and character knowledge creates suspense or humor.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.8.text-structure",
+          "name": "Structure and medium",
+          "skills": [
+            { "id": "ela.8.text-structure.paragraph-role", "name": "Role of a paragraph", "description": "Analyze how a specific sentence or paragraph develops and refines a key concept.", "itemTypes": ["choice"] },
+            { "id": "ela.8.text-structure.compare-structures", "name": "Compare two texts' structures", "description": "Compare the structure of two texts and how each contributes to meaning and style.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.8.text-structure.medium", "name": "Choice of medium", "description": "Evaluate the advantages of print, video or audio for presenting a topic, e.g. a chart for data trends.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.8.argument",
+          "name": "Argument evaluation",
+          "skills": [
+            { "id": "ela.8.argument.reasoning-soundness", "name": "Sound reasoning", "description": "Judge whether the reasoning in a claim is sound and the evidence sufficient, flagging weak links.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.8.argument.irrelevant-evidence", "name": "Irrelevant evidence", "description": "Identify evidence that is irrelevant to a claim even if it sounds impressive.", "itemTypes": ["sort", "choice"] },
+            { "id": "ela.8.argument.conflicting-info", "name": "Conflicting information", "description": "Determine where two texts disagree on facts or interpretation and which is better supported.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "ela.8.vocabulary",
+          "name": "Vocabulary",
+          "skills": [
+            { "id": "ela.8.vocabulary.roots-academic", "name": "Roots in academic vocabulary", "description": "Use roots and affixes to define academic words such as 'contradict', 'circumvent', 'synthesis'.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.8.vocabulary.verbal-irony-puns", "name": "Verbal irony and puns", "description": "Recognize verbal irony or a pun and explain the double meaning, e.g. 'Lovely weather' during a storm.", "itemTypes": ["choice"] },
+            { "id": "ela.8.vocabulary.connotation-nuance", "name": "Nuances in meaning", "description": "Distinguish among near-synonyms by connotation, e.g. 'bullheaded', 'willful', 'firm', 'persistent'.", "itemTypes": ["sequence", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.8.grammar",
+          "name": "Grammar",
+          "skills": [
+            { "id": "ela.8.grammar.active-passive", "name": "Active and passive voice", "description": "Identify whether a sentence is active or passive and convert between them, e.g. 'The ball was kicked by Lee' to 'Lee kicked the ball'.", "itemTypes": ["choice", "sort", "build"] },
+            { "id": "ela.8.grammar.verbals", "name": "Gerunds, participles and infinitives", "description": "Identify the function of a verbal in a sentence, e.g. 'Swimming is fun' uses a gerund as subject.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.8.grammar.verb-moods", "name": "Verb moods", "description": "Classify a sentence as indicative, imperative, interrogative, conditional or subjunctive.", "itemTypes": ["sort", "choice"] },
+            { "id": "ela.8.grammar.shifts-voice-mood", "name": "Shifts in voice and mood", "description": "Correct inappropriate shifts in voice or mood within a sentence.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.8.punctuation",
+          "name": "Punctuation",
+          "skills": [
+            { "id": "ela.8.punctuation.pause-break", "name": "Comma, ellipsis and dash for a pause", "description": "Choose the comma, ellipsis or dash that indicates a pause or break, e.g. a dash for an abrupt interruption.", "itemTypes": ["choice"] },
+            { "id": "ela.8.punctuation.ellipsis-omission", "name": "Ellipsis for omission", "description": "Use an ellipsis correctly to shorten a quotation without changing its meaning.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "ela.8.writing",
+          "name": "Writing genres",
+          "skills": [
+            { "id": "ela.8.writing.argument-organize", "name": "Organize an argument", "description": "Order claim, evidence, counterclaim, rebuttal and conclusion into a logical argument.", "itemTypes": ["sequence", "sort"] },
+            { "id": "ela.8.writing.informative-formatting", "name": "Formatting and graphics", "description": "Choose headings, graphics or multimedia that aid comprehension of an informative text.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.8.writing.narrative-reflection", "name": "Reflection and resolution", "description": "Pick the conclusion that follows from and reflects on the narrated events.", "itemTypes": ["choice"] },
+            { "id": "ela.8.writing.formal-style", "name": "Formal style", "description": "Replace informal wording with formal, objective phrasing, e.g. 'kids' becomes 'students'.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.8.research",
+          "name": "Research",
+          "skills": [
+            { "id": "ela.8.research.evaluate-sources", "name": "Evaluate sources", "description": "Judge accuracy and credibility of print and digital sources using author, evidence, date and bias.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.8.research.citation-format", "name": "Citation format", "description": "Pick the correctly formatted citation for a book, article or website in a standard style.", "itemTypes": ["choice", "sequence"] },
+            { "id": "ela.8.research.integrate-quotes", "name": "Integrate quotations", "description": "Choose the sentence that smoothly introduces and cites a quotation.", "itemTypes": ["choice", "build"] }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "topics": [
+        {
+          "id": "ela.9.close-reading",
+          "name": "Close reading",
+          "skills": [
+            { "id": "ela.9.close-reading.textual-evidence", "name": "Strong and thorough evidence", "description": "Select explicit and inferential evidence that supports an analysis of a literary or informational passage.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.9.close-reading.central-idea", "name": "Central idea development", "description": "Trace how a central idea emerges and is refined by specific details across a passage.", "itemTypes": ["choice", "sequence"] },
+            { "id": "ela.9.close-reading.complex-characters", "name": "Complex characters", "description": "Analyze how a character with conflicting motivations develops and advances the plot or theme.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.9.literary",
+          "name": "Literary analysis",
+          "skills": [
+            { "id": "ela.9.literary.theme-development", "name": "Theme development", "description": "Determine a theme and analyze how specific details shape and refine it over the course of a text.", "itemTypes": ["choice"] },
+            { "id": "ela.9.literary.structure-pacing", "name": "Structure, pacing and flashback", "description": "Analyze how an author's choices about order, pacing or flashback create tension or surprise.", "itemTypes": ["choice", "sequence"] },
+            { "id": "ela.9.literary.source-material", "name": "Transformation of source material", "description": "Analyze how a work draws on and transforms a myth, play or earlier story, e.g. a modern retelling of Romeo and Juliet.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "ela.9.rhetoric",
+          "name": "Rhetoric",
+          "skills": [
+            { "id": "ela.9.rhetoric.appeals", "name": "Ethos, pathos, logos", "description": "Name the appeal a statement relies on, e.g. 'As a doctor with 20 years of experience...' is ethos.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.9.rhetoric.audience-purpose", "name": "Audience and purpose", "description": "Identify the intended audience and purpose of a speech or ad and how word choice targets them.", "itemTypes": ["choice"] },
+            { "id": "ela.9.rhetoric.structure-of-argument", "name": "Structure of an argument", "description": "Analyze how an author orders ideas and sentences to make points clear and convincing.", "itemTypes": ["choice", "sequence"] }
+          ]
+        },
+        {
+          "id": "ela.9.argument",
+          "name": "Argument",
+          "skills": [
+            { "id": "ela.9.argument.claim-evidence-reasoning", "name": "Claim, evidence, reasoning", "description": "Build or order a full CER chain, e.g. claim, then supporting evidence, then reasoning that links the two.", "itemTypes": ["sequence", "sort", "choice"] },
+            { "id": "ela.9.argument.counterclaims", "name": "Counterclaims", "description": "Distinguish a claim from a counterclaim and pick the rebuttal that addresses it directly.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.9.argument.evidence-quality", "name": "Evaluate evidence", "description": "Judge whether evidence is valid, relevant and sufficient, spotting false statements and gaps.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.9.vocabulary",
+          "name": "Vocabulary",
+          "skills": [
+            { "id": "ela.9.vocabulary.academic-context", "name": "Academic words in context", "description": "Determine the meaning of grade-level academic words from context, e.g. 'ambiguous', 'implicit'.", "itemTypes": ["choice"] },
+            { "id": "ela.9.vocabulary.word-patterns", "name": "Patterns of word changes", "description": "Identify related forms and parts of speech, e.g. 'analyze', 'analysis', 'analytical'.", "itemTypes": ["match", "choice", "build"] },
+            { "id": "ela.9.vocabulary.denotation-connotation", "name": "Connotative meanings", "description": "Analyze the cumulative impact of connotative word choices on meaning and tone.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "ela.9.grammar",
+          "name": "Grammar and conventions",
+          "skills": [
+            { "id": "ela.9.grammar.parallel-structure", "name": "Parallel structure", "description": "Fix faulty parallelism, e.g. 'She likes hiking, swimming, and to bike' to 'and biking'.", "itemTypes": ["choice"] },
+            { "id": "ela.9.grammar.phrase-clause-variety", "name": "Phrases and clauses for variety", "description": "Combine sentences using participial, absolute or adverbial elements to vary style.", "itemTypes": ["choice", "build"] },
+            { "id": "ela.9.grammar.semicolons-colons", "name": "Semicolons and colons", "description": "Use a semicolon with a conjunctive adverb or a colon before a list or explanation correctly.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "ela.9.writing",
+          "name": "Writing",
+          "skills": [
+            { "id": "ela.9.writing.argument-essay", "name": "Argument essay", "description": "Order the sections of an argument essay with precise claims, fair counterclaims and a cohesive conclusion.", "itemTypes": ["sequence", "choice"] },
+            { "id": "ela.9.writing.literary-analysis", "name": "Literary analysis paragraph", "description": "Choose the quotation and commentary that support an analytical thesis about a text.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.9.writing.thesis", "name": "Thesis statements", "description": "Pick the thesis that is arguable, specific and previews the essay's structure.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.9.research",
+          "name": "Research and citation",
+          "skills": [
+            { "id": "ela.9.research.source-types", "name": "Primary and secondary sources", "description": "Classify sources as primary or secondary and pick the type a question requires, e.g. a diary for a soldier's view.", "itemTypes": ["sort", "choice"] },
+            { "id": "ela.9.research.mla-basics", "name": "MLA citation basics", "description": "Build a correct MLA works-cited entry and in-text citation from its parts.", "itemTypes": ["sequence", "choice", "build"] },
+            { "id": "ela.9.research.integrate-evidence", "name": "Integrate research evidence", "description": "Choose the sentence that integrates a source smoothly while maintaining the flow of ideas.", "itemTypes": ["choice"] }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "topics": [
+        {
+          "id": "ela.10.close-reading",
+          "name": "Close reading",
+          "skills": [
+            { "id": "ela.10.close-reading.inference-ambiguity", "name": "Inference where text is uncertain", "description": "Decide which inferences are well supported when a passage leaves matters uncertain.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.10.close-reading.objective-summary", "name": "Objective summary", "description": "Pick the summary that captures central ideas without opinion or minor detail.", "itemTypes": ["choice"] },
+            { "id": "ela.10.close-reading.cultural-perspective", "name": "Cultural point of view", "description": "Analyze a point of view or cultural experience reflected in a work of world literature.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.10.literary",
+          "name": "Literary analysis",
+          "skills": [
+            { "id": "ela.10.literary.figurative-connotative", "name": "Figurative and connotative meaning", "description": "Analyze how figurative and connotative language shapes meaning and tone in a passage.", "itemTypes": ["choice"] },
+            { "id": "ela.10.literary.author-choices", "name": "Author's structural choices", "description": "Explain how choices about structure, such as parallel plots or in medias res, create effects.", "itemTypes": ["choice"] },
+            { "id": "ela.10.literary.representation-across-media", "name": "Representation across media", "description": "Compare how a subject or scene is treated in two media, e.g. a poem and a painting.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "ela.10.rhetoric",
+          "name": "Rhetoric",
+          "skills": [
+            { "id": "ela.10.rhetoric.devices", "name": "Rhetorical devices", "description": "Name the device used in a sentence, e.g. anaphora, antithesis, rhetorical question, parallelism.", "itemTypes": ["choice", "match", "sort"] },
+            { "id": "ela.10.rhetoric.persuasive-techniques", "name": "Persuasive techniques", "description": "Identify bandwagon, testimonial, loaded language or fear appeals in advertising and speeches.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.10.rhetoric.speech-analysis", "name": "Analyze a speech", "description": "Analyze how a speaker's rhetoric advances purpose and point of view in a famous speech excerpt.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.10.argument",
+          "name": "Argument",
+          "skills": [
+            { "id": "ela.10.argument.fallacies", "name": "Logical fallacies", "description": "Name the fallacy in a statement, e.g. straw man, ad hominem, slippery slope, false dilemma.", "itemTypes": ["choice", "match", "sort"] },
+            { "id": "ela.10.argument.evaluate-reasoning", "name": "Evaluate reasoning", "description": "Decide whether a conclusion follows from its premises and identify the weak premise.", "itemTypes": ["choice"] },
+            { "id": "ela.10.argument.rebuttal", "name": "Rebuttal and concession", "description": "Choose the rebuttal that concedes a valid point and still defends the claim.", "itemTypes": ["choice", "sequence"] }
+          ]
+        },
+        {
+          "id": "ela.10.vocabulary",
+          "name": "Vocabulary",
+          "skills": [
+            { "id": "ela.10.vocabulary.academic-tier", "name": "Academic vocabulary", "description": "Define academic and domain words such as 'juxtapose', 'paradigm', 'empirical' in context.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.10.vocabulary.etymology", "name": "Etymology", "description": "Trace a word's origin to its meaning, e.g. 'philanthropy' from Greek 'love of humankind'.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.10.vocabulary.nuance", "name": "Nuance among synonyms", "description": "Choose the synonym whose nuance fits the register and meaning of a sentence.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.10.conventions",
+          "name": "Conventions and style",
+          "skills": [
+            { "id": "ela.10.conventions.punctuation-advanced", "name": "Advanced punctuation", "description": "Use semicolons, colons, dashes and hyphens in compound modifiers correctly, e.g. 'well-known author'.", "itemTypes": ["choice", "build"] },
+            { "id": "ela.10.conventions.sentence-combining", "name": "Sentence combining for style", "description": "Combine choppy sentences into a fluent one without changing meaning.", "itemTypes": ["choice", "build"] },
+            { "id": "ela.10.conventions.style-manual", "name": "Follow a style manual", "description": "Apply a style guide rule for numbers, titles or abbreviations, e.g. spell out numbers under ten.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.10.writing",
+          "name": "Writing",
+          "skills": [
+            { "id": "ela.10.writing.synthesis-paragraph", "name": "Synthesize two sources", "description": "Choose the sentence that connects evidence from two sources to one point.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.10.writing.informative-complex", "name": "Explain a complex topic", "description": "Order explanations, examples and definitions to build understanding of a complex concept.", "itemTypes": ["sequence", "choice"] },
+            { "id": "ela.10.writing.revision", "name": "Revise for clarity", "description": "Pick the revision that fixes a vague, wordy or ambiguous sentence.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.10.media-literacy",
+          "name": "Research and media literacy",
+          "skills": [
+            { "id": "ela.10.media-literacy.bias", "name": "Detect bias", "description": "Identify loaded language, omission or one-sided sourcing that reveals bias in a text or headline.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.10.media-literacy.source-evaluation", "name": "Evaluate online sources", "description": "Apply authority, accuracy, currency and purpose checks to rank sources for a research task.", "itemTypes": ["sequence", "choice"] },
+            { "id": "ela.10.media-literacy.fact-opinion", "name": "Fact, opinion and claim", "description": "Classify statements as verifiable fact, opinion or unsupported claim.", "itemTypes": ["sort", "choice"] }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "topics": [
+        {
+          "id": "ela.11.literary",
+          "name": "Literary analysis",
+          "skills": [
+            { "id": "ela.11.literary.devices", "name": "Literary devices", "description": "Identify the device at work in a line, e.g. irony, foreshadowing, symbolism, motif, juxtaposition, and its effect.", "itemTypes": ["choice", "match", "sort"] },
+            { "id": "ela.11.literary.interacting-themes", "name": "Interacting themes", "description": "Analyze how two or more themes interact and build on one another in a text.", "itemTypes": ["choice"] },
+            { "id": "ela.11.literary.satire-irony", "name": "Satire, sarcasm and understatement", "description": "Distinguish what is directly stated from what is really meant in satire or understatement.", "itemTypes": ["choice"] },
+            { "id": "ela.11.literary.period-foundations", "name": "Literary periods", "description": "Match a passage to its literary period or movement by its features, e.g. Romanticism, Modernism.", "itemTypes": ["match", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.11.rhetoric",
+          "name": "Rhetoric and style",
+          "skills": [
+            { "id": "ela.11.rhetoric.tone-diction", "name": "Tone and diction", "description": "Identify the tone of a passage and the specific diction that creates it, e.g. 'reverent' from 'hallowed' and 'solemn'.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.11.rhetoric.syntax-effects", "name": "Syntax and effect", "description": "Analyze how sentence length, inversion or fragments create emphasis or pace.", "itemTypes": ["choice"] },
+            { "id": "ela.11.rhetoric.foundational-documents", "name": "Rhetoric of foundational documents", "description": "Analyze the premises, purposes and rhetorical features of a historical speech or founding document.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.11.argument",
+          "name": "Argument",
+          "skills": [
+            { "id": "ela.11.argument.premises-assumptions", "name": "Premises and assumptions", "description": "Identify the unstated assumption an argument depends on, e.g. that cost is the only concern.", "itemTypes": ["choice"] },
+            { "id": "ela.11.argument.evaluate-reasoning", "name": "Evaluate legal and public reasoning", "description": "Assess the reasoning in a court opinion or public argument for consistency and use of evidence.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.11.argument.qualify-claims", "name": "Qualify claims", "description": "Choose the hedge or qualifier that makes an overstated claim defensible, e.g. 'most' instead of 'all'.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.11.close-reading",
+          "name": "Close reading",
+          "skills": [
+            { "id": "ela.11.close-reading.ambiguity", "name": "Ambiguity and multiple readings", "description": "Decide which of two interpretations a passage supports, or whether it deliberately supports both.", "itemTypes": ["choice"] },
+            { "id": "ela.11.close-reading.structure-aesthetic", "name": "Structure and aesthetic impact", "description": "Analyze how a choice about where to begin or end a story contributes to its meaning and impact.", "itemTypes": ["choice"] },
+            { "id": "ela.11.close-reading.poetic-devices", "name": "Sound and image in poetry", "description": "Identify meter, alliteration, assonance, enjambment or imagery and their effect in a poem.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "ela.11.synthesis",
+          "name": "Synthesis",
+          "skills": [
+            { "id": "ela.11.synthesis.integrate-sources", "name": "Integrate multiple sources", "description": "Sort evidence from several sources by the position it supports and pick the strongest for each.", "itemTypes": ["sort", "choice"] },
+            { "id": "ela.11.synthesis.compare-perspectives", "name": "Compare perspectives", "description": "Identify where two texts agree, disagree or address different aspects of an issue.", "itemTypes": ["match", "choice"] },
+            { "id": "ela.11.synthesis.thesis-from-sources", "name": "Thesis from sources", "description": "Choose the thesis that accounts for the evidence in all provided sources rather than one.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.11.vocabulary",
+          "name": "Vocabulary and word choice",
+          "skills": [
+            { "id": "ela.11.vocabulary.precise-diction", "name": "Precise diction", "description": "Select the word whose exact meaning and register fit an academic or literary sentence.", "itemTypes": ["choice"] },
+            { "id": "ela.11.vocabulary.etymology-meaning", "name": "Etymology and shifting meaning", "description": "Explain how a word's meaning has shifted over time, e.g. 'awful' once meant awe-inspiring.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.11.vocabulary.domain-terms", "name": "Domain-specific terms", "description": "Define literary and rhetorical terms such as 'motif', 'syntax', 'allegory' and apply them to examples.", "itemTypes": ["match", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.11.style",
+          "name": "Writing style",
+          "skills": [
+            { "id": "ela.11.style.voice-register", "name": "Voice and register", "description": "Rewrite or choose a sentence to match a target register, e.g. formal academic versus conversational.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.11.style.concision", "name": "Concision", "description": "Cut redundancy and filler, e.g. 'due to the fact that' becomes 'because'.", "itemTypes": ["choice", "text"] },
+            { "id": "ela.11.style.hyphenation-conventions", "name": "Hyphenation and conventions", "description": "Apply hyphenation and other conventions correctly, e.g. 'twenty-one' and 'self-aware'.", "itemTypes": ["choice", "text"] }
+          ]
+        },
+        {
+          "id": "ela.11.research",
+          "name": "Research and media literacy",
+          "skills": [
+            { "id": "ela.11.research.citation-styles", "name": "MLA and APA citations", "description": "Build correct MLA and APA references and in-text citations and tell the two styles apart.", "itemTypes": ["sequence", "choice", "sort"] },
+            { "id": "ela.11.research.source-reliability", "name": "Source reliability", "description": "Weigh a source's strengths and limitations for a specific task, audience and purpose.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.11.research.visual-rhetoric", "name": "Visual and media rhetoric", "description": "Analyze how images, layout and framing in media persuade, e.g. a cropped photo shifting the story.", "itemTypes": ["choice"] }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "topics": [
+        {
+          "id": "ela.12.literary",
+          "name": "Literary criticism",
+          "skills": [
+            { "id": "ela.12.literary.critical-lenses", "name": "Critical lenses", "description": "Apply a critical lens (feminist, historical, psychological, Marxist) to interpret a passage and name the lens used.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.12.literary.archetypes-allusions", "name": "Archetypes and allusions", "description": "Identify archetypes and allusions such as the hero's journey or a Promethean figure and their function.", "itemTypes": ["choice", "match"] },
+            { "id": "ela.12.literary.poetic-form", "name": "Poetic form and meter", "description": "Identify form and meter, e.g. iambic pentameter, villanelle, blank verse, and how form shapes meaning.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.12.literary.compare-eras", "name": "Texts across eras", "description": "Compare how two works from different eras treat a similar theme or topic.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "ela.12.rhetoric",
+          "name": "Rhetorical analysis",
+          "skills": [
+            { "id": "ela.12.rhetoric.strategies", "name": "Rhetorical strategies", "description": "Analyze how a writer's combined choices of appeal, device and structure achieve a purpose.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.12.rhetoric.kairos-context", "name": "Kairos and context", "description": "Explain how timing and historical context make a rhetorical choice effective.", "itemTypes": ["choice"] },
+            { "id": "ela.12.rhetoric.analysis-essay", "name": "Rhetorical analysis essay", "description": "Order the parts of a rhetorical analysis: context, thesis on strategies, evidence with commentary, conclusion.", "itemTypes": ["sequence", "choice"] }
+          ]
+        },
+        {
+          "id": "ela.12.argument",
+          "name": "Argument construction",
+          "skills": [
+            { "id": "ela.12.argument.logical-validity", "name": "Logical validity", "description": "Determine whether a syllogism is valid and sound, e.g. all A are B, C is A, therefore C is B.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.12.argument.construct-argument", "name": "Construct an argument", "description": "Assemble claim, evidence, warrant, counterclaim and rebuttal into a coherent argument.", "itemTypes": ["sequence", "build"] },
+            { "id": "ela.12.argument.evaluate-competing", "name": "Evaluate competing arguments", "description": "Decide which of two arguments is better supported and explain the decisive factor.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.12.close-reading",
+          "name": "Close reading of complex texts",
+          "skills": [
+            { "id": "ela.12.close-reading.dense-prose", "name": "Dense and archaic prose", "description": "Paraphrase a complex or archaic sentence accurately, e.g. a line from an 18th-century essay.", "itemTypes": ["choice"] },
+            { "id": "ela.12.close-reading.multiple-interpretations", "name": "Multiple interpretations", "description": "Evaluate two interpretations of a text and identify the evidence that supports each.", "itemTypes": ["match", "choice"] },
+            { "id": "ela.12.close-reading.implicit-meaning", "name": "Implicit meaning", "description": "Infer what a text implies through tone, irony or omission rather than direct statement.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.12.synthesis",
+          "name": "Synthesis",
+          "skills": [
+            { "id": "ela.12.synthesis.weigh-sources", "name": "Weigh sources", "description": "Rank sources by relevance and credibility for a given claim and justify the order.", "itemTypes": ["sequence", "choice"] },
+            { "id": "ela.12.synthesis.synthesis-essay", "name": "Synthesis essay", "description": "Choose how to position several sources in relation to a thesis: support, complicate or counter.", "itemTypes": ["sort", "choice"] },
+            { "id": "ela.12.synthesis.resolve-conflicts", "name": "Resolve conflicting sources", "description": "Explain why two credible sources disagree and how a writer should handle the disagreement.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.12.style",
+          "name": "Style and editing",
+          "skills": [
+            { "id": "ela.12.style.diction-register", "name": "Diction for audience", "description": "Choose the diction that fits a specified audience and purpose, e.g. a grant proposal versus a blog.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.12.style.sentence-variety", "name": "Sentence variety and rhythm", "description": "Revise a paragraph to vary sentence openings and lengths for rhythm and emphasis.", "itemTypes": ["choice", "sequence"] },
+            { "id": "ela.12.style.editing-conventions", "name": "Edit for conventions", "description": "Find and fix the error in usage, agreement or punctuation in a college-level sentence.", "itemTypes": ["choice", "text"] }
+          ]
+        },
+        {
+          "id": "ela.12.media-literacy",
+          "name": "Media literacy",
+          "skills": [
+            { "id": "ela.12.media-literacy.misinformation", "name": "Misinformation and manipulation", "description": "Identify misleading techniques such as cherry-picking, false context or manipulated images.", "itemTypes": ["choice", "sort"] },
+            { "id": "ela.12.media-literacy.data-visuals", "name": "Read data and visuals critically", "description": "Spot a misleading chart, e.g. a truncated axis exaggerating a difference.", "itemTypes": ["choice"] },
+            { "id": "ela.12.media-literacy.algorithms-audience", "name": "Audience, platform and algorithms", "description": "Explain how platform and algorithmic curation shape which messages an audience sees.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "ela.12.research",
+          "name": "Research",
+          "skills": [
+            { "id": "ela.12.research.research-question", "name": "Refine a research question", "description": "Narrow a broad topic into a researchable question and pick the most focused version.", "itemTypes": ["choice", "sequence"] },
+            { "id": "ela.12.research.annotated-bibliography", "name": "Annotated bibliography", "description": "Match a source's citation to an annotation that summarizes and evaluates it.", "itemTypes": ["match", "choice"] },
+            { "id": "ela.12.research.citation-integrity", "name": "Citation and academic integrity", "description": "Decide whether a use of a source needs a citation and choose the correct format for it.", "itemTypes": ["choice", "sort"] }
+          ]
+        }
+      ]
+    }
+  }
+}

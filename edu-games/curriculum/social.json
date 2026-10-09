@@ -1,0 +1,2132 @@
+{
+  "id": "social",
+  "name": "Social Studies",
+  "color": "#EF4444",
+  "icon": "globe",
+  "grades": {
+    "1": {
+      "topics": [
+        {
+          "id": "social.1.families",
+          "name": "Families and me",
+          "skills": [
+            {
+              "id": "social.1.families.family-roles",
+              "name": "Family roles",
+              "description": "Identify who does what in a family, e.g. pick which family member in a picture is a grandparent or match 'cooks dinner' to a role.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.1.families.family-traditions",
+              "name": "Family traditions",
+              "description": "Recognise traditions families share such as meals, songs or celebrations, e.g. choose which picture shows a birthday tradition.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "social.1.families.then-and-now-family",
+              "name": "Families then and now",
+              "description": "Sort everyday objects and activities into 'long ago' or 'today', e.g. a candle lamp vs an electric lamp.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.1.community",
+          "name": "My community",
+          "skills": [
+            {
+              "id": "social.1.community.community-helpers",
+              "name": "Community helpers",
+              "description": "Match community helpers to their jobs and tools, e.g. firefighter to fire truck, doctor to stethoscope.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.1.community.places",
+              "name": "Places in a community",
+              "description": "Identify what happens at common places such as a school, library, hospital or post office, e.g. 'Where do you borrow books?'.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.1.rules",
+          "name": "Rules and fairness",
+          "skills": [
+            {
+              "id": "social.1.rules.classroom-rules",
+              "name": "Why we have rules",
+              "description": "Choose the rule that keeps people safe or fair in a given situation, e.g. 'What rule helps everyone hear the teacher?'.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.1.rules.fairness",
+              "name": "Fair and unfair",
+              "description": "Decide whether a short scenario is fair or unfair and pick a fair solution, e.g. two children want the same toy.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "social.1.rules.leaders-at-school",
+              "name": "Leaders around us",
+              "description": "Identify leaders in school and community and what they do, e.g. match 'principal' to 'leads the school'.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.1.maps-basics",
+          "name": "Maps and globes",
+          "skills": [
+            {
+              "id": "social.1.maps-basics.map-symbols",
+              "name": "Map symbols",
+              "description": "Read simple picture symbols on a classroom or neighbourhood map, e.g. tap the symbol that means 'park'.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.1.maps-basics.position-words",
+              "name": "Position words",
+              "description": "Use near, far, left, right, above and below to locate objects on a simple map, e.g. 'What is next to the school?'.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.1.maps-basics.land-water-globe",
+              "name": "Land and water on a globe",
+              "description": "Tell land from water on a globe or map and know a globe is a model of Earth, e.g. 'Is the blue part land or water?'.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "social.1.needs-wants",
+          "name": "Needs and wants",
+          "skills": [
+            {
+              "id": "social.1.needs-wants.needs-vs-wants",
+              "name": "Needs vs wants",
+              "description": "Sort items into needs and wants, e.g. water and a coat are needs, a video game is a want.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.1.needs-wants.goods-services",
+              "name": "Goods and services",
+              "description": "Sort examples into goods (things) and services (work done for others), e.g. an apple vs a haircut.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.1.needs-wants.jobs-earn-money",
+              "name": "Jobs and money",
+              "description": "Understand that people work to earn money to buy things, e.g. choose what a baker sells to earn money.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.1.time",
+          "name": "Time and timelines",
+          "skills": [
+            {
+              "id": "social.1.time.days-months",
+              "name": "Days, months, seasons",
+              "description": "Order days of the week and months of the year and link seasons to months, e.g. put Monday to Friday in order.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "social.1.time.before-after",
+              "name": "Before and after",
+              "description": "Put three or four daily or life events in time order, e.g. baby, child, grown-up.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.1.symbols-holidays",
+          "name": "Symbols and holidays",
+          "skills": [
+            {
+              "id": "social.1.symbols-holidays.national-symbols",
+              "name": "National symbols",
+              "description": "Recognise a country's flag, anthem and famous landmarks, e.g. pick the flag that belongs to your country.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.1.symbols-holidays.holidays-meaning",
+              "name": "Holidays and their meaning",
+              "description": "Match common national and world holidays to what they celebrate, e.g. Independence Day to a country's birthday.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "topics": [
+        {
+          "id": "social.2.neighborhoods",
+          "name": "Neighbourhoods and towns",
+          "skills": [
+            {
+              "id": "social.2.neighborhoods.urban-suburban-rural",
+              "name": "Urban, suburban, rural",
+              "description": "Sort pictures and descriptions into city, suburb and countryside, e.g. tall buildings and buses are urban.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.2.neighborhoods.neighborhood-map",
+              "name": "Neighbourhood maps",
+              "description": "Follow a route or find a place on a neighbourhood map using a key, e.g. 'Which building is two blocks east of the park?'.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.2.neighborhoods.transport-connects",
+              "name": "How places connect",
+              "description": "Identify how people and goods move between places (roads, rail, ships, planes), e.g. pick the best way to send a letter across the sea long ago.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.2.government-leaders",
+          "name": "Government and leaders",
+          "skills": [
+            {
+              "id": "social.2.government-leaders.leader-roles",
+              "name": "Who leads what",
+              "description": "Match leaders to what they lead, e.g. mayor to town, governor or premier to a state or province, president or prime minister to a country.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.2.government-leaders.voting-choices",
+              "name": "Voting to decide",
+              "description": "Understand that groups vote to make fair choices and count a simple tally to find the winner, e.g. 7 votes for pizza vs 5 for tacos.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "social.2.government-leaders.laws-purpose",
+              "name": "Why we have laws",
+              "description": "Explain what a law is for by picking which law solves a problem, e.g. a speed limit keeps people safe near schools.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.2.maps",
+          "name": "Map skills",
+          "skills": [
+            {
+              "id": "social.2.maps.cardinal-directions",
+              "name": "Cardinal directions",
+              "description": "Use north, south, east and west with a compass rose, e.g. 'The lake is ___ of the town'.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.2.maps.map-key",
+              "name": "Map key and title",
+              "description": "Use a map key to decode symbols and the title to know what the map shows, e.g. count the hospitals on a town map.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "social.2.maps.continents-oceans",
+              "name": "Continents and oceans",
+              "description": "Name the seven continents and five oceans on a world map, e.g. tap Africa or pick the ocean between Americas and Europe.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.2.economics",
+          "name": "Producers and consumers",
+          "skills": [
+            {
+              "id": "social.2.economics.producers-consumers",
+              "name": "Producers and consumers",
+              "description": "Sort people in scenarios into producers (make or sell) and consumers (buy or use), e.g. a farmer vs a shopper.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.2.economics.money-exchange",
+              "name": "Money and exchange",
+              "description": "Recognise that money is traded for goods and services and compare simple prices, e.g. 'Which item costs more?'.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "social.2.economics.saving-spending",
+              "name": "Saving and spending",
+              "description": "Decide between saving and spending in a short story and compute simple savings, e.g. save 2 coins a week for 3 weeks.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "social.2.history-change",
+          "name": "How life changes over time",
+          "skills": [
+            {
+              "id": "social.2.history-change.technology-then-now",
+              "name": "Technology then and now",
+              "description": "Order inventions or tools from oldest to newest, e.g. horse cart, steam train, car, electric car.",
+              "itemTypes": ["sequence", "sort"]
+            },
+            {
+              "id": "social.2.history-change.biographies",
+              "name": "People who made a difference",
+              "description": "Match historical figures from around the world to their contribution, e.g. a scientist to a discovery or a leader to a change they made.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.2.history-change.school-long-ago",
+              "name": "Daily life long ago",
+              "description": "Compare school, homes and play from long ago with today, e.g. 'Which was used to write at school 150 years ago?'.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "social.2.culture",
+          "name": "Cultures around the world",
+          "skills": [
+            {
+              "id": "social.2.culture.world-celebrations",
+              "name": "Celebrations around the world",
+              "description": "Match festivals such as Lunar New Year, Diwali, Eid and Carnival to a key feature or region, e.g. lanterns to Lunar New Year.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.2.culture.food-clothing-homes",
+              "name": "Food, clothing and homes",
+              "description": "Link foods, clothes and house types to climate and place, e.g. choose why homes on stilts are built near rivers.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.2.citizenship",
+          "name": "Being a good citizen",
+          "skills": [
+            {
+              "id": "social.2.citizenship.responsibilities",
+              "name": "Rights and responsibilities",
+              "description": "Sort statements into rights (what you may have) and responsibilities (what you should do), e.g. 'go to school' vs 'put litter in the bin'.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.2.citizenship.respect-diversity",
+              "name": "Respecting differences",
+              "description": "Choose respectful responses to differences in a short scenario, e.g. a classmate speaks another language at home.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "topics": [
+        {
+          "id": "social.3.communities-world",
+          "name": "Communities around the world",
+          "skills": [
+            {
+              "id": "social.3.communities-world.community-types",
+              "name": "Types of communities",
+              "description": "Compare how communities in different countries meet needs for food, water and shelter, e.g. pick why a desert town builds thick-walled houses.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.3.communities-world.community-change",
+              "name": "How communities change",
+              "description": "Identify causes of community change such as new roads, factories or migration, e.g. 'What happened after the railway arrived?'.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "social.3.communities-world.adapting-environment",
+              "name": "Adapting to the environment",
+              "description": "Match ways people adapt to or change their environment, e.g. terraces on hillsides, dams, irrigation canals.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.3.geography",
+          "name": "Geography skills",
+          "skills": [
+            {
+              "id": "social.3.geography.landforms-water",
+              "name": "Landforms and bodies of water",
+              "description": "Identify mountains, plains, plateaus, islands, peninsulas, rivers, lakes and bays from pictures or definitions, e.g. 'land surrounded by water on three sides'.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.3.geography.grid-scale",
+              "name": "Grids and scale",
+              "description": "Locate places with letter-number grid references and estimate distance with a bar scale, e.g. 'Which town is in square C4?'.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "social.3.geography.hemispheres-equator",
+              "name": "Hemispheres, equator and poles",
+              "description": "Use the equator, prime meridian, hemispheres and poles to describe where a continent is, e.g. 'Australia is in which hemispheres?'.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "social.3.government",
+          "name": "Government basics",
+          "skills": [
+            {
+              "id": "social.3.government.levels",
+              "name": "Local, state and national",
+              "description": "Sort services into local, regional and national government, e.g. trash pickup is local, the army is national.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.3.government.branches-intro",
+              "name": "Who makes, carries out and judges laws",
+              "description": "Match the three jobs of government (make laws, carry out laws, decide if laws were broken) to simple examples, e.g. a judge decides a case.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.3.government.rights-responsibilities",
+              "name": "Citizens' rights and duties",
+              "description": "Identify basic rights (speech, worship, fair trial) and duties (obey laws, pay taxes, vote), e.g. choose which is a duty.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.3.economics",
+          "name": "Scarcity and resources",
+          "skills": [
+            {
+              "id": "social.3.economics.scarcity-choices",
+              "name": "Scarcity and choice",
+              "description": "Explain that limited resources force choices, e.g. with 5 coins choose what you can afford and what you give up.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "social.3.economics.resource-types",
+              "name": "Natural, human and capital resources",
+              "description": "Sort inputs of a business into natural, human and capital resources, e.g. wood, carpenter, saw.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.3.economics.trade-money",
+              "name": "Barter and money",
+              "description": "Compare bartering with using money and explain why money makes trade easier, e.g. choose the problem with trading a cow for bread.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.3.history-skills",
+          "name": "Thinking like a historian",
+          "skills": [
+            {
+              "id": "social.3.history-skills.timelines-decades",
+              "name": "Reading timelines",
+              "description": "Place events on a timeline using years and decades and read how long between events, e.g. 'How many years from 1900 to 1950?'.",
+              "itemTypes": ["sequence", "numeric", "choice"]
+            },
+            {
+              "id": "social.3.history-skills.primary-secondary",
+              "name": "Primary and secondary sources",
+              "description": "Sort sources into primary (diary, photo, letter) and secondary (textbook, encyclopedia), e.g. a soldier's letter is primary.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.3.history-skills.indigenous-peoples",
+              "name": "First peoples of a region",
+              "description": "Identify how Indigenous peoples lived in a region before outsiders arrived, e.g. match a shelter type to its environment.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.3.culture-heritage",
+          "name": "Culture and heritage",
+          "skills": [
+            {
+              "id": "social.3.culture-heritage.cultural-elements",
+              "name": "Elements of culture",
+              "description": "Sort examples into language, religion, food, art, music and customs, e.g. a folk dance is art/music.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.3.culture-heritage.immigration-stories",
+              "name": "Why people move",
+              "description": "Identify push and pull reasons people migrate, e.g. 'jobs in a new city' is a pull factor, 'war at home' is a push factor.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.3.civic-life",
+          "name": "Taking part in civic life",
+          "skills": [
+            {
+              "id": "social.3.civic-life.community-problems",
+              "name": "Solving community problems",
+              "description": "Match a community problem to a reasonable civic action, e.g. unsafe crossing to 'ask the council for a crossing guard'.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.3.civic-life.volunteering",
+              "name": "Volunteering and service",
+              "description": "Identify how volunteering helps a community and pick a suitable service project for a need, e.g. a food drive for hunger.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "topics": [
+        {
+          "id": "social.4.regions",
+          "name": "Regions of a country and the world",
+          "skills": [
+            {
+              "id": "social.4.regions.us-regions",
+              "name": "Regions of the United States",
+              "description": "Match states and features to the Northeast, Southeast, Midwest, Southwest and West, e.g. 'Texas is in which region?'.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "social.4.regions.world-regions",
+              "name": "World regions",
+              "description": "Place countries in world regions such as Western Europe, East Asia, Sub-Saharan Africa or South America, e.g. 'Kenya is in...'.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "social.4.regions.region-climates",
+              "name": "Climate and vegetation by region",
+              "description": "Link a region's climate to its vegetation and land use, e.g. match 'hot and dry' to desert scrub and ranching.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.4.map-skills",
+          "name": "Map skills",
+          "skills": [
+            {
+              "id": "social.4.map-skills.latitude-longitude",
+              "name": "Latitude and longitude",
+              "description": "Find a place from coordinates or give rough coordinates of a city, e.g. 'Which city is near 40N, 74W?'.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "social.4.map-skills.scale-distance",
+              "name": "Scale and distance",
+              "description": "Use a map scale to compute real distance, e.g. 3 cm on the map at 1 cm = 50 km is 150 km.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "social.4.map-skills.thematic-maps",
+              "name": "Thematic maps",
+              "description": "Read population, rainfall, resource and elevation maps, e.g. 'Which area receives the most rain?'.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.4.first-peoples",
+          "name": "First peoples of the Americas",
+          "skills": [
+            {
+              "id": "social.4.first-peoples.indigenous-nations",
+              "name": "Indigenous nations and regions",
+              "description": "Match Indigenous nations and culture groups to their regions and ways of life, e.g. Pueblo peoples to the Southwest and adobe homes.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.4.first-peoples.environment-culture",
+              "name": "Environment shapes culture",
+              "description": "Explain how environment shaped food, shelter and tools of Indigenous groups, e.g. why Plains peoples followed bison.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.4.exploration",
+          "name": "Exploration and encounter",
+          "skills": [
+            {
+              "id": "social.4.exploration.explorers-routes",
+              "name": "Explorers and routes",
+              "description": "Match European explorers to sponsoring country and route, e.g. Columbus to Spain and the Caribbean, Cabot to England.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.4.exploration.motives-tech",
+              "name": "Motives and technology",
+              "description": "Identify reasons for exploration (gold, trade, religion) and tools that made it possible (compass, caravel, astrolabe).",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "social.4.exploration.encounter-effects",
+              "name": "Effects of encounter",
+              "description": "Identify effects of European arrival on Indigenous peoples such as disease, trade and loss of land, e.g. choose the effect of smallpox.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "social.4.state-history",
+          "name": "History of my state or region",
+          "skills": [
+            {
+              "id": "social.4.state-history.settlement-growth",
+              "name": "Settlement and growth",
+              "description": "Order the stages of a region's development from first peoples to statehood or modern times, e.g. sequence 4 milestones.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "social.4.state-history.landmarks-symbols",
+              "name": "Landmarks and symbols",
+              "description": "Identify a state or region's capital, flag, landmarks and symbols, e.g. 'Which city is the capital of California?'.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.4.government-basics",
+          "name": "Government basics",
+          "skills": [
+            {
+              "id": "social.4.government-basics.constitution-purpose",
+              "name": "What a constitution does",
+              "description": "Identify a constitution as the plan for government that limits power and protects rights, e.g. pick which statement describes its purpose.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.4.government-basics.state-local-gov",
+              "name": "State and local government",
+              "description": "Match officials and bodies (governor, legislature, mayor, council) to their level and job, e.g. the governor leads the state executive.",
+              "itemTypes": ["match", "sort"]
+            },
+            {
+              "id": "social.4.government-basics.citizen-participation",
+              "name": "Ways citizens participate",
+              "description": "Identify ways to influence government such as voting, petitions, contacting representatives and peaceful protest, e.g. choose the best action for a new park.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "social.4.economics-basics",
+          "name": "Economics basics",
+          "skills": [
+            {
+              "id": "social.4.economics-basics.supply-demand-intro",
+              "name": "Supply and demand basics",
+              "description": "Predict whether price rises or falls when supply or demand changes, e.g. a frost ruins oranges so orange prices go up.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.4.economics-basics.markets-prices",
+              "name": "Markets and prices",
+              "description": "Compare prices and compute totals and change for simple purchases, e.g. 3 items at 4 each with 20 paid.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "social.4.economics-basics.taxes-public-goods",
+              "name": "Taxes and public goods",
+              "description": "Sort goods into public (roads, parks, schools paid by taxes) and private, e.g. a streetlight vs a bicycle.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "topics": [
+        {
+          "id": "social.5.us-geography",
+          "name": "Geography of North America",
+          "skills": [
+            {
+              "id": "social.5.us-geography.physical-features",
+              "name": "Major physical features",
+              "description": "Locate the Rockies, Appalachians, Mississippi, Great Lakes, Great Plains and coasts on a map, e.g. tap the Great Lakes.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.5.us-geography.states-capitals",
+              "name": "States, provinces and capitals",
+              "description": "Match states or provinces to capitals and locations, e.g. Illinois to Springfield, Ontario to Toronto.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.5.us-geography.population-movement",
+              "name": "Where people live and why",
+              "description": "Explain why cities grow near rivers, coasts and resources, e.g. choose why New Orleans sits at a river mouth.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.5.colonial-era",
+          "name": "Colonial America",
+          "skills": [
+            {
+              "id": "social.5.colonial-era.thirteen-colonies",
+              "name": "The thirteen colonies",
+              "description": "Sort colonies into New England, Middle and Southern regions and match them to economies, e.g. Virginia to tobacco plantations.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "social.5.colonial-era.colonial-life",
+              "name": "Colonial daily life",
+              "description": "Describe life for farmers, artisans, enslaved people and Indigenous neighbours in the colonies, e.g. choose who worked in the triangular-trade economy without pay.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.5.colonial-era.atlantic-trade",
+              "name": "Atlantic trade and slavery",
+              "description": "Trace the routes and goods of the triangular trade and the Middle Passage, e.g. sequence the legs of the trade.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.5.revolution",
+          "name": "The American Revolution",
+          "skills": [
+            {
+              "id": "social.5.revolution.causes",
+              "name": "Causes of the Revolution",
+              "description": "Order and explain events from the Stamp Act to Lexington, e.g. sequence Stamp Act, Boston Tea Party, First Continental Congress.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "social.5.revolution.declaration",
+              "name": "The Declaration of Independence",
+              "description": "Identify key ideas (rights, consent of the governed) and facts (1776, Jefferson) of the Declaration, e.g. choose what 'unalienable rights' means.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.5.revolution.war-leaders",
+              "name": "Battles and leaders",
+              "description": "Match key battles and people (Saratoga, Yorktown, Washington, Lafayette) to their role, e.g. Yorktown to the final British surrender.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.5.constitution",
+          "name": "Creating the Constitution",
+          "skills": [
+            {
+              "id": "social.5.constitution.articles-weakness",
+              "name": "Articles of Confederation",
+              "description": "Identify weaknesses of the Articles (no power to tax, no national army) that led to a new constitution, e.g. choose a problem the Articles caused.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.5.constitution.compromises",
+              "name": "Convention compromises",
+              "description": "Match the Great Compromise and Three-Fifths Compromise to the dispute they settled, e.g. representation of big vs small states.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.5.constitution.bill-of-rights",
+              "name": "The Bill of Rights",
+              "description": "Match the first ten amendments to the rights they protect, e.g. the First Amendment to free speech and religion.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.5.westward-expansion",
+          "name": "A growing nation",
+          "skills": [
+            {
+              "id": "social.5.westward-expansion.louisiana-lewis-clark",
+              "name": "Louisiana Purchase and Lewis and Clark",
+              "description": "Explain the 1803 purchase and the expedition it prompted, e.g. choose how much US land roughly doubled.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "social.5.westward-expansion.trails-pioneers",
+              "name": "Trails and pioneers",
+              "description": "Match trails and events (Oregon Trail, Gold Rush, Erie Canal) to places and effects, e.g. the Gold Rush to California 1849.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.5.westward-expansion.indigenous-removal",
+              "name": "Impact on Indigenous nations",
+              "description": "Identify the Indian Removal Act and Trail of Tears and their consequences, e.g. choose which nation was forced from Georgia.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.5.economics",
+          "name": "Economic decisions",
+          "skills": [
+            {
+              "id": "social.5.economics.opportunity-cost-intro",
+              "name": "Opportunity cost basics",
+              "description": "Name the next-best thing given up in a choice, e.g. buying a game instead of a book means the book is the opportunity cost.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.5.economics.budgeting",
+              "name": "Budgets and saving",
+              "description": "Build a simple budget and compute what remains after spending, e.g. income 50, spending 35, saving is 15.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "social.5.economics.specialization",
+              "name": "Specialisation and interdependence",
+              "description": "Explain why regions specialise and trade, e.g. choose why a fishing town buys wheat instead of growing it.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.5.world-connections",
+          "name": "World connections",
+          "skills": [
+            {
+              "id": "social.5.world-connections.world-cultures",
+              "name": "World cultures and religions",
+              "description": "Match major world religions and cultural regions to key features and places, e.g. Buddhism to its origin in India.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.5.world-connections.global-trade-history",
+              "name": "Global exchange of goods and ideas",
+              "description": "Identify goods and ideas that crossed the world (potatoes, horses, printing, numerals) and their origin, e.g. potatoes came from the Andes.",
+              "itemTypes": ["match", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "topics": [
+        {
+          "id": "social.6.ancient",
+          "name": "Ancient civilizations",
+          "skills": [
+            {
+              "id": "social.6.ancient.civilizations",
+              "name": "Identify ancient civilizations",
+              "description": "Match civilizations (Mesopotamia, Egypt, Indus, Shang China, Olmec) to their river, region and signature achievement, e.g. cuneiform to Mesopotamia.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.6.ancient.river-valleys",
+              "name": "Why civilizations grew by rivers",
+              "description": "Explain how rivers enabled farming, surplus and cities, e.g. choose why the Nile flood was good for farmers.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "social.6.ancient.achievements",
+              "name": "Inventions and achievements",
+              "description": "Match inventions such as the wheel, writing, the calendar, paper and bronze to the civilization that developed them.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.6.ancient.beliefs",
+              "name": "Beliefs and social structure",
+              "description": "Identify religious beliefs and social classes of early societies, e.g. order Egyptian society from pharaoh to enslaved people.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.6.geography",
+          "name": "World geography",
+          "skills": [
+            {
+              "id": "social.6.geography.physical",
+              "name": "Physical geography of the ancient world",
+              "description": "Locate rivers, seas, deserts and mountain ranges (Nile, Tigris, Mediterranean, Sahara, Himalayas) and explain how they shaped settlement, e.g. tap the Fertile Crescent.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.6.geography.human-geography",
+              "name": "Human geography",
+              "description": "Identify how people use land, settle and build, e.g. choose why most Egyptians lived in a narrow strip along the Nile.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.6.geography.map-projections",
+              "name": "Map types and projections",
+              "description": "Choose the right map (political, physical, historical) for a question and recognise that projections distort size, e.g. Greenland looks larger than it is.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.6.history",
+          "name": "Historical thinking",
+          "skills": [
+            {
+              "id": "social.6.history.chronology",
+              "name": "Chronology and eras",
+              "description": "Order events and civilizations on a BCE/CE timeline and compute spans, e.g. sequence Sumer, Old Kingdom Egypt, Classical Athens, Han China.",
+              "itemTypes": ["sequence", "numeric", "choice"]
+            },
+            {
+              "id": "social.6.history.sources-evidence",
+              "name": "Sources and evidence",
+              "description": "Decide what an artifact or text can and cannot tell us and whether it is primary or secondary, e.g. a Roman coin shows an emperor's face but not his thoughts.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "social.6.history.cause-effect",
+              "name": "Cause and effect",
+              "description": "Link a historical cause to its effect, e.g. irrigation leads to surplus leads to cities and specialised jobs.",
+              "itemTypes": ["match", "sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.6.classical-world",
+          "name": "Classical civilizations",
+          "skills": [
+            {
+              "id": "social.6.classical-world.greece",
+              "name": "Ancient Greece",
+              "description": "Identify Greek city-states, Athenian democracy, philosophers and the Persian and Peloponnesian wars, e.g. choose what Athenian citizens did in the Assembly.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.6.classical-world.rome",
+              "name": "Ancient Rome",
+              "description": "Sequence Rome from republic to empire to fall and match features such as the Senate, Twelve Tables and aqueducts, e.g. order Republic, Augustus, Pax Romana, fall of the West.",
+              "itemTypes": ["sequence", "choice", "match"]
+            },
+            {
+              "id": "social.6.classical-world.india-china",
+              "name": "Classical India and China",
+              "description": "Match the Maurya and Gupta empires and the Qin and Han dynasties to achievements such as the Great Wall, civil service, zero and Buddhism's spread.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.6.early-economics",
+          "name": "Early economies",
+          "skills": [
+            {
+              "id": "social.6.early-economics.barter-currency",
+              "name": "From barter to coins",
+              "description": "Explain why societies moved from barter to standard money, e.g. choose the problem coins solved for merchants in Lydia.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "social.6.early-economics.surplus-specialization",
+              "name": "Surplus and specialisation",
+              "description": "Explain how food surplus allowed scribes, priests and artisans, e.g. sequence farming surplus to job specialisation to social classes.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "social.6.early-economics.silk-routes",
+              "name": "Early trade networks",
+              "description": "Match goods and ideas to the Silk Road, Indian Ocean and Mediterranean routes, e.g. silk flows west, glass and horses flow east.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.6.early-government",
+          "name": "Early government and law",
+          "skills": [
+            {
+              "id": "social.6.early-government.city-states-empires",
+              "name": "City-states, kingdoms, empires",
+              "description": "Sort examples into city-state, kingdom and empire and explain the difference, e.g. Athens vs Persia.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.6.early-government.law-codes",
+              "name": "Early law codes",
+              "description": "Identify Hammurabi's Code and the Roman Twelve Tables and what written law changed, e.g. choose a principle from Hammurabi's Code.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.6.early-government.democracy-republic-origins",
+              "name": "Origins of democracy and republic",
+              "description": "Compare Athenian direct democracy with the Roman Republic, e.g. sort features such as 'citizens vote on laws directly' vs 'elected senators'.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.6.world-cultures",
+          "name": "Culture and legacy",
+          "skills": [
+            {
+              "id": "social.6.world-cultures.writing-systems",
+              "name": "Writing systems",
+              "description": "Match cuneiform, hieroglyphs, the Phoenician alphabet and Chinese characters to their civilizations and purposes.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.6.world-cultures.art-architecture",
+              "name": "Art and architecture",
+              "description": "Identify pyramids, ziggurats, the Parthenon, the Colosseum and other monuments by civilization, e.g. a ziggurat is Mesopotamian.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.6.world-cultures.legacies-today",
+              "name": "Legacies in the modern world",
+              "description": "Link modern things (alphabet, calendar, democracy, concrete, the Olympics) to their ancient origin, e.g. the Olympics to Greece.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "topics": [
+        {
+          "id": "social.7.medieval-world",
+          "name": "Medieval Europe and Byzantium",
+          "skills": [
+            {
+              "id": "social.7.medieval-world.feudal-europe",
+              "name": "Feudalism and manor life",
+              "description": "Order the feudal hierarchy and match roles, e.g. sequence king, lords, knights, peasants and serfs.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "social.7.medieval-world.church-byzantium",
+              "name": "The Church and Byzantium",
+              "description": "Identify the role of the medieval Church, the Byzantine Empire and Justinian's Code, e.g. choose Constantinople's importance.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.7.medieval-world.crusades-plague",
+              "name": "Crusades, plague and change",
+              "description": "Explain causes and effects of the Crusades, the Black Death and the Magna Carta, e.g. choose how the plague changed workers' wages.",
+              "itemTypes": ["choice", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "social.7.africa-asia",
+          "name": "Africa and Asia 500-1500",
+          "skills": [
+            {
+              "id": "social.7.africa-asia.islamic-world",
+              "name": "The Islamic world",
+              "description": "Identify the rise and spread of Islam and achievements of the Islamic Golden Age (algebra, medicine, Baghdad's House of Wisdom), e.g. match a scholar to a field.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.7.africa-asia.african-kingdoms",
+              "name": "African kingdoms",
+              "description": "Match Ghana, Mali, Songhai, Axum and Great Zimbabwe to locations, trade goods and leaders, e.g. Mansa Musa to Mali and gold.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.7.africa-asia.china-japan-mongols",
+              "name": "China, Japan and the Mongols",
+              "description": "Identify Tang/Song inventions, Japanese feudalism (shogun, samurai) and the Mongol Empire's extent and effects, e.g. choose a Song dynasty invention.",
+              "itemTypes": ["choice", "match", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "social.7.americas-precolumbian",
+          "name": "The Americas before 1500",
+          "skills": [
+            {
+              "id": "social.7.americas-precolumbian.maya-aztec-inca",
+              "name": "Maya, Aztec and Inca",
+              "description": "Match the three civilizations to regions, capitals and achievements, e.g. Inca to the Andes and road network, Maya to calendar and glyphs.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.7.americas-precolumbian.north-american-nations",
+              "name": "North American societies",
+              "description": "Identify Mississippian mound builders, Ancestral Puebloans and other societies and how environment shaped them, e.g. Cahokia to the Mississippi valley.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.7.renaissance-reformation",
+          "name": "Renaissance, Reformation and Scientific Revolution",
+          "skills": [
+            {
+              "id": "social.7.renaissance-reformation.renaissance-ideas",
+              "name": "Renaissance ideas and art",
+              "description": "Identify humanism, patronage and key figures (Leonardo, Michelangelo, Gutenberg), e.g. choose the effect of the printing press.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.7.renaissance-reformation.reformation",
+              "name": "The Reformation",
+              "description": "Explain Luther's 95 Theses, the split in Western Christianity and the Counter-Reformation, e.g. sequence 1517 Theses, Protestant churches, Council of Trent.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "social.7.renaissance-reformation.scientific-revolution",
+              "name": "The Scientific Revolution",
+              "description": "Match Copernicus, Galileo and Newton to their ideas and explain the scientific method, e.g. heliocentrism to Copernicus.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.7.exploration-encounter",
+          "name": "Exploration and global encounter",
+          "skills": [
+            {
+              "id": "social.7.exploration-encounter.age-of-exploration",
+              "name": "Age of Exploration",
+              "description": "Match explorers and empires (Portugal, Spain, Ming treasure fleets) to routes and goals, e.g. da Gama to the sea route to India.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.7.exploration-encounter.columbian-exchange",
+              "name": "The Columbian Exchange",
+              "description": "Sort plants, animals and diseases by whether they crossed from the Americas or to the Americas, e.g. maize went east, horses went west.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.7.exploration-encounter.colonial-empires",
+              "name": "Colonial empires and slavery",
+              "description": "Identify Spanish, Portuguese and other colonial systems and the Atlantic slave trade's scale and effects, e.g. choose what the encomienda system was.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.7.geography",
+          "name": "World geography",
+          "skills": [
+            {
+              "id": "social.7.geography.climate-regions",
+              "name": "Climate regions and biomes",
+              "description": "Match climate zones (tropical, arid, temperate, continental, polar) and biomes to regions and explain how latitude and altitude shape them, e.g. the Sahara is arid.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "social.7.geography.population-patterns",
+              "name": "Population patterns",
+              "description": "Read population density maps and explain why people cluster, e.g. choose why northern India and eastern China are densely settled.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.7.geography.resources-regions",
+              "name": "Resources and regions",
+              "description": "Match regions to key natural resources and the activities they support, e.g. the Persian Gulf to oil, the Pampas to cattle.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.7.civics",
+          "name": "Civics across civilizations",
+          "skills": [
+            {
+              "id": "social.7.civics.government-types",
+              "name": "Types of government",
+              "description": "Classify historical and modern states as monarchy, theocracy, oligarchy, democracy, republic or dictatorship from a description, e.g. 'rule by religious leaders' is a theocracy.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "social.7.civics.rule-of-law",
+              "name": "Rule of law and limits on power",
+              "description": "Identify documents and ideas that limited rulers (Magna Carta, Justinian's Code, English Parliament), e.g. choose what Magna Carta forced the king to accept.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.7.civics.citizenship-concepts",
+              "name": "Citizenship across time",
+              "description": "Compare who counted as a citizen in Athens, Rome, medieval towns and today, e.g. sort groups by whether they could vote in Athens.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.7.economics",
+          "name": "Trade and economic systems",
+          "skills": [
+            {
+              "id": "social.7.economics.trade",
+              "name": "Trade routes and exchange",
+              "description": "Match trade routes (Silk Road, trans-Saharan, Indian Ocean, Hanseatic League) to goods traded and the cities they enriched, e.g. salt and gold crossed the Sahara via Timbuktu.",
+              "itemTypes": ["choice", "match", "sequence"]
+            },
+            {
+              "id": "social.7.economics.mercantilism",
+              "name": "Mercantilism and colonies",
+              "description": "Explain how colonies supplied raw materials and bought finished goods to enrich the home country, e.g. choose the mercantilist view of gold.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.7.economics.economic-systems-intro",
+              "name": "Traditional, command and market systems",
+              "description": "Classify how a society answers what to produce and who gets it, e.g. 'custom decides' is traditional, 'the ruler decides' is command.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "topics": [
+        {
+          "id": "social.8.colonial-america",
+          "name": "Colonial foundations",
+          "skills": [
+            {
+              "id": "social.8.colonial-america.colonial-regions-economies",
+              "name": "Colonial regions and economies",
+              "description": "Compare New England, Middle and Southern colonies by economy, labour and religion, e.g. choose which region relied most on enslaved labour.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.8.colonial-america.self-government-roots",
+              "name": "Roots of self-government",
+              "description": "Identify the Mayflower Compact, House of Burgesses, town meetings and English rights as origins of American self-rule, e.g. match each to its colony.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.8.colonial-america.enlightenment-ideas",
+              "name": "Enlightenment influences",
+              "description": "Match Locke, Montesquieu and Rousseau to natural rights, separation of powers and the social contract, e.g. 'life, liberty, property' to Locke.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.8.american-revolution",
+          "name": "Revolution and independence",
+          "skills": [
+            {
+              "id": "social.8.american-revolution.road-to-revolution",
+              "name": "Road to revolution",
+              "description": "Sequence and explain British policies and colonial responses 1763-1775, e.g. order Proclamation of 1763, Stamp Act, Boston Massacre, Intolerable Acts.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "social.8.american-revolution.war-independence",
+              "name": "Winning the war",
+              "description": "Explain turning points and advantages (Saratoga and French alliance, Valley Forge, Yorktown, Treaty of Paris 1783), e.g. choose why Saratoga mattered.",
+              "itemTypes": ["choice", "sequence", "match"]
+            },
+            {
+              "id": "social.8.american-revolution.founding-documents",
+              "name": "Founding documents",
+              "description": "Identify purpose and key passages of the Declaration, Articles of Confederation and Constitution, e.g. match 'We the People' to the Preamble.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.8.constitution-government",
+          "name": "The Constitution",
+          "skills": [
+            {
+              "id": "social.8.constitution-government.separation-powers",
+              "name": "Separation of powers and checks",
+              "description": "Match powers to Congress, the President or the courts and identify checks, e.g. a veto is an executive check on Congress.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "social.8.constitution-government.federalism",
+              "name": "Federalism",
+              "description": "Sort powers into national, state and shared, e.g. coining money is national, schools are state, taxing is shared.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.8.constitution-government.ratification-debate",
+              "name": "Federalists vs Anti-Federalists",
+              "description": "Classify arguments as Federalist or Anti-Federalist and explain the Bill of Rights compromise, e.g. 'a strong central government threatens liberty' is Anti-Federalist.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.8.constitution-government.amendment-process",
+              "name": "Amending the Constitution",
+              "description": "Sequence the amendment process and identify key amendments 1-10, 13, 14, 15, 19, e.g. order proposal by two-thirds of Congress then ratification by three-fourths of states.",
+              "itemTypes": ["sequence", "match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.8.early-republic",
+          "name": "The early republic",
+          "skills": [
+            {
+              "id": "social.8.early-republic.washington-adams",
+              "name": "Washington and Adams",
+              "description": "Identify precedents and crises of the first presidencies (cabinet, Hamilton's bank, Whiskey Rebellion, Farewell Address), e.g. choose Washington's advice about alliances.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.8.early-republic.jefferson-expansion",
+              "name": "Jefferson, Marshall and expansion",
+              "description": "Explain the Louisiana Purchase, Marbury v. Madison and judicial review, e.g. choose what power Marbury established.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.8.early-republic.war-1812-nationalism",
+              "name": "War of 1812 and nationalism",
+              "description": "Identify causes and effects of the War of 1812 and the Monroe Doctrine, e.g. choose an effect of the war on US manufacturing.",
+              "itemTypes": ["choice", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "social.8.expansion-reform",
+          "name": "Expansion, industry and reform",
+          "skills": [
+            {
+              "id": "social.8.expansion-reform.manifest-destiny",
+              "name": "Manifest Destiny",
+              "description": "Sequence territorial gains (Texas, Oregon, Mexican Cession, Gadsden) and evaluate their causes and costs, e.g. order annexations by year.",
+              "itemTypes": ["sequence", "choice", "match"]
+            },
+            {
+              "id": "social.8.expansion-reform.industrial-revolution-us",
+              "name": "Early industrialisation",
+              "description": "Identify inventions (cotton gin, steamboat, telegraph) and their economic effects, e.g. choose how the cotton gin affected slavery.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.8.expansion-reform.reform-movements",
+              "name": "Reform movements",
+              "description": "Match abolition, women's rights (Seneca Falls), temperance and education reform to leaders and goals, e.g. Frederick Douglass to abolition.",
+              "itemTypes": ["match", "sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.8.civil-war-reconstruction",
+          "name": "Civil War and Reconstruction",
+          "skills": [
+            {
+              "id": "social.8.civil-war-reconstruction.sectional-crisis",
+              "name": "Compromises and sectional crisis",
+              "description": "Sequence the Missouri Compromise, Compromise of 1850, Kansas-Nebraska Act, Dred Scott and Lincoln's election, e.g. order the five events.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "social.8.civil-war-reconstruction.war-course",
+              "name": "Course of the war",
+              "description": "Match key events and documents (Fort Sumter, Antietam, Emancipation Proclamation, Gettysburg, Appomattox) to significance, e.g. Gettysburg to the turning point in the East.",
+              "itemTypes": ["match", "sequence", "choice"]
+            },
+            {
+              "id": "social.8.civil-war-reconstruction.reconstruction",
+              "name": "Reconstruction",
+              "description": "Identify the 13th-15th Amendments, Freedmen's Bureau, Black Codes and the Compromise of 1877, e.g. choose what the 14th Amendment guaranteed.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.8.civics",
+          "name": "Civics and citizenship",
+          "skills": [
+            {
+              "id": "social.8.civics.citizen-rights-duties",
+              "name": "Rights and duties of citizens",
+              "description": "Distinguish rights, duties and responsibilities and explain naturalisation, e.g. jury service is a duty, voting is a responsibility.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.8.civics.landmark-cases",
+              "name": "Landmark Supreme Court cases",
+              "description": "Match cases (Marbury, McCulloch, Dred Scott, Plessy) to the principle they set, e.g. McCulloch to implied powers.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.8.civics.how-a-bill-becomes-law",
+              "name": "How a bill becomes law",
+              "description": "Sequence the steps from introduction through committee, floor votes, conference and presidential action, e.g. order 6 steps.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.8.economics",
+          "name": "Economics of a growing nation",
+          "skills": [
+            {
+              "id": "social.8.economics.market-economy-growth",
+              "name": "Market economy and growth",
+              "description": "Explain how markets, banks, canals and railroads expanded the economy, e.g. choose how the Erie Canal changed grain prices in New York.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.8.economics.tariffs-sectional-interests",
+              "name": "Tariffs and sectional interests",
+              "description": "Explain why the North favoured tariffs and the South opposed them and compute a simple tariff, e.g. 25 percent on a 40 dollar import.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "topics": [
+        {
+          "id": "social.9.world-geography",
+          "name": "Geographic thinking",
+          "skills": [
+            {
+              "id": "social.9.world-geography.five-themes",
+              "name": "Five themes of geography",
+              "description": "Classify statements as location, place, human-environment interaction, movement or region, e.g. 'Dutch dikes hold back the sea' is human-environment interaction.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.9.world-geography.physical-systems",
+              "name": "Physical systems",
+              "description": "Explain plate tectonics, climate drivers, ocean currents and biomes, e.g. choose why the west coast of South America is dry.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.9.world-geography.human-environment",
+              "name": "Human-environment interaction",
+              "description": "Evaluate how people adapt to and alter environments (irrigation, deforestation, urban heat), e.g. identify the cause of the Aral Sea shrinking.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.9.population-culture",
+          "name": "Population and culture",
+          "skills": [
+            {
+              "id": "social.9.population-culture.demographics",
+              "name": "Demographic patterns",
+              "description": "Read population pyramids and compute growth from birth and death rates, e.g. birth rate 30 and death rate 10 per 1000 gives 2 percent growth.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "social.9.population-culture.migration",
+              "name": "Migration",
+              "description": "Classify push and pull factors and types of migration (voluntary, forced, refugee, internal), e.g. drought is a push factor.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.9.population-culture.cultural-diffusion",
+              "name": "Cultural diffusion and regions",
+              "description": "Identify how languages, religions and customs spread and map culture regions, e.g. choose how Spanish became dominant in Latin America.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.9.political-geography",
+          "name": "Political geography",
+          "skills": [
+            {
+              "id": "social.9.political-geography.states-nations",
+              "name": "States, nations and sovereignty",
+              "description": "Distinguish state, nation, nation-state and stateless nation with examples, e.g. the Kurds are a stateless nation.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.9.political-geography.borders-conflict",
+              "name": "Borders and conflict",
+              "description": "Classify boundary types and identify causes of border disputes, e.g. the 49th parallel is a geometric boundary.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.9.political-geography.international-organizations",
+              "name": "International organisations",
+              "description": "Match the UN, EU, NATO, African Union and WTO to purpose and membership, e.g. NATO to collective defence.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.9.economic-geography",
+          "name": "Economic geography and development",
+          "skills": [
+            {
+              "id": "social.9.economic-geography.development-indicators",
+              "name": "Measuring development",
+              "description": "Interpret GDP per capita, HDI, literacy and life expectancy to compare countries, e.g. rank three countries by HDI.",
+              "itemTypes": ["choice", "sequence", "numeric"]
+            },
+            {
+              "id": "social.9.economic-geography.economic-sectors",
+              "name": "Economic sectors",
+              "description": "Sort jobs into primary, secondary, tertiary and quaternary sectors and link sector mix to development, e.g. mining is primary.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.9.economic-geography.globalization-supply-chains",
+              "name": "Globalisation and supply chains",
+              "description": "Trace a product's supply chain and identify winners and losers of globalisation, e.g. sequence design, component manufacture, assembly, retail across countries.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "social.9.economic-geography.resources-energy",
+              "name": "Resources and energy",
+              "description": "Classify renewable and non-renewable resources and read energy-mix charts, e.g. choose which country relies most on hydropower.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.9.regional-studies",
+          "name": "Regions of the world",
+          "skills": [
+            {
+              "id": "social.9.regional-studies.europe-russia",
+              "name": "Europe and Russia",
+              "description": "Locate countries and capitals and explain key regional issues (EU integration, energy dependence), e.g. tap Poland on a map.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.9.regional-studies.asia-pacific",
+              "name": "Asia and the Pacific",
+              "description": "Locate major countries, rivers and cities and explain monsoon, megacities and economic rise, e.g. match the Ganges to India and Bangladesh.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.9.regional-studies.africa-middle-east",
+              "name": "Africa and the Middle East",
+              "description": "Locate countries and features (Sahel, Nile, Gulf) and explain colonial borders, oil and water issues, e.g. choose why many African borders are straight lines.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.9.regional-studies.latin-america",
+              "name": "Latin America and the Caribbean",
+              "description": "Locate countries, the Andes and Amazon and explain urbanisation and colonial legacies, e.g. match Brazil to Portuguese.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.9.modern-world-intro",
+          "name": "Foundations of the modern world",
+          "skills": [
+            {
+              "id": "social.9.modern-world-intro.industrialization-global",
+              "name": "Industrialisation spreads",
+              "description": "Explain why industrialisation began in Britain and how it spread to Europe, the US and Japan, e.g. choose a British advantage such as coal.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "social.9.modern-world-intro.imperialism-overview",
+              "name": "Imperialism and its legacy",
+              "description": "Map 19th-century empires and link them to today's languages and borders, e.g. match a former colony to its colonial power.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.9.modern-world-intro.nationalism-unification",
+              "name": "Nationalism and unification",
+              "description": "Identify how nationalism created Italy and Germany and strained empires, e.g. choose Bismarck's role.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.9.geo-tools",
+          "name": "Geographic tools and data",
+          "skills": [
+            {
+              "id": "social.9.geo-tools.gis-remote-sensing",
+              "name": "GIS, GPS and remote sensing",
+              "description": "Choose the right tool and map layer for a question, e.g. use satellite images to track deforestation over time.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.9.geo-tools.data-maps",
+              "name": "Reading data maps and graphs",
+              "description": "Interpret choropleth maps, cartograms and scatter plots and spot misleading scales, e.g. choose what a darker shade means on a choropleth.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "topics": [
+        {
+          "id": "social.10.revolutions-era",
+          "name": "Age of revolutions",
+          "skills": [
+            {
+              "id": "social.10.revolutions-era.enlightenment-political",
+              "name": "Enlightenment political thought",
+              "description": "Match thinkers to ideas and trace them into revolutions, e.g. Montesquieu's separation of powers to the US Constitution.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.10.revolutions-era.french-revolution",
+              "name": "French Revolution and Napoleon",
+              "description": "Sequence phases from the Estates-General to Napoleon's defeat and explain causes, e.g. order 1789, Terror, Directory, Empire, Waterloo.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "social.10.revolutions-era.latin-american-independence",
+              "name": "Latin American and Haitian independence",
+              "description": "Match leaders (Toussaint Louverture, Bolivar, Hidalgo) to movements and explain shared causes, e.g. Haiti as the first successful slave revolution.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.10.industrial-age",
+          "name": "Industrial age and society",
+          "skills": [
+            {
+              "id": "social.10.industrial-age.industrial-society",
+              "name": "Industrial society",
+              "description": "Identify changes in work, cities and class and the ideologies (capitalism, socialism, Marxism) that responded, e.g. match Marx to class struggle.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "social.10.industrial-age.labor-reform",
+              "name": "Labour and reform",
+              "description": "Explain unions, child labour laws and suffrage movements as responses to industrialisation, e.g. choose the goal of the Factory Acts.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "social.10.industrial-age.demographic-urban",
+              "name": "Demographic and urban change",
+              "description": "Interpret data on urbanisation and population growth 1750-1900, e.g. compute percent growth of a city from 100,000 to 250,000.",
+              "itemTypes": ["numeric", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.10.imperialism",
+          "name": "Imperialism and resistance",
+          "skills": [
+            {
+              "id": "social.10.imperialism.new-imperialism",
+              "name": "Motives and methods of imperialism",
+              "description": "Classify motives (economic, strategic, ideological) and forms of control (colony, protectorate, sphere of influence), e.g. Egypt under Britain was a protectorate.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.10.imperialism.scramble-africa-asia",
+              "name": "Partition of Africa and Asia",
+              "description": "Match the Berlin Conference, Opium Wars, Raj and Meiji response to effects, e.g. choose how Japan avoided colonisation.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.10.imperialism.resistance-movements",
+              "name": "Resistance and nationalism",
+              "description": "Identify resistance (Sepoy Rebellion, Boxer Uprising, Ethiopian victory at Adwa) and early nationalist movements, e.g. match Adwa to Ethiopia.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.10.world-wars",
+          "name": "The world wars",
+          "skills": [
+            {
+              "id": "social.10.world-wars.ww1-causes-effects",
+              "name": "World War I",
+              "description": "Explain MAIN causes, trench stalemate and the Versailles settlement, e.g. choose a Versailles term that fuelled German resentment.",
+              "itemTypes": ["choice", "sequence", "match"]
+            },
+            {
+              "id": "social.10.world-wars.interwar-totalitarianism",
+              "name": "Interwar crisis and totalitarianism",
+              "description": "Link the Depression and Versailles to fascism, Nazism and Stalinism and compare the regimes, e.g. sort traits of totalitarian states.",
+              "itemTypes": ["sort", "choice", "match"]
+            },
+            {
+              "id": "social.10.world-wars.ww2-holocaust",
+              "name": "World War II and the Holocaust",
+              "description": "Sequence key events (invasion of Poland, Pearl Harbor, Stalingrad, D-Day, Hiroshima) and explain the Holocaust and its aftermath, e.g. choose what the Nuremberg trials established.",
+              "itemTypes": ["sequence", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.10.cold-war",
+          "name": "Cold War and decolonisation",
+          "skills": [
+            {
+              "id": "social.10.cold-war.superpower-rivalry",
+              "name": "Superpower rivalry",
+              "description": "Explain containment, NATO vs Warsaw Pact, the arms race and detente, e.g. match the Berlin Airlift to containment.",
+              "itemTypes": ["match", "choice", "sequence"]
+            },
+            {
+              "id": "social.10.cold-war.proxy-conflicts",
+              "name": "Proxy conflicts",
+              "description": "Match Korea, Vietnam, Cuba, Afghanistan and Angola to superpower involvement and outcome, e.g. the Cuban Missile Crisis to 1962.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.10.cold-war.decolonization",
+              "name": "Decolonisation",
+              "description": "Match independence leaders and movements (Gandhi, Nkrumah, Ho Chi Minh, Mandela) to countries and methods, e.g. Ghana to 1957 and Nkrumah.",
+              "itemTypes": ["match", "choice", "sequence"]
+            },
+            {
+              "id": "social.10.cold-war.collapse-communism",
+              "name": "End of the Cold War",
+              "description": "Sequence Gorbachev's reforms, the fall of the Berlin Wall and the Soviet collapse and explain causes, e.g. order glasnost, 1989, 1991.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.10.contemporary-world",
+          "name": "The contemporary world",
+          "skills": [
+            {
+              "id": "social.10.contemporary-world.globalization-technology",
+              "name": "Globalisation and technology",
+              "description": "Evaluate effects of the internet, container shipping and multinational firms, e.g. choose an effect of container shipping on prices.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.10.contemporary-world.human-rights",
+              "name": "Human rights and genocide",
+              "description": "Identify the Universal Declaration of Human Rights, the Genocide Convention and cases (Rwanda, Bosnia), e.g. choose what the UDHR is.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.10.contemporary-world.environment-global-issues",
+              "name": "Global challenges",
+              "description": "Explain climate change, pandemics, terrorism and migration as global issues requiring cooperation, e.g. match the Paris Agreement to its goal.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.10.historical-thinking",
+          "name": "Historical thinking skills",
+          "skills": [
+            {
+              "id": "social.10.historical-thinking.sourcing-corroboration",
+              "name": "Sourcing and corroboration",
+              "description": "Evaluate a source's author, purpose, audience and reliability and check it against another, e.g. choose why a propaganda poster is still useful evidence.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "social.10.historical-thinking.perspective-historiography",
+              "name": "Perspective and interpretation",
+              "description": "Recognise how historians' interpretations differ and identify the perspective in a passage, e.g. decide whether an account is colonial or anti-colonial.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "social.10.historical-thinking.continuity-change",
+              "name": "Continuity and change",
+              "description": "Identify what changed and what stayed the same across a period, e.g. sort features of 1900 vs 2000 Europe into changed or continuous.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.10.world-economics",
+          "name": "Global economic systems",
+          "skills": [
+            {
+              "id": "social.10.world-economics.systems-compare",
+              "name": "Comparing economic systems",
+              "description": "Compare capitalism, socialism, communism and mixed economies on ownership and decision-making, e.g. sort traits of a command economy.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.10.world-economics.global-institutions",
+              "name": "Global economic institutions",
+              "description": "Match the IMF, World Bank, WTO and Bretton Woods to purpose, e.g. the World Bank to development loans.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "topics": [
+        {
+          "id": "social.11.founding-review",
+          "name": "Founding principles revisited",
+          "skills": [
+            {
+              "id": "social.11.founding-review.constitutional-principles",
+              "name": "Constitutional principles in practice",
+              "description": "Apply popular sovereignty, limited government, federalism and checks and balances to historical cases, e.g. identify which principle the Alien and Sedition Acts tested.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.11.founding-review.early-politics",
+              "name": "Early party politics",
+              "description": "Compare Federalist and Democratic-Republican positions and trace the growth of democracy under Jackson, e.g. sort positions on the national bank.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.11.civil-war-legacy",
+          "name": "Civil War and Reconstruction in depth",
+          "skills": [
+            {
+              "id": "social.11.civil-war-legacy.causes-course",
+              "name": "Causes and course",
+              "description": "Analyse slavery, states' rights and economic differences as causes and interpret Lincoln's speeches, e.g. choose the main argument of the Gettysburg Address.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "social.11.civil-war-legacy.reconstruction-legacy",
+              "name": "Reconstruction and its end",
+              "description": "Evaluate Reconstruction's successes and failures, Jim Crow and Plessy v. Ferguson, e.g. choose how sharecropping limited freedom.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.11.gilded-progressive",
+          "name": "Gilded Age and Progressive Era",
+          "skills": [
+            {
+              "id": "social.11.gilded-progressive.industrialization-immigration",
+              "name": "Industrialisation and immigration",
+              "description": "Explain big business, monopolies, urban growth and new immigration 1870-1920, e.g. match Carnegie to steel and vertical integration.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.11.gilded-progressive.labor-movements",
+              "name": "Labour movements",
+              "description": "Identify strikes, unions and outcomes (Haymarket, Pullman, AFL), e.g. choose why the Pullman strike failed.",
+              "itemTypes": ["choice", "match", "sequence"]
+            },
+            {
+              "id": "social.11.gilded-progressive.progressive-reforms",
+              "name": "Progressive reforms",
+              "description": "Match reforms and amendments (16th-19th, Pure Food and Drug Act, trust-busting) to problems they addressed, e.g. the 17th Amendment to Senate elections.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.11.gilded-progressive.westward-indigenous",
+              "name": "The West and Indigenous nations",
+              "description": "Explain homesteading, railroads, the Dawes Act and Wounded Knee, e.g. choose the purpose of the Dawes Act.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.11.imperialism-ww1",
+          "name": "Emerging world power",
+          "skills": [
+            {
+              "id": "social.11.imperialism-ww1.overseas-expansion",
+              "name": "US overseas expansion",
+              "description": "Explain the Spanish-American War, Hawaii, the Philippines and the Panama Canal and debate imperialism, e.g. sort arguments for and against annexing the Philippines.",
+              "itemTypes": ["sort", "choice", "match"]
+            },
+            {
+              "id": "social.11.imperialism-ww1.ww1-homefront",
+              "name": "World War I and the home front",
+              "description": "Explain US entry, mobilisation, civil liberties limits and the League debate, e.g. choose why the Senate rejected the Treaty of Versailles.",
+              "itemTypes": ["choice", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "social.11.twenties-depression",
+          "name": "Roaring Twenties to New Deal",
+          "skills": [
+            {
+              "id": "social.11.twenties-depression.twenties-culture",
+              "name": "1920s society and culture",
+              "description": "Identify the Harlem Renaissance, consumer culture, Prohibition and nativism, e.g. match Langston Hughes to the Harlem Renaissance.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.11.twenties-depression.depression-causes",
+              "name": "Causes of the Great Depression",
+              "description": "Explain speculation, bank failures, overproduction and tariffs as causes and read unemployment data, e.g. choose the effect of the Smoot-Hawley tariff.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "social.11.twenties-depression.new-deal",
+              "name": "The New Deal",
+              "description": "Classify New Deal programs as relief, recovery or reform and evaluate critics, e.g. Social Security is reform, the CCC is relief.",
+              "itemTypes": ["sort", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.11.ww2-cold-war",
+          "name": "World War II and Cold War America",
+          "skills": [
+            {
+              "id": "social.11.ww2-cold-war.ww2-mobilization",
+              "name": "World War II at home and abroad",
+              "description": "Explain mobilisation, Japanese American internment, D-Day, the atomic bomb decision and the UN, e.g. choose what Korematsu v. US ruled.",
+              "itemTypes": ["choice", "sequence", "match"]
+            },
+            {
+              "id": "social.11.ww2-cold-war.cold-war-policy",
+              "name": "Cold War policy",
+              "description": "Explain containment, the Marshall Plan, McCarthyism, Korea and the space race, e.g. match the Truman Doctrine to aid for Greece and Turkey.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.11.ww2-cold-war.civil-rights-movement",
+              "name": "Civil rights movement",
+              "description": "Sequence Brown v. Board, Montgomery, Little Rock, the March on Washington, the Civil Rights Act and Voting Rights Act and match leaders to strategies, e.g. order the six events.",
+              "itemTypes": ["sequence", "match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.11.modern-america",
+          "name": "Modern America 1965 to today",
+          "skills": [
+            {
+              "id": "social.11.modern-america.vietnam-watergate",
+              "name": "Vietnam, protest and Watergate",
+              "description": "Explain escalation, the antiwar and counterculture movements and Watergate's effect on trust in government, e.g. choose what the War Powers Act did.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "social.11.modern-america.conservative-era",
+              "name": "Conservative resurgence",
+              "description": "Identify Reagan-era policies (tax cuts, deregulation, defence buildup) and their effects, e.g. choose a goal of supply-side economics.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.11.modern-america.post-cold-war",
+              "name": "Post-Cold War America",
+              "description": "Identify the Gulf War, 9/11 and its wars, the 2008 financial crisis and technological change, e.g. sequence 1991, 2001, 2008.",
+              "itemTypes": ["sequence", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.11.economics",
+          "name": "Microeconomics foundations",
+          "skills": [
+            {
+              "id": "social.11.economics.supply-demand",
+              "name": "Supply and demand",
+              "description": "Predict the effect of a shift in supply or demand on equilibrium price and quantity and read it off a chart, e.g. a rise in input costs shifts supply left so price rises and quantity falls.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "social.11.economics.elasticity",
+              "name": "Elasticity",
+              "description": "Compute price elasticity of demand from percent changes and classify as elastic or inelastic, e.g. quantity falls 20 percent when price rises 10 percent gives elasticity 2, elastic.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "social.11.economics.opportunity-cost",
+              "name": "Opportunity cost and trade-offs",
+              "description": "Identify the opportunity cost of a decision and use a production possibilities frontier, e.g. producing 10 more cars costs 5 trucks.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "social.11.economics.incentives-markets",
+              "name": "Incentives and market roles",
+              "description": "Explain how prices, profits and incentives coordinate producers and consumers and identify market failures, e.g. choose why a price ceiling causes shortages.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "topics": [
+        {
+          "id": "social.12.government-foundations",
+          "name": "Foundations of government",
+          "skills": [
+            {
+              "id": "social.12.government-foundations.political-theory",
+              "name": "Political theory and democracy models",
+              "description": "Match theorists and models (Hobbes, Locke, pluralist, elite, participatory democracy) to claims, e.g. 'competing groups shape policy' is pluralist.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.12.government-foundations.constitution-analysis",
+              "name": "Analysing the Constitution",
+              "description": "Locate powers and clauses (necessary and proper, commerce, supremacy) and apply them to cases, e.g. choose which clause McCulloch v. Maryland relied on.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.12.government-foundations.federalism-today",
+              "name": "Federalism today",
+              "description": "Classify grants, mandates and devolution and analyse federal-state conflicts, e.g. a block grant gives states more discretion than a categorical grant.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.12.institutions",
+          "name": "Branches and institutions",
+          "skills": [
+            {
+              "id": "social.12.institutions.congress",
+              "name": "Congress",
+              "description": "Explain committees, leadership, filibuster, reapportionment and the legislative process, e.g. compute the votes needed to end a filibuster in a 100-seat Senate.",
+              "itemTypes": ["choice", "numeric", "sequence"]
+            },
+            {
+              "id": "social.12.institutions.presidency-bureaucracy",
+              "name": "Presidency and bureaucracy",
+              "description": "Identify formal and informal presidential powers and how agencies make rules, e.g. an executive order is an informal power.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "social.12.institutions.judiciary",
+              "name": "The judiciary",
+              "description": "Explain judicial review, jurisdiction, precedent and judicial activism vs restraint, e.g. sequence a case from district court to Supreme Court.",
+              "itemTypes": ["sequence", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.12.rights-liberties",
+          "name": "Civil liberties and civil rights",
+          "skills": [
+            {
+              "id": "social.12.rights-liberties.first-amendment-cases",
+              "name": "First Amendment cases",
+              "description": "Apply precedents (Tinker, Schenck, Engel, New York Times v. US) to scenarios, e.g. decide whether a school may ban a political armband.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "social.12.rights-liberties.due-process-incorporation",
+              "name": "Due process and incorporation",
+              "description": "Explain selective incorporation and criminal-procedure rights (Gideon, Miranda, Mapp), e.g. match Miranda to the right to be told of rights.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "social.12.rights-liberties.equal-protection",
+              "name": "Equal protection and civil rights law",
+              "description": "Apply the 14th Amendment, Brown, the Civil Rights Act, Title IX and affirmative action cases, e.g. choose the standard of scrutiny for race-based classifications.",
+              "itemTypes": ["choice", "match", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "social.12.participation",
+          "name": "Political participation",
+          "skills": [
+            {
+              "id": "social.12.participation.elections-voting",
+              "name": "Elections and voting",
+              "description": "Explain the Electoral College, primaries, turnout factors and voting rights laws, e.g. compute electoral votes needed to win from 538.",
+              "itemTypes": ["numeric", "choice", "sequence"]
+            },
+            {
+              "id": "social.12.participation.parties-interest-groups",
+              "name": "Parties, interest groups and PACs",
+              "description": "Distinguish party functions, interest group tactics and campaign finance rules, e.g. lobbying vs litigation vs grassroots.",
+              "itemTypes": ["sort", "choice", "match"]
+            },
+            {
+              "id": "social.12.participation.media-public-opinion",
+              "name": "Media and public opinion",
+              "description": "Interpret polls (sample, margin of error) and identify media effects and bias, e.g. a result of 52 percent with margin 3 is a statistical tie with 48.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "social.12.comparative-government",
+          "name": "Comparative government and international relations",
+          "skills": [
+            {
+              "id": "social.12.comparative-government.systems-compare",
+              "name": "Comparing political systems",
+              "description": "Compare presidential vs parliamentary systems, federal vs unitary states and authoritarian regimes, e.g. the UK is parliamentary and unitary.",
+              "itemTypes": ["sort", "choice", "match"]
+            },
+            {
+              "id": "social.12.comparative-government.international-relations",
+              "name": "International relations",
+              "description": "Explain foreign policy tools, the UN Security Council, treaties and alliances, e.g. choose which body can authorise sanctions.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "social.12.economics",
+          "name": "Macroeconomics and markets",
+          "skills": [
+            {
+              "id": "social.12.economics.inflation-interest",
+              "name": "Inflation and interest rates",
+              "description": "Compute inflation from a price index, distinguish nominal and real rates and predict effects, e.g. CPI 200 to 210 is 5 percent inflation and a 7 percent nominal rate is 2 percent real.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "social.12.economics.fiscal-monetary-policy",
+              "name": "Fiscal and monetary policy",
+              "description": "Choose the fiscal or monetary action for a recession or inflation and predict its effect, e.g. the central bank lowers rates to fight recession.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "social.12.economics.market-structures",
+              "name": "Market structures",
+              "description": "Classify industries as perfect competition, monopolistic competition, oligopoly or monopoly from their traits, e.g. few firms and interdependent pricing is oligopoly.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "social.12.economics.gdp-unemployment",
+              "name": "GDP, growth and unemployment",
+              "description": "Compute GDP growth and unemployment rate and classify types of unemployment, e.g. 6 million unemployed in a 150 million labour force is 4 percent.",
+              "itemTypes": ["numeric", "choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "social.12.personal-finance",
+          "name": "Personal finance",
+          "skills": [
+            {
+              "id": "social.12.personal-finance.budgeting-credit",
+              "name": "Budgeting and credit",
+              "description": "Build a budget, compute interest on credit card debt and interpret a credit score, e.g. 1000 at 20 percent APR costs about 200 a year if unpaid.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "social.12.personal-finance.saving-investing",
+              "name": "Saving and investing",
+              "description": "Compare savings accounts, bonds, stocks and index funds on risk and return and compute compound growth, e.g. 1000 at 5 percent for 2 years is 1102.50.",
+              "itemTypes": ["numeric", "choice", "sort"]
+            },
+            {
+              "id": "social.12.personal-finance.taxes-insurance",
+              "name": "Taxes and insurance",
+              "description": "Compute take-home pay with simple tax rates and match insurance types to risks, e.g. 3000 gross at 20 percent tax leaves 2400.",
+              "itemTypes": ["numeric", "match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "social.12.global-economy",
+          "name": "The global economy",
+          "skills": [
+            {
+              "id": "social.12.global-economy.trade-exchange-rates",
+              "name": "Trade and exchange rates",
+              "description": "Apply comparative advantage and convert currencies, predicting effects of a stronger or weaker currency, e.g. 100 dollars at 0.9 euros per dollar is 90 euros.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "social.12.global-economy.trade-policy",
+              "name": "Trade policy and agreements",
+              "description": "Evaluate tariffs, quotas, subsidies and trade agreements (WTO, EU, USMCA) and their winners and losers, e.g. choose who a steel tariff helps and hurts.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "social.12.global-economy.development-inequality",
+              "name": "Development and inequality",
+              "description": "Interpret Gini coefficients, HDI and poverty data and evaluate aid and microfinance, e.g. a Gini of 0.25 is more equal than 0.45.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

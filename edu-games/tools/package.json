@@ -1,0 +1,14 @@
+{
+  "name": "edu-games-tools",
+  "private": true,
+  "type": "module",
+  "description": "Dev tooling for edu-games (not shipped to the web app)",
+  "scripts": {
+    "index": "node build-index.mjs",
+    "smoke": "node smoke.mjs --all",
+    "serve": "python -m http.server 8080 --directory .."
+  },
+  "dependencies": {
+    "playwright-core": "^1.55.0"
+  }
+}

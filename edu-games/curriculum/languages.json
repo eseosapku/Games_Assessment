@@ -1,0 +1,1784 @@
+{
+  "id": "languages",
+  "name": "World Languages",
+  "color": "#EC4899",
+  "icon": "chat",
+  "grades": {
+    "1": {
+      "topics": [
+        {
+          "id": "languages.1.spanish-basics",
+          "name": "Spanish first words",
+          "skills": [
+            {
+              "id": "languages.1.spanish-basics.greetings",
+              "name": "Hello and goodbye",
+              "description": "Match a spoken or written greeting to the picture of when it is used, e.g. 'buenos dias' goes with the sunrise and 'adios' with a waving child.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.1.spanish-basics.numbers-1-10",
+              "name": "Numbers 1 to 10",
+              "description": "Hear or read a number word from uno to diez and pick the group with that many objects, e.g. 'cinco' with five stars.",
+              "itemTypes": ["choice", "numeric", "sequence"]
+            },
+            {
+              "id": "languages.1.spanish-basics.colors",
+              "name": "Colours",
+              "description": "Pick the splash of paint that matches a colour word, e.g. 'rojo' with the red splash.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.1.spanish-vocab",
+          "name": "Spanish picture words",
+          "skills": [
+            {
+              "id": "languages.1.spanish-vocab.animals",
+              "name": "Animals",
+              "description": "Match a Spanish animal word to its picture, e.g. 'el perro' to the dog and 'el gato' to the cat.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "languages.1.spanish-vocab.family",
+              "name": "Family members",
+              "description": "Choose the family picture that matches a word like 'mama', 'papa', 'hermano' or 'abuela'.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.1.spanish-vocab.classroom",
+              "name": "Classroom objects",
+              "description": "Find the classroom object named, e.g. tap 'el lapiz' when you hear 'lapiz' among a book, a chair and a pencil.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.1.spanish-listening",
+          "name": "Listening and doing",
+          "skills": [
+            {
+              "id": "languages.1.spanish-listening.commands",
+              "name": "Simple commands",
+              "description": "Hear a classroom command such as 'salta' or 'sientate' and pick the picture of the action.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "languages.1.spanish-listening.songs",
+              "name": "Songs and rhymes",
+              "description": "Fill the missing word in a line of a familiar song or counting rhyme, e.g. 'uno, dos, ___, cuatro'.",
+              "itemTypes": ["choice", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "languages.1.spanish-conversation",
+          "name": "Talking about me",
+          "skills": [
+            {
+              "id": "languages.1.spanish-conversation.my-name",
+              "name": "Saying my name",
+              "description": "Choose the right reply to 'Como te llamas?', e.g. 'Me llamo Ana', instead of an unrelated phrase.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.1.spanish-conversation.feelings",
+              "name": "How I feel",
+              "description": "Match a face showing an emotion to 'estoy feliz', 'estoy triste' or 'estoy cansado'.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.1.spanish-culture",
+          "name": "Spanish around the world",
+          "skills": [
+            {
+              "id": "languages.1.spanish-culture.where-spoken",
+              "name": "Where Spanish is spoken",
+              "description": "Pick the flag or map pin of a country where people speak Spanish, e.g. Mexico or Spain, from a set of four.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.1.spanish-culture.fiesta",
+              "name": "Party words and traditions",
+              "description": "Match festive words like 'pinata', 'fiesta' and 'musica' to their pictures.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "topics": [
+        {
+          "id": "languages.2.spanish-basics",
+          "name": "Spanish basics 2",
+          "skills": [
+            {
+              "id": "languages.2.spanish-basics.numbers-1-20",
+              "name": "Numbers 1 to 20",
+              "description": "Read a number word from once to veinte and type or pick the numeral, e.g. 'quince' is 15.",
+              "itemTypes": ["choice", "numeric", "sequence"]
+            },
+            {
+              "id": "languages.2.spanish-basics.days",
+              "name": "Days of the week",
+              "description": "Put the days from lunes to domingo in order, or say which day comes after 'martes'.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "languages.2.spanish-basics.weather",
+              "name": "Weather words",
+              "description": "Match a weather picture to the phrase, e.g. a sun to 'hace sol' and rain to 'llueve'.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.2.spanish-vocab",
+          "name": "Everyday picture words",
+          "skills": [
+            {
+              "id": "languages.2.spanish-vocab.food-basics",
+              "name": "Favourite foods",
+              "description": "Match common foods to their pictures, e.g. 'la manzana' to the apple and 'el pan' to the bread.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "languages.2.spanish-vocab.body",
+              "name": "Parts of the body",
+              "description": "Tap the body part named in a 'Cabeza, hombros, rodillas y pies' style prompt, e.g. 'la nariz'.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.2.spanish-vocab.clothes",
+              "name": "Clothes",
+              "description": "Pick the clothing item named, e.g. 'la camiseta' when shown a shirt, a hat and shoes.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.2.spanish-phrases",
+          "name": "Useful phrases",
+          "skills": [
+            {
+              "id": "languages.2.spanish-phrases.polite",
+              "name": "Please and thank you",
+              "description": "Choose the polite phrase that fits a scene, e.g. 'gracias' after receiving a gift or 'por favor' when asking.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "languages.2.spanish-phrases.yes-no-questions",
+              "name": "Yes and no answers",
+              "description": "Answer a simple question with 'si' or 'no' based on a picture, e.g. 'Es un gato?' showing a dog.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.2.spanish-listening",
+          "name": "Listening 2",
+          "skills": [
+            {
+              "id": "languages.2.spanish-listening.describe-pictures",
+              "name": "Which picture?",
+              "description": "Hear a short description such as 'un gato negro' and pick the matching picture among four.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "languages.2.spanish-listening.counting-songs",
+              "name": "Counting and colour songs",
+              "description": "Complete a line of a counting or colour song with the missing word, e.g. 'de colores, de colores se visten los ___'.",
+              "itemTypes": ["choice", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "languages.2.spanish-conversation",
+          "name": "Short conversations",
+          "skills": [
+            {
+              "id": "languages.2.spanish-conversation.how-are-you",
+              "name": "How are you?",
+              "description": "Pick the natural reply to 'Como estas?', e.g. 'Muy bien, gracias', from a set of phrases.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.2.spanish-conversation.age",
+              "name": "Saying my age",
+              "description": "Build the sentence 'Tengo siete anos' from word tiles to answer 'Cuantos anos tienes?'.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.2.spanish-culture",
+          "name": "Celebrations",
+          "skills": [
+            {
+              "id": "languages.2.spanish-culture.holidays",
+              "name": "Holidays and celebrations",
+              "description": "Match a celebration such as Dia de los Muertos or Las Posadas to its picture or key symbol.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.2.spanish-culture.foods-of-the-world",
+              "name": "Foods from Spanish-speaking places",
+              "description": "Match a dish like tacos, paella or empanadas to its picture.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "topics": [
+        {
+          "id": "languages.3.spanish-basics",
+          "name": "Numbers and calendar",
+          "skills": [
+            {
+              "id": "languages.3.spanish-basics.numbers-to-100",
+              "name": "Numbers to 100",
+              "description": "Read a number word such as 'cuarenta y dos' and type the numeral 42, or pick the word for a numeral.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "languages.3.spanish-basics.months",
+              "name": "Months and dates",
+              "description": "Order the months from enero to diciembre or complete a date like 'el 5 de ___' from a calendar picture.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "languages.3.spanish-basics.time-of-day",
+              "name": "Parts of the day",
+              "description": "Match 'la manana', 'la tarde' and 'la noche' to pictures of the sky or daily activities.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.3.spanish-vocab",
+          "name": "My world",
+          "skills": [
+            {
+              "id": "languages.3.spanish-vocab.house",
+              "name": "Rooms and furniture",
+              "description": "Sort items such as 'la cama' and 'la estufa' into the rooms where they belong, e.g. dormitorio or cocina.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "languages.3.spanish-vocab.town",
+              "name": "Places in town",
+              "description": "Match a place word like 'la escuela' or 'el parque' to its picture on a town map.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.3.spanish-vocab.sports-games",
+              "name": "Sports and games",
+              "description": "Choose the sport named, e.g. 'el futbol' or 'la natacion', from pictures.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.3.spanish-grammar",
+          "name": "First grammar patterns",
+          "skills": [
+            {
+              "id": "languages.3.spanish-grammar.el-la",
+              "name": "El or la?",
+              "description": "Pick the article that goes with a familiar noun, e.g. 'la mesa' not 'el mesa'.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.3.spanish-grammar.one-or-many",
+              "name": "One or many",
+              "description": "Choose the plural form of a noun when the picture shows several, e.g. 'gatos' for three cats.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "languages.3.spanish-conversation",
+          "name": "Likes and dislikes",
+          "skills": [
+            {
+              "id": "languages.3.spanish-conversation.me-gusta",
+              "name": "Me gusta / no me gusta",
+              "description": "Complete 'Me gusta ___' or 'No me gusta ___' to match a happy or sad face next to a food or activity.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.3.spanish-conversation.where-from",
+              "name": "Where I am from",
+              "description": "Build 'Soy de Mexico' from word tiles to answer 'De donde eres?'.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.3.spanish-reading",
+          "name": "Reading signs and labels",
+          "skills": [
+            {
+              "id": "languages.3.spanish-reading.labels",
+              "name": "Labels and signs",
+              "description": "Read a short sign such as 'Salida' or 'Abierto' and pick what it means or where you would see it.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.3.spanish-reading.cognates",
+              "name": "Words that look alike",
+              "description": "Spot the Spanish word that means the same as an English word it resembles, e.g. 'elefante' and 'elephant'.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.3.spanish-culture",
+          "name": "Countries and flags",
+          "skills": [
+            {
+              "id": "languages.3.spanish-culture.flags",
+              "name": "Flags of Spanish-speaking countries",
+              "description": "Match flags to the names of countries such as Espana, Mexico, Colombia and Argentina.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.3.spanish-culture.music-dance",
+              "name": "Music and dance",
+              "description": "Match a dance or instrument such as salsa, flamenco or the guitar to its picture or sound.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "topics": [
+        {
+          "id": "languages.4.spanish-vocab",
+          "name": "School and free time",
+          "skills": [
+            {
+              "id": "languages.4.spanish-vocab.school-subjects",
+              "name": "School subjects",
+              "description": "Match subjects such as 'matematicas' and 'ciencias' to the pictures or items used in that class.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.4.spanish-vocab.hobbies",
+              "name": "Hobbies and activities",
+              "description": "Pick the activity phrase that matches a picture, e.g. 'leer' for a child reading or 'nadar' for swimming.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.4.spanish-vocab.nature",
+              "name": "Nature and seasons",
+              "description": "Sort words like 'el arbol', 'la flor', 'la nieve' into seasons or match them to pictures.",
+              "itemTypes": ["choice", "match", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "languages.4.spanish-grammar",
+          "name": "Describing things",
+          "skills": [
+            {
+              "id": "languages.4.spanish-grammar.adjectives-intro",
+              "name": "Describing words",
+              "description": "Choose the adjective that fits a picture, e.g. 'grande' for a huge elephant or 'pequeno' for a mouse.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.4.spanish-grammar.adjective-endings",
+              "name": "Adjectives match the noun",
+              "description": "Pick the correct ending, e.g. 'la casa roja' not 'la casa rojo'.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "languages.4.spanish-grammar.my-your",
+              "name": "Mi and tu",
+              "description": "Complete a phrase with 'mi' or 'tu' based on who owns the object in the picture, e.g. 'mi mochila'.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.4.spanish-verbs",
+          "name": "First verbs",
+          "skills": [
+            {
+              "id": "languages.4.spanish-verbs.soy-eres-es",
+              "name": "Soy, eres, es",
+              "description": "Pick the right form of ser for the subject, e.g. 'Yo soy alto' and 'Ella es alta'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.4.spanish-verbs.tengo-tienes",
+              "name": "Tengo and tienes",
+              "description": "Complete 'Yo tengo dos hermanos' or 'Tu tienes un perro' using tengo or tienes.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.4.spanish-conversation",
+          "name": "Describing myself",
+          "skills": [
+            {
+              "id": "languages.4.spanish-conversation.self-description",
+              "name": "All about me",
+              "description": "Build a short self-introduction from tiles: 'Me llamo Luis. Tengo nueve anos. Soy de Peru.'",
+              "itemTypes": ["build", "sequence", "choice"]
+            },
+            {
+              "id": "languages.4.spanish-conversation.family-description",
+              "name": "My family",
+              "description": "Choose the sentence that correctly describes a family picture, e.g. 'Mi hermana es pequena'.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.4.spanish-listening",
+          "name": "Listening to stories",
+          "skills": [
+            {
+              "id": "languages.4.spanish-listening.short-stories",
+              "name": "Short story details",
+              "description": "Listen to three or four simple sentences and answer who, what or where, e.g. 'Donde esta el gato?'",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "languages.4.spanish-listening.picture-order",
+              "name": "Order the pictures",
+              "description": "Hear a short sequence of events and put three pictures in the order they were told.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.4.spanish-culture",
+          "name": "Daily life and holidays",
+          "skills": [
+            {
+              "id": "languages.4.spanish-culture.holiday-traditions",
+              "name": "Holiday traditions",
+              "description": "Match a tradition such as the Three Kings' Day shoe or the twelve grapes at New Year to its celebration.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.4.spanish-culture.school-day",
+              "name": "A school day in another country",
+              "description": "Compare a school day in Spain or Mexico with your own by choosing true statements, e.g. 'la siesta es por la tarde'.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "topics": [
+        {
+          "id": "languages.5.spanish-vocab",
+          "name": "Daily routine and getting around",
+          "skills": [
+            {
+              "id": "languages.5.spanish-vocab.daily-routine",
+              "name": "Daily routine words",
+              "description": "Order routine phrases like 'me despierto', 'desayuno', 'voy a la escuela' into a sensible day.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "languages.5.spanish-vocab.transport",
+              "name": "Transport",
+              "description": "Match vehicles such as 'el autobus', 'el tren' and 'la bicicleta' to pictures or to 'en' phrases.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.5.spanish-vocab.shopping",
+              "name": "Shopping and money",
+              "description": "Read a price tag such as 'tres euros' or 'veinte pesos' and pick the correct numeral.",
+              "itemTypes": ["choice", "numeric", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.5.spanish-grammar",
+          "name": "Nouns and articles",
+          "skills": [
+            {
+              "id": "languages.5.spanish-grammar.plurals",
+              "name": "Making plurals",
+              "description": "Type or pick the plural of a noun, adding -s or -es, e.g. 'lapiz' becomes 'lapices'.",
+              "itemTypes": ["text", "choice"]
+            },
+            {
+              "id": "languages.5.spanish-grammar.un-una",
+              "name": "Un and una",
+              "description": "Choose the indefinite article for a noun, e.g. 'una silla' and 'un libro'.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.5.spanish-grammar.word-order",
+              "name": "Noun then adjective",
+              "description": "Arrange tiles so the adjective follows the noun, e.g. 'el perro grande' not 'el grande perro'.",
+              "itemTypes": ["build", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "languages.5.spanish-verbs",
+          "name": "Where things are",
+          "skills": [
+            {
+              "id": "languages.5.spanish-verbs.estar-location",
+              "name": "Estar for location",
+              "description": "Complete 'El libro esta en la mesa' using esta or estan and a location word matching a picture.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.5.spanish-verbs.hay",
+              "name": "Hay: there is / there are",
+              "description": "Say what is in a picture using 'hay', e.g. 'Hay tres gatos en la casa'.",
+              "itemTypes": ["choice", "build", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "languages.5.spanish-reading",
+          "name": "Reading short texts",
+          "skills": [
+            {
+              "id": "languages.5.spanish-reading.paragraphs",
+              "name": "Short paragraphs",
+              "description": "Read a four-sentence paragraph about a child and answer a detail question, e.g. 'Cuantos anos tiene Marta?'",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "languages.5.spanish-reading.menus-schedules",
+              "name": "Menus and schedules",
+              "description": "Read a cafe menu or class timetable and find information, e.g. the price of 'jugo de naranja'.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "languages.5.spanish-conversation",
+          "name": "Asking questions",
+          "skills": [
+            {
+              "id": "languages.5.spanish-conversation.question-words",
+              "name": "Question words",
+              "description": "Pick the question word that fits the answer, e.g. 'Donde?' for 'En la escuela' and 'Cuando?' for 'El lunes'.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.5.spanish-conversation.ordering-food",
+              "name": "Ordering food",
+              "description": "Build a polite order such as 'Quiero una pizza, por favor' from tiles, in a sensible order.",
+              "itemTypes": ["build", "sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.5.spanish-culture",
+          "name": "Geography of the Spanish-speaking world",
+          "skills": [
+            {
+              "id": "languages.5.spanish-culture.capitals",
+              "name": "Countries and capitals",
+              "description": "Match countries to their capitals, e.g. Peru to Lima and Argentina to Buenos Aires.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "languages.5.spanish-culture.landmarks",
+              "name": "Famous landmarks",
+              "description": "Match a landmark such as Machu Picchu or La Sagrada Familia to its country.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.5.spanish-culture.regions",
+              "name": "Continents and regions",
+              "description": "Sort Spanish-speaking countries into Europe, North America, Central America, the Caribbean and South America.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "topics": [
+        {
+          "id": "languages.6.spanish-vocab",
+          "name": "Spanish vocabulary: everyday life",
+          "skills": [
+            {
+              "id": "languages.6.spanish-vocab.food",
+              "name": "Food and drink",
+              "description": "Sort food words into categories such as frutas, verduras, carnes and bebidas, or match words like 'la manzana' to pictures.",
+              "itemTypes": ["sort", "choice", "match"]
+            },
+            {
+              "id": "languages.6.spanish-vocab.clothing-colors",
+              "name": "Clothing and colours",
+              "description": "Match a described item such as 'la camisa azul' to the right picture, or sort items into ropa and colores.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "languages.6.spanish-vocab.school-supplies",
+              "name": "Classroom and school supplies",
+              "description": "Identify school objects such as 'el cuaderno' and 'la mochila' and say what is in a backpack.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "languages.6.spanish-vocab.family-pets",
+              "name": "Family and pets",
+              "description": "Read a family tree and pick the right relationship word, e.g. 'la tia' for the mother's sister.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.6.spanish-basics",
+          "name": "Spanish basics: numbers, time and alphabet",
+          "skills": [
+            {
+              "id": "languages.6.spanish-basics.numbers",
+              "name": "Numbers 0 to 1000",
+              "description": "Convert between number words and numerals, e.g. 'doscientos treinta y cinco' is 235, and sort numbers by size.",
+              "itemTypes": ["choice", "numeric", "sort", "sequence"]
+            },
+            {
+              "id": "languages.6.spanish-basics.alphabet",
+              "name": "Alphabet and spelling aloud",
+              "description": "Hear letters spelled out such as 'eme, a, ene, o' and pick or type the word 'mano'.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "languages.6.spanish-basics.telling-time",
+              "name": "Telling time",
+              "description": "Match a clock face to 'Son las tres y media' or 'Es la una menos cuarto'.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.6.spanish-basics.dates",
+              "name": "Days, months and dates",
+              "description": "Write or pick a full date such as 'el quince de septiembre' from a calendar picture.",
+              "itemTypes": ["choice", "build", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "languages.6.spanish-grammar",
+          "name": "Spanish grammar: nouns and agreement",
+          "skills": [
+            {
+              "id": "languages.6.spanish-grammar.gender-articles",
+              "name": "Gender and articles",
+              "description": "Sort nouns into el and la, including patterns like -o/-a, -cion, -dad and exceptions such as 'el dia' and 'la mano'.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "languages.6.spanish-grammar.plural-articles",
+              "name": "Plural nouns and articles",
+              "description": "Change 'el libro' to 'los libros' and 'la luz' to 'las luces', choosing the matching plural article.",
+              "itemTypes": ["choice", "text", "build"]
+            },
+            {
+              "id": "languages.6.spanish-grammar.adjective-agreement",
+              "name": "Adjective agreement",
+              "description": "Make the adjective agree in gender and number, e.g. 'las chicas altas', 'los perros pequenos'.",
+              "itemTypes": ["choice", "text", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.6.spanish-verbs",
+          "name": "Spanish verbs: ser, tener and -ar verbs",
+          "skills": [
+            {
+              "id": "languages.6.spanish-verbs.ser-forms",
+              "name": "Forms of ser",
+              "description": "Match each subject pronoun to its form of ser, e.g. 'nosotros somos', 'ellos son'.",
+              "itemTypes": ["match", "choice", "build"]
+            },
+            {
+              "id": "languages.6.spanish-verbs.tener-forms",
+              "name": "Forms of tener and tener expressions",
+              "description": "Complete sentences such as 'Ellos tienen hambre' and 'Tu tienes doce anos' with the right form of tener.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.6.spanish-verbs.ar-present",
+              "name": "Present tense -ar verbs",
+              "description": "Conjugate regular -ar verbs like hablar, e.g. 'nosotros hablamos', 'ella habla'.",
+              "itemTypes": ["choice", "text", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.6.spanish-conversation",
+          "name": "Spanish conversation: introductions",
+          "skills": [
+            {
+              "id": "languages.6.spanish-conversation.formal-informal",
+              "name": "Tu versus usted",
+              "description": "Choose the right greeting for the person, e.g. 'Como esta usted?' for a teacher and 'Que tal?' for a friend.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.6.spanish-conversation.introducing-others",
+              "name": "Introducing others",
+              "description": "Build 'Te presento a mi amiga Sofia. Ella es de Chile.' from tiles in the right order.",
+              "itemTypes": ["build", "sequence", "choice"]
+            },
+            {
+              "id": "languages.6.spanish-conversation.classroom-phrases",
+              "name": "Classroom phrases",
+              "description": "Pick the phrase that fits the situation, e.g. 'Puedo ir al bano?' or 'No entiendo'.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.6.spanish-culture",
+          "name": "Spanish culture: Mexico and Spain",
+          "skills": [
+            {
+              "id": "languages.6.spanish-culture.mexico",
+              "name": "Mexico",
+              "description": "Answer facts about Mexico such as its capital, currency and a famous celebration, e.g. 'el peso'.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.6.spanish-culture.spain",
+              "name": "Spain",
+              "description": "Match Spanish regions, foods and traditions to their descriptions, e.g. paella to Valencia.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.6.spanish-culture.meals-customs",
+              "name": "Mealtimes and customs",
+              "description": "Order the meals of a typical Spanish day with their times, e.g. 'la comida' around 2 pm and 'la cena' late.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "topics": [
+        {
+          "id": "languages.7.spanish-verbs",
+          "name": "Spanish verbs: present tense",
+          "skills": [
+            {
+              "id": "languages.7.spanish-verbs.present-regular",
+              "name": "Present tense regular -ar, -er, -ir verbs",
+              "description": "Conjugate regular verbs for any subject and sort verbs by ending, e.g. 'comemos', 'viven', 'cantas'.",
+              "itemTypes": ["choice", "text", "sort", "match"]
+            },
+            {
+              "id": "languages.7.spanish-verbs.ser-estar",
+              "name": "Ser versus estar",
+              "description": "Choose ser or estar for a sentence, e.g. 'Ella ___ doctora' (es) and 'Ella ___ cansada' (esta), and sort uses by rule.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.7.spanish-verbs.ir",
+              "name": "Ir and ir a + infinitive",
+              "description": "Complete 'Yo voy al cine' or 'Vamos a estudiar' with the correct form of ir.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.7.spanish-verbs.gustar",
+              "name": "Gustar and similar verbs",
+              "description": "Pick 'me gusta' or 'me gustan' depending on the noun, and the right pronoun, e.g. 'A el le gustan los deportes'.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.7.spanish-grammar",
+          "name": "Spanish grammar: questions and possession",
+          "skills": [
+            {
+              "id": "languages.7.spanish-grammar.questions",
+              "name": "Forming questions",
+              "description": "Build a question from tiles with the right word order and question word, e.g. 'Donde vive tu abuela?'",
+              "itemTypes": ["build", "sequence", "choice"]
+            },
+            {
+              "id": "languages.7.spanish-grammar.negation",
+              "name": "Negation",
+              "description": "Place 'no' correctly and use 'nunca', 'nada', 'nadie', e.g. 'No tengo nada'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.7.spanish-grammar.possessive-adjectives",
+              "name": "Possessive adjectives",
+              "description": "Choose mi/mis, tu/tus, su/sus, nuestro/a/os/as to agree with the noun, e.g. 'nuestras casas'.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "languages.7.spanish-vocab",
+          "name": "Spanish vocabulary: home, school and town",
+          "skills": [
+            {
+              "id": "languages.7.spanish-vocab.house-rooms",
+              "name": "House and chores",
+              "description": "Match chores such as 'lavar los platos' to the room where they happen or sort furniture by room.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "languages.7.spanish-vocab.school-schedule",
+              "name": "School day and schedule",
+              "description": "Read a class schedule and answer 'A que hora tienes ciencias?' or match subjects to teachers.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.7.spanish-vocab.town-places",
+              "name": "Places in town and activities",
+              "description": "Match a place like 'la biblioteca' or 'el mercado' to the activity you do there, e.g. 'leer' or 'comprar'.",
+              "itemTypes": ["match", "choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "languages.7.spanish-conversation",
+          "name": "Spanish conversation: time and directions",
+          "skills": [
+            {
+              "id": "languages.7.spanish-conversation.schedules-time",
+              "name": "Telling time and making plans",
+              "description": "Answer 'A que hora?' with times like 'a las ocho y cuarto' and agree on a plan, e.g. 'Vamos al parque a las cinco'.",
+              "itemTypes": ["choice", "build", "match"]
+            },
+            {
+              "id": "languages.7.spanish-conversation.directions",
+              "name": "Asking for and giving directions",
+              "description": "Follow directions on a simple map, e.g. 'Dobla a la derecha y sigue derecho', and pick where you end up.",
+              "itemTypes": ["choice", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "languages.7.spanish-listening",
+          "name": "Spanish listening: everyday exchanges",
+          "skills": [
+            {
+              "id": "languages.7.spanish-listening.dialogues",
+              "name": "Short dialogues",
+              "description": "Listen to a two-person exchange at a shop or school and answer a comprehension question about it.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "languages.7.spanish-listening.announcements",
+              "name": "Announcements and messages",
+              "description": "Hear a short school or train announcement and pick the key detail, e.g. the platform number or time.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "languages.7.spanish-reading",
+          "name": "Spanish reading: messages and ads",
+          "skills": [
+            {
+              "id": "languages.7.spanish-reading.messages",
+              "name": "Texts and notes",
+              "description": "Read a short text message or note and choose the best reply or the main point.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "languages.7.spanish-reading.ads-posters",
+              "name": "Ads and posters",
+              "description": "Scan a poster for a concert or sale and find the date, place and price.",
+              "itemTypes": ["choice", "numeric", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.7.spanish-culture",
+          "name": "Spanish culture: Central America and the Caribbean",
+          "skills": [
+            {
+              "id": "languages.7.spanish-culture.central-america",
+              "name": "Central America",
+              "description": "Match Central American countries to capitals, flags and a key fact, e.g. Costa Rica and its rainforests.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "languages.7.spanish-culture.caribbean",
+              "name": "The Spanish-speaking Caribbean",
+              "description": "Identify Cuba, Puerto Rico and the Dominican Republic on a map and match music such as salsa and merengue to origins.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.7.spanish-culture.sports",
+              "name": "Sports in the Spanish-speaking world",
+              "description": "Match a sport such as beisbol or futbol to the countries where it is most popular.",
+              "itemTypes": ["choice", "match", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "topics": [
+        {
+          "id": "languages.8.spanish-verbs",
+          "name": "Spanish verbs: irregular present",
+          "skills": [
+            {
+              "id": "languages.8.spanish-verbs.stem-changing",
+              "name": "Stem-changing verbs",
+              "description": "Conjugate e>ie, o>ue and e>i verbs, e.g. 'quiero', 'puedes', 'piden', remembering nosotros does not change.",
+              "itemTypes": ["choice", "text", "sort"]
+            },
+            {
+              "id": "languages.8.spanish-verbs.irregular-yo",
+              "name": "Irregular yo forms",
+              "description": "Give the yo form of verbs like hacer, poner, salir, conocer and saber, e.g. 'hago', 'conozco'.",
+              "itemTypes": ["choice", "text", "match"]
+            },
+            {
+              "id": "languages.8.spanish-verbs.saber-conocer",
+              "name": "Saber versus conocer",
+              "description": "Choose saber or conocer, e.g. 'Yo ___ a Maria' (conozco) and 'Yo ___ nadar' (se).",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.8.spanish-verbs.present-progressive",
+              "name": "Present progressive",
+              "description": "Describe what is happening now with estar + -ando/-iendo, e.g. 'Estamos comiendo'.",
+              "itemTypes": ["choice", "text", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.8.spanish-grammar",
+          "name": "Spanish grammar: pronouns and comparisons",
+          "skills": [
+            {
+              "id": "languages.8.spanish-grammar.direct-object-pronouns",
+              "name": "Direct object pronouns",
+              "description": "Replace the object with lo, la, los or las and place it correctly, e.g. 'Compro el libro' becomes 'Lo compro'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.8.spanish-grammar.comparisons",
+              "name": "Comparisons and superlatives",
+              "description": "Build comparisons with mas/menos ... que, tan ... como and 'el mas alto de la clase'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.8.spanish-grammar.prepositions",
+              "name": "Prepositions of place and a/de contractions",
+              "description": "Choose 'al' or 'del' and location words, e.g. 'Voy al mercado', 'cerca del parque'.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "languages.8.spanish-vocab",
+          "name": "Spanish vocabulary: weather, travel and health",
+          "skills": [
+            {
+              "id": "languages.8.spanish-vocab.weather-seasons",
+              "name": "Weather and seasons",
+              "description": "Match a forecast such as 'hace frio y nieva' to a picture and season, and say what to wear.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "languages.8.spanish-vocab.travel",
+              "name": "Travel and transportation",
+              "description": "Sort words like 'el boleto', 'la maleta', 'el aeropuerto' by trip stage, or match them to pictures.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "languages.8.spanish-vocab.body-health",
+              "name": "Body and health",
+              "description": "Match complaints such as 'me duele la cabeza' to the body part and to a doctor's advice.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.8.spanish-reading",
+          "name": "Spanish reading: short narratives",
+          "skills": [
+            {
+              "id": "languages.8.spanish-reading.narratives",
+              "name": "Short stories and emails",
+              "description": "Read a one-paragraph email or story and answer main idea and detail questions.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "languages.8.spanish-reading.context-clues",
+              "name": "Guessing meaning from context",
+              "description": "Infer the meaning of an unfamiliar word from the surrounding sentence, e.g. 'bufanda' next to 'hace frio' and 'cuello'.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.8.spanish-writing",
+          "name": "Spanish writing: sentences and notes",
+          "skills": [
+            {
+              "id": "languages.8.spanish-writing.sentence-building",
+              "name": "Building complete sentences",
+              "description": "Arrange tiles into a correct sentence with connectors, e.g. 'Primero desayuno y despues voy a la escuela'.",
+              "itemTypes": ["build", "sequence"]
+            },
+            {
+              "id": "languages.8.spanish-writing.accents-spelling",
+              "name": "Accents and spelling",
+              "description": "Pick the correctly spelled word with accent marks, e.g. 'esta' versus 'esta', 'cancion', 'tambien'.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "languages.8.spanish-conversation",
+          "name": "Spanish conversation: shopping and invitations",
+          "skills": [
+            {
+              "id": "languages.8.spanish-conversation.shopping",
+              "name": "Shopping and bargaining",
+              "description": "Pick the right line in a market exchange, e.g. 'Cuanto cuesta?' then 'Es muy caro', and compute change.",
+              "itemTypes": ["choice", "sequence", "numeric"]
+            },
+            {
+              "id": "languages.8.spanish-conversation.invitations",
+              "name": "Inviting, accepting and declining",
+              "description": "Match an invitation like 'Quieres ir al cine?' to a fitting response, e.g. 'Lo siento, no puedo'.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.8.spanish-culture",
+          "name": "Spanish culture: South America",
+          "skills": [
+            {
+              "id": "languages.8.spanish-culture.andes-amazon",
+              "name": "Andean and Amazon countries",
+              "description": "Match Peru, Ecuador, Bolivia and Colombia to landmarks, foods and facts, e.g. Machu Picchu and quinoa.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "languages.8.spanish-culture.southern-cone",
+              "name": "The Southern Cone",
+              "description": "Identify Argentina, Chile, Uruguay and Paraguay and traditions such as tango, mate and asado.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "languages.8.spanish-culture.indigenous-languages",
+              "name": "Indigenous languages and words",
+              "description": "Match words of Nahuatl or Quechua origin such as 'chocolate' and 'papa' to their source languages.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "topics": [
+        {
+          "id": "languages.9.spanish-verbs",
+          "name": "Spanish verbs: preterite and reflexives",
+          "skills": [
+            {
+              "id": "languages.9.spanish-verbs.preterite-regular",
+              "name": "Preterite regular verbs",
+              "description": "Conjugate -ar, -er and -ir verbs in the preterite, e.g. 'hable', 'comimos', 'vivieron', noting accent marks.",
+              "itemTypes": ["choice", "text", "match"]
+            },
+            {
+              "id": "languages.9.spanish-verbs.preterite-irregular",
+              "name": "Preterite irregular verbs",
+              "description": "Give preterite forms of ir, ser, hacer, tener, estar, decir and spelling-change verbs, e.g. 'fui', 'hizo', 'busque'.",
+              "itemTypes": ["choice", "text", "match"]
+            },
+            {
+              "id": "languages.9.spanish-verbs.reflexives",
+              "name": "Reflexive verbs",
+              "description": "Choose the reflexive pronoun and form, e.g. 'Me levanto a las seis', and decide reflexive versus non-reflexive ('lavo el coche' versus 'me lavo').",
+              "itemTypes": ["choice", "build", "sort"]
+            },
+            {
+              "id": "languages.9.spanish-verbs.informal-commands",
+              "name": "Informal commands",
+              "description": "Form affirmative and negative tu commands, e.g. 'habla', 'no hables', 'pon', 'no pongas'.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "languages.9.spanish-grammar",
+          "name": "Spanish grammar: pronouns and demonstratives",
+          "skills": [
+            {
+              "id": "languages.9.spanish-grammar.indirect-object-pronouns",
+              "name": "Indirect object pronouns",
+              "description": "Use me, te, le, nos, les with verbs like dar and decir, e.g. 'Le doy el regalo a mi madre'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.9.spanish-grammar.demonstratives",
+              "name": "Demonstratives",
+              "description": "Pick este, ese or aquel in the right gender and number based on distance in a picture, e.g. 'aquellas montanas'.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "languages.9.spanish-grammar.time-expressions",
+              "name": "Past time expressions and hace",
+              "description": "Match expressions like 'ayer', 'la semana pasada', 'hace dos anos' to a timeline position and to preterite sentences.",
+              "itemTypes": ["match", "sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.9.spanish-vocab",
+          "name": "Spanish vocabulary: routines, shopping and celebrations",
+          "skills": [
+            {
+              "id": "languages.9.spanish-vocab.daily-routine",
+              "name": "Daily routine and personal care",
+              "description": "Order a morning routine from 'despertarse' to 'salir de casa' and match items like 'el cepillo de dientes'.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "languages.9.spanish-vocab.clothing-shopping",
+              "name": "Clothing, sizes and shopping",
+              "description": "Match descriptions such as 'una falda de rayas, talla mediana' to pictures and complete a store dialogue.",
+              "itemTypes": ["choice", "match", "build"]
+            },
+            {
+              "id": "languages.9.spanish-vocab.celebrations",
+              "name": "Celebrations and life events",
+              "description": "Sort vocabulary such as 'la boda', 'el cumpleanos', 'la quinceanera' with associated items and actions.",
+              "itemTypes": ["sort", "match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.9.spanish-reading",
+          "name": "Spanish reading: narratives in the past",
+          "skills": [
+            {
+              "id": "languages.9.spanish-reading.past-narratives",
+              "name": "Stories told in the past",
+              "description": "Read a short narrative in the preterite and order the events or answer what happened first.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "languages.9.spanish-reading.biographies",
+              "name": "Short biographies",
+              "description": "Read a short biography of a figure like Frida Kahlo and pull out dates and achievements.",
+              "itemTypes": ["choice", "numeric", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.9.spanish-listening",
+          "name": "Spanish listening: narration and interviews",
+          "skills": [
+            {
+              "id": "languages.9.spanish-listening.weekend-recounts",
+              "name": "Recounting a weekend",
+              "description": "Listen to someone describe what they did last weekend and pick the activities in order.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "languages.9.spanish-listening.interviews",
+              "name": "Short interviews",
+              "description": "Listen to a brief interview and identify the speaker's routine, preferences or plans.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.9.spanish-writing",
+          "name": "Spanish writing: paragraphs",
+          "skills": [
+            {
+              "id": "languages.9.spanish-writing.past-paragraph",
+              "name": "Writing about the past",
+              "description": "Assemble a five-sentence paragraph about yesterday using connectors like 'primero', 'luego', 'finalmente'.",
+              "itemTypes": ["build", "sequence", "choice"]
+            },
+            {
+              "id": "languages.9.spanish-writing.editing",
+              "name": "Editing for agreement and tense",
+              "description": "Spot and fix the error in a sentence, e.g. 'Ayer yo como pizza' should be 'comi'.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "languages.9.spanish-culture",
+          "name": "Spanish culture: traditions and food",
+          "skills": [
+            {
+              "id": "languages.9.spanish-culture.festivals",
+              "name": "Festivals across the Spanish-speaking world",
+              "description": "Match festivals such as La Tomatina, Inti Raymi and Carnaval de Barranquilla to countries and dates.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "languages.9.spanish-culture.cuisine",
+              "name": "Regional cuisine",
+              "description": "Match dishes like ceviche, arepas and tortilla espanola to their countries and main ingredients.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "languages.9.spanish-culture.hispanic-heritage",
+              "name": "Hispanic communities worldwide",
+              "description": "Answer facts about Spanish speakers in the United States and other countries, e.g. which US states have the most speakers.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "topics": [
+        {
+          "id": "languages.10.spanish-verbs",
+          "name": "Spanish verbs: imperfect and future",
+          "skills": [
+            {
+              "id": "languages.10.spanish-verbs.imperfect",
+              "name": "Imperfect tense",
+              "description": "Conjugate the imperfect, including ir, ser and ver, e.g. 'jugabamos', 'eran', 'veia', to describe habits in the past.",
+              "itemTypes": ["choice", "text", "match"]
+            },
+            {
+              "id": "languages.10.spanish-verbs.preterite-vs-imperfect",
+              "name": "Preterite versus imperfect",
+              "description": "Choose the tense for each verb in a story, e.g. 'Llovia (imperfect) cuando sali (preterite) de casa', and sort trigger words.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.10.spanish-verbs.future",
+              "name": "Future tense",
+              "description": "Form the simple future, including irregular stems, e.g. 'viajare', 'tendran', 'haremos'.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "languages.10.spanish-verbs.formal-commands",
+              "name": "Formal and nosotros commands",
+              "description": "Form usted/ustedes commands and 'vamos a' or nosotros commands, e.g. 'Hable mas despacio', 'Comamos'.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "languages.10.spanish-grammar",
+          "name": "Spanish grammar: double pronouns and impersonal se",
+          "skills": [
+            {
+              "id": "languages.10.spanish-grammar.double-object-pronouns",
+              "name": "Double object pronouns",
+              "description": "Combine indirect and direct pronouns, changing le to se, e.g. 'Se lo di' for 'Le di el libro a Juan'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.10.spanish-grammar.impersonal-se",
+              "name": "Impersonal and passive se",
+              "description": "Complete signs and statements like 'Se habla espanol' and 'Se venden casas', choosing singular or plural.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "languages.10.spanish-grammar.adverbs",
+              "name": "Adverbs and -mente",
+              "description": "Form adverbs from adjectives, e.g. 'rapida' to 'rapidamente', and place them in a sentence.",
+              "itemTypes": ["text", "choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.10.spanish-vocab",
+          "name": "Spanish vocabulary: environment, technology and work",
+          "skills": [
+            {
+              "id": "languages.10.spanish-vocab.environment",
+              "name": "Environment and nature",
+              "description": "Sort words such as 'la contaminacion', 'reciclar', 'la selva' into problems, solutions and places.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "languages.10.spanish-vocab.technology",
+              "name": "Technology and media",
+              "description": "Match terms like 'la pantalla', 'descargar', 'la red social' to definitions or icons.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "languages.10.spanish-vocab.professions",
+              "name": "Professions and workplaces",
+              "description": "Match jobs such as 'la enfermera' and 'el ingeniero' to workplaces and tasks.",
+              "itemTypes": ["match", "choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "languages.10.spanish-reading",
+          "name": "Spanish reading: articles and legends",
+          "skills": [
+            {
+              "id": "languages.10.spanish-reading.news-articles",
+              "name": "Simplified news articles",
+              "description": "Read a short article and identify the main idea, a supporting detail and the author's purpose.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "languages.10.spanish-reading.legends",
+              "name": "Legends and folktales",
+              "description": "Read a legend such as La Llorona or El Dorado and sequence the plot or identify the moral.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "languages.10.spanish-reading.charts-infographics",
+              "name": "Infographics and data",
+              "description": "Read a Spanish infographic about recycling or screen time and extract numbers and comparisons.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "languages.10.spanish-conversation",
+          "name": "Spanish conversation: narrating and planning",
+          "skills": [
+            {
+              "id": "languages.10.spanish-conversation.childhood",
+              "name": "Talking about childhood",
+              "description": "Answer 'Que hacias cuando eras nino?' with imperfect sentences, e.g. 'Jugaba en el parque todos los dias'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.10.spanish-conversation.future-plans",
+              "name": "Discussing future plans",
+              "description": "Build answers to 'Que haras el proximo verano?' using the future tense and time markers.",
+              "itemTypes": ["build", "choice"]
+            },
+            {
+              "id": "languages.10.spanish-conversation.restaurant",
+              "name": "At a restaurant",
+              "description": "Sequence a full restaurant exchange from being seated to paying, picking appropriate lines for each step.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.10.spanish-writing",
+          "name": "Spanish writing: descriptions and narration",
+          "skills": [
+            {
+              "id": "languages.10.spanish-writing.narrate-past",
+              "name": "Narrating with two past tenses",
+              "description": "Assemble a story paragraph that uses imperfect for background and preterite for events in the right places.",
+              "itemTypes": ["build", "sequence", "choice"]
+            },
+            {
+              "id": "languages.10.spanish-writing.connectors",
+              "name": "Transitions and connectors",
+              "description": "Choose connectors such as 'sin embargo', 'por eso', 'ademas' to link two sentences logically.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.10.spanish-culture",
+          "name": "Spanish culture: history and heritage",
+          "skills": [
+            {
+              "id": "languages.10.spanish-culture.ancient-civilizations",
+              "name": "Maya, Aztec and Inca",
+              "description": "Match achievements such as the Maya calendar, Tenochtitlan and Inca roads to the right civilization and region.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "languages.10.spanish-culture.colonial-independence",
+              "name": "Colonial era and independence",
+              "description": "Order key events from 1492 to the independence movements and match leaders such as Bolivar and Hidalgo to countries.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "languages.10.spanish-culture.art-murals",
+              "name": "Art and muralism",
+              "description": "Match artists such as Diego Rivera, Frida Kahlo and Fernando Botero to their styles and works.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "topics": [
+        {
+          "id": "languages.11.spanish-verbs",
+          "name": "Spanish verbs: conditional, perfect and subjunctive",
+          "skills": [
+            {
+              "id": "languages.11.spanish-verbs.conditional",
+              "name": "Conditional tense",
+              "description": "Form the conditional, including irregular stems, e.g. 'me gustaria', 'podrias', 'harian', for polite requests and hypotheticals.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "languages.11.spanish-verbs.present-perfect",
+              "name": "Present perfect",
+              "description": "Combine haber with the past participle, including irregulars, e.g. 'he visto', 'hemos escrito'.",
+              "itemTypes": ["choice", "text", "build"]
+            },
+            {
+              "id": "languages.11.spanish-verbs.subjunctive-forms",
+              "name": "Present subjunctive forms",
+              "description": "Conjugate the present subjunctive from the yo stem, including irregulars like sea, vaya, tenga and spelling changes.",
+              "itemTypes": ["choice", "text", "match"]
+            },
+            {
+              "id": "languages.11.spanish-verbs.subjunctive-uses",
+              "name": "Subjunctive after wishes, emotions and doubt",
+              "description": "Choose indicative or subjunctive after triggers, e.g. 'Quiero que vengas' versus 'Se que vienes', and sort WEIRDO triggers.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "languages.11.spanish-grammar",
+          "name": "Spanish grammar: por/para, relatives and verbs like gustar",
+          "skills": [
+            {
+              "id": "languages.11.spanish-grammar.por-para",
+              "name": "Por versus para",
+              "description": "Choose por or para by meaning, e.g. 'Gracias por la ayuda' and 'Este regalo es para ti', and sort uses by rule.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.11.spanish-grammar.relative-pronouns",
+              "name": "Relative pronouns",
+              "description": "Join two sentences with que, quien, lo que or donde, e.g. 'La chica que canta es mi prima'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.11.spanish-grammar.gustar-type-verbs",
+              "name": "Verbs like gustar",
+              "description": "Use faltar, importar, molestar, parecer with indirect pronouns and agreement, e.g. 'Nos faltan dos sillas'.",
+              "itemTypes": ["choice", "build", "text"]
+            }
+          ]
+        },
+        {
+          "id": "languages.11.spanish-vocab",
+          "name": "Spanish vocabulary: society and global issues",
+          "skills": [
+            {
+              "id": "languages.11.spanish-vocab.community-volunteering",
+              "name": "Community and volunteering",
+              "description": "Match words such as 'el voluntariado', 'donar', 'el refugio' to definitions and scenarios.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "languages.11.spanish-vocab.health-wellbeing",
+              "name": "Health and wellbeing",
+              "description": "Sort advice such as 'hacer ejercicio' and 'dormir ocho horas' into physical and mental health, and match symptoms to remedies.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "languages.11.spanish-vocab.idioms",
+              "name": "Idioms and expressions",
+              "description": "Match idioms such as 'estar en las nubes' or 'tomar el pelo' to their meanings.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.11.spanish-reading",
+          "name": "Spanish reading: authentic texts",
+          "skills": [
+            {
+              "id": "languages.11.spanish-reading.authentic-articles",
+              "name": "Authentic news and opinion",
+              "description": "Read an excerpt from a real newspaper or blog and distinguish fact from opinion and identify tone.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.11.spanish-reading.short-stories",
+              "name": "Short fiction excerpts",
+              "description": "Read a passage from a short story and answer questions about character motivation and inference.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "languages.11.spanish-reading.poetry",
+              "name": "Poetry",
+              "description": "Read a short poem by a poet such as Neruda or Mistral and identify imagery, theme and a figure of speech.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.11.spanish-conversation",
+          "name": "Spanish conversation: opinions and advice",
+          "skills": [
+            {
+              "id": "languages.11.spanish-conversation.giving-advice",
+              "name": "Giving advice and recommendations",
+              "description": "Build advice with 'te recomiendo que' + subjunctive or 'deberias' + infinitive for a given situation.",
+              "itemTypes": ["build", "choice"]
+            },
+            {
+              "id": "languages.11.spanish-conversation.expressing-opinions",
+              "name": "Expressing and supporting opinions",
+              "description": "Choose phrases like 'Creo que', 'No creo que' and the correct mood that follows each to state an opinion.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.11.spanish-conversation.hypotheticals",
+              "name": "Talking about what you would do",
+              "description": "Answer 'Que harias con un millon de dolares?' using the conditional in a complete sentence.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.11.spanish-writing",
+          "name": "Spanish writing: letters and summaries",
+          "skills": [
+            {
+              "id": "languages.11.spanish-writing.formal-letter",
+              "name": "Formal letters and emails",
+              "description": "Order the parts of a formal email and pick register-appropriate phrases such as 'Estimado senor' and 'Atentamente'.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "languages.11.spanish-writing.summaries",
+              "name": "Summarizing a text",
+              "description": "Choose the sentence that best summarizes a paragraph without adding or distorting information.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.11.spanish-culture",
+          "name": "Spanish culture: arts and identity",
+          "skills": [
+            {
+              "id": "languages.11.spanish-culture.literature-figures",
+              "name": "Literary figures",
+              "description": "Match authors such as Cervantes, Garcia Marquez, Allende and Borges to countries and major works.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "languages.11.spanish-culture.music-genres",
+              "name": "Music genres and origins",
+              "description": "Match genres such as reggaeton, cumbia, bachata and flamenco to their origins and instruments.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "languages.11.spanish-culture.dialects",
+              "name": "Regional varieties of Spanish",
+              "description": "Identify features like vosotros, voseo and seseo and match regional words, e.g. 'guagua' for bus in the Caribbean.",
+              "itemTypes": ["choice", "match", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "topics": [
+        {
+          "id": "languages.12.spanish-verbs",
+          "name": "Spanish verbs: advanced subjunctive and compound tenses",
+          "skills": [
+            {
+              "id": "languages.12.spanish-verbs.imperfect-subjunctive",
+              "name": "Imperfect subjunctive",
+              "description": "Form the imperfect subjunctive from the ellos preterite, e.g. 'hablara', 'tuvieran', 'fueramos', after past triggers.",
+              "itemTypes": ["choice", "text", "match"]
+            },
+            {
+              "id": "languages.12.spanish-verbs.si-clauses",
+              "name": "Si clauses",
+              "description": "Complete hypothetical sentences pairing imperfect subjunctive with conditional, e.g. 'Si tuviera tiempo, viajaria'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.12.spanish-verbs.compound-tenses",
+              "name": "Pluperfect and conditional perfect",
+              "description": "Form 'habia comido', 'habria ido' and the perfect subjunctive to sequence past events.",
+              "itemTypes": ["choice", "text", "build"]
+            },
+            {
+              "id": "languages.12.spanish-verbs.subjunctive-adverbial",
+              "name": "Subjunctive in adverbial and adjective clauses",
+              "description": "Choose mood after conjunctions like 'para que', 'cuando', 'aunque' and in clauses describing unknown antecedents, e.g. 'Busco un libro que sea interesante'.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "languages.12.spanish-grammar",
+          "name": "Spanish grammar: passive, register and nuance",
+          "skills": [
+            {
+              "id": "languages.12.spanish-grammar.passive-voice",
+              "name": "Passive voice and alternatives",
+              "description": "Convert 'La empresa construyo el puente' to 'El puente fue construido por la empresa' or to a se construction.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.12.spanish-grammar.register",
+              "name": "Register and politeness",
+              "description": "Rewrite or pick phrases to shift from informal to formal register, e.g. 'Dame eso' to 'Podria darmelo, por favor?'",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.12.spanish-grammar.ser-estar-advanced",
+              "name": "Ser and estar with changing meaning",
+              "description": "Choose ser or estar where the adjective shifts meaning, e.g. 'es listo' (clever) versus 'esta listo' (ready).",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.12.spanish-grammar.reported-speech",
+              "name": "Reported speech",
+              "description": "Convert direct quotes to reported speech with tense shifts, e.g. 'Dijo: Vendre' becomes 'Dijo que vendria'.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "languages.12.spanish-reading",
+          "name": "Spanish reading: literature and journalism",
+          "skills": [
+            {
+              "id": "languages.12.spanish-reading.literary-analysis",
+              "name": "Literary analysis",
+              "description": "Read an excerpt from a novel or play and identify narrative point of view, symbolism and theme.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.12.spanish-reading.editorials",
+              "name": "Editorials and argument",
+              "description": "Read an editorial and identify the thesis, evidence and a counterargument, labelling each part.",
+              "itemTypes": ["choice", "sort", "sequence"]
+            },
+            {
+              "id": "languages.12.spanish-reading.historical-documents",
+              "name": "Historical and official documents",
+              "description": "Read a simplified historical speech or constitution excerpt and infer its purpose and audience.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.12.spanish-listening",
+          "name": "Spanish listening: authentic media",
+          "skills": [
+            {
+              "id": "languages.12.spanish-listening.podcasts-news",
+              "name": "Podcasts and news reports",
+              "description": "Listen to a one-minute news or podcast clip and identify the main claim and two supporting details.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "languages.12.spanish-listening.accents",
+              "name": "Understanding regional accents",
+              "description": "Identify the likely region of a speaker from features such as vosotros, voseo or aspirated s, and understand the message.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "languages.12.spanish-conversation",
+          "name": "Spanish conversation: debate and presentation",
+          "skills": [
+            {
+              "id": "languages.12.spanish-conversation.debate",
+              "name": "Debating and conceding points",
+              "description": "Pick phrases to agree, disagree and concede, e.g. 'Aunque es cierto que..., no estoy de acuerdo con...', in a structured exchange.",
+              "itemTypes": ["choice", "sequence", "build"]
+            },
+            {
+              "id": "languages.12.spanish-conversation.interview",
+              "name": "Job and university interviews",
+              "description": "Choose appropriate formal responses to interview questions, e.g. 'Hableme de sus fortalezas'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.12.spanish-conversation.cultural-comparison",
+              "name": "Cultural comparison",
+              "description": "Build a comparison statement with 'mientras que' or 'a diferencia de' between two Spanish-speaking cultures and your own.",
+              "itemTypes": ["build", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "languages.12.spanish-writing",
+          "name": "Spanish writing: essays",
+          "skills": [
+            {
+              "id": "languages.12.spanish-writing.argumentative-essay",
+              "name": "Argumentative essay structure",
+              "description": "Order the parts of a persuasive essay and select the thesis statement that fits the given evidence.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "languages.12.spanish-writing.source-integration",
+              "name": "Integrating sources",
+              "description": "Choose the sentence that correctly cites a source, e.g. 'Segun el articulo, ...', without copying it word for word.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "languages.12.spanish-writing.advanced-editing",
+              "name": "Advanced editing",
+              "description": "Find and correct errors in mood, pronoun placement, accents and por/para in a paragraph.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "languages.12.spanish-culture",
+          "name": "Spanish culture: the contemporary Spanish-speaking world",
+          "skills": [
+            {
+              "id": "languages.12.spanish-culture.film",
+              "name": "Cinema",
+              "description": "Match directors and films such as Almodovar, del Toro and 'Roma' to countries and themes.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "languages.12.spanish-culture.current-affairs",
+              "name": "Current affairs and institutions",
+              "description": "Identify institutions and issues such as the European Union, Mercosur and migration in the context of Spanish-speaking countries.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "languages.12.spanish-culture.literature-movements",
+              "name": "Literary movements",
+              "description": "Place movements such as the Golden Age, modernismo and magical realism on a timeline and match representative authors.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "languages.12.spanish-culture.global-spanish",
+              "name": "Spanish as a global language",
+              "description": "Answer facts about Spanish speaker numbers, Equatorial Guinea and the Philippines, and the role of the Real Academia Espanola.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

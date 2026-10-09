@@ -1,0 +1,893 @@
+{
+  "id": "math",
+  "name": "Mathematics",
+  "color": "#4F7CFF",
+  "icon": "sigma",
+  "grades": {
+    "1": {
+      "topics": [
+        {
+          "id": "math.1.counting",
+          "name": "Counting and cardinality to 120",
+          "skills": [
+            { "id": "math.1.counting.count-on", "name": "Count on from any number", "description": "Continue counting forward from a given number, e.g. 'What comes after 47? 48, 49, 50'.", "itemTypes": ["choice", "numeric", "sequence"] },
+            { "id": "math.1.counting.count-objects", "name": "Count a set of objects", "description": "Count up to 20 pictured objects and give the total, e.g. count 13 stars.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.1.counting.read-write", "name": "Read and write numerals", "description": "Match a number word or a group of objects to its numeral, e.g. 'fourteen' is 14.", "itemTypes": ["choice", "match", "text"] }
+          ]
+        },
+        {
+          "id": "math.1.add-sub-20",
+          "name": "Addition and subtraction within 20",
+          "skills": [
+            { "id": "math.1.add-sub-20.add", "name": "Add within 20", "description": "Find the sum of two numbers with a total up to 20, e.g. 7 + 5 = 12, using a ten-frame or counting on.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.1.add-sub-20.subtract", "name": "Subtract within 20", "description": "Find the difference of two numbers within 20, e.g. 15 - 8 = 7, by counting back or thinking addition.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.1.add-sub-20.missing-addend", "name": "Find the missing addend", "description": "Find the unknown number in an equation like 6 + ? = 13 or ? - 4 = 9.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.1.add-sub-20.doubles-near", "name": "Doubles and near doubles", "description": "Use doubles facts to solve quickly, e.g. 6 + 6 = 12 so 6 + 7 = 13.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.1.number-bonds",
+          "name": "Number bonds and making ten",
+          "skills": [
+            { "id": "math.1.number-bonds.make-ten", "name": "Make ten", "description": "Find the partner that makes 10, e.g. 3 and 7, or complete 8 + ? = 10.", "itemTypes": ["choice", "numeric", "match"] },
+            { "id": "math.1.number-bonds.decompose", "name": "Break numbers apart", "description": "Split a number into two parts, e.g. 9 is 4 and 5, and recognise all pairs for a number.", "itemTypes": ["choice", "match", "build"] },
+            { "id": "math.1.number-bonds.fact-families", "name": "Fact families", "description": "Give the related addition and subtraction facts for three numbers, e.g. 3, 5, 8 gives 3+5=8 and 8-5=3.", "itemTypes": ["choice", "sort", "match"] }
+          ]
+        },
+        {
+          "id": "math.1.place-value",
+          "name": "Place value to 100",
+          "skills": [
+            { "id": "math.1.place-value.tens-ones", "name": "Tens and ones", "description": "Tell how many tens and ones are in a two-digit number, e.g. 47 is 4 tens and 7 ones.", "itemTypes": ["choice", "numeric", "build"] },
+            { "id": "math.1.place-value.compare-two-digit", "name": "Compare two-digit numbers", "description": "Choose the larger or smaller of two numbers and use <, >, =, e.g. 63 > 36.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.1.place-value.ten-more-less", "name": "Ten more, ten less", "description": "Mentally find 10 more or 10 less than a number, e.g. 10 more than 52 is 62.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.1.measurement",
+          "name": "Measurement and time",
+          "skills": [
+            { "id": "math.1.measurement.compare-length", "name": "Compare and order lengths", "description": "Order three objects by length or say which is longer or shorter.", "itemTypes": ["choice", "sequence", "sort"] },
+            { "id": "math.1.measurement.measure-units", "name": "Measure with units", "description": "Count how many same-size units (cubes, paper clips) long an object is, e.g. a pencil is 6 cubes.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.1.measurement.time-hour-half", "name": "Time to the hour and half hour", "description": "Read an analog or digital clock to the hour or half hour, e.g. 3:30.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "math.1.data",
+          "name": "Organising data",
+          "skills": [
+            { "id": "math.1.data.sort-categories", "name": "Sort into categories", "description": "Sort objects into up to three groups by a property such as shape or colour.", "itemTypes": ["sort", "choice"] },
+            { "id": "math.1.data.read-tally-picture", "name": "Read tally and picture graphs", "description": "Answer how many in each category and how many more from a tally chart or picture graph.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.1.geometry",
+          "name": "Shapes and equal shares",
+          "skills": [
+            { "id": "math.1.geometry.name-shapes", "name": "Name 2D and 3D shapes", "description": "Identify triangles, squares, rectangles, circles, cubes, cones, cylinders and spheres from pictures.", "itemTypes": ["choice", "match", "sort"] },
+            { "id": "math.1.geometry.attributes", "name": "Shape attributes", "description": "Count sides and corners and choose shapes with a given attribute, e.g. 'closed shape with 3 sides'.", "itemTypes": ["choice", "numeric", "sort"] },
+            { "id": "math.1.geometry.compose", "name": "Compose shapes", "description": "Pick the shapes that combine to make a new shape, e.g. two triangles make a square.", "itemTypes": ["choice", "build"] },
+            { "id": "math.1.geometry.halves-quarters", "name": "Halves and quarters", "description": "Tell whether a shape is cut into halves or fourths and choose the picture showing equal shares.", "itemTypes": ["choice", "sort"] }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "topics": [
+        {
+          "id": "math.2.numbers-100",
+          "name": "Numbers to 100",
+          "skills": [
+            { "id": "math.2.numbers-100.compare", "name": "Compare numbers to 100", "description": "Compare two numbers using <, > or = and pick the greatest or least of a set, e.g. 58 < 85.", "itemTypes": ["choice", "sort", "sequence"] },
+            { "id": "math.2.numbers-100.order", "name": "Order and number lines", "description": "Place numbers on a 0-100 number line or order a set from least to greatest.", "itemTypes": ["sequence", "choice", "numeric"] },
+            { "id": "math.2.numbers-100.even-odd", "name": "Even and odd", "description": "Decide whether a number is even or odd by pairing, e.g. 17 is odd because one is left over.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "math.2.skip-counting",
+          "name": "Skip counting and patterns",
+          "skills": [
+            { "id": "math.2.skip-counting.count-by", "name": "Skip count by 2s, 5s, 10s and 100s", "description": "Fill in the next number in a skip-counting sequence, e.g. 35, 40, 45, ?.", "itemTypes": ["choice", "numeric", "sequence"] },
+            { "id": "math.2.skip-counting.arrays", "name": "Count with arrays", "description": "Find the total in a rectangular array by adding equal rows, e.g. 3 rows of 4 is 12.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.2.skip-counting.number-patterns", "name": "Extend number patterns", "description": "Find the rule and the missing term in a repeating or growing pattern, e.g. 3, 6, 9, ?, 15.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.2.place-value-1000",
+          "name": "Place value to 1000",
+          "skills": [
+            { "id": "math.2.place-value-1000.hundreds", "name": "Hundreds, tens and ones", "description": "Give the value of each digit in a three-digit number, e.g. 582 is 5 hundreds, 8 tens, 2 ones.", "itemTypes": ["choice", "numeric", "build"] },
+            { "id": "math.2.place-value-1000.expanded-form", "name": "Expanded and word form", "description": "Match a number to its expanded form or word name, e.g. 406 = 400 + 6.", "itemTypes": ["choice", "match", "build"] },
+            { "id": "math.2.place-value-1000.compare-three-digit", "name": "Compare three-digit numbers", "description": "Compare two three-digit numbers using place value, e.g. 712 > 698.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "math.2.add-sub-100",
+          "name": "Addition and subtraction within 100",
+          "skills": [
+            { "id": "math.2.add-sub-100.fluency-20", "name": "Fluent facts within 20", "description": "Recall sums and differences within 20 quickly, e.g. 9 + 6 and 14 - 8.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.2.add-sub-100.two-digit-add", "name": "Add two-digit numbers", "description": "Add two two-digit numbers with and without regrouping, e.g. 47 + 36 = 83.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.2.add-sub-100.two-digit-subtract", "name": "Subtract two-digit numbers", "description": "Subtract within 100 with and without regrouping, e.g. 72 - 45 = 27.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.2.add-sub-100.mental-strategies", "name": "Mental addition strategies", "description": "Use friendly numbers to add mentally, e.g. 38 + 25 = 38 + 2 + 23 = 63.", "itemTypes": ["choice", "numeric", "sequence"] }
+          ]
+        },
+        {
+          "id": "math.2.word-problems",
+          "name": "One- and two-step word problems",
+          "skills": [
+            { "id": "math.2.word-problems.one-step", "name": "One-step problems", "description": "Choose the operation and solve a short story problem, e.g. 'Ana had 24 stickers and gave away 9'.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.2.word-problems.two-step", "name": "Two-step problems", "description": "Solve problems needing two operations, e.g. 'buy 3 packs of 5, eat 4, how many left'.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.2.word-problems.write-equation", "name": "Write the matching equation", "description": "Pick the equation with a symbol for the unknown that matches a story, e.g. 12 + ? = 20.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "math.2.money-time",
+          "name": "Money and time",
+          "skills": [
+            { "id": "math.2.money-time.count-coins", "name": "Count coins and bills", "description": "Find the total value of a set of coins, e.g. two quarters and a dime make 60 cents.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.2.money-time.make-amount", "name": "Make an amount", "description": "Choose coins that make a given amount, e.g. make 35 cents with a quarter and a dime.", "itemTypes": ["build", "choice"] },
+            { "id": "math.2.money-time.time-five-minutes", "name": "Time to five minutes", "description": "Read a clock to the nearest five minutes and use a.m. and p.m., e.g. 7:45 a.m.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "math.2.measurement-data",
+          "name": "Measurement and data",
+          "skills": [
+            { "id": "math.2.measurement-data.standard-units", "name": "Measure in standard units", "description": "Measure a pictured object in centimetres or inches and choose the right tool and unit.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.2.measurement-data.estimate-length", "name": "Estimate lengths", "description": "Estimate the length of a familiar object, e.g. a door is about 2 metres tall.", "itemTypes": ["choice"] },
+            { "id": "math.2.measurement-data.bar-graphs", "name": "Bar graphs and line plots", "description": "Read a bar graph or line plot to compare categories and answer how many more or fewer.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.2.geometry",
+          "name": "Shapes and partitioning",
+          "skills": [
+            { "id": "math.2.geometry.polygons", "name": "Polygons by sides and angles", "description": "Identify triangles, quadrilaterals, pentagons and hexagons by counting sides and angles.", "itemTypes": ["choice", "sort", "match"] },
+            { "id": "math.2.geometry.partition-rectangles", "name": "Partition rectangles", "description": "Count the equal squares in a rectangle split into rows and columns, e.g. 3 rows of 4 squares.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.2.geometry.thirds", "name": "Halves, thirds and fourths", "description": "Name equal shares of a shape as halves, thirds or fourths and recognise that equal shares need not look alike.", "itemTypes": ["choice", "sort"] }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "topics": [
+        {
+          "id": "math.3.multiplication",
+          "name": "Multiplication",
+          "skills": [
+            { "id": "math.3.multiplication.equal-groups", "name": "Multiplication as equal groups", "description": "Write and solve a multiplication for equal groups or an array, e.g. 4 groups of 6 is 4 x 6 = 24.", "itemTypes": ["choice", "numeric", "match"] },
+            { "id": "math.3.multiplication.facts-10", "name": "Multiplication facts to 10 x 10", "description": "Recall products up to 10 x 10 quickly, e.g. 7 x 8 = 56.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.3.multiplication.properties", "name": "Commutative and distributive properties", "description": "Use properties to find products, e.g. 6 x 7 = 6 x 5 + 6 x 2.", "itemTypes": ["choice", "build"] },
+            { "id": "math.3.multiplication.multiples-of-ten", "name": "Multiply by multiples of ten", "description": "Multiply a one-digit number by a multiple of 10, e.g. 4 x 60 = 240.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.3.division",
+          "name": "Division",
+          "skills": [
+            { "id": "math.3.division.sharing", "name": "Division as sharing and grouping", "description": "Find how many in each group or how many groups, e.g. 24 cookies shared by 6 is 4 each.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.3.division.facts", "name": "Division facts", "description": "Recall quotients related to the multiplication table, e.g. 56 / 8 = 7.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.3.division.unknown-factor", "name": "Division as an unknown factor", "description": "Solve 8 x ? = 48 by thinking 48 / 8, and connect each fact family.", "itemTypes": ["choice", "numeric", "match"] }
+          ]
+        },
+        {
+          "id": "math.3.add-sub-1000",
+          "name": "Addition, subtraction and rounding within 1000",
+          "skills": [
+            { "id": "math.3.add-sub-1000.add-subtract", "name": "Add and subtract within 1000", "description": "Use place-value strategies and algorithms, e.g. 647 + 285 = 932 and 803 - 356 = 447.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.3.add-sub-1000.round", "name": "Round to tens and hundreds", "description": "Round a number to the nearest 10 or 100, e.g. 468 rounds to 470 and 500.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.3.add-sub-1000.estimate-sums", "name": "Estimate sums and differences", "description": "Round first to estimate, e.g. 312 + 489 is about 800, and judge whether an answer is reasonable.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.3.fractions",
+          "name": "Fractions as numbers",
+          "skills": [
+            { "id": "math.3.fractions.unit-fractions", "name": "Unit fractions", "description": "Identify the fraction shaded in a shape partitioned into b equal parts, e.g. 1 of 4 parts is 1/4.", "itemTypes": ["choice", "match", "numeric"] },
+            { "id": "math.3.fractions.number-line", "name": "Fractions on a number line", "description": "Place or read a fraction such as 3/4 on a number line from 0 to 1.", "itemTypes": ["choice", "numeric", "sequence"] },
+            { "id": "math.3.fractions.equivalent-simple", "name": "Simple equivalent fractions", "description": "Recognise equivalents using models, e.g. 1/2 = 2/4 and 3/3 = 1.", "itemTypes": ["choice", "match"] },
+            { "id": "math.3.fractions.compare-same", "name": "Compare fractions with the same numerator or denominator", "description": "Decide which is larger, e.g. 3/8 < 5/8 and 1/3 > 1/5, and explain using the size of pieces.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "math.3.measurement",
+          "name": "Time, mass and volume",
+          "skills": [
+            { "id": "math.3.measurement.time-minute", "name": "Time to the minute and elapsed time", "description": "Read a clock to the minute and find elapsed time, e.g. from 2:40 to 3:15 is 35 minutes.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.3.measurement.mass-volume", "name": "Estimate and measure mass and volume", "description": "Choose sensible grams, kilograms, millilitres or litres for objects and solve one-step problems about them.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.3.measurement.scaled-graphs", "name": "Scaled bar and picture graphs", "description": "Read graphs where one symbol or gridline stands for several units and compare categories.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.3.area-perimeter",
+          "name": "Area and perimeter",
+          "skills": [
+            { "id": "math.3.area-perimeter.count-area", "name": "Area by counting squares", "description": "Count unit squares to find the area of a shape drawn on a grid.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.3.area-perimeter.area-multiply", "name": "Area of rectangles by multiplying", "description": "Find the area of a rectangle as length x width, e.g. 7 by 4 gives 28 square units.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.3.area-perimeter.perimeter", "name": "Perimeter of polygons", "description": "Add side lengths to find perimeter or find a missing side given the perimeter.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.3.geometry",
+          "name": "Quadrilaterals and shape categories",
+          "skills": [
+            { "id": "math.3.geometry.quadrilaterals", "name": "Classify quadrilaterals", "description": "Identify rhombuses, rectangles, squares and other quadrilaterals by their sides and angles.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.3.geometry.shape-fractions", "name": "Partition shapes into equal areas", "description": "Split a shape into equal parts and name each part as a unit fraction of the whole.", "itemTypes": ["choice", "numeric"] }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "topics": [
+        {
+          "id": "math.4.place-value",
+          "name": "Multi-digit place value",
+          "skills": [
+            { "id": "math.4.place-value.read-write-large", "name": "Read and write numbers to a million", "description": "Convert between standard, word and expanded form, e.g. 305,021.", "itemTypes": ["choice", "match", "text"] },
+            { "id": "math.4.place-value.ten-times", "name": "A digit is ten times the place to its right", "description": "Compare digit values, e.g. in 7,700 the first 7 is ten times the second.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.4.place-value.compare-round", "name": "Compare and round multi-digit numbers", "description": "Compare with <, >, = and round to any place, e.g. 48,612 rounds to 49,000.", "itemTypes": ["choice", "numeric", "sort"] }
+          ]
+        },
+        {
+          "id": "math.4.multi-digit-ops",
+          "name": "Multi-digit multiplication and division",
+          "skills": [
+            { "id": "math.4.multi-digit-ops.multiply-1-digit", "name": "Multiply by a one-digit number", "description": "Multiply up to four digits by one digit using area models or the algorithm, e.g. 1,234 x 6.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.4.multi-digit-ops.multiply-2-digit", "name": "Multiply two two-digit numbers", "description": "Find products like 34 x 27 using partial products.", "itemTypes": ["numeric", "choice", "build"] },
+            { "id": "math.4.multi-digit-ops.divide-remainders", "name": "Divide with remainders", "description": "Divide up to four digits by one digit and interpret the remainder, e.g. 125 / 4 = 31 R1.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.4.multi-digit-ops.estimate-products", "name": "Estimate products and quotients", "description": "Use rounding to estimate, e.g. 48 x 21 is about 1,000.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.4.factors-patterns",
+          "name": "Factors, multiples and patterns",
+          "skills": [
+            { "id": "math.4.factors-patterns.factor-pairs", "name": "Factor pairs", "description": "List all factor pairs of a number up to 100, e.g. 24 has 1x24, 2x12, 3x8, 4x6.", "itemTypes": ["choice", "build", "numeric"] },
+            { "id": "math.4.factors-patterns.prime-composite", "name": "Prime and composite", "description": "Classify numbers to 100 as prime or composite, e.g. 29 is prime.", "itemTypes": ["sort", "choice"] },
+            { "id": "math.4.factors-patterns.multiples", "name": "Multiples", "description": "Decide whether a number is a multiple of another, e.g. 42 is a multiple of 7.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.4.factors-patterns.rules", "name": "Pattern rules", "description": "Generate a pattern from a rule like 'add 3' and describe a feature of it, e.g. the terms alternate odd and even.", "itemTypes": ["sequence", "choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.4.fractions",
+          "name": "Fraction equivalence and operations",
+          "skills": [
+            { "id": "math.4.fractions.equivalent", "name": "Equivalent fractions", "description": "Generate or recognise an equivalent fraction by multiplying or dividing numerator and denominator, e.g. 3/4 = 9/12.", "itemTypes": ["choice", "match", "numeric"] },
+            { "id": "math.4.fractions.compare", "name": "Compare fractions with unlike denominators", "description": "Compare fractions using common denominators or benchmarks like 1/2, e.g. 5/8 > 2/5.", "itemTypes": ["choice", "sort", "sequence"] },
+            { "id": "math.4.fractions.add-sub-like", "name": "Add and subtract like fractions", "description": "Add and subtract fractions with the same denominator, e.g. 3/8 + 4/8 = 7/8.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.4.fractions.mixed-numbers", "name": "Mixed numbers and improper fractions", "description": "Convert between forms, e.g. 7/4 = 1 3/4, and add mixed numbers with like denominators.", "itemTypes": ["choice", "numeric", "match"] }
+          ]
+        },
+        {
+          "id": "math.4.decimals",
+          "name": "Decimals and fraction-decimal links",
+          "skills": [
+            { "id": "math.4.decimals.tenths-hundredths", "name": "Tenths and hundredths", "description": "Write a fraction with denominator 10 or 100 as a decimal, e.g. 37/100 = 0.37.", "itemTypes": ["choice", "match", "numeric"] },
+            { "id": "math.4.decimals.compare", "name": "Compare decimals", "description": "Compare decimals to hundredths with <, >, =, e.g. 0.4 > 0.35.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.4.decimals.multiply-fraction-whole", "name": "Multiply a fraction by a whole number", "description": "Find products like 3 x 2/5 = 6/5 using repeated addition.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.4.measurement",
+          "name": "Measurement conversions and data",
+          "skills": [
+            { "id": "math.4.measurement.convert-units", "name": "Convert within a measurement system", "description": "Convert larger units to smaller, e.g. 3 km = 3,000 m and 2 hours = 120 minutes.", "itemTypes": ["numeric", "choice", "match"] },
+            { "id": "math.4.measurement.area-perimeter-formulas", "name": "Area and perimeter formulas", "description": "Apply A = l x w and P = 2l + 2w, including finding a missing side.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.4.measurement.line-plots", "name": "Line plots with fractions", "description": "Read and interpret a line plot whose scale uses halves, quarters or eighths.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.4.geometry",
+          "name": "Angles, lines and symmetry",
+          "skills": [
+            { "id": "math.4.geometry.angle-types", "name": "Right, acute and obtuse angles", "description": "Classify angles and triangles by angle type from a picture.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.4.geometry.measure-angles", "name": "Measure and add angles", "description": "Read a protractor to measure an angle and find an unknown angle from a sum, e.g. 90 - 35 = 55.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.4.geometry.parallel-perpendicular", "name": "Parallel and perpendicular lines", "description": "Identify parallel and perpendicular sides in shapes and classify shapes by them.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.4.geometry.symmetry", "name": "Line symmetry", "description": "Decide whether a shape has a line of symmetry and count how many.", "itemTypes": ["choice", "numeric"] }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "topics": [
+        {
+          "id": "math.5.place-value-decimals",
+          "name": "Decimal place value and powers of ten",
+          "skills": [
+            { "id": "math.5.place-value-decimals.thousandths", "name": "Decimals to thousandths", "description": "Read, write and compare decimals to thousandths, e.g. 2.045 < 2.405.", "itemTypes": ["choice", "sort", "text"] },
+            { "id": "math.5.place-value-decimals.powers-of-ten", "name": "Multiply and divide by powers of ten", "description": "Explain how the decimal point moves, e.g. 3.6 x 1000 = 3,600 and 45 / 100 = 0.45.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.5.place-value-decimals.round-decimals", "name": "Round decimals", "description": "Round to the nearest whole, tenth or hundredth, e.g. 4.376 rounds to 4.38.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.5.whole-number-ops",
+          "name": "Whole-number operations",
+          "skills": [
+            { "id": "math.5.whole-number-ops.multiply-fluently", "name": "Multiply multi-digit numbers", "description": "Use the standard algorithm, e.g. 326 x 47 = 15,322.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.5.whole-number-ops.divide-2-digit", "name": "Divide by two-digit divisors", "description": "Find quotients such as 1,248 / 24 = 52 using estimation and partial quotients.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.5.whole-number-ops.order-of-operations", "name": "Order of operations with grouping symbols", "description": "Evaluate expressions with parentheses and brackets, e.g. 3 x (4 + 2) - 5 = 13.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.5.whole-number-ops.write-expressions", "name": "Write and interpret expressions", "description": "Translate 'add 8 and 7, then multiply by 2' into 2 x (8 + 7) without evaluating.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "math.5.fractions",
+          "name": "Fraction addition, subtraction and multiplication",
+          "skills": [
+            { "id": "math.5.fractions.add-sub-unlike", "name": "Add and subtract unlike fractions", "description": "Use a common denominator, e.g. 2/3 + 1/4 = 11/12 and 1 1/2 - 2/5 = 1 1/10.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.5.fractions.multiply-fractions", "name": "Multiply fractions", "description": "Multiply a fraction by a fraction or whole number using area models, e.g. 2/3 x 3/4 = 1/2.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.5.fractions.scaling", "name": "Multiplication as scaling", "description": "Predict whether a product is bigger or smaller than a factor, e.g. 5 x 3/4 is less than 5.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.5.fractions.fraction-as-division", "name": "Fractions as division", "description": "Interpret a/b as a divided by b, e.g. 3 pizzas shared by 4 people gives 3/4 each.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.5.fraction-division",
+          "name": "Dividing with unit fractions",
+          "skills": [
+            { "id": "math.5.fraction-division.unit-by-whole", "name": "Divide a unit fraction by a whole number", "description": "Solve 1/3 / 4 = 1/12 with a model and story context.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.5.fraction-division.whole-by-unit", "name": "Divide a whole number by a unit fraction", "description": "Solve 4 / 1/5 = 20 by asking how many fifths are in 4.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.5.decimal-ops",
+          "name": "Decimal operations",
+          "skills": [
+            { "id": "math.5.decimal-ops.add-subtract", "name": "Add and subtract decimals", "description": "Line up place values to compute, e.g. 12.6 + 3.85 = 16.45.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.5.decimal-ops.multiply", "name": "Multiply decimals", "description": "Multiply decimals to hundredths and place the decimal point by reasoning, e.g. 2.5 x 1.2 = 3.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.5.decimal-ops.divide", "name": "Divide decimals", "description": "Divide decimals by whole numbers and decimals, e.g. 7.2 / 0.8 = 9.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.5.decimal-ops.estimate", "name": "Estimate with decimals", "description": "Round to estimate a sum or product and check reasonableness, e.g. 4.9 x 6.1 is about 30.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.5.volume-measurement",
+          "name": "Volume and measurement",
+          "skills": [
+            { "id": "math.5.volume-measurement.count-cubes", "name": "Volume by counting unit cubes", "description": "Count cubes in a rectangular prism built from layers.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.5.volume-measurement.volume-formula", "name": "Volume formula", "description": "Apply V = l x w x h or V = B x h, including composite figures made of two prisms.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.5.volume-measurement.convert-metric", "name": "Convert measurement units", "description": "Convert within metric and customary systems in multi-step problems, e.g. 2.5 kg = 2,500 g.", "itemTypes": ["numeric", "choice", "match"] }
+          ]
+        },
+        {
+          "id": "math.5.coordinate-geometry",
+          "name": "Coordinate plane and shape hierarchy",
+          "skills": [
+            { "id": "math.5.coordinate-geometry.plot-points", "name": "Plot and read points", "description": "Plot or read ordered pairs in the first quadrant, e.g. (3, 5) is 3 right and 5 up.", "itemTypes": ["choice", "numeric", "match"] },
+            { "id": "math.5.coordinate-geometry.patterns-graph", "name": "Graph number patterns", "description": "Generate two patterns from rules and plot the pairs, e.g. 'add 2' vs 'add 4'.", "itemTypes": ["choice", "sequence"] },
+            { "id": "math.5.coordinate-geometry.classify-hierarchy", "name": "Classify shapes in a hierarchy", "description": "Decide whether statements like 'every square is a rectangle' are true and sort shapes by properties.", "itemTypes": ["choice", "sort"] }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "topics": [
+        {
+          "id": "math.6.ratios",
+          "name": "Ratios and rates",
+          "skills": [
+            { "id": "math.6.ratios.ratio-language", "name": "Ratio language and notation", "description": "Describe a relationship as a ratio in words and symbols, e.g. 3 red to 5 blue is 3:5.", "itemTypes": ["choice", "match", "text"] },
+            { "id": "math.6.ratios.equivalent-ratios", "name": "Equivalent ratios and tables", "description": "Complete a ratio table or find an equivalent ratio, e.g. 2:3 = 8:12.", "itemTypes": ["numeric", "choice", "match"] },
+            { "id": "math.6.ratios.unit-rate", "name": "Unit rates", "description": "Find a rate per one unit, e.g. 12 dollars for 4 kg is 3 dollars per kg, and use it to compare deals.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.ratios.percent", "name": "Percent of a quantity", "description": "Find a percent of a number and the whole from a part, e.g. 30% of 80 is 24.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.6.fraction-division",
+          "name": "Dividing fractions",
+          "skills": [
+            { "id": "math.6.fraction-division.divide-fractions", "name": "Divide fractions by fractions", "description": "Compute quotients like 2/3 / 3/4 = 8/9 and explain with a model or the reciprocal.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.fraction-division.word-problems", "name": "Fraction division in context", "description": "Solve stories like 'how many 3/4-cup servings are in 6 cups'.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.6.number-system",
+          "name": "Decimals, factors and multiples",
+          "skills": [
+            { "id": "math.6.number-system.decimal-fluency", "name": "Fluent decimal operations", "description": "Add, subtract, multiply and divide multi-digit decimals with the standard algorithms.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.number-system.gcf-lcm", "name": "GCF and LCM", "description": "Find the greatest common factor and least common multiple, e.g. GCF(24, 36) = 12 and LCM(4, 6) = 12.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.number-system.distributive-gcf", "name": "Factor sums with the GCF", "description": "Rewrite a sum using the distributive property, e.g. 36 + 8 = 4(9 + 2).", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "math.6.integers",
+          "name": "Integers and rational numbers",
+          "skills": [
+            { "id": "math.6.integers.negative-numbers", "name": "Negative numbers in context", "description": "Use positive and negative numbers for temperature, elevation and debt, e.g. 30 m below sea level is -30.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.6.integers.order-compare", "name": "Order and compare rational numbers", "description": "Place rationals on a number line and interpret -3 > -7.", "itemTypes": ["sequence", "choice", "sort"] },
+            { "id": "math.6.integers.absolute-value", "name": "Absolute value", "description": "Find |x| as distance from zero and compare magnitudes, e.g. |-8| = 8.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.integers.four-quadrants", "name": "Four-quadrant coordinate plane", "description": "Plot and read points in all four quadrants and find distances between points sharing a coordinate.", "itemTypes": ["choice", "numeric", "match"] }
+          ]
+        },
+        {
+          "id": "math.6.expressions",
+          "name": "Algebraic expressions",
+          "skills": [
+            { "id": "math.6.expressions.exponents", "name": "Whole-number exponents", "description": "Evaluate expressions with exponents, e.g. 2^5 = 32 and 3^2 x 4.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.expressions.write-read", "name": "Write and read expressions", "description": "Translate between words and expressions, e.g. '5 less than twice y' is 2y - 5, and name terms and coefficients.", "itemTypes": ["choice", "build", "match"] },
+            { "id": "math.6.expressions.evaluate", "name": "Evaluate expressions", "description": "Substitute values into formulas and expressions, e.g. 3x + 2 when x = 4 gives 14.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.expressions.equivalent", "name": "Equivalent expressions", "description": "Identify equivalent expressions using properties, e.g. 3(x + 2) = 3x + 6 and y + y + y = 3y.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "math.6.equations",
+          "name": "One-variable equations and inequalities",
+          "skills": [
+            { "id": "math.6.equations.solve-one-step", "name": "Solve one-step equations", "description": "Solve x + 7 = 15 or 4x = 28 with non-negative rationals and check the solution.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.equations.write-inequality", "name": "Write and graph inequalities", "description": "Represent 'at least 12' as x >= 12 and choose its number-line graph.", "itemTypes": ["choice", "match"] },
+            { "id": "math.6.equations.dependent-variables", "name": "Dependent and independent variables", "description": "Write an equation relating two quantities from a table or story, e.g. d = 60t.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "math.6.geometry",
+          "name": "Area, surface area and volume",
+          "skills": [
+            { "id": "math.6.geometry.area-polygons", "name": "Area of triangles and polygons", "description": "Find areas of triangles, parallelograms and trapezoids by composing and decomposing into rectangles.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.geometry.volume-fractional", "name": "Volume with fractional edges", "description": "Find the volume of a right rectangular prism with fractional edge lengths, e.g. 2 x 1.5 x 3.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.geometry.nets-surface-area", "name": "Nets and surface area", "description": "Match a 3D solid to its net and find surface area by adding face areas.", "itemTypes": ["choice", "numeric", "match"] }
+          ]
+        },
+        {
+          "id": "math.6.statistics",
+          "name": "Statistics and data distributions",
+          "skills": [
+            { "id": "math.6.statistics.statistical-questions", "name": "Statistical questions", "description": "Decide whether a question anticipates variability, e.g. 'How tall are students in my class?'.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.6.statistics.mean-median-mode", "name": "Mean, median and mode", "description": "Compute measures of centre for a small data set, e.g. the mean of 4, 7, 9, 12 is 8.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.statistics.range-iqr", "name": "Range, IQR and MAD", "description": "Compute spread measures and describe what they say about a data set.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.6.statistics.displays", "name": "Dot plots, histograms and box plots", "description": "Read and choose the right display, describing shape, centre and spread.", "itemTypes": ["choice", "match"] }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "topics": [
+        {
+          "id": "math.7.proportions",
+          "name": "Proportional relationships",
+          "skills": [
+            { "id": "math.7.proportions.constant", "name": "Constant of proportionality", "description": "Find k from a table, graph or equation, e.g. y = 2.5x means k = 2.5.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.proportions.identify", "name": "Identify proportional relationships", "description": "Test whether a table or graph is proportional (passes through the origin with constant ratio).", "itemTypes": ["choice", "sort"] },
+            { "id": "math.7.proportions.solve", "name": "Solve proportions", "description": "Find the missing value in a/b = c/d, e.g. 3/4 = x/20 gives x = 15.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.proportions.complex-rates", "name": "Rates with fractions", "description": "Compute unit rates from fractional quantities, e.g. 1/2 mile in 1/4 hour is 2 mph.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.7.percents",
+          "name": "Percent problems",
+          "skills": [
+            { "id": "math.7.percents.increase-decrease", "name": "Percent increase and decrease", "description": "Find a new value or the percent change, e.g. 40 increased by 15% is 46.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.percents.tax-tip-discount", "name": "Tax, tip, discount and markup", "description": "Solve multi-step money problems, e.g. 20% off 35 dollars plus 8% tax.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.percents.simple-interest", "name": "Simple interest and percent error", "description": "Apply I = Prt and compute percent error, e.g. 500 at 4% for 3 years earns 60.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.7.rational-numbers",
+          "name": "Operations with rational numbers",
+          "skills": [
+            { "id": "math.7.rational-numbers.add-subtract-integers", "name": "Add and subtract integers", "description": "Compute with signed numbers using a number line or rules, e.g. -7 + 12 = 5 and 3 - (-4) = 7.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.rational-numbers.multiply-divide", "name": "Multiply and divide rational numbers", "description": "Apply sign rules to products and quotients, e.g. (-6) x (-1.5) = 9.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.rational-numbers.fraction-decimal", "name": "Convert fractions to decimals", "description": "Use long division and recognise terminating vs repeating decimals, e.g. 5/6 = 0.8333...", "itemTypes": ["choice", "numeric", "sort"] },
+            { "id": "math.7.rational-numbers.mental-estimation", "name": "Mental math with signed numbers", "description": "Estimate and compute quickly, e.g. -48 + 51 is about 3.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.7.expressions",
+          "name": "Expressions with rational coefficients",
+          "skills": [
+            { "id": "math.7.expressions.distributive", "name": "Distributive property", "description": "Expand and factor linear expressions, e.g. 3(2x - 5) = 6x - 15 and 4x + 12 = 4(x + 3).", "itemTypes": ["choice", "build", "match"] },
+            { "id": "math.7.expressions.combine-like-terms", "name": "Combine like terms", "description": "Simplify expressions like 5x - 2 + 3x + 7 to 8x + 5.", "itemTypes": ["choice", "numeric", "build"] },
+            { "id": "math.7.expressions.rewrite-context", "name": "Rewrite expressions in context", "description": "Recognise that 'a 5% raise' means 1.05s, and explain what rewritten forms show.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "math.7.equations",
+          "name": "Linear equations",
+          "skills": [
+            { "id": "math.7.equations.one-step", "name": "One-step equations", "description": "Solve equations like x - 9 = -4 or x/3 = 7 with rational numbers.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.7.equations.two-step", "name": "Two-step equations", "description": "Solve px + q = r and p(x + q) = r, e.g. 3x - 4 = 11 gives x = 5.", "itemTypes": ["choice", "numeric", "sequence"] },
+            { "id": "math.7.equations.word-problems", "name": "Equations from word problems", "description": "Write and solve an equation for a story, e.g. 'a rectangle with perimeter 54 and length 6 more than width'.", "itemTypes": ["choice", "numeric", "build"] }
+          ]
+        },
+        {
+          "id": "math.7.inequalities",
+          "name": "Linear inequalities",
+          "skills": [
+            { "id": "math.7.inequalities.solve", "name": "Solve two-step inequalities", "description": "Solve px + q > r and px + q < r, flipping the sign when dividing by a negative, e.g. -2x + 3 > 11 gives x < -4.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.7.inequalities.graph", "name": "Graph solution sets", "description": "Match an inequality to its number-line graph with open or closed circles.", "itemTypes": ["choice", "match"] },
+            { "id": "math.7.inequalities.context", "name": "Inequalities from context", "description": "Write and interpret inequalities for stories such as 'at most 50 dollars at 8 dollars per ticket plus 6 fee'.", "itemTypes": ["choice", "build", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.7.geometry",
+          "name": "Scale, angles, circles and solids",
+          "skills": [
+            { "id": "math.7.geometry.scale-drawings", "name": "Scale drawings", "description": "Compute actual lengths and areas from a scale, e.g. 1 cm : 4 m.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.geometry.angle-relationships", "name": "Angle relationships", "description": "Use supplementary, complementary, vertical and adjacent angles to find unknowns.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.geometry.circles", "name": "Circumference and area of circles", "description": "Apply C = 2 pi r and A = pi r^2, e.g. a radius of 3 gives area about 28.3.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.geometry.solids", "name": "Area, volume and surface area of prisms", "description": "Solve real problems with composite 2D figures and right prisms and pyramids.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.7.probability-statistics",
+          "name": "Probability and sampling",
+          "skills": [
+            { "id": "math.7.probability-statistics.simple-probability", "name": "Simple probability", "description": "Find P(event) as favourable over total, e.g. P(red) with 3 red of 8 marbles is 3/8.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.7.probability-statistics.compound-events", "name": "Compound events", "description": "List outcomes with tables or tree diagrams and find probabilities, e.g. two coins both heads is 1/4.", "itemTypes": ["numeric", "choice", "build"] },
+            { "id": "math.7.probability-statistics.experimental", "name": "Experimental vs theoretical probability", "description": "Compare observed frequencies to predictions and predict counts, e.g. about 50 heads in 100 flips.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.7.probability-statistics.sampling", "name": "Random sampling and inference", "description": "Judge whether a sample is representative and estimate a population from a sample proportion.", "itemTypes": ["choice", "numeric"] }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "topics": [
+        {
+          "id": "math.8.exponents-roots",
+          "name": "Exponents, roots and scientific notation",
+          "skills": [
+            { "id": "math.8.exponents-roots.exponent-rules", "name": "Integer exponent rules", "description": "Simplify using product, quotient and power rules, e.g. 3^2 x 3^-5 = 3^-3 = 1/27.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.8.exponents-roots.square-cube-roots", "name": "Square and cube roots", "description": "Evaluate perfect roots and solve x^2 = p or x^3 = p, e.g. the cube root of 64 is 4.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.8.exponents-roots.scientific-notation", "name": "Scientific notation", "description": "Convert and operate in scientific notation, e.g. (3 x 10^4)(2 x 10^3) = 6 x 10^7.", "itemTypes": ["choice", "numeric", "text"] },
+            { "id": "math.8.exponents-roots.irrationals", "name": "Rational and irrational numbers", "description": "Classify numbers and estimate irrationals, e.g. the square root of 10 is between 3.1 and 3.2.", "itemTypes": ["sort", "choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.8.linear",
+          "name": "Linear equations and graphs",
+          "skills": [
+            { "id": "math.8.linear.slope", "name": "Slope", "description": "Find slope from two points, a graph or a table, e.g. through (1, 2) and (3, 8) the slope is 3.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.8.linear.slope-intercept", "name": "Slope-intercept form", "description": "Write y = mx + b from a graph or description and graph a line from its equation.", "itemTypes": ["choice", "build", "match"] },
+            { "id": "math.8.linear.proportional-vs-linear", "name": "Proportional vs non-proportional lines", "description": "Compare y = kx with y = mx + b and interpret the intercept in context.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.8.linear.multi-step-equations", "name": "Multi-step equations", "description": "Solve equations with variables on both sides and the distributive property, e.g. 2(x - 3) = 5x + 9, including no-solution cases.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.8.systems",
+          "name": "Systems of linear equations",
+          "skills": [
+            { "id": "math.8.systems.solve", "name": "Solve systems algebraically", "description": "Solve two linear equations by substitution or elimination, e.g. x + y = 10 and x - y = 2 gives (6, 4).", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.8.systems.graphical", "name": "Solve systems by graphing", "description": "Read the intersection of two lines and tell whether a system has one, none or infinitely many solutions.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.8.systems.word-problems", "name": "Systems from word problems", "description": "Set up and solve a system from a story, e.g. ticket prices for adults and children.", "itemTypes": ["choice", "numeric", "build"] }
+          ]
+        },
+        {
+          "id": "math.8.functions",
+          "name": "Functions",
+          "skills": [
+            { "id": "math.8.functions.identify", "name": "Identify functions", "description": "Decide whether a table, graph or mapping is a function (each input has exactly one output).", "itemTypes": ["choice", "sort"] },
+            { "id": "math.8.functions.linear-vs-nonlinear", "name": "Linear vs nonlinear functions", "description": "Classify from tables, graphs or equations, e.g. y = x^2 is nonlinear.", "itemTypes": ["sort", "choice"] },
+            { "id": "math.8.functions.compare-representations", "name": "Compare functions across representations", "description": "Compare rates of change given one function as a table and another as an equation or graph.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.8.functions.describe-graphs", "name": "Describe qualitative graphs", "description": "Match a story (speeding up, resting, slowing) to the graph that shows it.", "itemTypes": ["match", "choice"] }
+          ]
+        },
+        {
+          "id": "math.8.transformations",
+          "name": "Transformations and congruence",
+          "skills": [
+            { "id": "math.8.transformations.rigid-motions", "name": "Translations, reflections and rotations", "description": "Find the image coordinates after a rigid motion, e.g. reflecting (3, -2) over the x-axis gives (3, 2).", "itemTypes": ["choice", "numeric", "match"] },
+            { "id": "math.8.transformations.dilations", "name": "Dilations and similarity", "description": "Scale a figure from the origin and decide whether two figures are similar.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.8.transformations.angle-sum", "name": "Angles in triangles and parallel lines", "description": "Use the triangle angle sum, exterior angles and angles from a transversal to find unknowns.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.8.pythagorean",
+          "name": "Pythagorean theorem and volume",
+          "skills": [
+            { "id": "math.8.pythagorean.find-side", "name": "Find a missing side", "description": "Apply a^2 + b^2 = c^2 to right triangles, e.g. legs 6 and 8 give hypotenuse 10.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.8.pythagorean.distance", "name": "Distance in the coordinate plane", "description": "Find the distance between two points using a right triangle, e.g. (1, 1) to (4, 5) is 5.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.8.pythagorean.cylinders-cones-spheres", "name": "Volume of cylinders, cones and spheres", "description": "Apply volume formulas, e.g. a cone with radius 3 and height 4 has volume 12 pi.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.8.bivariate-data",
+          "name": "Bivariate data",
+          "skills": [
+            { "id": "math.8.bivariate-data.scatter-plots", "name": "Scatter plots and association", "description": "Describe clusters, outliers and positive, negative or no association in a scatter plot.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.8.bivariate-data.line-of-fit", "name": "Lines of best fit", "description": "Judge a fitted line and interpret its slope and intercept, e.g. 'each hour of study adds 4 points'.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.8.bivariate-data.two-way-tables", "name": "Two-way tables", "description": "Read and complete frequency tables and compute relative frequencies to find association.", "itemTypes": ["numeric", "choice"] }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "topics": [
+        {
+          "id": "math.9.linear-functions",
+          "name": "Linear equations, inequalities and functions",
+          "skills": [
+            { "id": "math.9.linear-functions.solve-literal", "name": "Solve literal equations", "description": "Rearrange formulas to isolate a variable, e.g. solve A = 1/2 bh for h.", "itemTypes": ["choice", "build"] },
+            { "id": "math.9.linear-functions.compound-inequalities", "name": "Compound and absolute-value inequalities", "description": "Solve and graph -3 < 2x + 1 <= 7 or |x - 2| > 5.", "itemTypes": ["choice", "match"] },
+            { "id": "math.9.linear-functions.forms", "name": "Point-slope and standard form", "description": "Write a line in point-slope or standard form from given information and convert between forms.", "itemTypes": ["choice", "build"] },
+            { "id": "math.9.linear-functions.parallel-perpendicular", "name": "Parallel and perpendicular lines", "description": "Write an equation of the line through a point parallel or perpendicular to a given line.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.9.function-concepts",
+          "name": "Functions and their representations",
+          "skills": [
+            { "id": "math.9.function-concepts.notation", "name": "Function notation and evaluation", "description": "Evaluate f(x) = 2x^2 - 3 at given inputs and interpret f(4) = 29 in context.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.9.function-concepts.domain-range", "name": "Domain and range", "description": "State the domain and range from a graph, table or context, e.g. tickets sold must be whole numbers.", "itemTypes": ["choice", "match"] },
+            { "id": "math.9.function-concepts.key-features", "name": "Key features of graphs", "description": "Identify intercepts, intervals of increase, maxima and minima from a graph.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.9.function-concepts.rate-of-change", "name": "Average rate of change", "description": "Compute the average rate of change over an interval from a table or equation.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.9.systems",
+          "name": "Systems of equations and inequalities",
+          "skills": [
+            { "id": "math.9.systems.elimination", "name": "Elimination with multiplication", "description": "Solve systems such as 3x + 2y = 7 and 5x - 4y = 19 by scaling an equation.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.9.systems.linear-inequalities", "name": "Systems of linear inequalities", "description": "Identify the solution region of two inequalities and test whether a point satisfies both.", "itemTypes": ["choice", "match"] },
+            { "id": "math.9.systems.modeling", "name": "Modeling with systems", "description": "Translate constraints (budget, mixture, break-even) into a system and interpret the solution.", "itemTypes": ["choice", "numeric", "build"] }
+          ]
+        },
+        {
+          "id": "math.9.exponential",
+          "name": "Exponential functions",
+          "skills": [
+            { "id": "math.9.exponential.growth-decay", "name": "Exponential growth and decay", "description": "Write and evaluate y = a(1 + r)^t, e.g. 500 growing 6% a year for 3 years.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.9.exponential.linear-vs-exponential", "name": "Linear vs exponential change", "description": "Decide from a table whether quantities change by equal differences or equal factors.", "itemTypes": ["sort", "choice"] },
+            { "id": "math.9.exponential.sequences", "name": "Arithmetic and geometric sequences", "description": "Write explicit and recursive rules, e.g. 3, 6, 12, 24 is a_n = 3 x 2^(n-1).", "itemTypes": ["choice", "numeric", "build"] },
+            { "id": "math.9.exponential.rational-exponents", "name": "Rational exponents and radicals", "description": "Rewrite between radical and exponent forms, e.g. 8^(2/3) = 4.", "itemTypes": ["numeric", "choice", "match"] }
+          ]
+        },
+        {
+          "id": "math.9.polynomials",
+          "name": "Polynomials",
+          "skills": [
+            { "id": "math.9.polynomials.add-subtract-multiply", "name": "Add, subtract and multiply polynomials", "description": "Simplify (2x + 3)(x - 4) to 2x^2 - 5x - 12 and combine polynomial expressions.", "itemTypes": ["choice", "build"] },
+            { "id": "math.9.polynomials.factor-gcf-trinomials", "name": "Factor trinomials and the GCF", "description": "Factor x^2 + 5x + 6 as (x + 2)(x + 3) and 6x^2 + 9x as 3x(2x + 3).", "itemTypes": ["choice", "build"] },
+            { "id": "math.9.polynomials.special-products", "name": "Special products", "description": "Recognise and factor differences of squares and perfect-square trinomials, e.g. x^2 - 49.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "math.9.quadratics",
+          "name": "Quadratic functions and equations",
+          "skills": [
+            { "id": "math.9.quadratics.graph-features", "name": "Graph quadratics and key features", "description": "Find the vertex, axis of symmetry and intercepts of y = x^2 - 4x + 3.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.9.quadratics.solve-factoring", "name": "Solve by factoring and square roots", "description": "Solve x^2 - 5x + 6 = 0 and 2x^2 = 50 using the zero-product property or square roots.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.9.quadratics.quadratic-formula", "name": "Quadratic formula and completing the square", "description": "Solve any quadratic, e.g. x^2 + 4x - 1 = 0, and use the discriminant to count real solutions.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.9.quadratics.projectile-models", "name": "Quadratic models", "description": "Interpret maximum height and landing time in h(t) = -5t^2 + 20t + 1.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.9.data",
+          "name": "One- and two-variable statistics",
+          "skills": [
+            { "id": "math.9.data.compare-distributions", "name": "Compare distributions", "description": "Compare centre, spread and shape of two data sets using box plots and histograms.", "itemTypes": ["choice"] },
+            { "id": "math.9.data.standard-deviation", "name": "Standard deviation and outliers", "description": "Compute or interpret standard deviation and identify outliers using the IQR rule.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.9.data.linear-regression", "name": "Linear regression and correlation", "description": "Interpret slope, intercept and the correlation coefficient of a fitted line and distinguish correlation from causation.", "itemTypes": ["choice", "numeric"] }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "topics": [
+        {
+          "id": "math.10.foundations",
+          "name": "Geometric foundations and reasoning",
+          "skills": [
+            { "id": "math.10.foundations.definitions", "name": "Points, lines, planes and angles", "description": "Use precise definitions of segment, ray, angle bisector and midpoint, e.g. find a midpoint from endpoints.", "itemTypes": ["choice", "numeric", "match"] },
+            { "id": "math.10.foundations.logic", "name": "Conditionals and logical reasoning", "description": "Write the converse, inverse and contrapositive of a statement and judge validity.", "itemTypes": ["choice", "match"] },
+            { "id": "math.10.foundations.proof-structure", "name": "Two-column and paragraph proofs", "description": "Order the steps of a proof and supply the justification for each step.", "itemTypes": ["sequence", "choice"] }
+          ]
+        },
+        {
+          "id": "math.10.transformations",
+          "name": "Transformations and congruence",
+          "skills": [
+            { "id": "math.10.transformations.rules", "name": "Transformation rules", "description": "Write coordinate rules such as (x, y) -> (-y, x) for a 90-degree rotation and compose transformations.", "itemTypes": ["choice", "match", "numeric"] },
+            { "id": "math.10.transformations.congruence-criteria", "name": "Triangle congruence criteria", "description": "Decide whether SSS, SAS, ASA, AAS or HL proves two triangles congruent.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.10.transformations.congruence-proofs", "name": "Proving congruence", "description": "Complete a proof that two triangles or segments are congruent using given marks and shared sides.", "itemTypes": ["sequence", "choice"] }
+          ]
+        },
+        {
+          "id": "math.10.parallel-polygons",
+          "name": "Parallel lines, triangles and polygons",
+          "skills": [
+            { "id": "math.10.parallel-polygons.transversals", "name": "Angles with parallel lines", "description": "Solve for x using alternate interior, corresponding and co-interior angles.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.parallel-polygons.triangle-theorems", "name": "Triangle theorems", "description": "Apply isosceles base angles, the triangle inequality and midsegment theorem.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.parallel-polygons.quadrilateral-properties", "name": "Properties of quadrilaterals", "description": "Use diagonal and angle properties of parallelograms, rectangles, rhombi and kites to find unknowns.", "itemTypes": ["numeric", "choice", "sort"] },
+            { "id": "math.10.parallel-polygons.polygon-angles", "name": "Interior and exterior angles of polygons", "description": "Find the angle sum (n - 2) x 180 and each angle of a regular polygon, e.g. a hexagon has 120-degree angles.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.10.similarity-trig",
+          "name": "Similarity and right-triangle trigonometry",
+          "skills": [
+            { "id": "math.10.similarity-trig.similar-triangles", "name": "Similar triangles", "description": "Prove similarity by AA, SSS or SAS and solve for missing sides with proportions.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.similarity-trig.special-right", "name": "Special right triangles", "description": "Use 45-45-90 and 30-60-90 ratios, e.g. a leg of 5 gives a hypotenuse of 5 root 2.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.10.similarity-trig.sine-cosine-tangent", "name": "Sine, cosine and tangent", "description": "Find a side or angle in a right triangle, e.g. opposite 7 and angle 35 degrees gives hypotenuse about 12.2.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.similarity-trig.applications", "name": "Angles of elevation and depression", "description": "Model real situations such as a ladder against a wall and solve with trigonometry.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.10.circles",
+          "name": "Circles",
+          "skills": [
+            { "id": "math.10.circles.arcs-chords", "name": "Arcs, chords and inscribed angles", "description": "Find arc measures and angles, e.g. an inscribed angle is half its intercepted arc.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.circles.tangents-secants", "name": "Tangents and secants", "description": "Apply tangent-radius perpendicularity and segment product theorems to find lengths.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.circles.arc-length-sector", "name": "Arc length and sector area", "description": "Compute arc length and sector area from a central angle, e.g. a 60-degree sector of radius 6 has area 6 pi.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.circles.equations", "name": "Equations of circles", "description": "Write (x - h)^2 + (y - k)^2 = r^2 from centre and radius and complete the square to find them.", "itemTypes": ["choice", "build", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.10.coordinate-geometry",
+          "name": "Coordinate geometry",
+          "skills": [
+            { "id": "math.10.coordinate-geometry.distance-midpoint", "name": "Distance and midpoint formulas", "description": "Compute distances and midpoints to classify triangles and quadrilaterals on the plane.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.coordinate-geometry.slope-criteria", "name": "Slope criteria for parallel and perpendicular", "description": "Use slopes to prove sides are parallel or perpendicular, e.g. show a quadrilateral is a rectangle.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.10.coordinate-geometry.partition-segments", "name": "Partition a segment", "description": "Find the point that divides a segment in a given ratio, e.g. 1:3 from A to B.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.10.measurement",
+          "name": "Area, volume and modeling",
+          "skills": [
+            { "id": "math.10.measurement.composite-area", "name": "Area of composite and regular figures", "description": "Find areas of regular polygons using apothems and of shaded composite regions.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.measurement.volume-solids", "name": "Volume and surface area of solids", "description": "Apply formulas for prisms, cylinders, pyramids, cones and spheres, including Cavalieri's principle.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.measurement.cross-sections", "name": "Cross sections and solids of rotation", "description": "Identify the shape of a slice of a solid or the solid formed by rotating a 2D figure.", "itemTypes": ["choice", "match"] },
+            { "id": "math.10.measurement.density", "name": "Density and design problems", "description": "Solve problems such as population density or material needed per unit area.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.10.probability",
+          "name": "Probability",
+          "skills": [
+            { "id": "math.10.probability.set-operations", "name": "Unions, intersections and complements", "description": "Use Venn diagrams and P(A or B) = P(A) + P(B) - P(A and B).", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.probability.conditional", "name": "Conditional probability and independence", "description": "Compute P(A | B) from a two-way table and test whether events are independent.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.10.probability.counting", "name": "Permutations and combinations", "description": "Count arrangements and selections, e.g. choose 3 of 8 is 56.", "itemTypes": ["numeric", "choice"] }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "topics": [
+        {
+          "id": "math.11.polynomial-functions",
+          "name": "Polynomial functions",
+          "skills": [
+            { "id": "math.11.polynomial-functions.end-behavior", "name": "Graphs and end behaviour", "description": "Describe end behaviour, zeros and multiplicity from a factored polynomial.", "itemTypes": ["choice", "match"] },
+            { "id": "math.11.polynomial-functions.division-remainder", "name": "Polynomial division and the remainder theorem", "description": "Divide polynomials and use p(a) to test factors, e.g. (x - 2) divides x^3 - 8.", "itemTypes": ["choice", "numeric", "build"] },
+            { "id": "math.11.polynomial-functions.factor-solve", "name": "Factor and solve higher-degree equations", "description": "Factor sums and differences of cubes and by grouping, and find all real zeros.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.11.polynomial-functions.identities", "name": "Polynomial identities and the binomial theorem", "description": "Expand (a + b)^n with Pascal's triangle and prove identities like (x^2 + y^2)^2 = (x^2 - y^2)^2 + (2xy)^2.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "math.11.complex-numbers",
+          "name": "Complex numbers",
+          "skills": [
+            { "id": "math.11.complex-numbers.operations", "name": "Operations with complex numbers", "description": "Add, multiply and divide complex numbers, e.g. (2 + 3i)(1 - i) = 5 + i.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.11.complex-numbers.quadratic-solutions", "name": "Complex solutions of quadratics", "description": "Solve x^2 + 4 = 0 as x = +-2i and use the discriminant to predict complex roots.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.11.rational-radical",
+          "name": "Rational and radical functions",
+          "skills": [
+            { "id": "math.11.rational-radical.rational-expressions", "name": "Simplify and operate on rational expressions", "description": "Add, multiply and simplify expressions like (x^2 - 9)/(x^2 + 3x).", "itemTypes": ["choice", "build"] },
+            { "id": "math.11.rational-radical.rational-equations", "name": "Rational equations and extraneous solutions", "description": "Solve 3/x + 1/2 = 2 and check for values excluded from the domain.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.11.rational-radical.asymptotes", "name": "Graphs of rational functions", "description": "Find vertical and horizontal asymptotes and holes of a rational function.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.11.rational-radical.radical-equations", "name": "Radical equations", "description": "Solve sqrt(2x + 3) = x and identify extraneous roots.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.11.exponential-log",
+          "name": "Exponential and logarithmic functions",
+          "skills": [
+            { "id": "math.11.exponential-log.log-definition", "name": "Logarithms as inverses", "description": "Convert between exponential and log form and evaluate logs, e.g. log_2 32 = 5.", "itemTypes": ["numeric", "choice", "match"] },
+            { "id": "math.11.exponential-log.log-properties", "name": "Properties of logarithms", "description": "Expand and condense using product, quotient and power rules, e.g. log(ab^2) = log a + 2 log b.", "itemTypes": ["choice", "build"] },
+            { "id": "math.11.exponential-log.solve-equations", "name": "Solve exponential and log equations", "description": "Solve 5 x 2^x = 80 and log(x) + log(x - 3) = 1 using logs and the base e.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.11.exponential-log.modeling", "name": "Compound interest and continuous growth", "description": "Apply A = P(1 + r/n)^(nt) and A = Pe^(rt) and find doubling or half-life times.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.11.functions-transformations",
+          "name": "Function transformations, inverses and composition",
+          "skills": [
+            { "id": "math.11.functions-transformations.transform", "name": "Transformations of parent functions", "description": "Describe how y = -2f(x - 3) + 1 shifts, stretches and reflects the graph of f.", "itemTypes": ["choice", "match"] },
+            { "id": "math.11.functions-transformations.inverse", "name": "Inverse functions", "description": "Find and verify inverses, e.g. the inverse of f(x) = 2x - 5 is (x + 5)/2.", "itemTypes": ["choice", "build"] },
+            { "id": "math.11.functions-transformations.composition", "name": "Function composition", "description": "Evaluate and simplify f(g(x)), e.g. with f(x) = x^2 and g(x) = x + 1.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.11.functions-transformations.piecewise", "name": "Piecewise and absolute-value functions", "description": "Evaluate and graph piecewise-defined functions and interpret step functions in context.", "itemTypes": ["numeric", "choice", "match"] }
+          ]
+        },
+        {
+          "id": "math.11.sequences-series",
+          "name": "Sequences and series",
+          "skills": [
+            { "id": "math.11.sequences-series.arithmetic-series", "name": "Arithmetic series", "description": "Sum the first n terms, e.g. 2 + 5 + 8 + ... for 20 terms is 610.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.11.sequences-series.geometric-series", "name": "Finite geometric series", "description": "Apply S_n = a(1 - r^n)/(1 - r) to problems such as monthly payments.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.11.sequences-series.sigma-notation", "name": "Sigma notation and recursion", "description": "Expand and evaluate sums in sigma notation and convert recursive rules to explicit ones.", "itemTypes": ["choice", "numeric", "build"] }
+          ]
+        },
+        {
+          "id": "math.11.trigonometry",
+          "name": "Trigonometric functions",
+          "skills": [
+            { "id": "math.11.trigonometry.radians-unit-circle", "name": "Radians and the unit circle", "description": "Convert degrees to radians and find exact sine and cosine values, e.g. cos(2 pi / 3) = -1/2.", "itemTypes": ["choice", "numeric", "match"] },
+            { "id": "math.11.trigonometry.graphs", "name": "Graphs of sine and cosine", "description": "Identify amplitude, period, midline and phase shift of y = 3 sin(2x) + 1.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.11.trigonometry.pythagorean-identity", "name": "Pythagorean identity", "description": "Use sin^2 + cos^2 = 1 to find one ratio from another given the quadrant.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.11.trigonometry.periodic-models", "name": "Model periodic phenomena", "description": "Write a sinusoidal model for tides or temperature from maximum, minimum and period.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "math.11.inference",
+          "name": "Statistical inference",
+          "skills": [
+            { "id": "math.11.inference.normal-distribution", "name": "The normal distribution", "description": "Use the empirical rule and z-scores to find percentages, e.g. about 95% within two standard deviations.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.11.inference.study-design", "name": "Surveys, experiments and observational studies", "description": "Classify a study design and spot bias or confounding, and explain the role of randomisation.", "itemTypes": ["choice", "sort"] },
+            { "id": "math.11.inference.margin-of-error", "name": "Sampling variability and margin of error", "description": "Interpret a simulation of sample proportions and a margin of error, e.g. 52% +- 3%.", "itemTypes": ["choice", "numeric"] }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "topics": [
+        {
+          "id": "math.12.advanced-functions",
+          "name": "Advanced function analysis",
+          "skills": [
+            { "id": "math.12.advanced-functions.rational-graphs", "name": "Analyse rational and polynomial graphs", "description": "Sketch and interpret graphs with slant asymptotes, holes and multiplicities.", "itemTypes": ["choice", "match"] },
+            { "id": "math.12.advanced-functions.limits-intuition", "name": "Limits and continuity (introduction)", "description": "Evaluate limits from graphs and tables, e.g. the limit of (x^2 - 1)/(x - 1) as x approaches 1 is 2.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.12.advanced-functions.rate-of-change", "name": "Instantaneous rate of change", "description": "Estimate the slope of a tangent from secant slopes over shrinking intervals.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.12.advanced-functions.parametric", "name": "Parametric equations", "description": "Convert between parametric and Cartesian forms and trace motion, e.g. x = cos t, y = sin t.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "math.12.trig-identities",
+          "name": "Trigonometric identities and equations",
+          "skills": [
+            { "id": "math.12.trig-identities.sum-difference", "name": "Sum, difference and double-angle formulas", "description": "Find exact values like sin 75 degrees and simplify using double-angle identities.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.12.trig-identities.prove", "name": "Prove identities", "description": "Order the steps that transform one side of an identity into the other.", "itemTypes": ["sequence", "choice"] },
+            { "id": "math.12.trig-identities.solve-equations", "name": "Solve trigonometric equations", "description": "Find all solutions in [0, 2 pi) of equations like 2 sin^2 x - 1 = 0.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.12.trig-identities.inverse-trig", "name": "Inverse trigonometric functions", "description": "Evaluate arcsin, arccos and arctan with correct ranges, e.g. arctan(1) = pi/4.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.12.triangles-vectors",
+          "name": "Laws of sines and cosines, vectors",
+          "skills": [
+            { "id": "math.12.triangles-vectors.law-of-sines", "name": "Law of sines", "description": "Solve oblique triangles, including the ambiguous case, from two angles and a side or two sides and an angle.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.12.triangles-vectors.law-of-cosines", "name": "Law of cosines and area", "description": "Find a side or angle with c^2 = a^2 + b^2 - 2ab cos C and area as 1/2 ab sin C.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.12.triangles-vectors.vector-operations", "name": "Vector operations", "description": "Add, scale and find magnitude and direction of vectors, e.g. |(3, 4)| = 5.", "itemTypes": ["numeric", "choice", "build"] },
+            { "id": "math.12.triangles-vectors.dot-product", "name": "Dot product and applications", "description": "Compute dot products, angles between vectors, and resolve forces or velocities.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "math.12.polar-complex",
+          "name": "Polar coordinates and complex plane",
+          "skills": [
+            { "id": "math.12.polar-complex.polar-coordinates", "name": "Polar coordinates", "description": "Convert between polar and rectangular coordinates and identify graphs of r = 2 cos theta.", "itemTypes": ["choice", "numeric", "match"] },
+            { "id": "math.12.polar-complex.complex-polar-form", "name": "Complex numbers in polar form", "description": "Write z = r(cos theta + i sin theta), multiply in polar form and apply De Moivre's theorem.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.12.polar-complex.conic-sections", "name": "Conic sections", "description": "Identify and write equations of parabolas, ellipses and hyperbolas from foci, vertices or standard form.", "itemTypes": ["choice", "match", "build"] }
+          ]
+        },
+        {
+          "id": "math.12.matrices",
+          "name": "Matrices and systems",
+          "skills": [
+            { "id": "math.12.matrices.operations", "name": "Matrix operations", "description": "Add, scale and multiply matrices and know when products are defined, e.g. a 2x3 times a 3x2.", "itemTypes": ["numeric", "choice", "build"] },
+            { "id": "math.12.matrices.inverse-determinant", "name": "Determinants and inverses", "description": "Compute the determinant and inverse of a 2x2 matrix and interpret a zero determinant.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.12.matrices.solve-systems", "name": "Solve systems with matrices", "description": "Represent a linear system as AX = B and solve 3x3 systems with inverses or row reduction.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.12.probability-distributions",
+          "name": "Probability distributions",
+          "skills": [
+            { "id": "math.12.probability-distributions.random-variables", "name": "Discrete random variables", "description": "Build a probability distribution and compute expected value, e.g. the mean payout of a game.", "itemTypes": ["numeric", "choice", "build"] },
+            { "id": "math.12.probability-distributions.binomial", "name": "Binomial distribution", "description": "Compute P(X = k) for n independent trials, e.g. exactly 3 heads in 5 flips is 10/32.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.12.probability-distributions.normal-calculations", "name": "Normal probability calculations", "description": "Use z-scores and the standard normal table to find probabilities and percentiles.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.12.probability-distributions.expected-value-decisions", "name": "Expected value in decisions", "description": "Compare options such as insurance or lottery tickets by expected value and risk.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "math.12.inference",
+          "name": "Sampling distributions and inference",
+          "skills": [
+            { "id": "math.12.inference.sampling-distributions", "name": "Sampling distributions", "description": "Describe the mean and standard error of a sample mean or proportion and apply the central limit theorem.", "itemTypes": ["choice", "numeric"] },
+            { "id": "math.12.inference.confidence-intervals", "name": "Confidence intervals", "description": "Construct and interpret an interval for a proportion or mean, e.g. 0.48 +- 0.04 at 95%.", "itemTypes": ["numeric", "choice"] },
+            { "id": "math.12.inference.hypothesis-tests", "name": "Hypothesis tests", "description": "State hypotheses, interpret a p-value and draw a conclusion for a one-sample test.", "itemTypes": ["choice", "sequence"] },
+            { "id": "math.12.inference.regression-inference", "name": "Residuals and regression interpretation", "description": "Read residual plots, interpret r^2 and judge whether a linear model is appropriate.", "itemTypes": ["choice", "numeric"] }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,824 @@
+{
+  "id": "science",
+  "name": "Science",
+  "color": "#22C55E",
+  "icon": "atom",
+  "grades": {
+    "1": {
+      "topics": [
+        {
+          "id": "science.1.light-sound",
+          "name": "Light and sound",
+          "skills": [
+            { "id": "science.1.light-sound.light-sources", "name": "Light sources", "description": "Sort objects into things that make their own light (sun, lamp, candle) and things that only reflect light (moon, mirror, book).", "itemTypes": ["choice", "sort"] },
+            { "id": "science.1.light-sound.shadows", "name": "Shadows and blocking light", "description": "Predict whether an object will make a shadow and which way the shadow falls, e.g. a toy with a lamp on its left casts a shadow to the right.", "itemTypes": ["choice"] },
+            { "id": "science.1.light-sound.sound-vibration", "name": "Sound comes from vibration", "description": "Pick which action makes a sound and what is vibrating, e.g. plucking a rubber band makes the band vibrate.", "itemTypes": ["choice", "match"] },
+            { "id": "science.1.light-sound.loud-soft-pitch", "name": "Loud, soft, high, low", "description": "Compare two sounds and say which is louder or higher, e.g. a whistle is higher than a drum.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "science.1.living-things",
+          "name": "Living things and their parts",
+          "skills": [
+            { "id": "science.1.living-things.living-nonliving", "name": "Living or non-living", "description": "Sort pictures into living and non-living, e.g. a tree is living, a rock is not.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.1.living-things.plant-parts", "name": "Plant parts and jobs", "description": "Match a plant part to its job, e.g. roots take in water, leaves catch sunlight.", "itemTypes": ["match", "choice"] },
+            { "id": "science.1.living-things.animal-parts", "name": "Animal body parts and uses", "description": "Choose what an animal part is for, e.g. a duck's webbed feet help it swim.", "itemTypes": ["choice", "match"] },
+            { "id": "science.1.living-things.senses", "name": "Senses and sense organs", "description": "Match a sense to its organ and a situation where it is used, e.g. ears hear a bell.", "itemTypes": ["match", "choice"] }
+          ]
+        },
+        {
+          "id": "science.1.parents-offspring",
+          "name": "Parents and offspring",
+          "skills": [
+            { "id": "science.1.parents-offspring.young-animals", "name": "Match young to adult", "description": "Match a baby animal to its parent, e.g. tadpole to frog, caterpillar to butterfly.", "itemTypes": ["match", "choice"] },
+            { "id": "science.1.parents-offspring.resemblance", "name": "Alike but not identical", "description": "Decide which features a young animal shares with its parent and which may differ, e.g. a puppy has fur like its mother but may be a different colour.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.1.parents-offspring.caring-behaviours", "name": "How parents help young survive", "description": "Choose the behaviour that helps offspring survive, e.g. a bird brings food to chicks that chirp.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.1.sky-patterns",
+          "name": "Patterns in the sky",
+          "skills": [
+            { "id": "science.1.sky-patterns.day-night", "name": "Day and night", "description": "Choose whether the sun, moon or stars can be seen at a given time, e.g. stars are seen at night.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.1.sky-patterns.sun-path", "name": "The sun's daily path", "description": "Put pictures of the sun's position in order from sunrise to sunset, e.g. low east, high overhead, low west.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.1.sky-patterns.seasons-daylight", "name": "Seasons and daylight", "description": "Pick which season has the most daylight hours or match a season to a picture, e.g. summer has long days.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.1.weather-basics",
+          "name": "Weather around us",
+          "skills": [
+            { "id": "science.1.weather-basics.weather-words", "name": "Describe the weather", "description": "Match a weather picture to its word, e.g. clouds and drops to rainy.", "itemTypes": ["match", "choice"] },
+            { "id": "science.1.weather-basics.weather-tools", "name": "Weather tools", "description": "Choose the tool that measures a weather feature, e.g. a thermometer measures temperature.", "itemTypes": ["choice", "match"] },
+            { "id": "science.1.weather-basics.dress-for-weather", "name": "Prepare for the weather", "description": "Pick the clothing or item that fits the weather, e.g. an umbrella for rain.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "science.1.engineering-basics",
+          "name": "Solving problems like an engineer",
+          "skills": [
+            { "id": "science.1.engineering-basics.problem-solution", "name": "Problem or solution", "description": "Match a simple problem to a tool that solves it, e.g. a heavy box to a wagon.", "itemTypes": ["match", "choice"] },
+            { "id": "science.1.engineering-basics.materials-choice", "name": "Pick the right material", "description": "Choose a material for a purpose, e.g. a raincoat should be made of waterproof material.", "itemTypes": ["choice"] },
+            { "id": "science.1.engineering-basics.test-and-fix", "name": "Try, test, improve", "description": "Put the steps of making something better in order, e.g. build, test, notice problem, change.", "itemTypes": ["sequence", "choice"] }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "topics": [
+        {
+          "id": "science.2.matter-properties",
+          "name": "Properties of matter",
+          "skills": [
+            { "id": "science.2.matter-properties.solid-liquid-gas", "name": "Solids, liquids and gases", "description": "Sort everyday things into solid, liquid or gas, e.g. milk is a liquid, steam is a gas.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.2.matter-properties.describe-properties", "name": "Describe by properties", "description": "Classify objects by colour, texture, hardness, flexibility or whether they float, e.g. a cork floats.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.2.matter-properties.heating-cooling", "name": "Heating and cooling changes", "description": "Predict what happens when something is heated or cooled and whether it can change back, e.g. melted ice can refreeze but a cooked egg cannot be uncooked.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.2.matter-properties.build-from-pieces", "name": "Take apart and rebuild", "description": "Choose the set of small pieces that could be assembled into a given object, e.g. blocks into a tower.", "itemTypes": ["choice", "build"] }
+          ]
+        },
+        {
+          "id": "science.2.plants",
+          "name": "Plants: needs, seeds and pollination",
+          "skills": [
+            { "id": "science.2.plants.plant-needs", "name": "What plants need", "description": "Pick which plant will grow best given sunlight and water, e.g. the one on a sunny windowsill that is watered.", "itemTypes": ["choice"] },
+            { "id": "science.2.plants.seed-dispersal", "name": "How seeds travel", "description": "Match a seed to how it travels, e.g. a dandelion seed floats on wind, a burr sticks to fur.", "itemTypes": ["match", "choice"] },
+            { "id": "science.2.plants.pollination", "name": "Pollinators", "description": "Choose which animal carries pollen between flowers and why it visits, e.g. a bee visits for nectar.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.2.plants.seed-to-plant", "name": "From seed to plant", "description": "Put the growth of a bean plant in order: seed, sprout, seedling, flowering plant.", "itemTypes": ["sequence"] }
+          ]
+        },
+        {
+          "id": "science.2.habitats-diversity",
+          "name": "Habitats and diversity of life",
+          "skills": [
+            { "id": "science.2.habitats-diversity.habitat-match", "name": "Who lives where", "description": "Match an animal or plant to the habitat it lives in, e.g. a camel to the desert.", "itemTypes": ["match", "sort", "choice"] },
+            { "id": "science.2.habitats-diversity.compare-habitats", "name": "Compare habitats", "description": "Choose how two habitats differ in water, temperature or plants, e.g. a rainforest is wetter than a desert.", "itemTypes": ["choice"] },
+            { "id": "science.2.habitats-diversity.many-kinds", "name": "Many kinds of living things", "description": "Decide which habitat picture shows more kinds of living things and group animals by body covering, e.g. fur, feathers, scales.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "science.2.earth-changes",
+          "name": "Earth changes fast and slow",
+          "skills": [
+            { "id": "science.2.earth-changes.fast-slow-events", "name": "Fast or slow change", "description": "Sort Earth events into fast or slow, e.g. a volcano erupting is fast, a canyon forming is slow.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.2.earth-changes.wind-water-shape-land", "name": "Wind and water shape land", "description": "Choose what wind or water did to a landform, e.g. a river carved a valley.", "itemTypes": ["choice", "match"] },
+            { "id": "science.2.earth-changes.slow-erosion-solutions", "name": "Slowing erosion", "description": "Pick the design that best stops soil or sand from washing or blowing away, e.g. planting grass on a slope.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.2.land-water",
+          "name": "Land and water on Earth",
+          "skills": [
+            { "id": "science.2.land-water.landforms", "name": "Name landforms", "description": "Match a picture to its landform name, e.g. mountain, hill, valley, plain, island.", "itemTypes": ["match", "choice"] },
+            { "id": "science.2.land-water.water-bodies", "name": "Bodies of water", "description": "Identify oceans, lakes, rivers and ponds and whether the water is salty or fresh, e.g. oceans are salty.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.2.land-water.map-symbols", "name": "Read a simple map", "description": "Use a map key to locate land and water features, e.g. blue means water on the map.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.2.design-process",
+          "name": "The design process",
+          "skills": [
+            { "id": "science.2.design-process.design-steps", "name": "Ask, imagine, plan, create, improve", "description": "Put the steps of the design process in order for a simple project, e.g. a bridge from paper.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.2.design-process.compare-designs", "name": "Compare two designs", "description": "Given test results for two designs, choose which did better at the goal, e.g. the boat that held more coins.", "itemTypes": ["choice"] },
+            { "id": "science.2.design-process.sketch-and-model", "name": "Sketches and models", "description": "Choose which drawing or model shows how an object works and what a label points to, e.g. the wheel on a cart.", "itemTypes": ["choice", "match"] }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "topics": [
+        {
+          "id": "science.3.forces-motion",
+          "name": "Forces and motion",
+          "skills": [
+            { "id": "science.3.forces-motion.balanced-unbalanced", "name": "Balanced and unbalanced forces", "description": "Decide whether forces on an object are balanced and what happens, e.g. two equal pushes from opposite sides keep a box still.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.3.forces-motion.predict-motion", "name": "Predict motion from a pattern", "description": "Predict where a moving object will be or go next from a repeating pattern, e.g. a swing returns to the same height.", "itemTypes": ["choice", "sequence"] },
+            { "id": "science.3.forces-motion.magnets", "name": "Magnets attract and repel", "description": "Predict whether two magnet poles attract or repel and which objects a magnet picks up, e.g. N to S attracts, a paper clip is attracted.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.3.forces-motion.static-electricity", "name": "Static electricity", "description": "Choose what happens when charged objects interact, e.g. a rubbed balloon sticks to a wall.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.3.life-cycles",
+          "name": "Life cycles",
+          "skills": [
+            { "id": "science.3.life-cycles.stages-order", "name": "Order life cycle stages", "description": "Put the stages of a life cycle in order, e.g. egg, larva, pupa, adult butterfly.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.3.life-cycles.compare-cycles", "name": "Compare life cycles", "description": "Choose which organism has a given stage or how two life cycles differ, e.g. frogs have a tadpole stage, birds do not.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.3.life-cycles.metamorphosis", "name": "Metamorphosis", "description": "Classify animals by whether they go through metamorphosis, e.g. a beetle does, a dog does not.", "itemTypes": ["sort", "choice"] }
+          ]
+        },
+        {
+          "id": "science.3.ecosystems",
+          "name": "Ecosystems and food chains",
+          "skills": [
+            { "id": "science.3.ecosystems.food-chains", "name": "Build a food chain", "description": "Order organisms so energy flows from producer to consumer, e.g. grass, grasshopper, frog, hawk.", "itemTypes": ["sequence", "choice", "build"] },
+            { "id": "science.3.ecosystems.producers-consumers", "name": "Producers, consumers and decomposers", "description": "Sort organisms into producer, consumer or decomposer, e.g. oak tree is a producer, mushroom is a decomposer.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.3.ecosystems.herbivore-carnivore", "name": "Herbivore, carnivore, omnivore", "description": "Classify an animal by what it eats, e.g. a rabbit is a herbivore, a bear is an omnivore.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.3.ecosystems.who-eats-what", "name": "Who eats what", "description": "Decide whether one organism eats another in a given biome, e.g. a grasshopper eats grass but not a frog.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.3.adaptations",
+          "name": "Adaptations and survival",
+          "skills": [
+            { "id": "science.3.adaptations.habitats", "name": "Habitats and who survives there", "description": "Choose which organism can survive in a given habitat and why, e.g. a cactus survives in a desert because it stores water.", "itemTypes": ["choice", "sort", "match"] },
+            { "id": "science.3.adaptations.survival-traits", "name": "Traits that help survival", "description": "Match an adaptation to its benefit, e.g. thick fur keeps a polar bear warm.", "itemTypes": ["match", "choice"] },
+            { "id": "science.3.adaptations.environment-change", "name": "When environments change", "description": "Predict what happens to organisms when a habitat changes, e.g. when a pond dries up frogs must move or die.", "itemTypes": ["choice"] },
+            { "id": "science.3.adaptations.group-living", "name": "Living in groups", "description": "Choose how living in a group helps animals, e.g. a herd of zebras spots predators sooner.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.3.traits-heredity",
+          "name": "Traits and heredity",
+          "skills": [
+            { "id": "science.3.traits-heredity.inherited-learned", "name": "Inherited or learned", "description": "Sort traits into inherited or learned, e.g. eye colour is inherited, riding a bike is learned.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.3.traits-heredity.variation", "name": "Variation in a group", "description": "Choose a trait that varies among members of one species, e.g. dogs differ in fur colour.", "itemTypes": ["choice"] },
+            { "id": "science.3.traits-heredity.environment-affects-traits", "name": "Environment affects traits", "description": "Pick the environmental cause of a trait difference, e.g. a plant in shade grows shorter.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.3.weather-climate",
+          "name": "Weather and climate",
+          "skills": [
+            { "id": "science.3.weather-climate.weather-data", "name": "Read weather data", "description": "Read a bar graph or table of temperatures or rainfall and answer, e.g. which month was wettest.", "itemTypes": ["choice", "numeric"] },
+            { "id": "science.3.weather-climate.climate-zones", "name": "Climates of the world", "description": "Match a region to its typical climate, e.g. polar regions are cold all year.", "itemTypes": ["match", "choice", "sort"] },
+            { "id": "science.3.weather-climate.hazards-prepare", "name": "Weather hazards and protection", "description": "Choose the design that reduces damage from a weather hazard, e.g. a lightning rod protects a building.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.3.fossils",
+          "name": "Fossils and the past",
+          "skills": [
+            { "id": "science.3.fossils.fossil-clues", "name": "Fossils as clues", "description": "Choose what a fossil tells about an organism, e.g. sharp teeth suggest a meat eater.", "itemTypes": ["choice"] },
+            { "id": "science.3.fossils.past-environments", "name": "Past environments", "description": "Infer the past environment from fossils found, e.g. fish fossils on a mountain mean it was once underwater.", "itemTypes": ["choice", "match"] }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "topics": [
+        {
+          "id": "science.4.energy",
+          "name": "Energy",
+          "skills": [
+            { "id": "science.4.energy.energy-forms", "name": "Forms of energy", "description": "Classify examples as light, sound, heat, motion or electrical energy, e.g. a ringing bell gives off sound energy.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.4.energy.energy-transfer", "name": "Energy transfer", "description": "Trace how energy moves from one place to another, e.g. the sun warms a rock, the rock warms the air.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.4.energy.speed-energy", "name": "Speed and energy", "description": "Compare the energy of moving objects by speed, e.g. a faster ball has more energy and makes a bigger dent.", "itemTypes": ["choice"] },
+            { "id": "science.4.energy.collisions", "name": "Collisions", "description": "Predict what happens to motion and energy when objects collide, e.g. a rolling marble hits a still one and the still one moves.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.4.waves-light",
+          "name": "Waves and light",
+          "skills": [
+            { "id": "science.4.waves-light.wave-properties", "name": "Wavelength and amplitude", "description": "Compare two drawn waves by wavelength and amplitude, e.g. taller wave has larger amplitude.", "itemTypes": ["choice"] },
+            { "id": "science.4.waves-light.reflection-sight", "name": "Light, reflection and seeing", "description": "Explain how we see an object by tracing light from source to object to eye, e.g. lamp to apple to eye.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.4.waves-light.codes-signals", "name": "Sending information with patterns", "description": "Decode or build a simple pattern code, e.g. dots and dashes spelling SOS.", "itemTypes": ["build", "choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.4.ecosystems",
+          "name": "Ecosystems: energy and structures",
+          "skills": [
+            { "id": "science.4.ecosystems.energy-flow", "name": "Energy flow in a food chain", "description": "Trace energy from the sun through producers and consumers and tell where energy comes from at each step, e.g. a fox gets energy from the rabbit, which got it from plants.", "itemTypes": ["sequence", "choice", "build"] },
+            { "id": "science.4.ecosystems.plant-structures", "name": "Plant structures and functions", "description": "Match internal and external plant structures to functions, e.g. thorns protect, stem carries water.", "itemTypes": ["match", "choice"] },
+            { "id": "science.4.ecosystems.animal-structures", "name": "Animal structures and functions", "description": "Match an animal structure to its function in survival, growth or reproduction, e.g. gills take oxygen from water.", "itemTypes": ["match", "choice"] },
+            { "id": "science.4.ecosystems.senses-brain", "name": "Senses send information to the brain", "description": "Order how an animal responds to its surroundings: sense organ, signal to brain, brain decides, body responds.", "itemTypes": ["sequence", "choice"] }
+          ]
+        },
+        {
+          "id": "science.4.earth-history",
+          "name": "Earth's changing surface",
+          "skills": [
+            { "id": "science.4.earth-history.rock-layers", "name": "Rock layers tell time", "description": "Order rock layers from oldest to youngest and infer past environments from fossils in them, e.g. bottom layer is oldest.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.4.earth-history.weathering-erosion", "name": "Weathering, erosion, deposition", "description": "Classify a described change as weathering, erosion or deposition, e.g. ice cracking rock is weathering.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.4.earth-history.earth-features-maps", "name": "Patterns of Earth's features", "description": "Use a map to find where volcanoes, earthquakes or mountains occur, e.g. volcanoes often sit near the edges of continents.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.4.natural-resources",
+          "name": "Natural resources and energy",
+          "skills": [
+            { "id": "science.4.natural-resources.renewable-nonrenewable", "name": "Renewable or non-renewable", "description": "Sort energy sources and resources into renewable and non-renewable, e.g. wind is renewable, coal is not.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.4.natural-resources.energy-sources", "name": "Where our energy comes from", "description": "Match an energy source to how it makes electricity, e.g. dams use falling water.", "itemTypes": ["match", "choice"] },
+            { "id": "science.4.natural-resources.resource-impacts", "name": "Impacts of using resources", "description": "Choose an environmental effect of using a resource and a way to reduce it, e.g. burning coal pollutes air; using less electricity helps.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.4.engineering",
+          "name": "Engineering tests and fair comparisons",
+          "skills": [
+            { "id": "science.4.engineering.criteria-constraints", "name": "Criteria and constraints", "description": "Sort statements about a design problem into criteria (goals) and constraints (limits), e.g. must hold 1 kg is a criterion, only 10 straws is a constraint.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.4.engineering.fair-test", "name": "Design a fair test", "description": "Choose which test is fair because only one thing changes, e.g. same ramp height but different ball.", "itemTypes": ["choice"] },
+            { "id": "science.4.engineering.improve-design", "name": "Improve from results", "description": "Given test data, pick the change most likely to improve the design, e.g. a wider base to stop tipping.", "itemTypes": ["choice"] }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "topics": [
+        {
+          "id": "science.5.matter",
+          "name": "Matter and its changes",
+          "skills": [
+            { "id": "science.5.matter.particle-model", "name": "Matter is made of particles", "description": "Choose the particle picture that matches a state or event, e.g. gas particles spread far apart and fill a balloon.", "itemTypes": ["choice", "match"] },
+            { "id": "science.5.matter.conservation-mass", "name": "Mass is conserved", "description": "Compute the total mass before and after a change, e.g. 50 g ice melts to 50 g water; 20 g salt plus 100 g water makes 120 g.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.5.matter.mixtures-solutions", "name": "Mixtures and separation", "description": "Choose a way to separate a mixture, e.g. a magnet pulls iron filings from sand, evaporation recovers salt from water.", "itemTypes": ["choice", "match"] },
+            { "id": "science.5.matter.physical-chemical-change", "name": "Physical or chemical change", "description": "Classify a change as physical or chemical using evidence, e.g. rusting is chemical, tearing paper is physical.", "itemTypes": ["sort", "choice"] }
+          ]
+        },
+        {
+          "id": "science.5.gravity-space",
+          "name": "Gravity, sun and stars",
+          "skills": [
+            { "id": "science.5.gravity-space.gravity-down", "name": "Gravity pulls toward Earth's centre", "description": "Predict the direction a dropped object moves anywhere on a globe, e.g. toward the centre of Earth, which looks 'down'.", "itemTypes": ["choice"] },
+            { "id": "science.5.gravity-space.sun-brightness-distance", "name": "Brightness and distance", "description": "Explain why the sun looks brighter than other stars by ranking stars by distance, e.g. the closest star looks brightest.", "itemTypes": ["choice", "sequence"] },
+            { "id": "science.5.gravity-space.shadow-patterns", "name": "Daily and seasonal shadow patterns", "description": "Predict shadow length and direction from time of day or season, e.g. shortest shadow at noon.", "itemTypes": ["choice", "sequence"] },
+            { "id": "science.5.gravity-space.star-patterns-seasons", "name": "Stars change with the seasons", "description": "Choose which constellations are visible in a given season and why, e.g. Orion appears in winter evenings in the north.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.5.ecosystems",
+          "name": "Ecosystems: webs and cycles",
+          "skills": [
+            { "id": "science.5.ecosystems.food-webs", "name": "Food webs", "description": "Read a food web and identify what an organism eats, what eats it, and what happens when one population drops, e.g. fewer frogs means more insects.", "itemTypes": ["choice", "match", "build"] },
+            { "id": "science.5.ecosystems.decomposers-cycling", "name": "Decomposers recycle matter", "description": "Order how matter moves from a dead leaf back to soil and new plants, e.g. leaf, fungi and bacteria, nutrients in soil, plant roots.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.5.ecosystems.energy-from-sun", "name": "Energy in food came from the sun", "description": "Trace the energy in an animal's food back to sunlight, e.g. hamburger to cow to grass to sun.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.5.ecosystems.ecosystem-balance", "name": "Keeping an ecosystem balanced", "description": "Predict the effect of adding or removing a species from a web, e.g. removing wolves lets deer overgraze.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.5.plants-growth",
+          "name": "How plants grow",
+          "skills": [
+            { "id": "science.5.plants-growth.plant-needs-air-water", "name": "Plants grow from air and water", "description": "Choose where most of a plant's material comes from, e.g. carbon dioxide from air and water, not mainly soil.", "itemTypes": ["choice"] },
+            { "id": "science.5.plants-growth.photosynthesis-intro", "name": "Photosynthesis inputs and outputs", "description": "Sort sunlight, water, carbon dioxide, sugar and oxygen into inputs and outputs of photosynthesis.", "itemTypes": ["sort", "choice", "build"] },
+            { "id": "science.5.plants-growth.plant-experiments", "name": "Plant experiments", "description": "Choose the conclusion a plant-growth experiment supports, e.g. plants in dark grew pale so light is needed.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.5.earth-systems",
+          "name": "Earth's systems",
+          "skills": [
+            { "id": "science.5.earth-systems.spheres-interact", "name": "Geosphere, hydrosphere, atmosphere, biosphere", "description": "Classify a feature by sphere and choose how two spheres interact, e.g. rain (hydrosphere) erodes rock (geosphere).", "itemTypes": ["sort", "choice"] },
+            { "id": "science.5.earth-systems.water-distribution", "name": "Where Earth's water is", "description": "Use percentages to compare water stores, e.g. about 97% of water is in oceans and most fresh water is ice.", "itemTypes": ["choice", "numeric", "sequence"] },
+            { "id": "science.5.earth-systems.protect-resources", "name": "Protecting Earth's resources", "description": "Match a human activity to its effect and a way to reduce the effect, e.g. fertiliser runoff harms rivers; buffer plants help.", "itemTypes": ["match", "choice"] }
+          ]
+        },
+        {
+          "id": "science.5.investigations",
+          "name": "Planning investigations",
+          "skills": [
+            { "id": "science.5.investigations.variables", "name": "Identify variables", "description": "Name the variable changed, measured and kept the same in an experiment, e.g. ramp height changed, distance measured.", "itemTypes": ["choice", "match", "sort"] },
+            { "id": "science.5.investigations.data-tables", "name": "Read tables and graphs", "description": "Pull a value or a difference from a data table or line graph, e.g. how many more cm the plant grew in week 3.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.5.investigations.conclusions", "name": "Draw conclusions from evidence", "description": "Choose the conclusion that the data support and reject claims that go beyond the data.", "itemTypes": ["choice"] }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "topics": [
+        {
+          "id": "science.6.cells",
+          "name": "Cells",
+          "skills": [
+            { "id": "science.6.cells.cell-parts", "name": "Identify cell parts", "description": "Name an organelle from a diagram or description, e.g. the nucleus holds the genetic material.", "itemTypes": ["choice", "match"] },
+            { "id": "science.6.cells.cell-functions", "name": "Organelle functions", "description": "Match an organelle to its job, e.g. mitochondria release energy, cell membrane controls what enters.", "itemTypes": ["match", "choice"] },
+            { "id": "science.6.cells.plant-animal-cells", "name": "Plant vs animal cells", "description": "Sort structures by whether they appear in plant cells, animal cells or both, e.g. chloroplasts only in plant cells.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.6.cells.cell-theory-microscope", "name": "Cell theory and microscopes", "description": "Choose statements of cell theory and compute total magnification, e.g. 10x eyepiece with 40x objective is 400x.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "science.6.body-systems",
+          "name": "Human body systems",
+          "skills": [
+            { "id": "science.6.body-systems.organ-systems", "name": "Organs and their systems", "description": "Sort organs into body systems, e.g. lungs in respiratory, stomach in digestive.", "itemTypes": ["sort", "match", "choice"] },
+            { "id": "science.6.body-systems.system-functions", "name": "What each system does", "description": "Match a system to its main function, e.g. circulatory transports oxygen and nutrients.", "itemTypes": ["match", "choice"] },
+            { "id": "science.6.body-systems.levels-organization", "name": "Cells to organism", "description": "Order the levels of organisation: cell, tissue, organ, organ system, organism.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.6.body-systems.systems-interact", "name": "Systems working together", "description": "Choose which systems cooperate in a task, e.g. running uses muscular, skeletal, respiratory and circulatory.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.6.energy-heat",
+          "name": "Energy and heat",
+          "skills": [
+            { "id": "science.6.energy-heat.kinetic-potential", "name": "Kinetic and potential energy", "description": "Compare kinetic or potential energy between situations, e.g. a ball at the top of a hill has more potential energy than halfway down.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.6.energy-heat.thermal-transfer", "name": "Conduction, convection, radiation", "description": "Classify a heat-transfer example, e.g. a spoon warming in soup is conduction.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.6.energy-heat.temperature-vs-heat", "name": "Temperature, heat and particles", "description": "Predict the direction heat flows and how particle motion changes, e.g. heat flows from the hot cup to the cold hand.", "itemTypes": ["choice"] },
+            { "id": "science.6.energy-heat.insulators-conductors", "name": "Insulators and conductors", "description": "Sort materials into good thermal conductors and insulators, e.g. copper conducts, wool insulates.", "itemTypes": ["sort", "choice"] }
+          ]
+        },
+        {
+          "id": "science.6.earth-space",
+          "name": "Earth, moon and sun",
+          "skills": [
+            { "id": "science.6.earth-space.moon-phases", "name": "Moon phases", "description": "Order the moon phases or name the phase from a picture, e.g. new, waxing crescent, first quarter, full.", "itemTypes": ["sequence", "choice", "match"] },
+            { "id": "science.6.earth-space.eclipses", "name": "Eclipses", "description": "Choose the alignment that produces a solar or lunar eclipse, e.g. moon between sun and Earth gives a solar eclipse.", "itemTypes": ["choice", "sequence"] },
+            { "id": "science.6.earth-space.seasons-tilt", "name": "Seasons and Earth's tilt", "description": "Explain which hemisphere has summer from Earth's tilt position, e.g. northern tilted toward the sun means northern summer.", "itemTypes": ["choice"] },
+            { "id": "science.6.earth-space.solar-system-scale", "name": "The solar system", "description": "Order the planets from the sun and classify them as rocky or gas giants, e.g. Jupiter is a gas giant.", "itemTypes": ["sequence", "sort", "choice"] }
+          ]
+        },
+        {
+          "id": "science.6.weather-systems",
+          "name": "Weather systems",
+          "skills": [
+            { "id": "science.6.weather-systems.water-cycle", "name": "The water cycle", "description": "Order or label water cycle processes, e.g. evaporation, condensation, precipitation, collection.", "itemTypes": ["sequence", "match", "choice"] },
+            { "id": "science.6.weather-systems.air-masses-fronts", "name": "Air masses and fronts", "description": "Predict the weather when a cold or warm front passes, e.g. a cold front brings storms then cooler clear air.", "itemTypes": ["choice", "match"] },
+            { "id": "science.6.weather-systems.pressure-wind", "name": "Air pressure and wind", "description": "Predict wind direction and weather from pressure, e.g. air moves from high to low pressure; low pressure brings clouds.", "itemTypes": ["choice"] },
+            { "id": "science.6.weather-systems.ocean-climate", "name": "Oceans and regional climate", "description": "Choose how an ocean current or large body of water affects a coast's climate, e.g. warm currents give milder winters.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.6.earth-structure",
+          "name": "Earth's structure and rocks",
+          "skills": [
+            { "id": "science.6.earth-structure.earth-layers", "name": "Layers of Earth", "description": "Order Earth's layers from surface to centre and match properties, e.g. crust, mantle, outer core, inner core.", "itemTypes": ["sequence", "match", "choice"] },
+            { "id": "science.6.earth-structure.rock-cycle", "name": "The rock cycle", "description": "Choose which process turns one rock type into another, e.g. heat and pressure turn sedimentary into metamorphic.", "itemTypes": ["choice", "match", "sequence"] },
+            { "id": "science.6.earth-structure.rock-types", "name": "Igneous, sedimentary, metamorphic", "description": "Classify a rock by how it formed, e.g. basalt from cooled lava is igneous.", "itemTypes": ["sort", "choice"] }
+          ]
+        },
+        {
+          "id": "science.6.scientific-method",
+          "name": "Scientific method",
+          "skills": [
+            { "id": "science.6.scientific-method.hypothesis", "name": "Write a testable hypothesis", "description": "Choose the hypothesis that is testable and matches an if-then form, e.g. if salt is added then water boils at a higher temperature.", "itemTypes": ["choice"] },
+            { "id": "science.6.scientific-method.variables-control", "name": "Independent, dependent, controlled", "description": "Label the variables and the control group in an experiment, e.g. fertiliser amount is independent, plant height is dependent.", "itemTypes": ["match", "choice", "sort"] },
+            { "id": "science.6.scientific-method.graph-reading", "name": "Interpret a graph", "description": "Read values and trends from line and bar graphs, e.g. the temperature rose 4 degrees between 10:00 and 12:00.", "itemTypes": ["numeric", "choice"] }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "topics": [
+        {
+          "id": "science.7.matter",
+          "name": "Atoms, elements and matter",
+          "skills": [
+            { "id": "science.7.matter.element-symbols", "name": "Element names and symbols", "description": "Match element symbols to names and back for common elements, e.g. Na is sodium, O is oxygen.", "itemTypes": ["match", "choice", "text"] },
+            { "id": "science.7.matter.atoms-molecules", "name": "Atoms, molecules, compounds", "description": "Classify a formula or model as element, molecule or compound and count atoms, e.g. CO2 has 3 atoms.", "itemTypes": ["sort", "numeric", "choice"] },
+            { "id": "science.7.matter.states-particles", "name": "States of matter and particle motion", "description": "Predict how particle spacing and motion change during melting, boiling or cooling, e.g. boiling spreads particles far apart.", "itemTypes": ["choice", "sequence"] },
+            { "id": "science.7.matter.density", "name": "Density", "description": "Compute density from mass and volume and predict floating, e.g. 20 g in 10 mL is 2 g/mL so it sinks in water.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.7.genetics",
+          "name": "Genetics and heredity",
+          "skills": [
+            { "id": "science.7.genetics.dna-genes-chromosomes", "name": "DNA, genes and chromosomes", "description": "Order from smallest to largest and define each, e.g. gene is a section of DNA, chromosome is coiled DNA.", "itemTypes": ["sequence", "choice", "match"] },
+            { "id": "science.7.genetics.dominant-recessive", "name": "Dominant and recessive alleles", "description": "Determine a phenotype from a genotype, e.g. Bb with B dominant for brown eyes shows brown.", "itemTypes": ["choice", "match"] },
+            { "id": "science.7.genetics.punnett-squares", "name": "Punnett squares", "description": "Complete a monohybrid cross and give the probability of an outcome, e.g. Bb x Bb gives 25% bb.", "itemTypes": ["numeric", "choice", "build"] },
+            { "id": "science.7.genetics.sexual-asexual", "name": "Sexual and asexual reproduction", "description": "Classify reproduction examples and compare offspring variation, e.g. budding in hydra is asexual with identical offspring.", "itemTypes": ["sort", "choice"] }
+          ]
+        },
+        {
+          "id": "science.7.populations",
+          "name": "Populations and interactions",
+          "skills": [
+            { "id": "science.7.populations.limiting-factors", "name": "Limiting factors and carrying capacity", "description": "Predict how a population changes when a resource changes, e.g. less water lowers the carrying capacity of deer.", "itemTypes": ["choice"] },
+            { "id": "science.7.populations.competition-predation", "name": "Competition and predation", "description": "Read a predator-prey graph or classify an interaction, e.g. lynx numbers fall after hare numbers fall.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.7.populations.symbiosis", "name": "Symbiosis", "description": "Classify a relationship as mutualism, commensalism or parasitism, e.g. a tick on a dog is parasitism.", "itemTypes": ["sort", "choice", "match"] },
+            { "id": "science.7.populations.biodiversity", "name": "Biodiversity and ecosystem health", "description": "Compare biodiversity of two communities from species counts and predict resilience, e.g. the forest with 40 species recovers better.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "science.7.plate-tectonics",
+          "name": "Plate tectonics",
+          "skills": [
+            { "id": "science.7.plate-tectonics.plate-boundaries", "name": "Types of plate boundaries", "description": "Classify a boundary as convergent, divergent or transform from the motion or feature, e.g. a mid-ocean ridge is divergent.", "itemTypes": ["sort", "choice", "match"] },
+            { "id": "science.7.plate-tectonics.earthquakes-volcanoes", "name": "Earthquakes and volcanoes", "description": "Predict where earthquakes and volcanoes occur from a plate map, e.g. along the Pacific Ring of Fire.", "itemTypes": ["choice"] },
+            { "id": "science.7.plate-tectonics.drift-evidence", "name": "Evidence for continental drift", "description": "Choose which observations support moving continents, e.g. matching fossils on Africa and South America.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.7.plate-tectonics.plate-speed", "name": "Rates of plate motion", "description": "Compute distance moved from rate and time, e.g. 5 cm per year for 1 million years is 50 km.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.7.human-impact",
+          "name": "Human impact on Earth",
+          "skills": [
+            { "id": "science.7.human-impact.pollution-types", "name": "Types and sources of pollution", "description": "Match a pollutant to its source and the system it harms, e.g. fertiliser runoff to algae blooms in lakes.", "itemTypes": ["match", "sort", "choice"] },
+            { "id": "science.7.human-impact.climate-change-causes", "name": "Greenhouse gases and climate", "description": "Choose how greenhouse gases warm Earth and which activities emit them, e.g. burning fossil fuels releases CO2.", "itemTypes": ["choice", "sequence"] },
+            { "id": "science.7.human-impact.conservation-solutions", "name": "Reducing our impact", "description": "Match a problem to the most effective mitigation, e.g. overfishing to catch limits.", "itemTypes": ["match", "choice"] }
+          ]
+        },
+        {
+          "id": "science.7.forces",
+          "name": "Forces and Newton's laws",
+          "skills": [
+            { "id": "science.7.forces.newton-laws-intro", "name": "Newton's three laws", "description": "Match an everyday situation to the law it shows, e.g. a seatbelt holding you shows inertia (first law).", "itemTypes": ["match", "choice"] },
+            { "id": "science.7.forces.speed-distance-time", "name": "Speed, distance and time", "description": "Compute speed, distance or time, e.g. 120 km in 2 h is 60 km/h.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.7.forces.net-force", "name": "Net force and acceleration", "description": "Add forces along a line and use F = ma, e.g. 10 N right and 4 N left gives 6 N right; 6 N on 2 kg gives 3 m/s^2.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.7.forces.friction-gravity", "name": "Friction and gravity", "description": "Predict how friction or gravity changes motion, e.g. a heavier object has more weight but the same free-fall acceleration.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.7.engineering-design",
+          "name": "Engineering design",
+          "skills": [
+            { "id": "science.7.engineering-design.define-problem", "name": "Define the problem precisely", "description": "Choose the problem statement with clear criteria and constraints, e.g. a bridge that spans 30 cm and holds 500 g using 20 sticks.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.7.engineering-design.prototype-test", "name": "Prototype and test", "description": "Order the steps of iterative testing and choose what to measure, e.g. build, load until failure, record mass.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.7.engineering-design.tradeoffs", "name": "Evaluate trade-offs", "description": "Use a decision matrix to pick the best design when criteria conflict, e.g. the cheapest design that still meets strength.", "itemTypes": ["choice", "numeric"] }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "topics": [
+        {
+          "id": "science.8.chemistry",
+          "name": "Chemistry: formulas, bonding and the periodic table",
+          "skills": [
+            { "id": "science.8.chemistry.formulas", "name": "Read and build chemical formulas", "description": "Count atoms of each element in a formula or assemble atoms into a named compound, e.g. H2O is 2 H and 1 O; build CO2 from one C and two O.", "itemTypes": ["build", "numeric", "choice"] },
+            { "id": "science.8.chemistry.bonding-valence", "name": "Bonding and valence", "description": "Use valence to decide how atoms combine and whether the bond is ionic or covalent, e.g. Na gives one electron to Cl to make NaCl (ionic).", "itemTypes": ["choice", "build", "sort"] },
+            { "id": "science.8.chemistry.periodic-groups", "name": "Periodic table groups and periods", "description": "Place an element in its group or family and predict its properties, e.g. Cl is a halogen that is highly reactive.", "itemTypes": ["sort", "choice", "match"] },
+            { "id": "science.8.chemistry.reaction-signs", "name": "Signs of chemical reactions", "description": "Identify evidence of a chemical reaction and label reactants and products, e.g. gas bubbles when vinegar meets baking soda.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "science.8.waves",
+          "name": "Waves and the electromagnetic spectrum",
+          "skills": [
+            { "id": "science.8.waves.wave-math", "name": "Wave speed, frequency, wavelength", "description": "Compute one of speed, frequency or wavelength from the other two, e.g. 2 Hz and 3 m gives 6 m/s.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.8.waves.em-spectrum", "name": "The electromagnetic spectrum", "description": "Order EM waves by wavelength or energy and match uses, e.g. radio, microwave, infrared, visible, UV, X-ray, gamma.", "itemTypes": ["sequence", "match", "choice"] },
+            { "id": "science.8.waves.sound-light-compare", "name": "Mechanical vs electromagnetic waves", "description": "Classify waves and predict behaviour in a vacuum, e.g. sound needs a medium so it cannot travel in space.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.8.waves.reflection-refraction-absorption", "name": "Reflection, refraction, absorption", "description": "Predict what light does at a surface, e.g. light bends entering water (refraction).", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.8.electricity-magnetism",
+          "name": "Electricity and magnetism",
+          "skills": [
+            { "id": "science.8.electricity-magnetism.circuits", "name": "Series and parallel circuits", "description": "Predict which bulbs light when a switch opens in a series or parallel circuit, e.g. in parallel the other bulb stays lit.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.8.electricity-magnetism.ohms-law", "name": "Ohm's law", "description": "Compute voltage, current or resistance, e.g. 12 V across 4 ohms gives 3 A.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.8.electricity-magnetism.electromagnets", "name": "Electromagnets and motors", "description": "Choose how to make an electromagnet stronger and what reversing current does, e.g. more coils gives a stronger field.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.8.evolution",
+          "name": "Evolution and natural selection",
+          "skills": [
+            { "id": "science.8.evolution.natural-selection", "name": "Natural selection step by step", "description": "Order the steps of natural selection for a scenario, e.g. variation, environmental pressure, differential survival, inherited change.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.8.evolution.fossil-record", "name": "The fossil record", "description": "Infer relative age and change over time from fossil layers, e.g. simpler forms appear in older layers.", "itemTypes": ["choice", "sequence"] },
+            { "id": "science.8.evolution.homologous-structures", "name": "Anatomical and embryo evidence", "description": "Identify homologous structures and what they show about common ancestry, e.g. the bones in a bat wing and a human arm.", "itemTypes": ["choice", "match"] },
+            { "id": "science.8.evolution.selective-breeding", "name": "Artificial selection", "description": "Compare artificial and natural selection and predict breeding outcomes, e.g. choosing the biggest tomatoes each year.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "science.8.geologic-time",
+          "name": "Geologic time",
+          "skills": [
+            { "id": "science.8.geologic-time.relative-dating", "name": "Relative dating", "description": "Apply superposition and cross-cutting to order layers and intrusions, e.g. a fault is younger than the layers it cuts.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.8.geologic-time.eras-order", "name": "Eras and major events", "description": "Order major events in Earth's history, e.g. first life, first land plants, dinosaurs, mammals, humans.", "itemTypes": ["sequence", "match", "choice"] },
+            { "id": "science.8.geologic-time.half-life-intro", "name": "Half-life basics", "description": "Compute how much of a sample remains after whole half-lives, e.g. after 2 half-lives 25% remains.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.8.gravity-universe",
+          "name": "Gravity and the universe",
+          "skills": [
+            { "id": "science.8.gravity-universe.gravity-mass-distance", "name": "Gravity depends on mass and distance", "description": "Predict how gravitational force changes when mass or distance changes, e.g. doubling distance makes the force one quarter.", "itemTypes": ["choice", "numeric"] },
+            { "id": "science.8.gravity-universe.orbits", "name": "Orbits", "description": "Explain why planets and moons orbit and what happens if speed changes, e.g. gravity bends the straight-line path into an orbit.", "itemTypes": ["choice"] },
+            { "id": "science.8.gravity-universe.galaxies-scale", "name": "Scale of the universe", "description": "Order objects by size and distance, e.g. moon, sun, solar system, Milky Way, universe.", "itemTypes": ["sequence", "choice"] }
+          ]
+        },
+        {
+          "id": "science.8.data-literacy",
+          "name": "Data and evidence",
+          "skills": [
+            { "id": "science.8.data-literacy.graph-types", "name": "Choose the right graph", "description": "Pick the best graph for data, e.g. a line graph for temperature over time, a bar graph for categories.", "itemTypes": ["choice", "match"] },
+            { "id": "science.8.data-literacy.trends-correlation", "name": "Describe trends", "description": "Describe the relationship in a scatter plot or table, e.g. as fertiliser increases height increases up to a point.", "itemTypes": ["choice"] },
+            { "id": "science.8.data-literacy.error-sources", "name": "Sources of error and repeat trials", "description": "Choose why repeating trials helps and spot an outlier, e.g. the trial of 48 s among 20 to 22 s is an outlier.", "itemTypes": ["choice", "numeric"] }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "topics": [
+        {
+          "id": "science.9.chemistry",
+          "name": "Chemistry of life",
+          "skills": [
+            { "id": "science.9.chemistry.balancing", "name": "Balance chemical equations", "description": "Balance simple equations, including those of photosynthesis and respiration, e.g. 2 H2 + O2 -> 2 H2O.", "itemTypes": ["numeric", "build", "choice"] },
+            { "id": "science.9.chemistry.biomolecules", "name": "Biomolecules", "description": "Classify molecules as carbohydrate, lipid, protein or nucleic acid and match monomers, e.g. amino acids build proteins.", "itemTypes": ["sort", "match", "choice"] },
+            { "id": "science.9.chemistry.water-properties", "name": "Properties of water", "description": "Match a property of water to its biological importance, e.g. high heat capacity stabilises body temperature.", "itemTypes": ["match", "choice"] },
+            { "id": "science.9.chemistry.ph-enzymes", "name": "pH and enzymes", "description": "Classify solutions as acidic, basic or neutral and predict enzyme activity from pH or temperature, e.g. pH 2 is acidic; pepsin works best there.", "itemTypes": ["sort", "choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "science.9.cell-biology",
+          "name": "Cell biology",
+          "skills": [
+            { "id": "science.9.cell-biology.organelles", "name": "Organelle structure and function", "description": "Match organelles to functions and classify cells as prokaryotic or eukaryotic, e.g. ribosomes make proteins; bacteria lack a nucleus.", "itemTypes": ["match", "sort", "choice"] },
+            { "id": "science.9.cell-biology.membrane-transport", "name": "Membrane transport", "description": "Predict the direction of diffusion or osmosis and classify transport as passive or active, e.g. water moves into a cell in a hypotonic solution.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.9.cell-biology.cell-cycle-mitosis", "name": "Cell cycle and mitosis", "description": "Order the phases of mitosis and compute chromosome numbers, e.g. prophase, metaphase, anaphase, telophase; a 46-chromosome cell yields two 46-chromosome cells.", "itemTypes": ["sequence", "numeric", "choice"] },
+            { "id": "science.9.cell-biology.cell-specialisation", "name": "Specialised cells", "description": "Match a cell type to the structure that fits its job, e.g. a red blood cell has no nucleus to carry more oxygen.", "itemTypes": ["match", "choice"] }
+          ]
+        },
+        {
+          "id": "science.9.energetics",
+          "name": "Photosynthesis and respiration",
+          "skills": [
+            { "id": "science.9.energetics.photosynthesis-equation", "name": "Photosynthesis", "description": "Build the photosynthesis equation and locate stages, e.g. 6 CO2 + 6 H2O -> C6H12O6 + 6 O2 in the chloroplast.", "itemTypes": ["build", "choice", "match"] },
+            { "id": "science.9.energetics.cellular-respiration", "name": "Cellular respiration", "description": "Compare aerobic and anaerobic respiration and order the stages, e.g. glycolysis, Krebs cycle, electron transport chain.", "itemTypes": ["sequence", "sort", "choice"] },
+            { "id": "science.9.energetics.atp-energy", "name": "ATP and energy transfer", "description": "Choose how ATP stores and releases energy and estimate ATP yield, e.g. aerobic respiration yields about 30 to 32 ATP per glucose.", "itemTypes": ["choice", "numeric"] }
+          ]
+        },
+        {
+          "id": "science.9.genetics",
+          "name": "Genetics and molecular biology",
+          "skills": [
+            { "id": "science.9.genetics.meiosis", "name": "Meiosis", "description": "Compare meiosis with mitosis and compute chromosome numbers in gametes, e.g. human gametes have 23 chromosomes.", "itemTypes": ["choice", "numeric", "sort"] },
+            { "id": "science.9.genetics.mendelian-crosses", "name": "Mendelian and non-Mendelian crosses", "description": "Solve monohybrid, dihybrid, codominant and sex-linked problems, e.g. a 9:3:3:1 ratio from AaBb x AaBb.", "itemTypes": ["numeric", "choice", "build"] },
+            { "id": "science.9.genetics.dna-replication", "name": "DNA structure and replication", "description": "Write the complementary DNA strand and name parts of the double helix, e.g. ATGC pairs with TACG.", "itemTypes": ["text", "choice", "build"] },
+            { "id": "science.9.genetics.protein-synthesis", "name": "Transcription and translation", "description": "Transcribe DNA to mRNA and use a codon table to find amino acids, e.g. TAC becomes AUG which codes methionine.", "itemTypes": ["text", "build", "choice"] }
+          ]
+        },
+        {
+          "id": "science.9.evolution",
+          "name": "Evolution",
+          "skills": [
+            { "id": "science.9.evolution.evidence-lines", "name": "Lines of evidence", "description": "Classify evidence as fossil, anatomical, molecular or biogeographical, e.g. similar DNA sequences in humans and chimpanzees is molecular.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.9.evolution.mechanisms", "name": "Mechanisms of evolution", "description": "Identify natural selection, genetic drift, gene flow or mutation in a scenario, e.g. a storm randomly killing half a small population is drift.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.9.evolution.speciation", "name": "Speciation", "description": "Order the steps that split one species into two, e.g. isolation, separate selection, reproductive incompatibility.", "itemTypes": ["sequence", "choice"] },
+            { "id": "science.9.evolution.phylogenetic-trees", "name": "Read phylogenetic trees", "description": "Determine which organisms share the most recent common ancestor from a tree diagram.", "itemTypes": ["choice"] }
+          ]
+        },
+        {
+          "id": "science.9.ecology",
+          "name": "Ecology",
+          "skills": [
+            { "id": "science.9.ecology.energy-pyramids", "name": "Energy pyramids and the 10% rule", "description": "Compute energy available at each trophic level, e.g. 10,000 kJ in producers gives about 100 kJ at secondary consumers.", "itemTypes": ["numeric", "choice", "sequence"] },
+            { "id": "science.9.ecology.biogeochemical-cycles", "name": "Carbon, nitrogen and water cycles", "description": "Place a process in its cycle and predict effects of changing it, e.g. deforestation lowers CO2 uptake.", "itemTypes": ["match", "choice", "sequence"] },
+            { "id": "science.9.ecology.population-growth", "name": "Population growth", "description": "Classify growth as exponential or logistic and read carrying capacity from a graph, e.g. the curve levels off at 500 rabbits.", "itemTypes": ["choice", "numeric"] },
+            { "id": "science.9.ecology.succession", "name": "Ecological succession", "description": "Order the stages of primary or secondary succession, e.g. bare rock, lichens, grasses, shrubs, forest.", "itemTypes": ["sequence", "choice"] }
+          ]
+        },
+        {
+          "id": "science.9.body-homeostasis",
+          "name": "Homeostasis and body regulation",
+          "skills": [
+            { "id": "science.9.body-homeostasis.feedback-loops", "name": "Feedback loops", "description": "Classify a response as negative or positive feedback and order its steps, e.g. sweating to cool the body is negative feedback.", "itemTypes": ["sort", "sequence", "choice"] },
+            { "id": "science.9.body-homeostasis.immune-response", "name": "Immune response", "description": "Order the steps of a specific immune response and classify immunity as innate or adaptive, e.g. antibodies after a vaccine are adaptive.", "itemTypes": ["sequence", "sort", "choice"] },
+            { "id": "science.9.body-homeostasis.nervous-endocrine", "name": "Nervous and endocrine control", "description": "Compare nerve and hormone signalling and match a hormone to its effect, e.g. insulin lowers blood glucose.", "itemTypes": ["match", "choice"] }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "topics": [
+        {
+          "id": "science.10.atomic-structure",
+          "name": "Atomic structure",
+          "skills": [
+            { "id": "science.10.atomic-structure.subatomic-particles", "name": "Protons, neutrons, electrons", "description": "Compute particle counts from atomic number and mass number, e.g. carbon-14 has 6 protons and 8 neutrons.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.10.atomic-structure.isotopes-ions", "name": "Isotopes and ions", "description": "Identify isotopes and compute charge or electron count, e.g. Mg2+ has 10 electrons.", "itemTypes": ["numeric", "choice", "sort"] },
+            { "id": "science.10.atomic-structure.electron-configuration", "name": "Electron configuration", "description": "Write or pick the electron configuration and count valence electrons, e.g. oxygen is 1s2 2s2 2p4 with 6 valence electrons.", "itemTypes": ["text", "choice", "numeric"] },
+            { "id": "science.10.atomic-structure.atomic-models", "name": "Models of the atom", "description": "Order historical atomic models and match each to its evidence, e.g. Rutherford's gold foil showed a dense nucleus.", "itemTypes": ["sequence", "match", "choice"] }
+          ]
+        },
+        {
+          "id": "science.10.periodic-trends",
+          "name": "Periodic trends and naming",
+          "skills": [
+            { "id": "science.10.periodic-trends.trends-reasoning", "name": "Periodic trends", "description": "Compare atomic radius, ionisation energy or electronegativity between elements, e.g. F is more electronegative than Cl.", "itemTypes": ["choice", "sequence"] },
+            { "id": "science.10.periodic-trends.group-properties", "name": "Group properties and reactivity", "description": "Predict reactivity and ion charge from the group, e.g. group 1 metals form +1 ions and react vigorously with water.", "itemTypes": ["choice", "match", "numeric"] },
+            { "id": "science.10.periodic-trends.naming-ionic", "name": "Name and write ionic compounds", "description": "Convert between names and formulas using charges, e.g. aluminium oxide is Al2O3.", "itemTypes": ["text", "choice", "match"] },
+            { "id": "science.10.periodic-trends.naming-covalent", "name": "Name and write covalent compounds", "description": "Use prefixes to name molecular compounds, e.g. N2O4 is dinitrogen tetroxide.", "itemTypes": ["text", "choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.10.bonding",
+          "name": "Chemical bonding",
+          "skills": [
+            { "id": "science.10.bonding.bond-types", "name": "Ionic, covalent and metallic bonds", "description": "Classify a compound's bonding from its elements or properties, e.g. KBr is ionic, a conducting malleable solid is metallic.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.10.bonding.lewis-structures", "name": "Lewis structures", "description": "Count valence electrons and choose or build the correct Lewis structure, e.g. CO2 has two double bonds.", "itemTypes": ["choice", "numeric", "build"] },
+            { "id": "science.10.bonding.molecular-shapes", "name": "Molecular shapes (VSEPR)", "description": "Predict shape and bond angle from electron domains, e.g. NH3 is trigonal pyramidal at about 107 degrees.", "itemTypes": ["choice", "match"] },
+            { "id": "science.10.bonding.polarity-imf", "name": "Polarity and intermolecular forces", "description": "Decide if a molecule is polar and rank boiling points by intermolecular force, e.g. water has hydrogen bonding so it boils higher than methane.", "itemTypes": ["choice", "sequence", "sort"] }
+          ]
+        },
+        {
+          "id": "science.10.reactions",
+          "name": "Chemical reactions",
+          "skills": [
+            { "id": "science.10.reactions.reaction-types", "name": "Classify reaction types", "description": "Classify an equation as synthesis, decomposition, single or double replacement, or combustion, e.g. 2 H2O -> 2 H2 + O2 is decomposition.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.10.reactions.balancing-advanced", "name": "Balance complex equations", "description": "Balance equations with polyatomic ions or combustion, e.g. C3H8 + 5 O2 -> 3 CO2 + 4 H2O.", "itemTypes": ["numeric", "build", "choice"] },
+            { "id": "science.10.reactions.predict-products", "name": "Predict products", "description": "Predict products using the activity series or solubility rules, e.g. Zn + CuSO4 gives ZnSO4 + Cu.", "itemTypes": ["choice", "build"] },
+            { "id": "science.10.reactions.redox-intro", "name": "Oxidation and reduction", "description": "Assign oxidation numbers and identify what is oxidised and reduced, e.g. in Zn + Cu2+ zinc is oxidised.", "itemTypes": ["numeric", "choice", "sort"] }
+          ]
+        },
+        {
+          "id": "science.10.stoichiometry",
+          "name": "Stoichiometry",
+          "skills": [
+            { "id": "science.10.stoichiometry.moles-molar-mass", "name": "Moles and molar mass", "description": "Convert between grams, moles and particles, e.g. 36 g of water is 2 mol.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.10.stoichiometry.mole-ratios", "name": "Mole ratios", "description": "Use coefficients to find moles or grams of product, e.g. 4 mol H2 with excess O2 gives 4 mol H2O.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.10.stoichiometry.limiting-reactant", "name": "Limiting reactant", "description": "Identify the limiting reactant and the amount of product it allows, e.g. 2 mol H2 and 2 mol O2: H2 limits, 2 mol H2O.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.10.stoichiometry.percent-yield", "name": "Percent yield and composition", "description": "Compute percent yield or percent composition, e.g. 8 g actual of 10 g theoretical is 80%.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.10.solutions-gases",
+          "name": "Solutions and gases",
+          "skills": [
+            { "id": "science.10.solutions-gases.molarity", "name": "Molarity and dilution", "description": "Compute concentration or dilution volumes, e.g. 0.5 mol in 2 L is 0.25 M; M1V1 = M2V2.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.10.solutions-gases.solubility", "name": "Solubility and solubility curves", "description": "Read a solubility curve and classify a solution as unsaturated, saturated or supersaturated.", "itemTypes": ["numeric", "choice", "sort"] },
+            { "id": "science.10.solutions-gases.gas-laws", "name": "Gas laws", "description": "Apply Boyle's, Charles's or the combined gas law, e.g. halving the volume at constant temperature doubles the pressure.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.10.solutions-gases.ideal-gas", "name": "Ideal gas law", "description": "Solve PV = nRT for one variable, e.g. 1 mol at 273 K and 101.3 kPa occupies about 22.4 L.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.10.acids-bases-kinetics",
+          "name": "Acids, bases, rates and equilibrium",
+          "skills": [
+            { "id": "science.10.acids-bases-kinetics.ph-calculation", "name": "pH and concentration", "description": "Convert between pH and hydrogen ion concentration, e.g. 0.001 M H+ is pH 3.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.10.acids-bases-kinetics.neutralization", "name": "Neutralisation and titration", "description": "Write the salt formed and compute titration concentrations, e.g. HCl + NaOH -> NaCl + H2O; 25 mL of 0.1 M NaOH neutralises 25 mL of 0.1 M HCl.", "itemTypes": ["numeric", "choice", "build"] },
+            { "id": "science.10.acids-bases-kinetics.reaction-rate-factors", "name": "Factors affecting rate", "description": "Predict how temperature, concentration, surface area or a catalyst changes rate, e.g. powdered zinc reacts faster than a lump.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.10.acids-bases-kinetics.equilibrium-shift", "name": "Le Chatelier's principle", "description": "Predict the shift when concentration, pressure or temperature changes, e.g. adding reactant shifts toward products.", "itemTypes": ["choice"] }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "topics": [
+        {
+          "id": "science.11.kinematics",
+          "name": "Kinematics",
+          "skills": [
+            { "id": "science.11.kinematics.motion-graphs", "name": "Motion graphs", "description": "Read velocity from a position-time slope or displacement from a velocity-time area, e.g. a flat velocity-time line at 4 m/s for 3 s is 12 m.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.kinematics.kinematic-equations", "name": "Kinematic equations", "description": "Solve constant-acceleration problems, e.g. from rest at 2 m/s^2 for 5 s gives 25 m.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.kinematics.projectile-motion", "name": "Projectile motion", "description": "Compute time of flight, range or height for a projectile, e.g. dropped from 20 m it falls for about 2 s.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.kinematics.vectors", "name": "Vectors and components", "description": "Add perpendicular vectors or resolve into components, e.g. 3 m east and 4 m north give 5 m.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.11.dynamics",
+          "name": "Dynamics",
+          "skills": [
+            { "id": "science.11.dynamics.newton-laws", "name": "Newton's laws quantitatively", "description": "Apply F = ma and action-reaction pairs, e.g. 20 N on 5 kg gives 4 m/s^2.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.dynamics.free-body-diagrams", "name": "Free-body diagrams", "description": "Choose the correct free-body diagram or the net force for a scenario, e.g. a box on a table has weight down and normal force up.", "itemTypes": ["choice", "build", "numeric"] },
+            { "id": "science.11.dynamics.friction-inclines", "name": "Friction and inclines", "description": "Compute friction or acceleration on a slope, e.g. friction = 0.2 x 50 N = 10 N.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.dynamics.circular-gravitation", "name": "Circular motion and gravitation", "description": "Compute centripetal acceleration or gravitational force, e.g. v^2/r at 10 m/s and 5 m is 20 m/s^2.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.11.energy-momentum",
+          "name": "Energy and momentum",
+          "skills": [
+            { "id": "science.11.energy-momentum.work-energy", "name": "Work and kinetic energy", "description": "Compute work and kinetic energy, e.g. 10 N over 3 m is 30 J; 2 kg at 3 m/s has 9 J.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.energy-momentum.conservation-energy", "name": "Conservation of energy", "description": "Use energy conservation to find speed or height, e.g. dropped from 5 m it hits at about 10 m/s.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.energy-momentum.momentum-collisions", "name": "Momentum and collisions", "description": "Apply conservation of momentum to collisions, e.g. 2 kg at 3 m/s hits 1 kg at rest and they stick at 2 m/s.", "itemTypes": ["numeric", "choice", "sort"] },
+            { "id": "science.11.energy-momentum.power-efficiency", "name": "Power and efficiency", "description": "Compute power and efficiency, e.g. 600 J in 10 s is 60 W; 40 J useful of 100 J in is 40%.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.11.waves-optics",
+          "name": "Waves, sound and optics",
+          "skills": [
+            { "id": "science.11.waves-optics.wave-equation", "name": "Wave equation and periodic motion", "description": "Relate period, frequency, wavelength and speed, e.g. period 0.5 s is 2 Hz.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.waves-optics.interference-standing", "name": "Interference and standing waves", "description": "Classify constructive and destructive interference and compute harmonics, e.g. a 2 m string's fundamental has wavelength 4 m.", "itemTypes": ["choice", "numeric"] },
+            { "id": "science.11.waves-optics.reflection-refraction", "name": "Reflection, refraction and Snell's law", "description": "Apply the law of reflection and Snell's law, e.g. n1 sin i = n2 sin r.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.waves-optics.lenses-doppler", "name": "Lenses, mirrors and Doppler effect", "description": "Use the thin lens equation and predict pitch shifts, e.g. an approaching siren sounds higher.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.11.electricity",
+          "name": "Electricity",
+          "skills": [
+            { "id": "science.11.electricity.coulomb-fields", "name": "Coulomb's law and electric fields", "description": "Compute the force between charges or the field direction, e.g. doubling one charge doubles the force.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.electricity.series-parallel", "name": "Series and parallel circuits", "description": "Compute equivalent resistance, current and voltage drops, e.g. two 6 ohm resistors in parallel give 3 ohms.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.electricity.electric-power", "name": "Electrical power and energy", "description": "Compute power and energy cost, e.g. P = IV; a 100 W bulb for 10 h uses 1 kWh.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.electricity.capacitors", "name": "Capacitors", "description": "Compute charge, capacitance or stored energy, e.g. Q = CV; 2 F at 3 V stores 6 C.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.11.magnetism-induction",
+          "name": "Magnetism and induction",
+          "skills": [
+            { "id": "science.11.magnetism-induction.magnetic-force", "name": "Magnetic fields and forces", "description": "Use the right-hand rule to find the force on a moving charge or a current-carrying wire.", "itemTypes": ["choice", "numeric"] },
+            { "id": "science.11.magnetism-induction.faraday-induction", "name": "Electromagnetic induction", "description": "Predict induced current from changing flux and compute EMF, e.g. faster coil motion gives larger EMF.", "itemTypes": ["choice", "numeric"] },
+            { "id": "science.11.magnetism-induction.transformers-generators", "name": "Transformers and generators", "description": "Compute transformer voltages from turn ratios, e.g. 100:200 turns doubles the voltage.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.11.modern-physics",
+          "name": "Modern physics",
+          "skills": [
+            { "id": "science.11.modern-physics.photoelectric-quanta", "name": "Photons and the photoelectric effect", "description": "Compute photon energy and predict electron emission, e.g. E = hf; higher frequency light ejects electrons.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.11.modern-physics.nuclear-decay", "name": "Nuclear decay and half-life", "description": "Balance alpha and beta decay equations and compute remaining amounts, e.g. U-238 alpha decays to Th-234.", "itemTypes": ["numeric", "choice", "build"] },
+            { "id": "science.11.modern-physics.mass-energy", "name": "Fission, fusion and E = mc^2", "description": "Compare fission and fusion and compute energy from a mass defect, e.g. 1 kg of mass is 9 x 10^16 J.", "itemTypes": ["choice", "sort", "numeric"] },
+            { "id": "science.11.modern-physics.relativity-intro", "name": "Special relativity basics", "description": "Predict time dilation and length contraction qualitatively, e.g. a fast-moving clock runs slow to a stationary observer.", "itemTypes": ["choice"] }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "topics": [
+        {
+          "id": "science.12.astronomy",
+          "name": "Astronomy and cosmology",
+          "skills": [
+            { "id": "science.12.astronomy.stellar-evolution", "name": "Life cycle of stars", "description": "Order the stages of a star's life by mass, e.g. nebula, main sequence, red giant, white dwarf for a sun-like star.", "itemTypes": ["sequence", "choice", "sort"] },
+            { "id": "science.12.astronomy.hr-diagram", "name": "Hertzsprung-Russell diagram", "description": "Place a star by temperature and luminosity and classify it, e.g. hot and dim is a white dwarf.", "itemTypes": ["choice", "match"] },
+            { "id": "science.12.astronomy.big-bang-evidence", "name": "Evidence for the Big Bang", "description": "Match evidence to what it shows, e.g. redshift of galaxies to expansion, cosmic microwave background to early heat.", "itemTypes": ["match", "choice"] },
+            { "id": "science.12.astronomy.kepler-orbits", "name": "Kepler's laws", "description": "Use Kepler's third law to compare periods and distances, e.g. a planet at 4 AU has a period of 8 years.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.12.geoscience",
+          "name": "Earth's history and processes",
+          "skills": [
+            { "id": "science.12.geoscience.radiometric-dating", "name": "Radiometric dating", "description": "Compute an age from half-life and remaining fraction, e.g. 12.5% of C-14 left means about 17,190 years.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.12.geoscience.earth-history-events", "name": "Major events in Earth's history", "description": "Order events such as formation of the oceans, oxygenation of the atmosphere and mass extinctions.", "itemTypes": ["sequence", "match", "choice"] },
+            { "id": "science.12.geoscience.tectonics-cycles", "name": "Tectonics and surface processes", "description": "Explain how plate motion, mountain building and erosion interact, e.g. uplift increases weathering which draws down CO2.", "itemTypes": ["choice", "sequence"] },
+            { "id": "science.12.geoscience.natural-hazards", "name": "Natural hazards and risk", "description": "Compare hazard probability and consequence to rank risk, e.g. a 1-in-100-year flood zone with dense housing.", "itemTypes": ["choice", "numeric", "sequence"] }
+          ]
+        },
+        {
+          "id": "science.12.climate-system",
+          "name": "The climate system",
+          "skills": [
+            { "id": "science.12.climate-system.energy-budget", "name": "Earth's energy budget", "description": "Balance incoming and outgoing energy and compute albedo effects, e.g. 30% reflected leaves 70% absorbed.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.12.climate-system.greenhouse-feedbacks", "name": "Greenhouse effect and feedbacks", "description": "Classify a feedback as positive or negative, e.g. melting ice lowering albedo is a positive feedback.", "itemTypes": ["sort", "choice", "sequence"] },
+            { "id": "science.12.climate-system.climate-data", "name": "Interpret climate records", "description": "Read ice-core, temperature or CO2 time series and compute a rate of change, e.g. 280 to 420 ppm since 1850.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.12.climate-system.ocean-atmosphere", "name": "Ocean-atmosphere interactions", "description": "Predict regional effects of El Nino, ocean acidification or circulation changes, e.g. El Nino brings rain to Peru.", "itemTypes": ["choice", "match"] }
+          ]
+        },
+        {
+          "id": "science.12.environmental-science",
+          "name": "Environmental science",
+          "skills": [
+            { "id": "science.12.environmental-science.ecological-footprint", "name": "Ecological footprint and sustainability", "description": "Compute and compare resource use per person and judge sustainability, e.g. 3 Earths needed if everyone lived like country X.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.12.environmental-science.biodiversity-threats", "name": "Threats to biodiversity", "description": "Classify a threat as habitat loss, invasive species, pollution, overharvesting or climate change, e.g. zebra mussels are invasive.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.12.environmental-science.water-soil-resources", "name": "Water and soil resources", "description": "Evaluate water use and soil degradation data and choose a management practice, e.g. drip irrigation cuts water loss.", "itemTypes": ["choice", "numeric"] },
+            { "id": "science.12.environmental-science.pollution-remediation", "name": "Pollution and remediation", "description": "Match a pollutant to its treatment and predict bioaccumulation, e.g. mercury concentrates in top predators.", "itemTypes": ["match", "choice", "sequence"] }
+          ]
+        },
+        {
+          "id": "science.12.energy-resources",
+          "name": "Energy resources and efficiency",
+          "skills": [
+            { "id": "science.12.energy-resources.compare-sources", "name": "Compare energy sources", "description": "Rank energy sources by carbon emissions, cost or reliability from a data table, e.g. solar has near-zero operating emissions.", "itemTypes": ["sequence", "choice", "sort"] },
+            { "id": "science.12.energy-resources.efficiency-calculations", "name": "Energy efficiency calculations", "description": "Compute efficiency and energy savings, e.g. a 35% efficient plant delivers 350 MJ from 1000 MJ of fuel.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.12.energy-resources.carbon-accounting", "name": "Carbon accounting", "description": "Compute emissions from activity data and emission factors, e.g. 100 L of petrol is about 230 kg CO2.", "itemTypes": ["numeric", "choice"] }
+          ]
+        },
+        {
+          "id": "science.12.scientific-method",
+          "name": "Scientific method and reasoning",
+          "skills": [
+            { "id": "science.12.scientific-method.experimental-design", "name": "Experimental design", "description": "Identify controls, randomisation, blinding and sample size issues in a study, e.g. a placebo group makes a drug trial controlled.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.12.scientific-method.hypothesis-testing", "name": "Hypothesis testing", "description": "Decide whether results support or refute a hypothesis and whether the claim is falsifiable, e.g. a p-value below 0.05 indicates a significant difference.", "itemTypes": ["choice"] },
+            { "id": "science.12.scientific-method.theories-laws-models", "name": "Theories, laws and models", "description": "Classify statements as observation, law, theory or model, e.g. plate tectonics is a theory, F = ma is a law.", "itemTypes": ["sort", "choice"] },
+            { "id": "science.12.scientific-method.peer-review-bias", "name": "Peer review, bias and ethics", "description": "Spot sources of bias and judge the reliability of a claim, e.g. a study funded by the product's maker needs independent replication.", "itemTypes": ["choice", "sort"] }
+          ]
+        },
+        {
+          "id": "science.12.data-literacy",
+          "name": "Data literacy",
+          "skills": [
+            { "id": "science.12.data-literacy.descriptive-statistics", "name": "Mean, median, spread", "description": "Compute mean, median, range or standard deviation from a small data set, e.g. mean of 4, 6, 8 is 6.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.12.data-literacy.correlation-causation", "name": "Correlation vs causation", "description": "Decide whether data show correlation, causation or a confounding variable, e.g. ice cream sales and drowning both rise in summer.", "itemTypes": ["choice", "sort"] },
+            { "id": "science.12.data-literacy.uncertainty-error", "name": "Uncertainty and significant figures", "description": "Report results with correct significant figures and percent error, e.g. measured 9.6 vs 9.8 m/s^2 is about 2% error.", "itemTypes": ["numeric", "choice"] },
+            { "id": "science.12.data-literacy.model-evaluation", "name": "Evaluate models and predictions", "description": "Compare a model's predictions with data and judge its fit or limits, e.g. the linear model under-predicts after year 5.", "itemTypes": ["choice", "numeric"] }
+          ]
+        }
+      ]
+    }
+  }
+}

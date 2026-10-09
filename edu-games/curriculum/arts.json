@@ -1,0 +1,2360 @@
+{
+  "id": "arts",
+  "name": "Arts and Music",
+  "color": "#14B8A6",
+  "icon": "palette",
+  "grades": {
+    "1": {
+      "topics": [
+        {
+          "id": "arts.1.music",
+          "name": "Beat, pitch and loudness",
+          "skills": [
+            {
+              "id": "arts.1.music.steady-beat",
+              "name": "Keep a steady beat",
+              "description": "Tap along with a steady pulse and tell whether a pattern of taps is steady or uneven, e.g. choosing which of two clapping clips keeps the beat.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "arts.1.music.high-low",
+              "name": "High and low sounds",
+              "description": "Decide whether a sound or note is higher or lower than another, e.g. 'Is the second bell higher or lower?'",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.1.music.loud-quiet",
+              "name": "Loud and quiet",
+              "description": "Classify sounds and musical moments as loud or quiet and match them to pictures, e.g. a lion roar is loud, a whisper is quiet.",
+              "itemTypes": ["choice", "sort", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.1.music-listening",
+          "name": "Listening and moving",
+          "skills": [
+            {
+              "id": "arts.1.music-listening.fast-slow",
+              "name": "Fast and slow music",
+              "description": "Tell whether a piece of music is fast or slow and pick a matching movement, e.g. march for fast, sway for slow.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.1.music-listening.same-different",
+              "name": "Same or different",
+              "description": "Hear or see two short patterns and say if they are the same or different, e.g. ta ta ti-ti ta versus ta ta ta ta.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.1.music-listening.mood",
+              "name": "Music and feelings",
+              "description": "Match a short piece of music to the feeling it suggests, e.g. happy, sleepy, scary or excited.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.1.music-instruments",
+          "name": "Classroom instruments",
+          "skills": [
+            {
+              "id": "arts.1.music-instruments.name-percussion",
+              "name": "Name classroom percussion",
+              "description": "Identify common classroom instruments from a picture or sound, e.g. drum, shaker, triangle, tambourine, xylophone.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.1.music-instruments.how-played",
+              "name": "Shake, tap or scrape",
+              "description": "Sort instruments by how they are played, e.g. a maraca is shaken, a drum is tapped, a guiro is scraped.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.1.music-performance",
+          "name": "Singing and echo games",
+          "skills": [
+            {
+              "id": "arts.1.music-performance.echo-patterns",
+              "name": "Echo a rhythm",
+              "description": "Repeat a short clapped rhythm by tapping it back in the same order, e.g. clap, clap, rest, clap.",
+              "itemTypes": ["sequence", "build"]
+            },
+            {
+              "id": "arts.1.music-performance.call-response",
+              "name": "Call and response",
+              "description": "Pick the correct response phrase that answers a sung call, e.g. the leader sings 'Hello, friends' and the group answers 'Hello, teacher'.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.1.music-performance.singing-voice",
+              "name": "Speaking, whispering, singing, shouting",
+              "description": "Classify how a voice is being used, e.g. deciding whether a clip is singing or speaking.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.1.visual",
+          "name": "Lines, shapes and colours",
+          "skills": [
+            {
+              "id": "arts.1.visual.line-types",
+              "name": "Kinds of lines",
+              "description": "Identify straight, curved, zigzag, wavy, thick and thin lines in a picture, e.g. 'Tap the zigzag line'.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.1.visual.basic-shapes",
+              "name": "Basic shapes in art",
+              "description": "Find circles, squares, triangles and rectangles hidden in artworks and objects, e.g. the sun as a circle.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.1.visual.primary-colours",
+              "name": "Primary colours",
+              "description": "Name red, yellow and blue as the primary colours and pick them out of a set, e.g. 'Which colour is not a primary colour?'",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.1.visual-media",
+          "name": "Art tools and materials",
+          "skills": [
+            {
+              "id": "arts.1.visual-media.name-tools",
+              "name": "Name art tools",
+              "description": "Identify everyday art tools and materials, e.g. paintbrush, crayon, scissors, glue, clay.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.1.visual-media.tool-for-job",
+              "name": "Choose the right tool",
+              "description": "Match a task to the tool that does it, e.g. use scissors to cut paper and a brush to spread paint.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.1.visual-media.clean-up-order",
+              "name": "Studio safety and clean-up",
+              "description": "Put the steps of using and cleaning a material in order, e.g. wet brush, paint, rinse brush, dry brush.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "topics": [
+        {
+          "id": "arts.2.music",
+          "name": "Rhythm syllables and simple pitch",
+          "skills": [
+            {
+              "id": "arts.2.music.ta-titi",
+              "name": "Ta and ti-ti",
+              "description": "Read and clap rhythm patterns written with ta (one sound per beat) and ti-ti (two sounds per beat), e.g. tap back 'ta ti-ti ta ta'.",
+              "itemTypes": ["choice", "sequence", "build"]
+            },
+            {
+              "id": "arts.2.music.silent-beat",
+              "name": "The silent beat",
+              "description": "Recognise a beat with no sound in a pattern and show it with a rest symbol or 'sh', e.g. 'ta ta sh ta'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "arts.2.music.so-mi",
+              "name": "So and mi",
+              "description": "Tell so (higher) from mi (lower) in a two-note tune and place notes high or low on a two-line staff, e.g. 'so-mi-so-so-mi'.",
+              "itemTypes": ["choice", "sequence", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.2.music-listening",
+          "name": "Listening for form and tempo",
+          "skills": [
+            {
+              "id": "arts.2.music-listening.verse-chorus",
+              "name": "Verse and chorus",
+              "description": "Tell which part of a song repeats with the same words (chorus) and which changes (verse), e.g. labelling sections of a familiar song.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.2.music-listening.getting-faster-slower",
+              "name": "Speeding up and slowing down",
+              "description": "Decide whether music gets faster, slower or stays the same, e.g. a train leaving a station speeds up.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.2.music-listening.instrument-sounds",
+              "name": "Instrument or voice",
+              "description": "Classify what makes a sound in a clip as a voice, a drum, a string instrument or a wind instrument.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.2.music-instruments",
+          "name": "Pitched and unpitched instruments",
+          "skills": [
+            {
+              "id": "arts.2.music-instruments.pitched-unpitched",
+              "name": "Pitched or unpitched",
+              "description": "Sort instruments into those that can play a tune (xylophone, recorder) and those that keep rhythm only (drum, shaker).",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "arts.2.music-instruments.size-and-pitch",
+              "name": "Big is low, small is high",
+              "description": "Predict which of two instruments or bars sounds lower, e.g. the longer xylophone bar sounds lower.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.2.music-instruments.orchestra-glimpse",
+              "name": "Meet the orchestra",
+              "description": "Identify a violin, trumpet, flute and drum from a picture and know which is played by bowing, blowing or hitting.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.2.music-history",
+          "name": "Music around the world",
+          "skills": [
+            {
+              "id": "arts.2.music-history.music-purpose",
+              "name": "Why people make music",
+              "description": "Match a type of song to its purpose, e.g. lullaby for sleeping, march for parading, work song for working together.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "arts.2.music-history.world-songs",
+              "name": "Songs from many places",
+              "description": "Connect a well-known children's song or instrument to the region it comes from, e.g. the djembe drum from West Africa.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.2.visual",
+          "name": "Mixing colours and texture",
+          "skills": [
+            {
+              "id": "arts.2.visual.secondary-colours",
+              "name": "Secondary colours",
+              "description": "Predict the colour made by mixing two primaries, e.g. red + yellow = orange, and name orange, green and purple as secondary colours.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.2.visual.warm-cool",
+              "name": "Warm and cool colours",
+              "description": "Sort colours into warm (red, orange, yellow) and cool (blue, green, purple) and say which a picture mostly uses.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "arts.2.visual.texture-words",
+              "name": "Describing texture",
+              "description": "Match texture words to pictures of surfaces, e.g. rough bark, smooth glass, fluffy cotton, bumpy pebbles.",
+              "itemTypes": ["match", "choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.2.visual-design",
+          "name": "Pattern and symmetry",
+          "skills": [
+            {
+              "id": "arts.2.visual-design.repeat-pattern",
+              "name": "Continue the pattern",
+              "description": "Work out what comes next in a repeating shape or colour pattern, e.g. circle, square, circle, square, ?",
+              "itemTypes": ["choice", "sequence", "build"]
+            },
+            {
+              "id": "arts.2.visual-design.symmetry",
+              "name": "Symmetry in art",
+              "description": "Decide whether a picture is symmetrical and pick the half that completes a mirror image, e.g. a butterfly's wings.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.2.visual-design.foreground-background",
+              "name": "Front and back",
+              "description": "Say which objects in a picture are in front (foreground) and which are far behind (background), e.g. the tree is in front of the mountains.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.2.visual-history",
+          "name": "Looking at pictures",
+          "skills": [
+            {
+              "id": "arts.2.visual-history.subject-types",
+              "name": "Portrait, landscape or still life",
+              "description": "Classify an artwork by what it shows: a person (portrait), scenery (landscape) or arranged objects (still life).",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.2.visual-history.art-in-daily-life",
+              "name": "Art we use every day",
+              "description": "Spot where art appears in daily life and who makes it, e.g. a book illustration is drawn by an illustrator, a building is designed by an architect.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "topics": [
+        {
+          "id": "arts.3.music",
+          "name": "Reading rhythm notation",
+          "skills": [
+            {
+              "id": "arts.3.music.note-values",
+              "name": "Note values",
+              "description": "Identify quarter, half, whole and paired eighth notes by shape and say how many beats each lasts, e.g. a half note lasts 2 beats in 4/4.",
+              "itemTypes": ["choice", "match", "numeric", "sort"]
+            },
+            {
+              "id": "arts.3.music.rests",
+              "name": "Rests",
+              "description": "Identify quarter, half and whole rests, match each rest to the note of the same length, and find the rest in a written rhythm.",
+              "itemTypes": ["choice", "match", "numeric"]
+            },
+            {
+              "id": "arts.3.music.bar-lines",
+              "name": "Measures and bar lines",
+              "description": "Count the beats inside a measure and spot where a bar line belongs, e.g. splitting 'quarter quarter half quarter quarter half' into two measures of 4 beats.",
+              "itemTypes": ["numeric", "choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "arts.3.music-listening",
+          "name": "Form, tempo and instrument families",
+          "skills": [
+            {
+              "id": "arts.3.music-listening.aba-form",
+              "name": "ABA form",
+              "description": "Label the sections of a short piece as A or B and recognise ABA (same, different, same), e.g. labelling 'Twinkle, Twinkle' phrases.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.3.music-listening.tempo-words",
+              "name": "Tempo words",
+              "description": "Match basic Italian tempo words to speeds, e.g. allegro is fast, andante is walking pace, adagio is slow.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "arts.3.music-listening.four-families",
+              "name": "Four instrument families",
+              "description": "Sort orchestra instruments into strings, woodwinds, brass and percussion, e.g. a clarinet is a woodwind.",
+              "itemTypes": ["sort", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.3.music-performance",
+          "name": "Solfege and singing together",
+          "skills": [
+            {
+              "id": "arts.3.music-performance.so-mi-la",
+              "name": "So, mi and la",
+              "description": "Read and order three-note solfege tunes on a staff, e.g. arranging so-la-so-mi to match the notes shown.",
+              "itemTypes": ["choice", "sequence", "match"]
+            },
+            {
+              "id": "arts.3.music-performance.rounds",
+              "name": "Rounds and partner songs",
+              "description": "Understand that in a round the same tune starts at different times and pick when the second group should begin, e.g. 'Row, Row, Row Your Boat'.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "arts.3.music-performance.posture-breath",
+              "name": "Good singing habits",
+              "description": "Choose the habits that help singing, e.g. standing tall and breathing from the belly rather than lifting the shoulders.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.3.music-history",
+          "name": "Folk music and famous composers",
+          "skills": [
+            {
+              "id": "arts.3.music-history.folk-regions",
+              "name": "Folk music by region",
+              "description": "Match a folk instrument or dance to its region, e.g. bagpipes with Scotland, mariachi with Mexico, taiko with Japan.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.3.music-history.meet-composers",
+              "name": "Meet a composer",
+              "description": "Recognise a few famous composers and one well-known piece each, e.g. Beethoven and his Fifth Symphony, Tchaikovsky and The Nutcracker.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.3.visual",
+          "name": "Value, form and space",
+          "skills": [
+            {
+              "id": "arts.3.visual.light-dark-value",
+              "name": "Light and dark values",
+              "description": "Order shades from lightest to darkest and tell which part of a picture is lightest, e.g. ordering five grey swatches.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.3.visual.shape-vs-form",
+              "name": "Shape or form",
+              "description": "Tell flat shapes (circle, square) from 3D forms (sphere, cube, cylinder, cone) and match each shape to its form.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "arts.3.visual.overlap-space",
+              "name": "Overlapping for space",
+              "description": "Decide which object is closer when shapes overlap and which is bigger because it is nearer, e.g. the overlapping apple is in front.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.3.visual-colour",
+          "name": "The colour wheel",
+          "skills": [
+            {
+              "id": "arts.3.visual-colour.wheel-order",
+              "name": "Build the colour wheel",
+              "description": "Place the six primary and secondary colours in order around the wheel, e.g. red, orange, yellow, green, blue, purple.",
+              "itemTypes": ["sequence", "build", "choice"]
+            },
+            {
+              "id": "arts.3.visual-colour.complementary",
+              "name": "Complementary pairs",
+              "description": "Match each colour with its opposite on the wheel, e.g. red with green, blue with orange, yellow with purple.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.3.visual-colour.tints-shades",
+              "name": "Tints and shades",
+              "description": "Know that adding white makes a tint and adding black makes a shade, and pick the tint or shade of a given colour.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.3.visual-media",
+          "name": "Printmaking, collage and sculpture",
+          "skills": [
+            {
+              "id": "arts.3.visual-media.identify-technique",
+              "name": "Name the technique",
+              "description": "Look at an artwork and tell whether it is a painting, drawing, collage, print or sculpture, e.g. cut paper glued in layers is collage.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.3.visual-media.print-steps",
+              "name": "Steps of a simple print",
+              "description": "Order the steps of making a stamp print: carve or build the block, roll on ink, press onto paper, lift.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.3.visual-media.clay-basics",
+              "name": "Clay basics",
+              "description": "Match clay techniques to their names, e.g. pinch pot, coil, slab, and know that scoring and slipping joins pieces.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.3.visual-history",
+          "name": "Art from many cultures",
+          "skills": [
+            {
+              "id": "arts.3.visual-history.cultural-art-forms",
+              "name": "Art forms around the world",
+              "description": "Match traditional art forms to their cultures, e.g. origami with Japan, Adinkra cloth with Ghana, totem poles with Pacific Northwest First Nations.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.3.visual-history.masks-and-meaning",
+              "name": "Masks, patterns and meaning",
+              "description": "Explain what a traditional object was used for, e.g. a mask for a ceremony or a woven pattern to tell a family story.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "topics": [
+        {
+          "id": "arts.4.music",
+          "name": "Meter and rhythm reading",
+          "skills": [
+            {
+              "id": "arts.4.music.time-signatures",
+              "name": "Time signatures",
+              "description": "Read 2/4, 3/4 and 4/4 time signatures, say how many beats are in each measure, and pick the signature that fits a written measure.",
+              "itemTypes": ["choice", "numeric", "match"]
+            },
+            {
+              "id": "arts.4.music.reading-rhythm",
+              "name": "Reading rhythm",
+              "description": "Fill a measure with notes and rests so the beats add up to the time signature, e.g. quarter + quarter + half in 4/4, and tap a written rhythm in order.",
+              "itemTypes": ["build", "choice", "sequence"]
+            },
+            {
+              "id": "arts.4.music.dots-ties",
+              "name": "Dotted notes and ties",
+              "description": "Work out the length of a dotted note or tied notes, e.g. a dotted half note lasts 3 beats and two tied quarter notes last 2 beats.",
+              "itemTypes": ["numeric", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.4.music-performance",
+          "name": "Pentatonic solfege and melody shape",
+          "skills": [
+            {
+              "id": "arts.4.music-performance.pentatonic-solfege",
+              "name": "Do, re, mi, so, la",
+              "description": "Read five-note solfege melodies on the staff and order the syllables from lowest to highest, e.g. do-re-mi-so-la.",
+              "itemTypes": ["sequence", "choice", "match"]
+            },
+            {
+              "id": "arts.4.music-performance.melodic-contour",
+              "name": "Melody goes up, down or stays",
+              "description": "Describe the direction of a melody or pick the contour drawing that matches a tune, e.g. a melody that steps up then leaps down.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.4.music-performance.steps-leaps",
+              "name": "Steps, leaps and repeats",
+              "description": "Classify each move between two notes as a step (neighbouring notes), a leap (skipping notes) or a repeat.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.4.music-instruments",
+          "name": "Instruments and ensembles",
+          "skills": [
+            {
+              "id": "arts.4.music-instruments.orchestra-members",
+              "name": "Orchestra instruments by family",
+              "description": "Name specific instruments (oboe, cello, tuba, timpani) and sort them into their family.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "arts.4.music-instruments.how-sound-made",
+              "name": "How sound is made",
+              "description": "Match how an instrument vibrates to the instrument, e.g. a reed for clarinet, buzzing lips for trumpet, a bowed string for violin, a struck skin for drum.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.4.music-instruments.ensemble-types",
+              "name": "Choir, band and orchestra",
+              "description": "Tell ensembles apart by who plays in them, e.g. a choir sings, a concert band has no strings, an orchestra has strings.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.4.music-listening",
+          "name": "Form, texture and melody",
+          "skills": [
+            {
+              "id": "arts.4.music-listening.rondo-form",
+              "name": "Rondo and other forms",
+              "description": "Label section patterns such as AB, ABA and ABACA (rondo) from a description or listening map.",
+              "itemTypes": ["sequence", "choice", "match"]
+            },
+            {
+              "id": "arts.4.music-listening.melody-vs-accompaniment",
+              "name": "Melody and accompaniment",
+              "description": "Identify which part carries the tune and which parts support it, e.g. the singer has the melody while the guitar strums chords.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.4.music-listening.solo-ensemble",
+              "name": "Solo, duet, trio, group",
+              "description": "Count performers in a description or picture and name the grouping, e.g. two singers make a duet.",
+              "itemTypes": ["match", "choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "arts.4.music-genres",
+          "name": "Styles of music",
+          "skills": [
+            {
+              "id": "arts.4.music-genres.name-the-style",
+              "name": "Name the style",
+              "description": "Match descriptions or typical instruments to styles such as classical, jazz, folk, rock and pop, e.g. improvised saxophone solos suggest jazz.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.4.music-genres.style-instruments",
+              "name": "Instruments of each style",
+              "description": "Sort instruments into the style they are most linked with, e.g. electric guitar with rock, banjo with bluegrass, sitar with Indian classical.",
+              "itemTypes": ["sort", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.4.visual",
+          "name": "Space, proportion and texture",
+          "skills": [
+            {
+              "id": "arts.4.visual.positive-negative-space",
+              "name": "Positive and negative space",
+              "description": "Identify the object (positive space) and the empty area around it (negative space) in a silhouette or cut-out.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.4.visual.body-proportion",
+              "name": "Simple proportion",
+              "description": "Spot the figure or face with believable proportions, e.g. eyes halfway down the head and arms reaching to mid-thigh.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.4.visual.actual-implied-texture",
+              "name": "Real and implied texture",
+              "description": "Tell real texture you can feel (thick paint, collage) from implied texture that is only drawn, e.g. pencil fur marks.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.4.visual-design",
+          "name": "Principles of design: balance, rhythm, emphasis",
+          "skills": [
+            {
+              "id": "arts.4.visual-design.balance-types",
+              "name": "Symmetrical, asymmetrical, radial",
+              "description": "Classify a composition's balance, e.g. a mandala is radial, a lopsided but steady layout is asymmetrical.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "arts.4.visual-design.visual-rhythm",
+              "name": "Rhythm and repetition",
+              "description": "Find the repeated element that creates rhythm in a design and classify it as regular, alternating or progressive.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.4.visual-design.emphasis",
+              "name": "Emphasis and focal point",
+              "description": "Point to the focal point of an artwork and say what makes it stand out, e.g. the only red shape among greys.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.4.visual-perspective",
+          "name": "Showing depth",
+          "skills": [
+            {
+              "id": "arts.4.visual-perspective.horizon-line",
+              "name": "Horizon line",
+              "description": "Find the horizon line in a landscape and know that objects near it look farther away.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.4.visual-perspective.depth-cues",
+              "name": "Size, overlap and placement",
+              "description": "Use size, overlap and placement to say which object is nearest, e.g. the biggest, lowest, overlapping tree is closest.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "arts.4.visual-perspective.ground-planes",
+              "name": "Foreground, middle ground, background",
+              "description": "Sort the parts of a scene into foreground, middle ground and background, e.g. flowers, a house, distant hills.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "topics": [
+        {
+          "id": "arts.5.music",
+          "name": "Staff reading and expression",
+          "skills": [
+            {
+              "id": "arts.5.music.staff-notes",
+              "name": "Notes on the treble staff",
+              "description": "Name the letter of a note on the treble clef staff (lines E G B D F, spaces F A C E) and place a named note on the staff, e.g. the note on the second line is G.",
+              "itemTypes": ["choice", "match", "text", "build"]
+            },
+            {
+              "id": "arts.5.music.tempo-dynamics",
+              "name": "Tempo and dynamic markings",
+              "description": "Read tempo words (largo, andante, allegro, presto) and dynamic symbols (pp, p, mp, mf, f, ff, crescendo, decrescendo) and order them from slowest to fastest or quietest to loudest.",
+              "itemTypes": ["choice", "match", "sequence", "sort"]
+            },
+            {
+              "id": "arts.5.music.sharps-flats",
+              "name": "Sharps, flats and naturals",
+              "description": "Explain what a sharp, flat or natural does to a note and name the altered note, e.g. a sharp before F makes F-sharp, a half step higher.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.5.music-composition",
+          "name": "Composing rhythms and melodies",
+          "skills": [
+            {
+              "id": "arts.5.music-composition.fill-measures",
+              "name": "Compose a four-bar rhythm",
+              "description": "Build four complete measures in 4/4 or 3/4 from a palette of note and rest tiles, e.g. 3/4: dotted half | quarter quarter quarter | half quarter | dotted half.",
+              "itemTypes": ["build", "choice"]
+            },
+            {
+              "id": "arts.5.music-composition.ostinato",
+              "name": "Ostinato patterns",
+              "description": "Recognise an ostinato as a short repeating pattern and pick the pattern that would loop cleanly under a melody.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "arts.5.music-composition.question-answer-phrases",
+              "name": "Question and answer phrases",
+              "description": "Choose an answer phrase that ends on do to finish a question phrase that ends on so, making a complete musical sentence.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.5.music-instruments",
+          "name": "World instruments and voices",
+          "skills": [
+            {
+              "id": "arts.5.music-instruments.world-instruments",
+              "name": "Instruments of the world",
+              "description": "Match world instruments to their region and family, e.g. sitar (India, string), djembe (West Africa, percussion), didgeridoo (Australia, wind), erhu (China, string).",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "arts.5.music-instruments.voice-types",
+              "name": "Voice types",
+              "description": "Order soprano, alto, tenor and bass from highest to lowest and classify a described singer, e.g. the lowest male voice is bass.",
+              "itemTypes": ["sequence", "choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.5.music-listening",
+          "name": "Major, minor and texture",
+          "skills": [
+            {
+              "id": "arts.5.music-listening.major-minor",
+              "name": "Major or minor",
+              "description": "Decide whether a melody or chord sounds major (brighter) or minor (darker) and match each to a typical mood or scene.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.5.music-listening.unison-harmony",
+              "name": "Unison and harmony",
+              "description": "Tell whether voices sing the same notes together (unison) or different notes that fit together (harmony).",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.5.music-listening.repetition-contrast",
+              "name": "Repetition and contrast",
+              "description": "Identify when a section repeats a previous idea and when it brings something new, and label a form such as AABA.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.5.music-history",
+          "name": "Composers and periods",
+          "skills": [
+            {
+              "id": "arts.5.music-history.period-order",
+              "name": "Order the periods",
+              "description": "Place Baroque, Classical, Romantic and Modern periods in chronological order with a rough century for each.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.5.music-history.composer-period",
+              "name": "Composer to period",
+              "description": "Match composers to their period, e.g. Bach and Vivaldi (Baroque), Mozart and Haydn (Classical), Chopin and Brahms (Romantic).",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "arts.5.music-history.famous-pieces",
+              "name": "Famous pieces",
+              "description": "Match well-known pieces to their composers, e.g. The Four Seasons to Vivaldi, Fur Elise to Beethoven, Peter and the Wolf to Prokofiev.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.5.visual-colour",
+          "name": "Colour schemes and mood",
+          "skills": [
+            {
+              "id": "arts.5.visual-colour.analogous",
+              "name": "Analogous colours",
+              "description": "Pick sets of neighbouring colours on the wheel, e.g. blue, blue-green and green form an analogous scheme.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.5.visual-colour.monochromatic",
+              "name": "Monochromatic schemes",
+              "description": "Recognise a design built from tints and shades of one hue and spot the swatch that breaks the scheme.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.5.visual-colour.colour-mood",
+              "name": "Colour and mood",
+              "description": "Match a colour scheme to the feeling it commonly suggests, e.g. cool blues feel calm, hot reds and oranges feel energetic.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.5.visual-colour.intermediate-colours",
+              "name": "Intermediate colours",
+              "description": "Name the colour between a primary and a secondary, e.g. blue + green = blue-green (teal), and place it on a 12-step wheel.",
+              "itemTypes": ["choice", "build", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.5.visual-design",
+          "name": "Principles of design: unity, variety, movement",
+          "skills": [
+            {
+              "id": "arts.5.visual-design.unity-variety",
+              "name": "Unity and variety",
+              "description": "Judge which composition feels unified yet varied, and name what ties it together, e.g. repeated colour with different shapes.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.5.visual-design.movement",
+              "name": "Movement and direction",
+              "description": "Trace the path the eye follows in a composition and identify the lines or shapes that create movement, e.g. diagonal brush strokes.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "arts.5.visual-design.contrast",
+              "name": "Contrast",
+              "description": "Identify the type of contrast used (light-dark, big-small, rough-smooth, warm-cool) in a design.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.5.visual-perspective",
+          "name": "One-point perspective and shading",
+          "skills": [
+            {
+              "id": "arts.5.visual-perspective.vanishing-point",
+              "name": "Vanishing point",
+              "description": "Find the vanishing point where receding lines meet, e.g. railway tracks, and pick the drawing with correct one-point perspective.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.5.visual-perspective.one-point-steps",
+              "name": "Draw a box in one-point perspective",
+              "description": "Order the steps: draw horizon line, mark vanishing point, draw front face, connect corners to the point, add the back edges.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.5.visual-perspective.light-and-shadow",
+              "name": "Light source and shadow",
+              "description": "Given a light source, pick which side of a form is lit and where the cast shadow falls, e.g. light from the left means shadow on the right.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "topics": [
+        {
+          "id": "arts.6.music",
+          "name": "Scales, intervals and compound meter",
+          "skills": [
+            {
+              "id": "arts.6.music.bass-clef",
+              "name": "Notes on the bass clef",
+              "description": "Name notes on the bass clef staff (lines G B D F A, spaces A C E G) and relate middle C between the two staves.",
+              "itemTypes": ["choice", "match", "text"]
+            },
+            {
+              "id": "arts.6.music.major-scale",
+              "name": "Build a major scale",
+              "description": "Apply the whole-whole-half-whole-whole-whole-half pattern to build a major scale from a given note, e.g. G major needs F-sharp.",
+              "itemTypes": ["build", "choice", "sequence"]
+            },
+            {
+              "id": "arts.6.music.interval-numbers",
+              "name": "Interval size",
+              "description": "Count the interval number between two notes (2nd through octave), e.g. C up to G is a 5th.",
+              "itemTypes": ["numeric", "choice", "match"]
+            },
+            {
+              "id": "arts.6.music.compound-meter",
+              "name": "6/8 and syncopation",
+              "description": "Read 6/8 as two groups of three eighths, fill 6/8 measures correctly, and spot syncopated patterns that stress off-beats.",
+              "itemTypes": ["build", "choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "arts.6.music-composition",
+          "name": "Melody and chord roots",
+          "skills": [
+            {
+              "id": "arts.6.music-composition.phrase-structure",
+              "name": "Phrases and cadence points",
+              "description": "Divide a melody into phrases and pick where a phrase breathes or ends, e.g. a four-bar phrase ending on a long note.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "arts.6.music-composition.i-iv-v-roots",
+              "name": "I, IV and V",
+              "description": "Name the root notes of chords I, IV and V in a given major key, e.g. in C major they are C, F and G.",
+              "itemTypes": ["match", "choice", "text"]
+            },
+            {
+              "id": "arts.6.music-composition.compose-6-8",
+              "name": "Compose in 6/8",
+              "description": "Build a two-measure rhythm in 6/8 from note tiles so each measure totals six eighth notes.",
+              "itemTypes": ["build", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.6.music-listening",
+          "name": "Texture, form and timbre",
+          "skills": [
+            {
+              "id": "arts.6.music-listening.texture-types",
+              "name": "Monophonic, homophonic, polyphonic",
+              "description": "Classify a described or heard excerpt by texture, e.g. one unaccompanied melody is monophonic; melody with chords is homophonic; independent melodies at once is polyphonic.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.6.music-listening.theme-variations",
+              "name": "Theme and variations",
+              "description": "Identify how a variation changes the theme (rhythm, mode, tempo, ornament) and order variations as described.",
+              "itemTypes": ["choice", "sort", "sequence"]
+            },
+            {
+              "id": "arts.6.music-listening.timbre-words",
+              "name": "Describing timbre",
+              "description": "Match timbre words (bright, dark, nasal, mellow, brassy) to the instruments or sounds they fit, e.g. a muted trumpet is nasal.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.6.music-genres",
+          "name": "World music traditions",
+          "skills": [
+            {
+              "id": "arts.6.music-genres.gamelan-drumming",
+              "name": "Gamelan and West African drumming",
+              "description": "Identify key features of Indonesian gamelan (layered metallophones, cyclic gongs) and West African drumming (polyrhythm, call and response, master drummer).",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "arts.6.music-genres.latin-rhythms",
+              "name": "Latin American rhythms",
+              "description": "Match rhythms and styles to their origins, e.g. samba with Brazil, tango with Argentina, salsa with Cuba and Puerto Rico, and recognise the clave pattern.",
+              "itemTypes": ["match", "choice", "sequence"]
+            },
+            {
+              "id": "arts.6.music-genres.blues-roots",
+              "name": "Roots of the blues",
+              "description": "Describe the blues as African American music with 12-bar form, blue notes and AAB lyric pattern, and identify the AAB pattern in a verse.",
+              "itemTypes": ["choice", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "arts.6.visual",
+          "name": "Expressive elements",
+          "skills": [
+            {
+              "id": "arts.6.visual.line-quality",
+              "name": "Line quality and expression",
+              "description": "Match line qualities (gestural, contour, hatching, cross-hatching, implied) to examples and to the feeling they create.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "arts.6.visual.value-scale",
+              "name": "Nine-step value scale",
+              "description": "Order values from white to black and pick the swatch that fits a gap in a value scale.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.6.visual.geometric-organic",
+              "name": "Geometric and organic shapes",
+              "description": "Sort shapes into geometric (precise, mathematical) and organic (free-form, natural) and say which an artwork mostly uses.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.6.visual-design",
+          "name": "Proportion, scale and hierarchy",
+          "skills": [
+            {
+              "id": "arts.6.visual-design.proportion-scale",
+              "name": "Proportion and scale",
+              "description": "Tell proportion (parts relative to each other) from scale (size relative to the viewer or surroundings), and spot deliberate exaggeration, e.g. an oversized sculpture of a spoon.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.6.visual-design.visual-hierarchy",
+              "name": "Visual hierarchy",
+              "description": "Order the elements of a poster by the sequence a viewer notices them, based on size, contrast and placement.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.6.visual-design.all-principles",
+              "name": "Name the principle",
+              "description": "Given a description of what an artist did, name the design principle at work, e.g. repeating a shape across the canvas is rhythm.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.6.visual-perspective",
+          "name": "Two-point and atmospheric perspective",
+          "skills": [
+            {
+              "id": "arts.6.visual-perspective.two-point",
+              "name": "Two-point perspective",
+              "description": "Recognise two vanishing points on the horizon when a box is seen from a corner and pick the correctly constructed drawing.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "arts.6.visual-perspective.atmospheric",
+              "name": "Atmospheric perspective",
+              "description": "Know that distant objects look paler, bluer and less detailed, and order mountains from nearest to farthest by their colour and detail.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.6.visual-perspective.eye-level",
+              "name": "Eye level and viewpoint",
+              "description": "Decide whether a scene is viewed from above (bird's-eye), below (worm's-eye) or at eye level from where the horizon sits.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.6.visual-history",
+          "name": "Ancient and medieval art",
+          "skills": [
+            {
+              "id": "arts.6.visual-history.ancient-civilisations",
+              "name": "Egypt, Greece and Rome",
+              "description": "Match artworks and features to their civilisation, e.g. hieroglyphs and profile figures to Egypt, idealised marble statues to Greece, the Colosseum and arches to Rome.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "arts.6.visual-history.medieval-art",
+              "name": "Medieval art",
+              "description": "Identify features of Byzantine mosaics, illuminated manuscripts and Gothic cathedrals, e.g. gold backgrounds and stained glass.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.6.visual-history.asian-african-traditions",
+              "name": "Asian and African traditions",
+              "description": "Connect artworks to their traditions, e.g. Chinese ink landscape scrolls, Japanese ukiyo-e prints, Benin bronzes, Great Zimbabwe stonework.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "topics": [
+        {
+          "id": "arts.7.music",
+          "name": "Keys, minor scales and triads",
+          "skills": [
+            {
+              "id": "arts.7.music.key-signatures",
+              "name": "Key signatures",
+              "description": "Name the major key from a key signature of up to three sharps or flats using the order F C G D A E B, e.g. two sharps is D major.",
+              "itemTypes": ["choice", "match", "numeric"]
+            },
+            {
+              "id": "arts.7.music.minor-scales",
+              "name": "Natural minor scales",
+              "description": "Find the relative minor of a major key (three half steps below) and build a natural minor scale, e.g. A minor shares C major's notes.",
+              "itemTypes": ["choice", "build", "match"]
+            },
+            {
+              "id": "arts.7.music.interval-quality",
+              "name": "Interval quality",
+              "description": "Label intervals as major, minor or perfect, e.g. C to E is a major third and C to E-flat is a minor third.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.7.music.triads",
+              "name": "Build triads",
+              "description": "Stack root, third and fifth to build major and minor triads, e.g. D major is D, F-sharp, A.",
+              "itemTypes": ["build", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.7.music-composition",
+          "name": "Chords and song form",
+          "skills": [
+            {
+              "id": "arts.7.music-composition.chord-progressions",
+              "name": "Common chord progressions",
+              "description": "Recognise and complete progressions like I-V-vi-IV or I-IV-V-I in a given key, e.g. in G major: G, D, Em, C.",
+              "itemTypes": ["build", "choice", "sequence"]
+            },
+            {
+              "id": "arts.7.music-composition.melody-over-chords",
+              "name": "Melody that fits the chords",
+              "description": "Choose melody notes that belong to the chord sounding underneath, e.g. over a C chord prefer C, E or G on strong beats.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.7.music-composition.song-form",
+              "name": "Verse, chorus and bridge",
+              "description": "Order the sections of a typical pop song (intro, verse, chorus, verse, chorus, bridge, chorus) and describe the job of each.",
+              "itemTypes": ["sequence", "match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.7.music-listening",
+          "name": "Harmony and cadence by ear and eye",
+          "skills": [
+            {
+              "id": "arts.7.music-listening.chord-quality",
+              "name": "Major, minor, diminished",
+              "description": "Identify the quality of a written or heard chord from its thirds, e.g. a minor third plus a minor third is diminished.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.7.music-listening.cadences-basic",
+              "name": "Finished or unfinished",
+              "description": "Tell a V-I ending (authentic cadence, sounds finished) from a phrase stopping on V (half cadence, sounds unfinished).",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.7.music-listening.instrumentation",
+              "name": "Instrumentation in recordings",
+              "description": "List which instruments play in a described arrangement and classify the ensemble, e.g. drums, bass, two guitars and a singer is a rock band.",
+              "itemTypes": ["sort", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.7.music-history",
+          "name": "Baroque, Classical and Romantic",
+          "skills": [
+            {
+              "id": "arts.7.music-history.period-traits",
+              "name": "Traits of each period",
+              "description": "Match stylistic traits to periods, e.g. harpsichord and ornamentation to Baroque, balanced phrases to Classical, large orchestras and emotion to Romantic.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "arts.7.music-history.period-forms",
+              "name": "Forms and genres of each period",
+              "description": "Connect genres to the period that developed them, e.g. fugue and concerto grosso to Baroque, symphony and string quartet to Classical, art song and programme music to Romantic.",
+              "itemTypes": ["match", "sort"]
+            },
+            {
+              "id": "arts.7.music-history.composer-timeline",
+              "name": "Composer timeline",
+              "description": "Order composers by lifetime, e.g. Monteverdi, Bach, Mozart, Beethoven, Schumann, Tchaikovsky.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.7.music-genres",
+          "name": "Jazz, rock and hip-hop",
+          "skills": [
+            {
+              "id": "arts.7.music-genres.jazz-styles",
+              "name": "Jazz styles",
+              "description": "Order and describe jazz styles (ragtime, Dixieland, swing, bebop, cool, fusion) and match key figures, e.g. Louis Armstrong, Duke Ellington, Charlie Parker, Miles Davis.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "arts.7.music-genres.rock-timeline",
+              "name": "Rock and pop decades",
+              "description": "Place rock and pop developments by decade, e.g. rock and roll in the 1950s, the British Invasion in the 1960s, punk in the 1970s.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "arts.7.music-genres.hip-hop-elements",
+              "name": "Elements of hip-hop",
+              "description": "Identify the core elements of hip-hop culture (MCing, DJing, breaking, graffiti) and techniques like sampling and beat-making.",
+              "itemTypes": ["choice", "match", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.7.visual",
+          "name": "Colour theory in depth",
+          "skills": [
+            {
+              "id": "arts.7.visual.hue-saturation-value",
+              "name": "Hue, saturation and value",
+              "description": "Describe a colour by its three properties and pick which property changed between two swatches, e.g. the hue stayed red but saturation dropped.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.7.visual.triadic-split",
+              "name": "Triadic and split-complementary",
+              "description": "Identify triadic schemes (three evenly spaced hues) and split-complementary schemes (a hue plus the two neighbours of its complement).",
+              "itemTypes": ["choice", "sort", "build"]
+            },
+            {
+              "id": "arts.7.visual.colour-temperature-depth",
+              "name": "Colour temperature and depth",
+              "description": "Know that warm, saturated colours advance and cool, dull colours recede, and pick the colour choice that pushes a shape back.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.7.visual-media",
+          "name": "Media and techniques",
+          "skills": [
+            {
+              "id": "arts.7.visual-media.painting-techniques",
+              "name": "Painting techniques",
+              "description": "Match techniques to descriptions, e.g. wet-on-wet watercolour blooms, dry brush, glazing with thin layers, impasto thick paint.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.7.visual-media.drawing-media",
+              "name": "Drawing media",
+              "description": "Identify graphite grades (H hard, B soft), charcoal, ink and pastel from descriptions of their marks and best uses.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.7.visual-media.printmaking-types",
+              "name": "Relief, intaglio, screen",
+              "description": "Classify printmaking methods by whether the raised surface (relief), the cut groove (intaglio) or a stencil (screen) carries the ink.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "arts.7.visual-media.ceramics-process",
+              "name": "Ceramics process",
+              "description": "Order the stages of pottery: wet clay, leather-hard, bone-dry, bisque fire, glaze, glaze fire.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.7.visual-history",
+          "name": "Renaissance and Baroque, Islamic and East Asian art",
+          "skills": [
+            {
+              "id": "arts.7.visual-history.renaissance-masters",
+              "name": "Renaissance masters",
+              "description": "Match artists to works and innovations, e.g. Leonardo and the Mona Lisa, Michelangelo and the Sistine ceiling, Brunelleschi and linear perspective.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.7.visual-history.baroque-drama",
+              "name": "Baroque drama",
+              "description": "Identify Baroque traits such as chiaroscuro, diagonal movement and emotional intensity, e.g. in Caravaggio and Rembrandt.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.7.visual-history.islamic-east-asian",
+              "name": "Islamic and East Asian art",
+              "description": "Recognise geometric pattern, arabesque and calligraphy in Islamic art and brush landscape, calligraphy and woodblock print in Chinese, Japanese and Korean art.",
+              "itemTypes": ["sort", "match", "choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "topics": [
+        {
+          "id": "arts.8.music",
+          "name": "Seventh chords, inversions and advanced rhythm",
+          "skills": [
+            {
+              "id": "arts.8.music.seventh-chords",
+              "name": "Seventh chords",
+              "description": "Build and identify dominant seventh, major seventh and minor seventh chords, e.g. G7 is G, B, D, F.",
+              "itemTypes": ["build", "choice", "match"]
+            },
+            {
+              "id": "arts.8.music.inversions",
+              "name": "Chord inversions",
+              "description": "Identify whether a triad is in root position, first inversion or second inversion from its lowest note, e.g. E-G-C is C major in first inversion.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.8.music.transposition",
+              "name": "Transposition",
+              "description": "Move a short melody up or down by a given interval, e.g. transpose C-D-E up a perfect fourth to F-G-A.",
+              "itemTypes": ["build", "choice", "sequence"]
+            },
+            {
+              "id": "arts.8.music.triplets-odd-meters",
+              "name": "Triplets and odd meters",
+              "description": "Read triplets (three in the time of two) and count measures in 5/4 and 7/8, e.g. grouping 7/8 as 2+2+3.",
+              "itemTypes": ["numeric", "choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "arts.8.music-composition",
+          "name": "Developing motifs and arranging",
+          "skills": [
+            {
+              "id": "arts.8.music-composition.motif-development",
+              "name": "Transform a motif",
+              "description": "Identify how a motif was transformed: sequence (repeated higher or lower), inversion (mirrored), retrograde (backwards), augmentation (longer notes), diminution (shorter notes).",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.8.music-composition.arranging-roles",
+              "name": "Arranging roles",
+              "description": "Assign melody, harmony, bass and rhythm roles to instruments of a small ensemble so every role is covered, e.g. bass guitar takes the bass line.",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "arts.8.music-composition.lyric-setting",
+              "name": "Setting words to rhythm",
+              "description": "Place stressed syllables on strong beats, e.g. 'to-MOR-row' should put MOR on the downbeat.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "arts.8.music-listening",
+          "name": "Form analysis",
+          "skills": [
+            {
+              "id": "arts.8.music-listening.binary-ternary",
+              "name": "Binary and ternary form",
+              "description": "Label a piece AB (binary) or ABA (ternary) from a section map and identify rounded binary.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "arts.8.music-listening.sonata-rondo-outline",
+              "name": "Sonata and rondo outlines",
+              "description": "Order the sections of sonata form (exposition, development, recapitulation) and recognise the returning A of rondo.",
+              "itemTypes": ["sequence", "choice", "match"]
+            },
+            {
+              "id": "arts.8.music-listening.modes-by-ear",
+              "name": "Major, minor or modal",
+              "description": "Tell major from minor and spot a modal flavour such as Dorian's raised sixth or Mixolydian's lowered seventh in a described scale.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.8.music-history",
+          "name": "Twentieth-century music and technology",
+          "skills": [
+            {
+              "id": "arts.8.music-history.twentieth-century-styles",
+              "name": "Twentieth-century styles",
+              "description": "Match styles to traits and composers, e.g. Impressionism with Debussy, atonality with Schoenberg, minimalism with Glass, and order them by decade.",
+              "itemTypes": ["match", "sequence", "choice"]
+            },
+            {
+              "id": "arts.8.music-history.recording-history",
+              "name": "History of recorded sound",
+              "description": "Order recording technologies: phonograph cylinder, 78 rpm disc, vinyl LP, cassette, CD, MP3, streaming.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.8.music-history.electronic-pioneers",
+              "name": "Electronic music pioneers",
+              "description": "Connect inventions and pioneers to their contribution, e.g. the theremin, Moog synthesiser, drum machine and the first use of multitrack recording.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.8.music-genres",
+          "name": "Global popular music and film music",
+          "skills": [
+            {
+              "id": "arts.8.music-genres.global-pop",
+              "name": "Global popular styles",
+              "description": "Match global popular genres to their origin and traits, e.g. reggae (Jamaica, off-beat skank), K-pop (South Korea, idol groups), Afrobeats (West Africa), Bollywood film song (India).",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "arts.8.music-genres.film-music-functions",
+              "name": "What film music does",
+              "description": "Identify the function of a cue: setting place and time, signalling a character (leitmotif), building tension or guiding emotion.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.8.music-genres.genre-blends",
+              "name": "Genre fusions",
+              "description": "Name the parent genres of a fusion style, e.g. ska-punk blends ska and punk; jazz fusion blends jazz and rock.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.8.visual-design",
+          "name": "Composition strategies",
+          "skills": [
+            {
+              "id": "arts.8.visual-design.rule-of-thirds",
+              "name": "Rule of thirds",
+              "description": "Place the subject on a thirds intersection and judge which crop follows the rule of thirds.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.8.visual-design.golden-ratio",
+              "name": "Golden ratio and spiral",
+              "description": "Recognise the golden ratio (about 1.618) in rectangles and spirals and compute the longer side given the shorter, e.g. 10 cm gives about 16.2 cm.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "arts.8.visual-design.gestalt",
+              "name": "Gestalt grouping",
+              "description": "Name the gestalt principle at work: proximity, similarity, closure, continuity or figure-ground, e.g. a broken circle still read as a circle is closure.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.8.visual-design.cropping-framing",
+              "name": "Cropping and framing",
+              "description": "Choose the crop that strengthens a focal point or implies movement, and spot distracting edge elements.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.8.visual-history",
+          "name": "Impressionism to Pop Art",
+          "skills": [
+            {
+              "id": "arts.8.visual-history.impressionism-post",
+              "name": "Impressionism and Post-Impressionism",
+              "description": "Match traits and artists, e.g. visible brushwork and light effects with Monet, pointillism with Seurat, expressive colour with Van Gogh.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "arts.8.visual-history.modern-movements",
+              "name": "Cubism, Surrealism and Abstraction",
+              "description": "Identify movements from traits, e.g. fragmented multiple viewpoints (Cubism, Picasso), dreamlike scenes (Surrealism, Dali), non-representational drips (Abstract Expressionism, Pollock).",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.8.visual-history.pop-art",
+              "name": "Pop Art",
+              "description": "Recognise Pop Art's use of consumer imagery, repetition and comic style, e.g. Warhol's soup cans and Lichtenstein's Ben-Day dots.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.8.visual-history.movement-timeline",
+              "name": "Order the movements",
+              "description": "Place art movements in order: Realism, Impressionism, Post-Impressionism, Cubism, Surrealism, Abstract Expressionism, Pop Art.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.8.visual-digital",
+          "name": "Digital art foundations",
+          "skills": [
+            {
+              "id": "arts.8.visual-digital.raster-vector",
+              "name": "Raster or vector",
+              "description": "Tell raster images (pixels, lose quality when enlarged) from vector images (paths, scale cleanly) and pick the right type for a job, e.g. a logo should be vector.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.8.visual-digital.layers-resolution",
+              "name": "Layers and resolution",
+              "description": "Explain what layers do and compute pixel dimensions from size and resolution, e.g. 4 inches at 300 ppi is 1200 pixels.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "arts.8.visual-digital.typography-basics",
+              "name": "Typography basics",
+              "description": "Identify serif, sans-serif, script and display typefaces and name parts of type such as baseline, x-height and kerning.",
+              "itemTypes": ["sort", "match", "choice"]
+            },
+            {
+              "id": "arts.8.visual-digital.photo-composition",
+              "name": "Photo composition",
+              "description": "Identify leading lines, framing, symmetry and depth of field in a photograph description and choose the technique that fits a goal.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "topics": [
+        {
+          "id": "arts.9.music",
+          "name": "Diatonic harmony",
+          "skills": [
+            {
+              "id": "arts.9.music.roman-numerals",
+              "name": "Roman numeral analysis",
+              "description": "Label each diatonic triad in a major or minor key with Roman numerals showing quality, e.g. in C major the chord D-F-A is ii.",
+              "itemTypes": ["choice", "match", "text"]
+            },
+            {
+              "id": "arts.9.music.cadence-types",
+              "name": "Cadence types",
+              "description": "Classify cadences as perfect authentic, imperfect authentic, half, plagal or deceptive from the chords and soprano, e.g. V to vi is deceptive.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "arts.9.music.figured-bass",
+              "name": "Inversion symbols",
+              "description": "Read and write inversion figures (6, 6/4, 7, 6/5, 4/3, 4/2) for triads and seventh chords, e.g. V6/5 is a dominant seventh in first inversion.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.9.music.non-chord-tones",
+              "name": "Non-chord tones",
+              "description": "Identify passing tones, neighbour tones, suspensions and anticipations in a melody over given chords.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.9.music-composition",
+          "name": "Voice leading and harmonisation",
+          "skills": [
+            {
+              "id": "arts.9.music-composition.voice-leading-rules",
+              "name": "Four-part voice leading",
+              "description": "Spot errors in SATB writing such as parallel fifths, parallel octaves, voice crossing and unresolved leading tones.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.9.music-composition.harmonise-melody",
+              "name": "Harmonise a melody",
+              "description": "Choose a chord for each melody note that contains it and follows common progressions, e.g. a melody G in C major on a strong beat could take I or V.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "arts.9.music-composition.period-structure",
+              "name": "Period and sentence structure",
+              "description": "Identify antecedent and consequent phrases, parallel versus contrasting periods, and the sentence's presentation-continuation shape.",
+              "itemTypes": ["choice", "sequence", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.9.music-history",
+          "name": "Medieval to Baroque",
+          "skills": [
+            {
+              "id": "arts.9.music-history.chant-polyphony",
+              "name": "Chant to polyphony",
+              "description": "Order developments from Gregorian chant through organum to Renaissance polyphony and match figures like Hildegard, Machaut, Josquin and Palestrina.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "arts.9.music-history.renaissance-music",
+              "name": "Renaissance music",
+              "description": "Identify Renaissance traits (imitative polyphony, modal harmony, a cappella mass and motet, madrigal word-painting) and the rise of printed music.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "arts.9.music-history.baroque-genres",
+              "name": "Baroque genres and figures",
+              "description": "Match fugue, concerto grosso, opera, oratorio and suite to their traits and to Bach, Handel, Vivaldi, Monteverdi and Purcell.",
+              "itemTypes": ["match", "sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.9.music-genres",
+          "name": "Blues, jazz and world scales",
+          "skills": [
+            {
+              "id": "arts.9.music-genres.twelve-bar-blues",
+              "name": "Twelve-bar blues",
+              "description": "Build the standard 12-bar blues progression in a given key (I I I I, IV IV I I, V IV I I) and identify the blues scale notes.",
+              "itemTypes": ["build", "sequence", "choice"]
+            },
+            {
+              "id": "arts.9.music-genres.jazz-vocabulary",
+              "name": "Jazz vocabulary",
+              "description": "Define and apply terms such as swing feel, comping, walking bass, head, chorus, trading fours and improvisation over changes.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.9.music-genres.world-scales",
+              "name": "Scales of the world",
+              "description": "Match scale systems to traditions, e.g. raga to Indian classical, maqam to Arabic music, pentatonic to Chinese and many folk traditions, and identify a pentatonic set.",
+              "itemTypes": ["match", "choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.9.visual",
+          "name": "Formal analysis",
+          "skills": [
+            {
+              "id": "arts.9.visual.critique-steps",
+              "name": "Describe, analyse, interpret, judge",
+              "description": "Order the four steps of art criticism and classify a statement by step, e.g. 'the red draws the eye to the figure' is analysis.",
+              "itemTypes": ["sequence", "sort", "choice"]
+            },
+            {
+              "id": "arts.9.visual.elements-in-artwork",
+              "name": "Elements in a specific work",
+              "description": "Identify which element of art (line, shape, form, value, colour, texture, space) a description of an artwork is about.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "arts.9.visual.medium-vs-technique",
+              "name": "Medium, technique and support",
+              "description": "Separate a work's medium (oil), technique (glazing) and support (canvas) from a caption, e.g. 'tempera on wood panel'.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.9.visual-design",
+          "name": "Design analysis and grids",
+          "skills": [
+            {
+              "id": "arts.9.visual-design.principles-in-masterworks",
+              "name": "Principles in masterworks",
+              "description": "Name the dominant design principle in a described famous work, e.g. the diagonal movement in Delacroix's Liberty Leading the People.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.9.visual-design.grid-systems",
+              "name": "Grid systems",
+              "description": "Identify columns, gutters and margins in a layout grid and choose the grid that fits a brief, e.g. a three-column grid for a newsletter.",
+              "itemTypes": ["choice", "match", "numeric"]
+            },
+            {
+              "id": "arts.9.visual-design.type-hierarchy",
+              "name": "Typographic hierarchy",
+              "description": "Order text elements (headline, subhead, body, caption) by size and weight for a clear hierarchy and spot a layout where it breaks.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.9.visual-history",
+          "name": "Prehistoric to classical and early global art",
+          "skills": [
+            {
+              "id": "arts.9.visual-history.prehistoric-mesopotamia",
+              "name": "Prehistoric and Mesopotamian art",
+              "description": "Match works to cultures and purposes, e.g. Lascaux cave paintings, the Venus of Willendorf, Stonehenge, the Standard of Ur and the Code of Hammurabi stele.",
+              "itemTypes": ["match", "choice", "sequence"]
+            },
+            {
+              "id": "arts.9.visual-history.egyptian-canon",
+              "name": "Egyptian conventions",
+              "description": "Identify Egyptian conventions such as composite view, hierarchic scale, the canon of proportions and funerary purpose, e.g. in the Palette of Narmer.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.9.visual-history.greek-periods",
+              "name": "Greek periods and Roman adaptation",
+              "description": "Order Geometric, Archaic, Classical and Hellenistic periods, match statues to them (kouros, Doryphoros, Laocoon) and name Roman innovations like concrete and veristic portraits.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "arts.9.visual-history.early-global",
+              "name": "Early global traditions",
+              "description": "Connect works to cultures, e.g. Olmec colossal heads, Nok terracottas, the Gupta Buddha, the Terracotta Army of Qin.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.9.visual-media",
+          "name": "Studio techniques",
+          "skills": [
+            {
+              "id": "arts.9.visual-media.drawing-techniques",
+              "name": "Drawing techniques",
+              "description": "Match contour, gesture, blind contour, hatching, cross-hatching, stippling and blending to descriptions and purposes.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "arts.9.visual-media.painting-methods",
+              "name": "Painting methods and media",
+              "description": "Compare oil, acrylic, watercolour, gouache, tempera and fresco by drying time, opacity and surface, e.g. fresco is painted into wet plaster.",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "arts.9.visual-media.advanced-printmaking",
+              "name": "Lithography, etching and screen print",
+              "description": "Order the steps of an etching or screen print and classify lithography as planographic.",
+              "itemTypes": ["sequence", "choice", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "topics": [
+        {
+          "id": "arts.10.music",
+          "name": "Chromatic harmony and modes",
+          "skills": [
+            {
+              "id": "arts.10.music.secondary-dominants",
+              "name": "Secondary dominants",
+              "description": "Identify and spell secondary dominants such as V/V and V/ii, e.g. in C major D-F-sharp-A-C is V7/V.",
+              "itemTypes": ["choice", "build", "match"]
+            },
+            {
+              "id": "arts.10.music.modulation",
+              "name": "Modulation to closely related keys",
+              "description": "Name the closely related keys of a given key and identify a pivot chord that belongs to both keys.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "arts.10.music.modes",
+              "name": "The seven modes",
+              "description": "Build and identify Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian and Locrian from their characteristic notes, e.g. Lydian has a raised fourth.",
+              "itemTypes": ["build", "choice", "match"]
+            },
+            {
+              "id": "arts.10.music.borrowed-chords",
+              "name": "Borrowed chords",
+              "description": "Recognise chords borrowed from the parallel minor (iv, bVI, bVII) in a major-key progression, e.g. F minor in C major.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.10.music-composition",
+          "name": "Counterpoint, orchestration and lead sheets",
+          "skills": [
+            {
+              "id": "arts.10.music-composition.species-counterpoint",
+              "name": "First and second species",
+              "description": "Apply species rules: consonant intervals only in first species, begin and end on perfect consonances, avoid parallel perfects, and spot a rule break in a two-voice example.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.10.music-composition.instrument-ranges",
+              "name": "Ranges and transposing instruments",
+              "description": "Match orchestral instruments to their ranges and transpositions, e.g. a written C for B-flat clarinet sounds B-flat.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.10.music-composition.chord-symbols",
+              "name": "Lead-sheet chord symbols",
+              "description": "Translate chord symbols to notes and back, e.g. Dm7 is D-F-A-C, and read slash chords and sus chords.",
+              "itemTypes": ["build", "match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.10.music-history",
+          "name": "Classical and Romantic eras",
+          "skills": [
+            {
+              "id": "arts.10.music-history.sonata-form-detail",
+              "name": "Sonata form in detail",
+              "description": "Identify the key areas and sections of sonata form (exposition with modulating transition, development, recapitulation, coda) in a described movement.",
+              "itemTypes": ["sequence", "choice", "match"]
+            },
+            {
+              "id": "arts.10.music-history.symphony-growth",
+              "name": "Growth of the symphony",
+              "description": "Trace how the symphony changed from Haydn to Beethoven to Mahler in length, orchestra size and expression.",
+              "itemTypes": ["sequence", "choice", "sort"]
+            },
+            {
+              "id": "arts.10.music-history.romantic-nationalism",
+              "name": "Nationalism and programme music",
+              "description": "Match Romantic composers to national styles and programmatic works, e.g. Smetana and Ma Vlast, Grieg and Norway, Berlioz and the Symphonie fantastique.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.10.music-genres",
+          "name": "Jazz harmony, production and musical theatre",
+          "skills": [
+            {
+              "id": "arts.10.music-genres.ii-v-i",
+              "name": "ii-V-I and extensions",
+              "description": "Spell ii-V-I in a given key with sevenths and identify ninths and thirteenths in jazz voicings, e.g. in F major: Gm7, C7, Fmaj7.",
+              "itemTypes": ["build", "choice", "match"]
+            },
+            {
+              "id": "arts.10.music-genres.production-elements",
+              "name": "Elements of a pop production",
+              "description": "Identify production elements and their role, e.g. the hook, the drop, a four-on-the-floor kick, reverb for space, a side-chain pump.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "arts.10.music-genres.opera-musical",
+              "name": "Opera and musical theatre",
+              "description": "Match terms and shows to forms, e.g. aria and recitative to opera, the book musical to Oklahoma!, the concept musical to Sondheim.",
+              "itemTypes": ["match", "sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.10.music-technology",
+          "name": "Music technology",
+          "skills": [
+            {
+              "id": "arts.10.music-technology.sound-properties",
+              "name": "Frequency, amplitude and timbre",
+              "description": "Relate frequency to pitch and amplitude to loudness, and compute octaves, e.g. 440 Hz up an octave is 880 Hz.",
+              "itemTypes": ["numeric", "choice", "match"]
+            },
+            {
+              "id": "arts.10.music-technology.midi-daw",
+              "name": "MIDI and the DAW",
+              "description": "Distinguish MIDI data from audio, read MIDI note numbers (60 is middle C) and name DAW parts such as track, clip, quantise and tempo map.",
+              "itemTypes": ["choice", "match", "numeric"]
+            },
+            {
+              "id": "arts.10.music-technology.signal-flow",
+              "name": "Signal flow",
+              "description": "Order a recording chain: microphone, preamp, analogue-to-digital converter, DAW, digital-to-analogue converter, monitors.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.10.visual-perspective",
+          "name": "Advanced perspective and figure",
+          "skills": [
+            {
+              "id": "arts.10.visual-perspective.three-point",
+              "name": "Three-point perspective",
+              "description": "Recognise a third vanishing point above or below for tall objects and pick the drawing that uses it correctly.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "arts.10.visual-perspective.ellipses-cylinders",
+              "name": "Ellipses and cylinders",
+              "description": "Know that circles in perspective become ellipses that widen farther from eye level, and choose the correct ellipse for a cup's rim versus base.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "arts.10.visual-perspective.figure-proportions",
+              "name": "Figure proportions",
+              "description": "Apply the 7.5 to 8 head-height canon, e.g. the hips sit about four heads down, and spot proportion errors in a figure.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "arts.10.visual-perspective.anatomy-landmarks",
+              "name": "Anatomy landmarks",
+              "description": "Match skeletal landmarks and major muscle groups to their location on a figure, e.g. clavicle, sternum, deltoid, patella.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.10.visual-history",
+          "name": "Modernism in depth",
+          "skills": [
+            {
+              "id": "arts.10.visual-history.fauvism-expressionism",
+              "name": "Fauvism and Expressionism",
+              "description": "Match works and artists, e.g. Matisse's arbitrary colour, Kirchner's angular city scenes, Munch's The Scream, Kandinsky's path to abstraction.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "arts.10.visual-history.dada-bauhaus",
+              "name": "Dada, De Stijl and Bauhaus",
+              "description": "Identify Dada's anti-art readymades (Duchamp), De Stijl's grids (Mondrian) and Bauhaus's union of art, craft and industry.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.10.visual-history.harlem-mexican-muralism",
+              "name": "Harlem Renaissance and Mexican Muralism",
+              "description": "Connect artists and themes, e.g. Aaron Douglas and Jacob Lawrence to Black American life, Rivera, Orozco and Siqueiros to public murals of history and labour.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.10.visual-digital",
+          "name": "Vector, colour modes and interface design",
+          "skills": [
+            {
+              "id": "arts.10.visual-digital.bezier-paths",
+              "name": "Paths and Bezier curves",
+              "description": "Identify anchor points, handles and path segments and predict how moving a handle changes a curve.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.10.visual-digital.colour-modes",
+              "name": "RGB, CMYK and HSB",
+              "description": "Choose RGB for screens and CMYK for print, read hex codes, and identify a colour from its values, e.g. #FF0000 is pure red.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.10.visual-digital.file-formats",
+              "name": "File formats",
+              "description": "Match formats to uses: JPEG for photos, PNG for transparency, SVG for vector, GIF for simple animation, PDF for print-ready documents.",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "arts.10.visual-digital.ui-basics",
+              "name": "Interface design basics",
+              "description": "Identify UI components (button, input, nav bar, modal) and judge affordance and contrast, e.g. body text should meet a 4.5:1 contrast ratio.",
+              "itemTypes": ["choice", "match", "numeric"]
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "topics": [
+        {
+          "id": "arts.11.music",
+          "name": "Advanced chromatic harmony",
+          "skills": [
+            {
+              "id": "arts.11.music.augmented-sixth",
+              "name": "Augmented sixth chords",
+              "description": "Spell and identify Italian, French and German augmented sixth chords and their resolution to V, e.g. in C: A-flat, C, F-sharp (Italian).",
+              "itemTypes": ["build", "choice", "match"]
+            },
+            {
+              "id": "arts.11.music.neapolitan",
+              "name": "Neapolitan sixth",
+              "description": "Recognise the Neapolitan (a major triad on the lowered second degree, usually in first inversion) and its typical move to V.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "arts.11.music.modal-mixture-mediants",
+              "name": "Modal mixture and chromatic mediants",
+              "description": "Identify borrowed chords and chromatic third relations in a progression, e.g. C major to E major is a chromatic mediant.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.11.music.jazz-extensions",
+              "name": "Jazz chord extensions and alterations",
+              "description": "Spell chords with 9ths, 11ths, 13ths and alterations, e.g. G7(b9,#11) is G, B, D, F, A-flat, C-sharp.",
+              "itemTypes": ["build", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.11.music-composition",
+          "name": "Imitative counterpoint and arranging",
+          "skills": [
+            {
+              "id": "arts.11.music-composition.fugue-techniques",
+              "name": "Fugue techniques",
+              "description": "Identify subject, answer, countersubject, episode, stretto and real versus tonal answer in a fugue exposition description.",
+              "itemTypes": ["match", "choice", "sequence"]
+            },
+            {
+              "id": "arts.11.music-composition.full-orchestration",
+              "name": "Orchestrating for balance",
+              "description": "Choose doublings and dynamics that balance an orchestral texture, e.g. one flute cannot balance four horns at forte.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.11.music-composition.lead-sheet-to-arrangement",
+              "name": "From lead sheet to arrangement",
+              "description": "Order the steps of arranging a lead sheet: analyse harmony, set the groove, assign bass and comping, voice the melody, add counter-lines and intro/outro.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.11.music-analysis",
+          "name": "Score analysis",
+          "skills": [
+            {
+              "id": "arts.11.music-analysis.formal-analysis",
+              "name": "Full formal analysis",
+              "description": "Map a movement's form (sonata, rondo, sonata-rondo, theme and variations) from thematic and key descriptions and label each section.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "arts.11.music-analysis.harmonic-passage",
+              "name": "Harmonic analysis of a passage",
+              "description": "Label a four- to eight-chord passage with Roman numerals and inversions, including applied chords, e.g. I - V6/5/IV - IV - V7 - I.",
+              "itemTypes": ["build", "choice", "match"]
+            },
+            {
+              "id": "arts.11.music-analysis.motivic-analysis",
+              "name": "Motivic analysis",
+              "description": "Trace a motif across a piece and classify each appearance as exact, transposed, inverted, retrograde, augmented or fragmented.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.11.music-history",
+          "name": "Twentieth-century art music",
+          "skills": [
+            {
+              "id": "arts.11.music-history.impressionism-primitivism",
+              "name": "Impressionism and early modernism",
+              "description": "Match traits and works, e.g. Debussy's whole-tone and parallel chords, Stravinsky's Rite of Spring rhythms, Bartok's folk-based modernism.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.11.music-history.serialism",
+              "name": "Serialism and the Second Viennese School",
+              "description": "Identify Schoenberg, Berg and Webern, define a twelve-tone row and name total serialism's later extension to rhythm and dynamics.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.11.music-history.postwar-currents",
+              "name": "Post-war currents",
+              "description": "Match neoclassicism, musique concrete, chance music, minimalism and spectralism to composers like Stravinsky, Schaeffer, Cage, Reich and Grisey.",
+              "itemTypes": ["match", "sort", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "arts.11.music-technology",
+          "name": "Synthesis, mixing and recording",
+          "skills": [
+            {
+              "id": "arts.11.music-technology.synthesis",
+              "name": "Subtractive synthesis",
+              "description": "Order the signal path oscillator, filter, amplifier and identify ADSR envelope stages, e.g. a slow attack makes a pad swell in.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "arts.11.music-technology.mixing-tools",
+              "name": "EQ, compression and effects",
+              "description": "Choose the right tool for a mix problem, e.g. a high-pass filter to remove rumble, a compressor to even out vocal levels, reverb to add space.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.11.music-technology.microphones",
+              "name": "Microphone types and placement",
+              "description": "Match dynamic, condenser and ribbon microphones and polar patterns (cardioid, omni, figure-8) to recording situations.",
+              "itemTypes": ["match", "choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.11.visual-history",
+          "name": "Postmodern and contemporary art",
+          "skills": [
+            {
+              "id": "arts.11.visual-history.minimal-conceptual",
+              "name": "Minimalism and Conceptual art",
+              "description": "Identify Minimalism's industrial repetition (Judd, LeWitt) and Conceptual art's idea-over-object (Kosuth, Weiner) from descriptions.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "arts.11.visual-history.installation-performance",
+              "name": "Installation, performance and video",
+              "description": "Match artists to practices, e.g. Yayoi Kusama's infinity rooms, Marina Abramovic's durational performance, Nam June Paik's video art.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.11.visual-history.street-global",
+              "name": "Street art and global contemporary",
+              "description": "Recognise street art's roots and figures (Basquiat, Banksy) and global contemporary artists such as El Anatsui, Ai Weiwei and Shirin Neshat.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.11.visual-history.postmodern-ideas",
+              "name": "Postmodern ideas",
+              "description": "Define appropriation, pastiche, deconstruction and the end of the single grand narrative, and apply them to a described work, e.g. Sherrie Levine rephotographing Walker Evans.",
+              "itemTypes": ["choice", "match", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.11.visual-critique",
+          "name": "Theories of art and interpretation",
+          "skills": [
+            {
+              "id": "arts.11.visual-critique.aesthetic-theories",
+              "name": "Imitationalism, formalism, emotionalism",
+              "description": "Classify a judgment about an artwork by its theory, e.g. 'it looks exactly like her' is imitationalism, 'the balance of shapes is perfect' is formalism.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "arts.11.visual-critique.critical-lenses",
+              "name": "Critical lenses",
+              "description": "Identify the lens a reading uses (formalist, Marxist, feminist, postcolonial, psychoanalytic) from the questions it asks about a work.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.11.visual-critique.iconography",
+              "name": "Symbolism and iconography",
+              "description": "Decode common symbols in Western and global art, e.g. a skull for mortality, a dog for fidelity, a lotus for purity.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.11.visual-critique.appropriation-copyright",
+              "name": "Appropriation, copyright and fair use",
+              "description": "Judge scenarios for likely fair use versus infringement and distinguish cultural appropriation from respectful cultural exchange.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.11.visual-digital",
+          "name": "3D, animation and photography",
+          "skills": [
+            {
+              "id": "arts.11.visual-digital.3d-basics",
+              "name": "3D modelling basics",
+              "description": "Identify vertices, edges, faces, meshes, UV maps and the three-point lighting setup (key, fill, back).",
+              "itemTypes": ["match", "choice", "sequence"]
+            },
+            {
+              "id": "arts.11.visual-digital.animation-principles",
+              "name": "Principles of animation",
+              "description": "Name the animation principle in a described motion, e.g. a ball flattening on impact is squash and stretch; a character leaning before a jump is anticipation.",
+              "itemTypes": ["choice", "match", "sort"]
+            },
+            {
+              "id": "arts.11.visual-digital.exposure-triangle",
+              "name": "Exposure triangle",
+              "description": "Relate aperture, shutter speed and ISO to brightness, depth of field, motion blur and noise, e.g. f/2 gives a shallow depth of field.",
+              "itemTypes": ["choice", "match", "numeric"]
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "topics": [
+        {
+          "id": "arts.12.music",
+          "name": "Post-tonal theory and advanced rhythm",
+          "skills": [
+            {
+              "id": "arts.12.music.pitch-class-sets",
+              "name": "Pitch-class sets",
+              "description": "Convert notes to pitch-class integers (C = 0), find a set's normal form and interval content, e.g. {C, E, G} is {0, 4, 7}.",
+              "itemTypes": ["build", "numeric", "choice"]
+            },
+            {
+              "id": "arts.12.music.twelve-tone-rows",
+              "name": "Twelve-tone row operations",
+              "description": "Apply transposition, inversion, retrograde and retrograde-inversion to a row and identify which form a given row is.",
+              "itemTypes": ["build", "choice", "sequence"]
+            },
+            {
+              "id": "arts.12.music.polyrhythm-metric-modulation",
+              "name": "Polyrhythm and metric modulation",
+              "description": "Resolve 3:2 and 4:3 polyrhythms onto a common grid and compute the new tempo in a metric modulation, e.g. quarter = 120 becomes dotted quarter = 80.",
+              "itemTypes": ["numeric", "choice", "build"]
+            },
+            {
+              "id": "arts.12.music.extended-notation",
+              "name": "Extended techniques and notation",
+              "description": "Match symbols and terms to techniques such as col legno, sul ponticello, multiphonics, prepared piano and graphic notation.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.12.music-composition",
+          "name": "Style composition and film scoring",
+          "skills": [
+            {
+              "id": "arts.12.music-composition.style-traits",
+              "name": "Compose in a style",
+              "description": "Select the harmonic, rhythmic and textural traits that make a passage read as a given style, e.g. Baroque chorale versus bebop head versus minimalist loop.",
+              "itemTypes": ["sort", "choice", "match"]
+            },
+            {
+              "id": "arts.12.music-composition.film-scoring",
+              "name": "Scoring to picture",
+              "description": "Apply leitmotif, underscoring, hit points and tempo-to-frame-rate maths, e.g. at 24 fps a 2-second cue is 48 frames, and choose where a cue should hit.",
+              "itemTypes": ["choice", "numeric", "match"]
+            },
+            {
+              "id": "arts.12.music-composition.advanced-orchestration",
+              "name": "Advanced orchestration",
+              "description": "Choose idiomatic writing for instruments (string harmonics, brass mutes, woodwind registers) and avoid impractical passages, e.g. a trill across the clarinet break.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "arts.12.music-analysis",
+          "name": "Comparative and aural analysis",
+          "skills": [
+            {
+              "id": "arts.12.music-analysis.period-from-description",
+              "name": "Identify period and composer from features",
+              "description": "Infer the period and a likely composer from a described excerpt's harmony, texture, instrumentation and form, e.g. terraced dynamics and basso continuo suggest Baroque.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.12.music-analysis.comparative-analysis",
+              "name": "Comparative analysis",
+              "description": "Compare two settings of the same text or theme and identify differences in key, form, texture and expressive aim.",
+              "itemTypes": ["sort", "choice", "match"]
+            },
+            {
+              "id": "arts.12.music-analysis.error-detection",
+              "name": "Score error detection",
+              "description": "Find the measure where a notated score departs from a described performance in pitch or rhythm.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "arts.12.music-history",
+          "name": "Music and society",
+          "skills": [
+            {
+              "id": "arts.12.music-history.protest-music",
+              "name": "Music as protest",
+              "description": "Match protest songs and movements across eras and regions, e.g. 'We Shall Overcome' and civil rights, Victor Jara and Chile, Fela Kuti and Nigeria.",
+              "itemTypes": ["match", "choice", "sequence"]
+            },
+            {
+              "id": "arts.12.music-history.nationalism-censorship",
+              "name": "Nationalism, propaganda and censorship",
+              "description": "Analyse how states have used or suppressed music, e.g. Shostakovich under Soviet policy, 'degenerate music' labelling in Nazi Germany, Afrobeat under military rule.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "arts.12.music-history.globalisation",
+              "name": "Globalisation of music",
+              "description": "Trace how recording, migration and streaming spread styles, e.g. the path from Jamaican sound systems to UK grime, and order key developments.",
+              "itemTypes": ["sequence", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.12.music-industry",
+          "name": "Arts industry and professional practice",
+          "skills": [
+            {
+              "id": "arts.12.music-industry.copyright-licensing",
+              "name": "Copyright and licensing",
+              "description": "Distinguish composition and sound-recording copyrights and match licence types to uses, e.g. a sync licence for a song in a film, a mechanical licence for a cover.",
+              "itemTypes": ["match", "choice", "sort"]
+            },
+            {
+              "id": "arts.12.music-industry.roles-and-revenue",
+              "name": "Roles and revenue streams",
+              "description": "Match industry roles (producer, A&R, publisher, manager, curator, gallerist) to their jobs and identify revenue streams such as royalties, touring, commissions and sales.",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "arts.12.music-industry.release-pipeline",
+              "name": "From studio to release",
+              "description": "Order the steps of releasing a recording: writing, pre-production, tracking, editing, mixing, mastering, distribution, promotion.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "arts.12.music-industry.portfolio-and-pricing",
+              "name": "Portfolios, statements and pricing",
+              "description": "Identify the parts of an artist statement and portfolio and compute a fair price from materials, hours and rate, e.g. 10 hours at 25 plus 40 materials is 290.",
+              "itemTypes": ["sequence", "numeric", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.12.visual-history",
+          "name": "Architecture and global contemporary themes",
+          "skills": [
+            {
+              "id": "arts.12.visual-history.architecture-survey",
+              "name": "Architecture through the ages",
+              "description": "Order and identify styles by features, e.g. Gothic pointed arches, Renaissance symmetry, Baroque drama, Modernist glass box, Brutalist concrete, Deconstructivist forms.",
+              "itemTypes": ["sequence", "match", "choice"]
+            },
+            {
+              "id": "arts.12.visual-history.architects-works",
+              "name": "Architects and landmark buildings",
+              "description": "Match architects to buildings, e.g. Gaudi and the Sagrada Familia, Le Corbusier and Villa Savoye, Zaha Hadid and the Heydar Aliyev Center.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "arts.12.visual-history.contemporary-themes",
+              "name": "Themes in contemporary art",
+              "description": "Identify the theme a described contemporary work addresses, e.g. identity, migration, climate, surveillance, memory, and name a representative artist.",
+              "itemTypes": ["sort", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "arts.12.visual-critique",
+          "name": "Curating, exhibition and critical writing",
+          "skills": [
+            {
+              "id": "arts.12.visual-critique.curatorial-concept",
+              "name": "Curatorial concepts",
+              "description": "Group artworks into a coherent exhibition concept and spot the work that does not fit the stated theme.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "arts.12.visual-critique.exhibition-design",
+              "name": "Exhibition design",
+              "description": "Apply hanging conventions and visitor flow, e.g. centre lines at about 145-150 cm, label placement, and sightline sequencing.",
+              "itemTypes": ["choice", "numeric", "sequence"]
+            },
+            {
+              "id": "arts.12.visual-critique.critical-writing",
+              "name": "Structure of a critical review",
+              "description": "Order the parts of an art review (hook, description, context, analysis, evaluation) and classify sentences by part.",
+              "itemTypes": ["sequence", "sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "arts.12.visual-digital",
+          "name": "UX, motion and emerging media",
+          "skills": [
+            {
+              "id": "arts.12.visual-digital.ux-process",
+              "name": "UX design process",
+              "description": "Order the UX process (research, personas, user flows, wireframes, prototype, usability test, iterate) and classify an activity by stage.",
+              "itemTypes": ["sequence", "sort", "choice"]
+            },
+            {
+              "id": "arts.12.visual-digital.motion-graphics",
+              "name": "Motion graphics",
+              "description": "Identify keyframes, easing curves, frame rates and timing, e.g. ease-out makes an object decelerate into place; 30 fps for 3 seconds is 90 frames.",
+              "itemTypes": ["choice", "numeric", "match"]
+            },
+            {
+              "id": "arts.12.visual-digital.generative-ai-ethics",
+              "name": "Generative and AI art ethics",
+              "description": "Distinguish algorithmic, generative and AI-assisted art, and evaluate scenarios about training data consent, attribution and disclosure.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "arts.12.visual-digital.accessibility",
+              "name": "Accessible design",
+              "description": "Apply accessibility rules such as alt text, colour-independent cues, minimum contrast and readable type size, and spot the inaccessible choice in a design.",
+              "itemTypes": ["choice", "sort", "match"]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

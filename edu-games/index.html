@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Learning Arcade: a library of interactive K-12 learning games.">
+<title>Learning Arcade</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234F7CFF'/%3E%3Cpath d='M18 24h12v16H18zM34 24h12v16H34z' fill='%23fff' opacity='.95'/%3E%3Ccircle cx='24' cy='32' r='3' fill='%234F7CFF'/%3E%3Ccircle cx='40' cy='32' r='3' fill='%234F7CFF'/%3E%3C/svg%3E">
+<!-- Shared kit tokens (optional at runtime: launcher.css carries fallbacks for every --eg-* it uses). -->
+<link rel="stylesheet" href="kit/ui/theme.css">
+<link rel="stylesheet" href="launcher/launcher.css">
+</head>
+<body>
+<div class="la-page" id="app">
+
+  <header class="la-header">
+    <div class="la-brand">
+      <div class="la-logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="6" width="20" height="12" rx="4"></rect>
+          <path d="M7 10v4M5 12h4"></path>
+          <circle cx="16" cy="11" r="1" fill="currentColor" stroke="none"></circle>
+          <circle cx="18.5" cy="13" r="1" fill="currentColor" stroke="none"></circle>
+        </svg>
+      </div>
+      <div>
+        <h1 class="la-title" id="title">Learning Arcade</h1>
+        <p class="la-sub" id="subtitle">Loading the game library&hellip;</p>
+      </div>
+    </div>
+
+    <div class="la-player" id="player" hidden aria-label="Your progress">
+      <div class="la-ring" id="ring">
+        <svg viewBox="0 0 60 60" aria-hidden="true">
+          <circle class="la-ring-track" cx="30" cy="30" r="26"></circle>
+          <circle class="la-ring-fill" id="ring-fill" cx="30" cy="30" r="26" stroke-dasharray="163.36" stroke-dashoffset="163.36"></circle>
+        </svg>
+        <div class="la-ring-label"><small>Level</small><span id="level-num">1</span></div>
+      </div>
+      <div class="la-player-info">
+        <div class="la-player-level"><span id="level-label">Level 1</span><span id="xp-next"></span></div>
+        <div class="la-xpbar" id="xpbar" role="progressbar" aria-label="Experience toward next level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="xp-fill"></i></div>
+        <div class="la-player-meta"><span id="xp-text"></span><span id="plays-text"></span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="la-continue" id="continue" hidden aria-labelledby="continue-title">
+    <h2 class="la-section-title" id="continue-title"><span class="la-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"></path><path d="M21 3v6h-6"></path></svg></span>Continue learning</h2>
+    <div class="la-strip" id="strip"></div>
+  </section>
+
+  <section class="la-filters" id="filters" hidden aria-label="Filter and sort games">
+    <div class="la-row">
+      <label class="la-search">
+        <span class="la-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></span>
+        <input type="search" id="search" placeholder="Search games, skills, topics" autocomplete="off" aria-label="Search games">
+      </label>
+      <label class="la-vh" for="mechanic">Mechanic</label>
+      <span class="la-select"><select id="mechanic"></select></span>
+      <label class="la-vh" for="grade">Grade</label>
+      <span class="la-select"><select id="grade"></select></span>
+      <label class="la-vh" for="sort">Sort by</label>
+      <span class="la-select"><select id="sort"></select></span>
+    </div>
+    <div class="la-row">
+      <span class="la-row-label" id="subject-label">Subject</span>
+      <div class="la-chips" id="subject-chips" role="group" aria-labelledby="subject-label"></div>
+    </div>
+    <div class="la-row">
+      <span class="la-row-label" id="band-label">Grades</span>
+      <div class="la-chips" id="band-chips" role="group" aria-labelledby="band-label"></div>
+      <div class="la-row-tail">
+        <p class="la-count" id="count" aria-live="polite"></p>
+        <button type="button" class="la-btn la-btn-ghost la-clear" id="clear" hidden>Clear filters</button>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <h2 class="la-vh">Games</h2>
+    <div class="la-grid" id="grid" aria-busy="true"></div>
+    <div id="empty" hidden></div>
+  </main>
+
+  <footer class="la-footer" id="footer"></footer>
+</div>
+
+<div class="la-modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden></div>
+
+<noscript><p style="padding:24px;text-align:center">Learning Arcade needs JavaScript to load the game library.</p></noscript>
+<script type="module" src="launcher/launcher.js"></script>
+</body>
+</html>

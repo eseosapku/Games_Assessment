@@ -1,0 +1,2054 @@
+{
+  "id": "cs",
+  "name": "Computer Science and Digital Literacy",
+  "color": "#8B5CF6",
+  "icon": "cpu",
+  "grades": {
+    "1": {
+      "topics": [
+        {
+          "id": "cs.1.steps",
+          "name": "Following and giving steps",
+          "skills": [
+            {
+              "id": "cs.1.steps.order-pictures",
+              "name": "Order picture steps",
+              "description": "Put 3-4 picture cards of an everyday task in the right order, e.g. put on socks before shoes.",
+              "itemTypes": ["sequence"]
+            },
+            {
+              "id": "cs.1.steps.next-step",
+              "name": "Pick the next step",
+              "description": "Given the first steps of a routine, choose what comes next, e.g. after 'pour cereal' comes 'add milk'.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.1.steps.robot-moves",
+              "name": "Move the robot",
+              "description": "Choose the arrow command (up, down, left, right) that moves a robot one square toward a star on a tiny grid.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "cs.1.patterns",
+          "name": "Patterns and sorting",
+          "skills": [
+            {
+              "id": "cs.1.patterns.continue",
+              "name": "Continue a pattern",
+              "description": "Pick the shape or colour that comes next in a repeating pattern such as red, blue, red, blue, ?.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.1.patterns.sort-by-rule",
+              "name": "Sort by one rule",
+              "description": "Drag objects into two groups by one attribute, e.g. things with wheels and things without.",
+              "itemTypes": ["sort"]
+            },
+            {
+              "id": "cs.1.patterns.odd-one-out",
+              "name": "Find the odd one out",
+              "description": "Spot the item that does not belong in a group, e.g. a cat among three fruits.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.1.devices",
+          "name": "Computers around us",
+          "skills": [
+            {
+              "id": "cs.1.devices.name-parts",
+              "name": "Name computer parts",
+              "description": "Match pictures of screen, keyboard, mouse and tablet to their names.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.1.devices.is-computer",
+              "name": "Is it a computer?",
+              "description": "Sort everyday objects into 'has a computer inside' (phone, washing machine) and 'does not' (spoon, chair).",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "cs.1.devices.input-output",
+              "name": "Buttons and screens",
+              "description": "Choose whether a part is something you touch (keyboard, mouse) or something that shows or plays (screen, speaker).",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.1.info",
+          "name": "Pictures and information",
+          "skills": [
+            {
+              "id": "cs.1.info.count-tally",
+              "name": "Count with tallies",
+              "description": "Count how many of each item appear in a picture and give the number, e.g. 4 red apples.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.1.info.read-pictograph",
+              "name": "Read a picture graph",
+              "description": "Look at a picture graph and answer which row has the most or how many icons it shows.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "cs.1.helpers",
+          "name": "How technology helps",
+          "skills": [
+            {
+              "id": "cs.1.helpers.tool-for-job",
+              "name": "Pick the tool for the job",
+              "description": "Choose which device helps with a task, e.g. a camera to take a photo or a phone to call grandma.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.1.helpers.then-now",
+              "name": "Then and now",
+              "description": "Match an old way of doing something (writing a letter) with its digital way (sending a message).",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.1.safety",
+          "name": "Staying safe with screens",
+          "skills": [
+            {
+              "id": "cs.1.safety.ask-adult",
+              "name": "Ask a trusted adult",
+              "description": "Decide whether a situation needs a grown-up, e.g. a pop-up appears asking for your name: yes, ask an adult.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.1.safety.private-info",
+              "name": "Keep private things private",
+              "description": "Sort facts into 'okay to share online' (favourite colour) and 'keep private' (home address).",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "cs.1.safety.screen-balance",
+              "name": "Screen time balance",
+              "description": "Choose healthy habits like taking a break after playing, or sitting far from the screen.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "topics": [
+        {
+          "id": "cs.2.algorithms",
+          "name": "Algorithms as step lists",
+          "skills": [
+            {
+              "id": "cs.2.algorithms.write-recipe",
+              "name": "Build a step list",
+              "description": "Assemble 4-6 steps for a task like making a sandwich, leaving out steps that do not belong.",
+              "itemTypes": ["sequence", "build"]
+            },
+            {
+              "id": "cs.2.algorithms.find-missing-step",
+              "name": "Find the missing step",
+              "description": "Spot which step is missing from a routine, e.g. brushing teeth without 'put toothpaste on brush'.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.2.algorithms.grid-path",
+              "name": "Plan a grid path",
+              "description": "Build a list of arrow moves that takes a character to a goal on a 3x3 or 4x4 grid while avoiding one obstacle.",
+              "itemTypes": ["build", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "cs.2.repeat",
+          "name": "Repeating and spotting bugs",
+          "skills": [
+            {
+              "id": "cs.2.repeat.count-repeats",
+              "name": "Count the repeats",
+              "description": "Tell how many times a chunk repeats in a pattern, e.g. clap-stomp happens 3 times.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.2.repeat.shorten-with-repeat",
+              "name": "Shorten with repeat",
+              "description": "Replace a long list like forward, forward, forward with 'repeat 3: forward'.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "cs.2.repeat.spot-the-bug",
+              "name": "Spot the bug",
+              "description": "Find the one wrong arrow in a short path program that makes the robot miss the goal.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.2.hardware",
+          "name": "Hardware and software",
+          "skills": [
+            {
+              "id": "cs.2.hardware.hardware-vs-software",
+              "name": "Hardware or software",
+              "description": "Sort items into hardware (mouse, printer) and software (drawing app, game).",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "cs.2.hardware.in-out-process",
+              "name": "Input, output, process",
+              "description": "Label a part as input (keyboard), output (speaker) or the thinking part (processor).",
+              "itemTypes": ["sort", "match"]
+            },
+            {
+              "id": "cs.2.hardware.simple-fixes",
+              "name": "Simple fixes",
+              "description": "Choose the first thing to try when a device misbehaves, e.g. no sound: check the volume.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.2.data",
+          "name": "Collecting and showing data",
+          "skills": [
+            {
+              "id": "cs.2.data.tally-to-chart",
+              "name": "Tally to bar chart",
+              "description": "Match tally counts to the bar chart that shows them correctly.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.2.data.read-bar-chart",
+              "name": "Read a bar chart",
+              "description": "Answer questions from a bar chart, e.g. how many more children chose dogs than cats.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.2.data.sort-two-rules",
+              "name": "Sort by two rules",
+              "description": "Place objects into a 2x2 grid by two attributes, e.g. big/small and striped/plain.",
+              "itemTypes": ["sort"]
+            }
+          ]
+        },
+        {
+          "id": "cs.2.messages",
+          "name": "Sending messages",
+          "skills": [
+            {
+              "id": "cs.2.messages.ways-to-send",
+              "name": "Ways to send a message",
+              "description": "Choose how a message travels, e.g. a video call needs the internet while shouting across a room does not.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.2.messages.code-decode",
+              "name": "Code and decode",
+              "description": "Use a simple picture or number key to decode a short message, e.g. 1=A, 2=B.",
+              "itemTypes": ["text", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.2.citizenship",
+          "name": "Being kind and safe online",
+          "skills": [
+            {
+              "id": "cs.2.citizenship.kind-words",
+              "name": "Kind online words",
+              "description": "Pick the kind reply to a classmate's drawing and reject the mean one.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.2.citizenship.passwords-secret",
+              "name": "Passwords stay secret",
+              "description": "Decide who you may tell a password to: a parent yes, a friend no.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.2.citizenship.stranger-messages",
+              "name": "Messages from strangers",
+              "description": "Choose the safe action when someone you do not know sends a message: do not reply, tell an adult.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "topics": [
+        {
+          "id": "cs.3.programming",
+          "name": "Block programming basics",
+          "skills": [
+            {
+              "id": "cs.3.programming.sequences",
+              "name": "Sequences",
+              "description": "Arrange move and turn blocks so a robot collects every gem on a grid, e.g. forward, forward, turn right, forward.",
+              "itemTypes": ["build", "sequence", "choice"]
+            },
+            {
+              "id": "cs.3.programming.loops",
+              "name": "Repeat loops",
+              "description": "Use a 'repeat N' block to shorten a program, e.g. repeat 4: forward, turn right draws a square.",
+              "itemTypes": ["build", "choice", "numeric"]
+            },
+            {
+              "id": "cs.3.programming.predict-output",
+              "name": "Predict the output",
+              "description": "Read a short block program and choose where the sprite ends up or what it draws.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.3.events",
+          "name": "Events and sprites",
+          "skills": [
+            {
+              "id": "cs.3.events.trigger-action",
+              "name": "Event triggers action",
+              "description": "Match an event block (when key pressed, when clicked) to the action that should follow in a game.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.3.events.sprite-moves",
+              "name": "Sprite movement",
+              "description": "Pick the block that moves a sprite the asked way, e.g. 'change x by 10' moves it right.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.3.systems",
+          "name": "How computers work",
+          "skills": [
+            {
+              "id": "cs.3.systems.parts-jobs",
+              "name": "Parts and their jobs",
+              "description": "Match CPU, memory, storage and screen to what each does, e.g. storage keeps files when power is off.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.3.systems.file-basics",
+              "name": "Files and folders",
+              "description": "Choose the right action to save, open or organise a file, e.g. put drawings in a 'Pictures' folder.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.3.systems.troubleshoot",
+              "name": "Troubleshooting steps",
+              "description": "Order simple troubleshooting steps: check the cable, restart, then ask for help.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.3.data",
+          "name": "Data and patterns",
+          "skills": [
+            {
+              "id": "cs.3.data.collect-question",
+              "name": "Data for a question",
+              "description": "Pick which data to collect to answer a question, e.g. favourite fruit survey to plan a snack.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.3.data.pictograph-bar",
+              "name": "Pictograph vs bar chart",
+              "description": "Read a chart with a scale (one icon = 2 votes) and give the actual total.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.3.data.find-pattern",
+              "name": "Find a pattern in data",
+              "description": "Look at a small table and choose the true statement, e.g. more rain fell every month.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.3.internet",
+          "name": "What is the internet",
+          "skills": [
+            {
+              "id": "cs.3.internet.connected-devices",
+              "name": "Connected devices",
+              "description": "Sort devices into 'needs the internet to work' (video chat) and 'does not' (calculator).",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "cs.3.internet.message-journey",
+              "name": "A message's journey",
+              "description": "Order the stops a message makes: your tablet, Wi-Fi router, internet, friend's phone.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.3.citizenship",
+          "name": "Digital citizenship",
+          "skills": [
+            {
+              "id": "cs.3.citizenship.strong-passwords",
+              "name": "Strong passwords",
+              "description": "Choose the strongest password from a list, e.g. 'Purple7Tiger!' beats '1234'.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.3.citizenship.personal-info",
+              "name": "Personal information",
+              "description": "Sort details into safe to share (favourite game) and never share (school name, phone number).",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "cs.3.citizenship.ask-before-posting",
+              "name": "Ask before posting",
+              "description": "Decide whether a photo of a friend may be posted without asking: no, ask first.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "topics": [
+        {
+          "id": "cs.4.programming",
+          "name": "Conditionals and debugging",
+          "skills": [
+            {
+              "id": "cs.4.programming.conditionals",
+              "name": "If and if-else",
+              "description": "Use 'if path ahead' or 'if touching wall' blocks so a robot handles branching grids, e.g. if gem ahead then collect else turn.",
+              "itemTypes": ["build", "choice"]
+            },
+            {
+              "id": "cs.4.programming.debugging",
+              "name": "Debugging",
+              "description": "Find and fix the single wrong block in a program that fails, e.g. repeat 3 should be repeat 4.",
+              "itemTypes": ["choice", "build"]
+            },
+            {
+              "id": "cs.4.programming.nested-loops",
+              "name": "Nested repeats",
+              "description": "Predict the result of a repeat inside a repeat, e.g. repeat 2 of repeat 3 forward moves 6 squares.",
+              "itemTypes": ["numeric", "choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "cs.4.variables",
+          "name": "Variables and scores",
+          "skills": [
+            {
+              "id": "cs.4.variables.track-value",
+              "name": "Track a value",
+              "description": "Follow a variable through a program, e.g. score starts 0, add 5 three times, score is 15.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.4.variables.choose-variable",
+              "name": "Choose what to store",
+              "description": "Pick which value a game needs a variable for, e.g. lives remaining, not the background colour.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.4.systems",
+          "name": "Hardware and operating systems",
+          "skills": [
+            {
+              "id": "cs.4.systems.inside-the-box",
+              "name": "Inside the box",
+              "description": "Match CPU, RAM, hard drive and graphics card to a job description.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.4.systems.os-role",
+              "name": "What the operating system does",
+              "description": "Choose which tasks the operating system handles, e.g. starting apps and managing files.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.4.systems.hardware-software-fix",
+              "name": "Hardware or software problem",
+              "description": "Decide whether a symptom is likely hardware (cracked screen) or software (app freezes) and pick a fix.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.4.data",
+          "name": "Organising data",
+          "skills": [
+            {
+              "id": "cs.4.data.tables-rows-columns",
+              "name": "Tables and columns",
+              "description": "Read a data table and find the value at a given row and column, e.g. Tuesday's temperature.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.4.data.choose-chart",
+              "name": "Choose the chart",
+              "description": "Pick the best chart for a purpose, e.g. a line chart to show change over time.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.4.data.binary-intro",
+              "name": "On and off: binary",
+              "description": "Convert small numbers to 4-bit binary and back, e.g. 5 is 0101.",
+              "itemTypes": ["numeric", "text", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.4.internet",
+          "name": "Networks and searching",
+          "skills": [
+            {
+              "id": "cs.4.internet.network-parts",
+              "name": "Parts of a network",
+              "description": "Match router, server, cable and Wi-Fi to their roles in getting a web page to you.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.4.internet.search-keywords",
+              "name": "Search keywords",
+              "description": "Choose the best search words for a question, e.g. 'tallest mountain Africa' instead of a full sentence.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.4.internet.read-url",
+              "name": "Read a web address",
+              "description": "Identify parts of a URL such as the domain and whether .org or .com, and spot a misspelt fake address.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "cs.4.impacts",
+          "name": "Technology in daily life",
+          "skills": [
+            {
+              "id": "cs.4.impacts.helps-and-hurts",
+              "name": "Helps and hurts",
+              "description": "Sort effects of a technology into positive and negative, e.g. video calls connect family but screens tire eyes.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "cs.4.impacts.accessibility-tools",
+              "name": "Accessibility tools",
+              "description": "Match tools like screen readers and captions to the people they help.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.4.citizenship",
+          "name": "Online safety and kindness",
+          "skills": [
+            {
+              "id": "cs.4.citizenship.cyberbullying-response",
+              "name": "Responding to cyberbullying",
+              "description": "Choose the right response to a mean message: do not reply, save it, tell a trusted adult.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "cs.4.citizenship.digital-footprint",
+              "name": "Digital footprint",
+              "description": "Decide whether a post leaves a lasting trace and whether you would want it seen in 5 years.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.4.citizenship.credit-sources",
+              "name": "Giving credit",
+              "description": "Decide when to credit a picture or text you use from the web, and pick the right way to do it.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "topics": [
+        {
+          "id": "cs.5.programming",
+          "name": "Functions and program design",
+          "skills": [
+            {
+              "id": "cs.5.programming.functions",
+              "name": "Functions",
+              "description": "Define a reusable block such as F1 = forward, turn left and call it several times to solve a grid with a small block budget.",
+              "itemTypes": ["build", "choice"]
+            },
+            {
+              "id": "cs.5.programming.combine-concepts",
+              "name": "Combine loops, ifs and functions",
+              "description": "Solve a level that needs a loop containing an if and a function call, or predict what such a program does.",
+              "itemTypes": ["build", "choice"]
+            },
+            {
+              "id": "cs.5.programming.trace-variables",
+              "name": "Trace variables in loops",
+              "description": "Follow a variable changed inside a loop, e.g. total starts 2 and doubles 3 times to reach 16.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.5.programming.decompose",
+              "name": "Decompose a problem",
+              "description": "Break a project into parts and order them, e.g. a maze game needs a player, walls, a goal and a win check.",
+              "itemTypes": ["sequence", "sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.5.algorithms",
+          "name": "Comparing algorithms",
+          "skills": [
+            {
+              "id": "cs.5.algorithms.compare-solutions",
+              "name": "Compare two solutions",
+              "description": "Given two programs that both work, choose the shorter or clearer one and say why.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.5.algorithms.flowcharts",
+              "name": "Read a flowchart",
+              "description": "Follow a flowchart with a decision diamond and tell the output for a given input.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "cs.5.algorithms.search-guess",
+              "name": "Guess-the-number search",
+              "description": "Pick the best next guess when searching 1-100 with higher/lower clues, e.g. start at 50.",
+              "itemTypes": ["numeric", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.5.systems",
+          "name": "Computing systems",
+          "skills": [
+            {
+              "id": "cs.5.systems.data-flow",
+              "name": "Input to output flow",
+              "description": "Order how a key press becomes a letter on screen: keyboard, CPU, memory, display.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.5.systems.storage-units",
+              "name": "Storage sizes",
+              "description": "Compare kilobytes, megabytes and gigabytes, e.g. which holds more: 500 MB or 1 GB.",
+              "itemTypes": ["choice", "sort", "numeric"]
+            },
+            {
+              "id": "cs.5.systems.diagnose",
+              "name": "Diagnose a problem",
+              "description": "Match a symptom (slow computer, no internet) to the most likely cause and first fix.",
+              "itemTypes": ["match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.5.data",
+          "name": "Data representation and analysis",
+          "skills": [
+            {
+              "id": "cs.5.data.binary-8bit",
+              "name": "8-bit binary",
+              "description": "Convert numbers up to 255 between decimal and binary, e.g. 10 is 00001010.",
+              "itemTypes": ["numeric", "text", "choice"]
+            },
+            {
+              "id": "cs.5.data.pixels-images",
+              "name": "Pixels and images",
+              "description": "Decode a tiny black-and-white image from a grid of 1s and 0s or choose the grid that matches a picture.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.5.data.mean-mode",
+              "name": "Summarise data",
+              "description": "Compute the mean, mode or range of a small data set and pick the claim the data supports.",
+              "itemTypes": ["numeric", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.5.internet",
+          "name": "Internet and reliable information",
+          "skills": [
+            {
+              "id": "cs.5.internet.packets",
+              "name": "Packets",
+              "description": "Explain that messages are split into packets and reassembled; order the packets by their numbers.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.5.internet.evaluate-source",
+              "name": "Evaluate a website",
+              "description": "Choose the more reliable source for a school report, e.g. a museum site over an anonymous blog.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.5.internet.ads-vs-content",
+              "name": "Ads versus content",
+              "description": "Spot which parts of a page are advertisements or sponsored results.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "cs.5.impacts",
+          "name": "Impacts of computing",
+          "skills": [
+            {
+              "id": "cs.5.impacts.jobs-change",
+              "name": "How jobs change",
+              "description": "Match a technology to how it changed a job, e.g. GPS and delivery drivers.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.5.impacts.fair-design",
+              "name": "Designing for everyone",
+              "description": "Choose the design change that makes an app usable by more people, e.g. adding captions or larger buttons.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.5.citizenship",
+          "name": "Privacy and digital wellbeing",
+          "skills": [
+            {
+              "id": "cs.5.citizenship.privacy-settings",
+              "name": "Privacy settings",
+              "description": "Pick the setting that keeps a profile private, e.g. friends only instead of public.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.5.citizenship.spot-scam",
+              "name": "Spot a scam",
+              "description": "Identify warning signs in a message, e.g. 'You won a prize, click now!' with a strange link.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.5.citizenship.balance-habits",
+              "name": "Healthy tech habits",
+              "description": "Choose habits that support sleep and focus, e.g. no screens 30 minutes before bed.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "topics": [
+        {
+          "id": "cs.6.programming",
+          "name": "From blocks to text",
+          "skills": [
+            {
+              "id": "cs.6.programming.block-to-text",
+              "name": "Blocks to text",
+              "description": "Match a block program to the equivalent text code, e.g. 'repeat 3' to 'for i in range(3):'.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.6.programming.variables-types",
+              "name": "Variables and types",
+              "description": "Identify whether a value is a number, string or boolean and predict the result of simple assignments.",
+              "itemTypes": ["sort", "choice", "text"]
+            },
+            {
+              "id": "cs.6.programming.trace-loops",
+              "name": "Trace counting loops",
+              "description": "Give the printed output of a loop such as for i in range(1, 4): print(i * 2).",
+              "itemTypes": ["text", "numeric", "choice"]
+            },
+            {
+              "id": "cs.6.programming.syntax-errors",
+              "name": "Spot syntax errors",
+              "description": "Find the line with a missing colon, bracket or quote in a 3-5 line program.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.6.algorithms",
+          "name": "Algorithms and pseudocode",
+          "skills": [
+            {
+              "id": "cs.6.algorithms.pseudocode",
+              "name": "Read pseudocode",
+              "description": "Follow pseudocode with IF and WHILE and state its output for an input.",
+              "itemTypes": ["choice", "text", "numeric"]
+            },
+            {
+              "id": "cs.6.algorithms.linear-search",
+              "name": "Linear search",
+              "description": "Count how many items a linear search checks to find a target in a list.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.6.algorithms.sorting-steps",
+              "name": "Sorting by hand",
+              "description": "Perform one pass of bubble sort or selection sort on 4-5 numbers and give the result.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.6.systems",
+          "name": "Computer architecture basics",
+          "skills": [
+            {
+              "id": "cs.6.systems.cpu-memory-storage",
+              "name": "CPU, memory, storage",
+              "description": "Match components to their layers: CPU executes, RAM holds running programs, storage keeps files.",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "cs.6.systems.software-layers",
+              "name": "Layers of software",
+              "description": "Order layers from hardware to operating system to applications.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.6.systems.troubleshooting-logic",
+              "name": "Systematic troubleshooting",
+              "description": "Choose the next diagnostic step that isolates a cause, e.g. test with another cable before replacing the monitor.",
+              "itemTypes": ["choice", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "cs.6.data",
+          "name": "Data representation",
+          "skills": [
+            {
+              "id": "cs.6.data.binary-arithmetic",
+              "name": "Binary addition",
+              "description": "Add two 4-bit binary numbers, e.g. 0101 + 0011 = 1000.",
+              "itemTypes": ["text", "numeric", "choice"]
+            },
+            {
+              "id": "cs.6.data.text-encoding",
+              "name": "Text as numbers",
+              "description": "Use an ASCII table to encode or decode a short word, e.g. 72 101 is 'He'.",
+              "itemTypes": ["text", "choice"]
+            },
+            {
+              "id": "cs.6.data.rgb-colors",
+              "name": "Colours as numbers",
+              "description": "Match RGB triples to colours, e.g. (255, 0, 0) is red.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.6.data.spreadsheet-basics",
+              "name": "Spreadsheet formulas",
+              "description": "Compute what a simple formula returns, e.g. =SUM(A1:A3) for given cells.",
+              "itemTypes": ["numeric", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.6.networks",
+          "name": "How the internet works",
+          "skills": [
+            {
+              "id": "cs.6.networks.ip-addresses",
+              "name": "IP addresses",
+              "description": "Recognise a valid IPv4 address and explain it identifies a device, e.g. 192.168.1.5.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.6.networks.dns-lookup",
+              "name": "Domain names",
+              "description": "Order the steps when you type a web address: DNS lookup, request to server, response, render.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.6.networks.wired-wireless",
+              "name": "Wired and wireless",
+              "description": "Compare Wi-Fi, Ethernet and mobile data for speed, range and reliability.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "cs.6.impacts",
+          "name": "Computing and society",
+          "skills": [
+            {
+              "id": "cs.6.impacts.digital-divide",
+              "name": "Digital divide",
+              "description": "Identify how unequal access to devices and internet affects learning and work.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.6.impacts.automation",
+              "name": "Automation",
+              "description": "Sort tasks into easily automated (sorting mail) and hard to automate (comforting a friend).",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.6.citizenship",
+          "name": "Media literacy and safety",
+          "skills": [
+            {
+              "id": "cs.6.citizenship.fact-check",
+              "name": "Fact-checking",
+              "description": "Choose the best way to verify a surprising claim, e.g. find two independent reliable sources.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "cs.6.citizenship.phishing",
+              "name": "Phishing",
+              "description": "Spot phishing clues in an email: urgent tone, mismatched sender, link to a lookalike domain.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.6.citizenship.two-factor",
+              "name": "Account security",
+              "description": "Pick practices that protect accounts: unique passwords, two-factor authentication, logging out on shared devices.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "topics": [
+        {
+          "id": "cs.7.programming",
+          "name": "Text programming: control flow",
+          "skills": [
+            {
+              "id": "cs.7.programming.conditions-booleans",
+              "name": "Boolean conditions",
+              "description": "Evaluate expressions with and, or, not and comparisons, e.g. (x > 3) and (x < 10) when x = 5.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "cs.7.programming.while-loops",
+              "name": "While loops",
+              "description": "Trace a while loop and give how many times it runs or its final variable value.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.7.programming.functions-params",
+              "name": "Functions with parameters",
+              "description": "Predict the return value of a small function call, e.g. def area(w, h): return w * h; area(3, 4).",
+              "itemTypes": ["numeric", "text", "choice"]
+            },
+            {
+              "id": "cs.7.programming.fix-logic-bug",
+              "name": "Fix a logic bug",
+              "description": "Choose the correction for code that runs but gives wrong output, e.g. < should be <=.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.7.lists",
+          "name": "Lists and strings",
+          "skills": [
+            {
+              "id": "cs.7.lists.index-slice",
+              "name": "Indexing",
+              "description": "Give the element at an index, e.g. nums = [4, 7, 9]; nums[1] is 7, and handle zero-based counting.",
+              "itemTypes": ["text", "numeric", "choice"]
+            },
+            {
+              "id": "cs.7.lists.iterate-list",
+              "name": "Loop over a list",
+              "description": "Predict the output of a for loop that sums or filters list items.",
+              "itemTypes": ["numeric", "text", "choice"]
+            },
+            {
+              "id": "cs.7.lists.string-ops",
+              "name": "String operations",
+              "description": "Evaluate string length, concatenation and upper/lower, e.g. len('hello') is 5.",
+              "itemTypes": ["text", "numeric", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.7.systems",
+          "name": "Systems and performance",
+          "skills": [
+            {
+              "id": "cs.7.systems.fetch-execute",
+              "name": "Fetch-decode-execute",
+              "description": "Order the steps of the CPU cycle and identify what each does.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.7.systems.specs-compare",
+              "name": "Compare specifications",
+              "description": "Pick the device that fits a need from spec sheets, e.g. more RAM for video editing.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.7.systems.embedded-systems",
+              "name": "Embedded systems",
+              "description": "Identify sensors, processors and actuators in a device like a thermostat or microwave.",
+              "itemTypes": ["match", "sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.7.data",
+          "name": "Working with data",
+          "skills": [
+            {
+              "id": "cs.7.data.hex-binary",
+              "name": "Hexadecimal",
+              "description": "Convert between binary, decimal and hex, e.g. 255 is FF.",
+              "itemTypes": ["text", "numeric", "choice"]
+            },
+            {
+              "id": "cs.7.data.filter-sort",
+              "name": "Filter and sort data",
+              "description": "Apply a filter and a sort to a small table and give the first row that remains.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "cs.7.data.visualise-claims",
+              "name": "Charts and claims",
+              "description": "Decide whether a chart supports a claim and spot misleading axes.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.7.data.compression-idea",
+              "name": "Compression",
+              "description": "Apply run-length encoding to a short string, e.g. AAABB becomes 3A2B.",
+              "itemTypes": ["text", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.7.networks",
+          "name": "Protocols and the web",
+          "skills": [
+            {
+              "id": "cs.7.networks.http-basics",
+              "name": "Clients and servers",
+              "description": "Identify request and response in a web interaction and what HTTP status like 404 means.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.7.networks.packet-routing",
+              "name": "Routing and redundancy",
+              "description": "Choose why packets may take different paths and still arrive, e.g. a router is down.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.7.networks.html-structure",
+              "name": "HTML structure",
+              "description": "Match HTML tags to what they display, e.g. <h1> is a heading, <img> an image.",
+              "itemTypes": ["match", "choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "cs.7.impacts",
+          "name": "Ethics and bias",
+          "skills": [
+            {
+              "id": "cs.7.impacts.algorithmic-bias",
+              "name": "Bias in algorithms",
+              "description": "Identify how biased training data leads to unfair results, e.g. a face filter that fails on dark skin.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.7.impacts.intellectual-property",
+              "name": "Copyright and licences",
+              "description": "Sort uses of media into allowed and not allowed under copyright, Creative Commons and fair use.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.7.citizenship",
+          "name": "Online identity and wellbeing",
+          "skills": [
+            {
+              "id": "cs.7.citizenship.data-tracking",
+              "name": "How apps track you",
+              "description": "Identify what cookies, location and permissions reveal and choose settings to limit tracking.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.7.citizenship.online-reputation",
+              "name": "Online reputation",
+              "description": "Judge how a post could be read by a future school or employer and pick a better version.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.7.citizenship.persuasive-design",
+              "name": "Persuasive design",
+              "description": "Spot features designed to keep you scrolling, e.g. infinite feeds and streaks, and choose a counter-habit.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "topics": [
+        {
+          "id": "cs.8.programming",
+          "name": "Text programming: building programs",
+          "skills": [
+            {
+              "id": "cs.8.programming.nested-structures",
+              "name": "Nested loops and ifs",
+              "description": "Trace a loop containing an if or another loop and give the output, e.g. count pairs where i < j.",
+              "itemTypes": ["numeric", "text", "choice"]
+            },
+            {
+              "id": "cs.8.programming.dictionaries",
+              "name": "Dictionaries and key-value pairs",
+              "description": "Look up and update values in a dictionary, e.g. ages['Ana'] after ages['Ana'] += 1.",
+              "itemTypes": ["text", "numeric", "choice"]
+            },
+            {
+              "id": "cs.8.programming.write-function",
+              "name": "Assemble a function",
+              "description": "Order given lines to build a working function, e.g. def is_even(n): return n % 2 == 0.",
+              "itemTypes": ["sequence", "build", "choice"]
+            },
+            {
+              "id": "cs.8.programming.testing",
+              "name": "Test cases",
+              "description": "Choose the test input that would reveal a bug, e.g. an empty list or zero.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.8.algorithms",
+          "name": "Algorithm efficiency",
+          "skills": [
+            {
+              "id": "cs.8.algorithms.binary-search",
+              "name": "Binary search",
+              "description": "Count the steps binary search needs on a sorted list of n items, e.g. 16 items need at most 4 checks.",
+              "itemTypes": ["numeric", "choice", "sequence"]
+            },
+            {
+              "id": "cs.8.algorithms.compare-efficiency",
+              "name": "Compare efficiency",
+              "description": "Decide which of two approaches does fewer steps as data grows, e.g. linear vs binary search.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.8.algorithms.recursion-intro",
+              "name": "Recursion idea",
+              "description": "Trace a simple recursive function such as factorial(4) or countdown and give its result.",
+              "itemTypes": ["numeric", "text", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.8.systems",
+          "name": "Logic and hardware",
+          "skills": [
+            {
+              "id": "cs.8.systems.logic-gates",
+              "name": "Logic gates",
+              "description": "Give the output of AND, OR, NOT and XOR gates for given inputs or complete a truth table.",
+              "itemTypes": ["choice", "numeric", "match"]
+            },
+            {
+              "id": "cs.8.systems.circuits",
+              "name": "Combine gates",
+              "description": "Evaluate a two-gate circuit, e.g. NOT(A AND B) with A=1, B=1 gives 0.",
+              "itemTypes": ["numeric", "choice", "build"]
+            },
+            {
+              "id": "cs.8.systems.virtual-machines-cloud",
+              "name": "Cloud and remote computing",
+              "description": "Explain what runs locally vs on a server for cloud apps and choose the trade-offs.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.8.data",
+          "name": "Data and models",
+          "skills": [
+            {
+              "id": "cs.8.data.file-formats",
+              "name": "File formats",
+              "description": "Match formats to uses, e.g. CSV for tables, PNG for lossless images, MP3 for compressed audio.",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "cs.8.data.simulation-models",
+              "name": "Models and simulations",
+              "description": "Predict how changing a parameter in a simple model changes its output, e.g. more predators means fewer prey.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.8.data.correlation-caution",
+              "name": "Correlation is not causation",
+              "description": "Identify when two variables move together without one causing the other and name a possible confounder.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.8.web",
+          "name": "Web pages",
+          "skills": [
+            {
+              "id": "cs.8.web.html-page",
+              "name": "Build an HTML page",
+              "description": "Order tags to form a valid page skeleton: html, head, title, body, h1, p.",
+              "itemTypes": ["sequence", "build", "choice"]
+            },
+            {
+              "id": "cs.8.web.css-basics",
+              "name": "CSS basics",
+              "description": "Match a CSS rule to its effect, e.g. color: red makes text red, not the background.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.8.web.links-paths",
+              "name": "Links and paths",
+              "description": "Choose the correct href for a page in the same or a parent folder, e.g. ../about.html.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "cs.8.security",
+          "name": "Cybersecurity basics",
+          "skills": [
+            {
+              "id": "cs.8.security.encryption-caesar",
+              "name": "Caesar cipher",
+              "description": "Encrypt or decrypt a word with a shift, e.g. shift 3 turns HELLO into KHOOR.",
+              "itemTypes": ["text", "choice"]
+            },
+            {
+              "id": "cs.8.security.threat-types",
+              "name": "Types of threats",
+              "description": "Match malware, phishing, brute force and social engineering to example scenarios.",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "cs.8.security.https",
+              "name": "HTTPS and padlocks",
+              "description": "Explain what the padlock means and when to avoid entering data on a site.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.8.impacts",
+          "name": "Computing careers and society",
+          "skills": [
+            {
+              "id": "cs.8.impacts.careers",
+              "name": "Computing careers",
+              "description": "Match job titles like data analyst, UX designer and network engineer to their daily tasks.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.8.impacts.misinformation-spread",
+              "name": "How misinformation spreads",
+              "description": "Identify why false posts spread fast (emotion, algorithms) and choose actions that slow it.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.8.impacts.e-waste-energy",
+              "name": "E-waste and energy",
+              "description": "Choose actions that reduce computing's environmental cost, e.g. repairing devices and recycling.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "topics": [
+        {
+          "id": "cs.9.python",
+          "name": "Programming fundamentals in Python",
+          "skills": [
+            {
+              "id": "cs.9.python.expressions-types",
+              "name": "Expressions and types",
+              "description": "Evaluate expressions with integer division, modulo and type conversion, e.g. 7 // 2 and int('3') + 2.",
+              "itemTypes": ["numeric", "text", "choice"]
+            },
+            {
+              "id": "cs.9.python.loops-accumulators",
+              "name": "Loops and accumulators",
+              "description": "Trace code that accumulates a sum, count or max over a range or list and give the result.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.9.python.functions-scope",
+              "name": "Functions and scope",
+              "description": "Predict output involving local vs global variables and return values.",
+              "itemTypes": ["text", "numeric", "choice"]
+            },
+            {
+              "id": "cs.9.python.string-methods",
+              "name": "String methods and slicing",
+              "description": "Evaluate slices and methods, e.g. 'python'[1:4] is 'yth' and 'a,b'.split(',').",
+              "itemTypes": ["text", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.9.algorithms",
+          "name": "Algorithms and problem solving",
+          "skills": [
+            {
+              "id": "cs.9.algorithms.sorting-algorithms",
+              "name": "Sorting algorithms",
+              "description": "Show the list after k passes of bubble, selection or insertion sort.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.9.algorithms.big-o-intro",
+              "name": "Growth rates",
+              "description": "Classify a loop structure as constant, linear or quadratic, e.g. nested loops over n are O(n^2).",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.9.algorithms.trace-tables",
+              "name": "Trace tables",
+              "description": "Fill a trace table for a short algorithm and report a variable's final value.",
+              "itemTypes": ["numeric", "text", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.9.systems",
+          "name": "Computer systems",
+          "skills": [
+            {
+              "id": "cs.9.systems.binary-twos-complement",
+              "name": "Signed integers",
+              "description": "Convert between decimal and 8-bit two's complement, e.g. -3 is 11111101.",
+              "itemTypes": ["text", "numeric", "choice"]
+            },
+            {
+              "id": "cs.9.systems.memory-hierarchy",
+              "name": "Memory hierarchy",
+              "description": "Order cache, RAM, SSD and cloud by speed or capacity and explain the trade-off.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.9.systems.os-processes",
+              "name": "Processes and the OS",
+              "description": "Identify operating system jobs: scheduling processes, managing memory, handling files and devices.",
+              "itemTypes": ["sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.9.data",
+          "name": "Data structures: lists and dictionaries",
+          "skills": [
+            {
+              "id": "cs.9.data.list-operations",
+              "name": "List operations",
+              "description": "Predict a list after append, insert, pop and slicing operations.",
+              "itemTypes": ["text", "choice", "sequence"]
+            },
+            {
+              "id": "cs.9.data.two-d-lists",
+              "name": "2D lists",
+              "description": "Read a value from grid[row][col] or count items in a 2D list.",
+              "itemTypes": ["numeric", "text", "choice"]
+            },
+            {
+              "id": "cs.9.data.dictionary-counting",
+              "name": "Counting with dictionaries",
+              "description": "Give the dictionary produced by counting letters or words in a short string.",
+              "itemTypes": ["text", "choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "cs.9.web",
+          "name": "Web development: HTML, CSS, JavaScript",
+          "skills": [
+            {
+              "id": "cs.9.web.semantic-html",
+              "name": "Semantic HTML",
+              "description": "Choose the right element for content, e.g. <nav> for navigation links, <ul> for a list.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.9.web.css-selectors",
+              "name": "CSS selectors",
+              "description": "Decide which elements a selector targets, e.g. .card p matches paragraphs inside .card.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.9.web.js-dom-events",
+              "name": "JavaScript and the DOM",
+              "description": "Predict what a click handler does, e.g. button.addEventListener('click', ...) changing textContent.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "cs.9.networks",
+          "name": "Networking fundamentals",
+          "skills": [
+            {
+              "id": "cs.9.networks.layers",
+              "name": "Protocol layers",
+              "description": "Match protocols to layers and roles, e.g. TCP ensures delivery, IP addresses, HTTP carries web pages.",
+              "itemTypes": ["match", "sort", "choice"]
+            },
+            {
+              "id": "cs.9.networks.tcp-vs-udp",
+              "name": "TCP vs UDP",
+              "description": "Choose the protocol for a use case, e.g. UDP for live video, TCP for a file download.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.9.networks.subnet-basics",
+              "name": "Addresses and ports",
+              "description": "Identify what a port number does and read an address like 10.0.0.4:443.",
+              "itemTypes": ["choice", "text"]
+            }
+          ]
+        },
+        {
+          "id": "cs.9.security",
+          "name": "Cybersecurity principles",
+          "skills": [
+            {
+              "id": "cs.9.security.cia-triad",
+              "name": "Confidentiality, integrity, availability",
+              "description": "Classify an incident as a breach of confidentiality, integrity or availability.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "cs.9.security.symmetric-asymmetric",
+              "name": "Symmetric and public-key encryption",
+              "description": "Decide which key encrypts and which decrypts in a scenario, e.g. encrypt with the receiver's public key.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.9.security.password-hashing",
+              "name": "Hashing and passwords",
+              "description": "Explain why sites store hashes not passwords and what salting prevents.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.9.impacts",
+          "name": "Digital citizenship and ethics",
+          "skills": [
+            {
+              "id": "cs.9.impacts.privacy-law",
+              "name": "Privacy rights",
+              "description": "Match data rights such as access, deletion and consent to scenarios under laws like GDPR.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.9.impacts.ethical-dilemmas",
+              "name": "Ethical dilemmas",
+              "description": "Weigh stakeholders in a scenario, e.g. a school app tracking location, and pick the most defensible choice.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.9.impacts.source-evaluation",
+              "name": "Evaluate online sources",
+              "description": "Apply lateral reading to rate a source's reliability and spot sponsored or AI-generated content.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "topics": [
+        {
+          "id": "cs.10.programming",
+          "name": "Object-oriented and modular programming",
+          "skills": [
+            {
+              "id": "cs.10.programming.classes-objects",
+              "name": "Classes and objects",
+              "description": "Predict attribute values after constructing objects and calling methods on a small class.",
+              "itemTypes": ["text", "numeric", "choice"]
+            },
+            {
+              "id": "cs.10.programming.inheritance",
+              "name": "Inheritance",
+              "description": "Decide which method runs when a subclass overrides a parent method, e.g. Dog.speak over Animal.speak.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "cs.10.programming.exceptions",
+              "name": "Exceptions",
+              "description": "Predict what prints when code raises and catches errors with try/except.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "cs.10.programming.modules-libraries",
+              "name": "Modules and libraries",
+              "description": "Choose the right import and call for a task, e.g. random.randint(1, 6) for a dice roll.",
+              "itemTypes": ["choice", "build"]
+            }
+          ]
+        },
+        {
+          "id": "cs.10.data-structures",
+          "name": "Data structures",
+          "skills": [
+            {
+              "id": "cs.10.data-structures.stacks-queues",
+              "name": "Stacks and queues",
+              "description": "Give the contents after a series of push/pop or enqueue/dequeue operations.",
+              "itemTypes": ["sequence", "text", "choice"]
+            },
+            {
+              "id": "cs.10.data-structures.sets-hashing",
+              "name": "Sets and hash tables",
+              "description": "Predict set operations and explain why lookup is fast, e.g. {1,2,3} & {2,3,4}.",
+              "itemTypes": ["text", "choice"]
+            },
+            {
+              "id": "cs.10.data-structures.linked-lists",
+              "name": "Linked lists",
+              "description": "Trace insertion and deletion in a singly linked list and give the resulting order.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.10.data-structures.choose-structure",
+              "name": "Choose a structure",
+              "description": "Pick the best data structure for a need, e.g. undo history uses a stack.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "cs.10.algorithms",
+          "name": "Recursion and search",
+          "skills": [
+            {
+              "id": "cs.10.algorithms.recursion",
+              "name": "Recursive functions",
+              "description": "Trace recursive calls such as fib(5) or sum of digits and give the result or call count.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.10.algorithms.merge-sort",
+              "name": "Merge sort",
+              "description": "Show the merge of two sorted halves or the state after one level of splitting.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.10.algorithms.big-o",
+              "name": "Big-O analysis",
+              "description": "Assign Big-O to code snippets and common algorithms, e.g. binary search is O(log n).",
+              "itemTypes": ["choice", "match", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "cs.10.databases",
+          "name": "Databases and SQL",
+          "skills": [
+            {
+              "id": "cs.10.databases.tables-keys",
+              "name": "Tables and keys",
+              "description": "Identify primary and foreign keys in a two-table schema such as students and classes.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.10.databases.select-where",
+              "name": "SELECT and WHERE",
+              "description": "Give the rows returned by a SELECT with a WHERE and ORDER BY on a small table.",
+              "itemTypes": ["choice", "numeric", "text"]
+            },
+            {
+              "id": "cs.10.databases.joins-aggregates",
+              "name": "Joins and aggregates",
+              "description": "Compute the result of a simple JOIN or COUNT/AVG with GROUP BY.",
+              "itemTypes": ["numeric", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.10.web",
+          "name": "Interactive web apps",
+          "skills": [
+            {
+              "id": "cs.10.web.js-functions-arrays",
+              "name": "JavaScript arrays and functions",
+              "description": "Predict results of map, filter and arrow functions, e.g. [1,2,3].map(x => x * 2).",
+              "itemTypes": ["text", "choice"]
+            },
+            {
+              "id": "cs.10.web.forms-validation",
+              "name": "Forms and validation",
+              "description": "Choose the check that validates an input, e.g. a required email field matching a pattern.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.10.web.apis-json",
+              "name": "APIs and JSON",
+              "description": "Read a value from a JSON response, e.g. data.user.name, and identify a GET vs POST request.",
+              "itemTypes": ["text", "choice"]
+            },
+            {
+              "id": "cs.10.web.responsive-accessibility",
+              "name": "Responsive and accessible design",
+              "description": "Pick the fix that improves accessibility or mobile layout, e.g. alt text, contrast, media queries.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "cs.10.security",
+          "name": "Cybersecurity practices",
+          "skills": [
+            {
+              "id": "cs.10.security.attack-vectors",
+              "name": "Attack vectors",
+              "description": "Match SQL injection, cross-site scripting, DDoS and ransomware to descriptions and defences.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.10.security.secure-coding",
+              "name": "Secure coding",
+              "description": "Choose the safer code, e.g. parameterised queries over string concatenation.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.10.security.network-defenses",
+              "name": "Network defences",
+              "description": "Match firewalls, VPNs, authentication and updates to the risks they reduce.",
+              "itemTypes": ["match", "sort", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.10.impacts",
+          "name": "Computing, society and the law",
+          "skills": [
+            {
+              "id": "cs.10.impacts.open-source-licensing",
+              "name": "Software licences",
+              "description": "Decide what a licence allows, e.g. MIT vs GPL vs proprietary, for a given reuse.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.10.impacts.surveillance-tradeoffs",
+              "name": "Surveillance trade-offs",
+              "description": "Evaluate a technology like facial recognition in public and identify the benefits and harms claimed.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.10.impacts.global-access",
+              "name": "Global access and equity",
+              "description": "Identify barriers to computing access worldwide and solutions such as offline-first design.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "topics": [
+        {
+          "id": "cs.11.programming",
+          "name": "Advanced programming",
+          "skills": [
+            {
+              "id": "cs.11.programming.higher-order",
+              "name": "Higher-order functions",
+              "description": "Evaluate map, filter, reduce and lambdas, e.g. sum of squares of evens from a list.",
+              "itemTypes": ["numeric", "text", "choice"]
+            },
+            {
+              "id": "cs.11.programming.recursion-vs-iteration",
+              "name": "Recursion vs iteration",
+              "description": "Convert between recursive and iterative solutions and identify the base case.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "cs.11.programming.file-io",
+              "name": "Files and parsing",
+              "description": "Predict the result of reading lines from a text or CSV file and parsing them.",
+              "itemTypes": ["text", "numeric", "choice"]
+            },
+            {
+              "id": "cs.11.programming.debug-strategies",
+              "name": "Debugging strategies",
+              "description": "Read a stack trace or failing test and choose the root cause.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.11.algorithms",
+          "name": "Graphs and trees",
+          "skills": [
+            {
+              "id": "cs.11.algorithms.trees-traversal",
+              "name": "Binary trees",
+              "description": "Give in-order, pre-order or post-order traversal of a small tree or insert into a BST.",
+              "itemTypes": ["sequence", "text", "choice"]
+            },
+            {
+              "id": "cs.11.algorithms.graph-search",
+              "name": "BFS and DFS",
+              "description": "List the visit order of breadth-first or depth-first search from a start node.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.11.algorithms.shortest-path",
+              "name": "Shortest paths",
+              "description": "Run Dijkstra's algorithm on a small weighted graph and give the distance to a node.",
+              "itemTypes": ["numeric", "choice", "sequence"]
+            },
+            {
+              "id": "cs.11.algorithms.greedy-dp",
+              "name": "Greedy and dynamic programming",
+              "description": "Decide whether greedy works for a problem (coin change) and fill a small DP table.",
+              "itemTypes": ["choice", "numeric"]
+            }
+          ]
+        },
+        {
+          "id": "cs.11.ai",
+          "name": "AI and machine learning basics",
+          "skills": [
+            {
+              "id": "cs.11.ai.supervised-unsupervised",
+              "name": "Types of learning",
+              "description": "Classify a task as supervised, unsupervised or reinforcement learning, e.g. spam filter is supervised.",
+              "itemTypes": ["sort", "choice"]
+            },
+            {
+              "id": "cs.11.ai.train-test",
+              "name": "Training and testing",
+              "description": "Explain why data is split, read a confusion matrix and compute accuracy.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.11.ai.decision-trees-knn",
+              "name": "Simple classifiers",
+              "description": "Follow a decision tree or k-nearest-neighbours on a small data set to classify a point.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "cs.11.ai.bias-fairness",
+              "name": "Bias and fairness in ML",
+              "description": "Identify how skewed data or proxy features cause unfair predictions and pick a mitigation.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.11.databases",
+          "name": "Database design",
+          "skills": [
+            {
+              "id": "cs.11.databases.normalisation",
+              "name": "Normalisation",
+              "description": "Split a table with repeating groups into related tables and identify the keys.",
+              "itemTypes": ["choice", "sort", "match"]
+            },
+            {
+              "id": "cs.11.databases.er-diagrams",
+              "name": "Entity relationships",
+              "description": "Identify one-to-many and many-to-many relationships in a scenario such as orders and products.",
+              "itemTypes": ["choice", "match"]
+            },
+            {
+              "id": "cs.11.databases.crud-sql",
+              "name": "INSERT, UPDATE, DELETE",
+              "description": "Give the table state after a sequence of data-modifying SQL statements.",
+              "itemTypes": ["choice", "numeric", "text"]
+            }
+          ]
+        },
+        {
+          "id": "cs.11.systems",
+          "name": "Operating systems and concurrency",
+          "skills": [
+            {
+              "id": "cs.11.systems.concurrency",
+              "name": "Concurrency",
+              "description": "Identify a race condition in two interleaved threads and pick the fix, e.g. a lock.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.11.systems.scheduling",
+              "name": "Process scheduling",
+              "description": "Compute order or waiting time for processes under first-come-first-served or round-robin.",
+              "itemTypes": ["sequence", "numeric", "choice"]
+            },
+            {
+              "id": "cs.11.systems.virtualisation",
+              "name": "Virtualisation and containers",
+              "description": "Compare virtual machines and containers and choose which suits a scenario.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "cs.11.networks",
+          "name": "Internet infrastructure",
+          "skills": [
+            {
+              "id": "cs.11.networks.routing-tables",
+              "name": "Routing",
+              "description": "Use a small routing table to choose the next hop for a destination address.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "cs.11.networks.tls-handshake",
+              "name": "TLS and certificates",
+              "description": "Order the steps of establishing a secure connection and explain what a certificate proves.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.11.networks.cdn-latency",
+              "name": "Latency and scale",
+              "description": "Compute latency or bandwidth effects and explain how caching and CDNs speed delivery.",
+              "itemTypes": ["numeric", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.11.impacts",
+          "name": "Ethics of data and AI",
+          "skills": [
+            {
+              "id": "cs.11.impacts.ai-ethics",
+              "name": "AI ethics cases",
+              "description": "Analyse a case such as automated hiring and identify harms, benefits and accountability.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.11.impacts.deepfakes-synthetic",
+              "name": "Synthetic media",
+              "description": "Identify signs and risks of deepfakes and choose verification steps.",
+              "itemTypes": ["choice", "sequence"]
+            },
+            {
+              "id": "cs.11.impacts.data-ownership",
+              "name": "Data ownership and consent",
+              "description": "Decide whether a data use matches the consent given and spot dark patterns in consent screens.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "topics": [
+        {
+          "id": "cs.12.software-engineering",
+          "name": "Software engineering",
+          "skills": [
+            {
+              "id": "cs.12.software-engineering.version-control",
+              "name": "Version control",
+              "description": "Order git commands to commit and share a change and resolve what a merge conflict marker means.",
+              "itemTypes": ["sequence", "choice", "text"]
+            },
+            {
+              "id": "cs.12.software-engineering.unit-testing",
+              "name": "Unit testing",
+              "description": "Write or choose an assertion that would catch a given bug, including edge cases.",
+              "itemTypes": ["choice", "text"]
+            },
+            {
+              "id": "cs.12.software-engineering.design-patterns",
+              "name": "Design principles",
+              "description": "Identify DRY, single responsibility or encapsulation violations in a snippet and pick the refactor.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.12.software-engineering.agile-lifecycle",
+              "name": "Development lifecycle",
+              "description": "Order phases of a sprint or project and match roles to responsibilities.",
+              "itemTypes": ["sequence", "match", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.12.algorithms",
+          "name": "Advanced algorithms and complexity",
+          "skills": [
+            {
+              "id": "cs.12.algorithms.complexity-classes",
+              "name": "P, NP and intractability",
+              "description": "Classify problems as tractable or likely intractable and explain why brute force fails at scale.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.12.algorithms.heuristics",
+              "name": "Heuristics and approximation",
+              "description": "Apply a nearest-neighbour heuristic to a small travelling-salesperson instance and compare to optimal.",
+              "itemTypes": ["sequence", "numeric", "choice"]
+            },
+            {
+              "id": "cs.12.algorithms.hash-functions",
+              "name": "Hash functions and collisions",
+              "description": "Compute slots with a simple hash like key mod 7 and resolve a collision with chaining or probing.",
+              "itemTypes": ["numeric", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.12.ai",
+          "name": "Machine learning in practice",
+          "skills": [
+            {
+              "id": "cs.12.ai.linear-regression",
+              "name": "Linear regression",
+              "description": "Use a fitted line y = mx + b to predict and compute error for a data point.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.12.ai.neural-network-basics",
+              "name": "Neural network basics",
+              "description": "Compute a single neuron's output from weights, inputs and a step or ReLU activation.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.12.ai.overfitting",
+              "name": "Overfitting and generalisation",
+              "description": "Diagnose overfitting from training vs test accuracy and choose a remedy such as more data.",
+              "itemTypes": ["choice"]
+            },
+            {
+              "id": "cs.12.ai.llm-literacy",
+              "name": "Generative AI literacy",
+              "description": "Identify what large language models can and cannot reliably do and choose how to verify their output.",
+              "itemTypes": ["choice", "sort"]
+            }
+          ]
+        },
+        {
+          "id": "cs.12.data-science",
+          "name": "Data science",
+          "skills": [
+            {
+              "id": "cs.12.data-science.cleaning",
+              "name": "Data cleaning",
+              "description": "Spot missing values, duplicates and inconsistent formats in a table and choose the fix.",
+              "itemTypes": ["choice", "sort"]
+            },
+            {
+              "id": "cs.12.data-science.descriptive-stats",
+              "name": "Descriptive statistics",
+              "description": "Compute median, standard deviation idea and percentiles for a small set and interpret them.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.12.data-science.visualisation-choice",
+              "name": "Visualisation design",
+              "description": "Pick the chart that best answers a question and spot misleading visualisations.",
+              "itemTypes": ["choice", "match"]
+            }
+          ]
+        },
+        {
+          "id": "cs.12.web",
+          "name": "Full-stack web",
+          "skills": [
+            {
+              "id": "cs.12.web.client-server-flow",
+              "name": "Client-server flow",
+              "description": "Order the steps when a form submits: request, server validation, database write, response, render.",
+              "itemTypes": ["sequence", "choice"]
+            },
+            {
+              "id": "cs.12.web.rest-apis",
+              "name": "REST APIs",
+              "description": "Match HTTP methods and status codes to actions, e.g. DELETE /users/5 returns 204.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.12.web.auth-sessions",
+              "name": "Authentication and sessions",
+              "description": "Explain cookies, tokens and sessions and choose the secure handling for a login flow.",
+              "itemTypes": ["choice", "sequence"]
+            }
+          ]
+        },
+        {
+          "id": "cs.12.security",
+          "name": "Applied cybersecurity",
+          "skills": [
+            {
+              "id": "cs.12.security.threat-modelling",
+              "name": "Threat modelling",
+              "description": "Identify assets, threats and mitigations for a system such as a school grades portal.",
+              "itemTypes": ["sort", "choice", "match"]
+            },
+            {
+              "id": "cs.12.security.public-key-math",
+              "name": "Public-key cryptography",
+              "description": "Perform a small RSA or Diffie-Hellman computation with tiny numbers and explain the shared secret.",
+              "itemTypes": ["numeric", "choice"]
+            },
+            {
+              "id": "cs.12.security.incident-response",
+              "name": "Incident response",
+              "description": "Order the steps after a breach: contain, investigate, notify, recover, learn.",
+              "itemTypes": ["sequence", "choice"]
+            }
+          ]
+        },
+        {
+          "id": "cs.12.impacts",
+          "name": "Computing futures and responsibility",
+          "skills": [
+            {
+              "id": "cs.12.impacts.policy-regulation",
+              "name": "Technology policy",
+              "description": "Match regulations and proposals to the problems they address, e.g. net neutrality and content moderation.",
+              "itemTypes": ["match", "choice"]
+            },
+            {
+              "id": "cs.12.impacts.sustainability",
+              "name": "Sustainable computing",
+              "description": "Estimate or compare energy use of computing choices and pick greener designs.",
+              "itemTypes": ["choice", "numeric"]
+            },
+            {
+              "id": "cs.12.impacts.professional-ethics",
+              "name": "Professional ethics",
+              "description": "Apply a code of ethics to a workplace dilemma such as shipping a known security flaw.",
+              "itemTypes": ["choice"]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
